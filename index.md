@@ -1,6 +1,6 @@
 # HN Digest Archive
 
-Daily summaries of top Hacker News stories, generated via Claude API. 1 issues archived.
+Daily summaries of top Hacker News stories. 1 issues archived.
 
 ## 2026
 
