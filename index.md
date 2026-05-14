@@ -6,4 +6,4 @@ Daily summaries of top Hacker News stories, generated via Claude API. 1 issues a
 
 ### May
 
-- [May 13](./2026/may/hn-digest-2026-05-13.md)
+- [May 13](./archives/2026/may/hn-digest-2026-05-13.md)
