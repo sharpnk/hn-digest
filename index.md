@@ -1,107 +1,107 @@
 # HN Digest — May 23, 2026
 
-## 1. [On The <dl>](https://news.ycombinator.com/item?id=48247325) (↑203, 💬60)
-**Article:** The article explains the HTML `<dl>`, `<dt>`, and `<dd>` elements for marking up name-value pairs. It covers the anatomy of a description list, how to handle multiple values or terms, and the benefits of using semantic HTML for accessibility. The author provides concrete examples, including a Dungeons & Dragons statblock, and argues that this element is underrated for representing common UI patterns.
+## 1. [Time to talk about my writerdeck](https://news.ycombinator.com/item?id=48250144) (↑282, 💬146)
+**Article:** The author details converting an old laptop into a console-only "writerdeck" running Debian without a desktop environment to eliminate distractions for writing. The setup uses kmscon, tmux, neovim, and Syncthing for backup, with customizations for battery and brightness.
 
-**Comments:** The comments highlight a key debate about the practicality of semantic HTML, with one user arguing it is poorly designed and that `<dl>` is often too inflexible for real-world layouts. Others discuss technical nuances, such as correct ARIA attribute usage and the fact that only a `<div>` is allowed as a wrapper inside `<dl>`, while also noting that screen reader support for `<dl>` is generally good but not universal.
+**Comments:** Commenters debate whether the extensive setup itself is a distraction, with some calling it productive "yak shaving" and others seeing it as avoiding actual writing. The thread explores ADHD perspectives, simpler alternatives like just using a TTY, and the broader irony of optimizing tools instead of using them.
 
-## 2. [Oura says it gets government demands for user data](https://news.ycombinator.com/item?id=48247876) (↑109, 💬58)
-**Article:** The article reports that Oura, a health wearable maker, admits to receiving government requests for user data. The author criticizes Oura for not using end-to-end encryption and for failing to publish a transparency report, despite promising to evaluate the possibility. It argues that as a large, high-valuation company, Oura has a responsibility to be more transparent about how often it complies with government data demands.
+## 2. [Justice Department scrubs its website of news releases about Jan. 6 defendants](https://news.ycombinator.com/item?id=48253182) (↑43, 💬2)
+**Article:** The Justice Department has removed press releases about January 6 defendants from its website, as reported by AP News.
 
-**Comments:** The comments express a general distrust of all companies regarding sensitive health data, with many users citing Apple as the only relatively trustworthy option due to its hardware-level encryption. A key debate centers on the potential for data inference (e.g., from heart rate or location) and the real risks for vulnerable groups, while others question the actual utility of specific data points like heart rate to the government.
+**Comments:** One commenter laments the fragility of digital archives, questioning why wealthy tech figures don't fully fund the Internet Archive, while noting the paradox of relying on a web that increasingly erases its own history.
 
-## 3. [Reverse engineering circuitry in a Spacelab computer from 1980](https://news.ycombinator.com/item?id=48248954) (↑13, 💬1)
-**Article:** Ken Shirriff's blog post reverse-engineers one of the Arithmetic/Logic Unit (ALU) boards from a Mitra 125 MS minicomputer used in the Spacelab program. The post explains how the computer, which lacked a microprocessor, was built from discrete TTL chips, including the 74181 ALU chips. The author describes how the board contributed to the computer's 32-bit ALU, a surprising feature for a 16-bit machine, and details the computer's role in the Spacelab system.
+## 3. [My I3-Emacs Integration](https://news.ycombinator.com/item?id=48252535) (↑23, 💬6)
+**Article:** The author describes patching the i3 window manager to forward keypresses to Emacs when it has focus, avoiding the latency of using xdotool. The patch allows specific bindings to pass through to Emacs based on window class, though it doesn't solve focus loss after forwarding.
 
-**Comments:** The single comment is from the article's author, inviting questions from readers.
+**Comments:** Several commenters suggest using separate modifier keys for i3 and Emacs commands as a simpler solution, calling the patching approach overengineering. Others note they use dedicated hyper/super keys to avoid conflicts without custom patches.
 
-## 4. [80386 Microcode Disassembled](https://news.ycombinator.com/item?id=48247004) (↑149, 💬23)
-**Article:** The blog details the collaborative effort to disassemble the microcode ROM from an Intel 80386 processor. The author describes the immense challenge of extracting and interpreting the 94,720-bit microcode with no prior documentation, relying on image processing, raw pattern analysis, and die tracing. The result reveals 215 microcode entry points and uncovered a potential 40-year-old bug in the I/O permission bitmap handling.
+## 4. [Sales and Dungeons: Thermal printer TTRPG utility](https://news.ycombinator.com/item?id=48232721) (↑41, 💬12)
+**Article:** Sales & Dungeons is a free, open-source application that lets users turn thermal printers into TTRPG companions, creating printable handouts, random generators, and session grids. It supports HTML templates, LLM integration, and various data imports, with printer connections via USB, CUPS, or serial.
 
-**Comments:** The comments express deep admiration for the complex reverse engineering work, calling it "peak Hacker News." A user asks how microcode can be extracted from a die image, and others explain the process involves identifying "1" and "0" bits in the regular ROM structure visible in the photo, and then inferring the micro-architecture from there. The discussion also recommends resources for learning about CPU architecture, like nand2tetris and books by Petzold.
+**Comments:** Commenters are enthusiastic about the idea but raise health concerns about BPA and similar chemicals in thermal paper. Some share information on safer "phenol-free" alternatives using vitamin C or urea-based coatings, while others note cashiers handle the paper all day.
 
-## 5. [z386: An Open-Source 80386 Built Around Original Microcode](https://news.ycombinator.com/item?id=48248014) (↑45, 💬11)
-**Article:** This post introduces z386, an open-source FPGA implementation of an 80386 CPU that is "built around" the original Intel microcode. The author describes the architecture, including prefetch, decode, and the microcode sequencer, and notes that it currently boots DOS and runs games like Doom. The project compares favorably to the ao486 core in terms of size and performance, running at a higher clock speed but with a worse CPI.
+## 5. [My two-part desk setup (2025)](https://news.ycombinator.com/item?id=48214311) (↑211, 💬125)
+**Article:** The author describes converting a single long desk into two zones: a minimal digital side for work and an analog side for reading, writing, and building LEGO with kids. Facing the room instead of the wall improved the space's feel and created a clear mental boundary between tasks.
 
-**Comments:** The comments focus on the practical and educational value of the project. Users discuss the surprisingly low logic utilization (18K LUTs) and test the project with classic benchmarks, with one user noting that Doom is an easier target than Linux due to simpler page tables. A question is asked about whether the microcode disassembly found any backdoors for reading the ROM without decapping.
+**Comments:** Commenters praise the Feng Shui principle of facing the room and discuss aesthetics, with many calling the USM Haller desk and Vitsoe shelving a "dream setup." Others critique the approach as requiring a large room and accuse the article of status signaling, while some debate whether the paper globe lamp is a fire hazard.
 
-## 6. [PHP's Oddities](https://news.ycombinator.com/item?id=48199314) (↑29, 💬28)
-**Article:** The article discusses the author's experience with PHP and highlights two major oddities: PHP's "arrays" are actually ordered key-value dictionaries, causing subtle bugs when filtering or removing elements because keys don't re-index automatically. Additionally, typed class properties have a hidden "uninitialized" state distinct from NULL, leading to fatal errors when accessed before initialization, unlike untyped properties which default to NULL.
+## 6. [On The <dl> (2021)](https://news.ycombinator.com/item?id=48247325) (↑346, 💬106)
+**Article:** The article explains the underrated HTML <dl> (description list) element for marking up name-value pairs, covering its anatomy (<dl>, <dt>, <dd>) and the ability to wrap groups in a <div>. It argues for semantic HTML's accessibility benefits, such as better screen reader navigation, using examples from book metadata to Dungeons & Dragons statblocks.
 
-**Comments:** Commenters generally agree modern PHP is better than its reputation, with many defending its arrays as versatile ordered maps and noting tools like `SplFixedArray` exist. Several debate the author's complaints, arguing the array behavior is predictable with context, and that uninitialized property errors are easy to avoid with proper constructors. Some criticize PHP's loose comparisons and type coercion, while others note the language is improving by deprecating dynamic properties.
+**Comments:** Commenters debate the practical utility of <dl> versus nested <div>s, with some criticizing HTML semantics as inflexible for real-world use cases. Key points include technical corrections on ARIA roles for accessibility, historical roots in IBM GML, and mixed screen reader support, with some users finding it a semantic win and others preferring pragmatic approaches.
 
-## 7. [Making Deep Learning Go Brrrr from First Principles](https://news.ycombinator.com/item?id=48246889) (↑95, 💬38)
-**Article:** The article explains deep learning performance optimization by breaking it down into three regimes: compute-bound (time on matrix multiplication), memory-bound (time transferring tensors), and overhead-bound (time in Python or framework dispatch). The author argues that understanding which regime you're in is crucial, and uses analogies to explain why operator fusion (combining operations to avoid memory transfers) is the most important optimization.
+## 7. [Green card seekers must leave U.S. to apply, Trump administration says](https://news.ycombinator.com/item?id=48241890) (↑529, 💬922)
+**Article:** The Trump administration announced a policy requiring most green card applicants currently in the U.S. on temporary visas to leave the country and apply from their home country, framing adjustment of status as an extraordinary exception. This effectively ends the common practice of applying for permanent residency while living and working in the U.S.
 
-**Comments:** Commenters discuss the statistics comparing Python's FLOPs to A100 GPU FLOPs, debating whether it's a fair comparison or a category error. Many agree the point is to illustrate the massive gap between CPython's interpretive overhead and GPU throughput, with some noting that CPU FLOPS can rival or exceed GPU FLOPS in some cases. Several resources are shared for learning to build models from scratch, and there's discussion about double descent and overfitting regimes.
+**Comments:** Comments overwhelmingly condemn the policy as cruel, impractical, and economically damaging, arguing it will break apart families, create multi-year backlogs at consulates, and force skilled workers from tech and healthcare to leave. Some note it may be partly walked back for H1-B workers and see it as a tactic to reduce legal immigration, sparking debate about U.S. competitiveness and the moral basis of immigration restrictions.
 
-## 8. [The Art of Money Getting](https://news.ycombinator.com/item?id=48247208) (↑56, 💬23)
-**Article:** The article summarizes P.T. Barnum's 1880 book "The Art of Money Getting," which compiles 20 rules for financial success based on his life experience. Key principles include: find the work you're naturally suited for, avoid debt, do everything with full effort, and preserve your integrity as your most valuable asset.
+## 8. [wake up! 16b](https://news.ycombinator.com/item?id=48253060) (↑8, 💬2)
+**Article:** This article describes a 16-byte x86 assembly program called "wake up! 16b" that simultaneously generates a Sierpinski triangle fractal on screen and outputs it as sound via the PC speaker. It provides a deep mathematical explanation of how XOR operations, memory layout, and the specific 56-byte step produce both the visual "Matrix rain" effect and the audio bytebeat.
 
-**Comments:** Commenters reflect on the enduring relevance of Barnum's advice, with some observing that many in tech chase money despite lacking passion for the work. Others critique that modern extreme wealth often comes from exploiting others rather than following these principles. Several recommend related books and note the difficulty of accurately identifying one's own natural abilities and vocation.
+**Comments:** One commenter initially mistook the title for a 16-billion parameter LLM, not a 16-byte demo. The other comment links to a previous discussion thread with more comments.
 
-## 9. [Lisp in Vim (2019)](https://news.ycombinator.com/item?id=48248238) (↑18, 💬4)
-**Article:** The article compares Slimv and Vlime, two Vim plugins that provide interactive Lisp programming environments similar to Emacs' SLIME. Both plugins work by launching a Swank TCP server and allow editing and evaluating Lisp code within Vim, with Slimv being older (2009) and Vlime being more recent (2017). The author provides detailed setup instructions for both plugins with various Common Lisp implementations.
+## 9. [Byrne's Euclid](https://news.ycombinator.com/item?id=48252146) (↑9, 💬3)
+**Article:** The site is a digital reproduction of Oliver Byrne's 1847 edition of Euclid's "Elements," featuring colorful diagrams and symbols for geometry proofs. It includes interactive diagrams, posters, and puzzles based on the original illustrations.
 
-**Comments:** The few commenters note that Conjure is now the preferred tool for Lisp in Neovim, supporting Clojure, Common Lisp, Fennel, and others. One commenter shares their experience using Fennel for Neovim configuration, and there's a brief discussion about the pros and cons of different plugin managers.
+**Comments:** Commenters appreciate the visual clarity for learning geometry, with one noting colored diagrams would have made high school geometry much easier. A link is provided to a higher-tech interactive version of Euclid's Elements.
 
-## 10. [Highest Random Weight in Elixir](https://news.ycombinator.com/item?id=48222492) (↑35, 💬0)
-**Article:** The article introduces Highest Random Weight (HRW) or rendezvous hashing as a stateless alternative to consistent hashing in Elixir, comparing it to the commonly used ExHashRing library. HRW is simpler and requires no stateful processes, but has O(n) complexity for lookups, though benchmarks show it's only marginally slower than ExHashRing with small node counts (~14 nodes). The article also describes an optimized "skeleton" approach that brings HRW to O(log n) complexity, making it only ~3x slower than ExHashRing even with 10,000 nodes.
+## 10. [.NET (OK, C#) finally gets union types](https://news.ycombinator.com/item?id=48234954) (↑131, 💬116)
+**Article:** The article announces that C# 15 (.NET 11) introduces union types via the `union` keyword, allowing a type to represent one of several cases (e.g., `SupportedOS(Windows, Linux, MacOS)`). It explains usage with switch expressions, compiler-enforced exhaustiveness, and implementation details, noting the feature works on older runtimes via compiler support.
 
-**Comments:** (no comments)
+**Comments:** Commenters celebrate the long-awaited feature while criticizing it for boxing value types and lacking some flexibility like `Either<string, string>`. Many note F# has had this for decades, and debate whether C# is catching up to languages like Rust and TypeScript, with some questioning its necessity and others praising its potential for cleaner domain modeling.
 
-## 11. [Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT](https://news.ycombinator.com/item?id=48248775) (↑34, 💬3)
-**Article:** Italy canceled its order for Boeing Pegasus tankers in favor of the Airbus A330 MRTT, a move that aligns with broader NATO procurement trends. The article frames this as an industrial victory for Airbus and notes that the KC-46 has faced technical problems and delays that hindered its competitiveness.
+## 11. [Hengefinder: Finding when the sun aligns with your street](https://news.ycombinator.com/item?id=48241335) (↑106, 💬25)
+**Article:** A software developer describes creating Hengefinder, a tool that calculates when the sun aligns with a given street, inspired by Manhattanhenge. The article details technical challenges like correctly calculating road bearing on a non-flat Earth and precisely defining "sunset" for the henge moment, using a boundary binary search.
 
-**Comments:** Commenters focused on Boeing's decline, arguing that while politics may have accelerated the decision, Boeing's own technical failures (KC-46 delays, quality issues) were the root cause. Some saw this as a healthy correction to single-vendor dominance, while others alleged corruption in previous USAF procurement favored Boeing.
+**Comments:** Commenters suggest related tools like The Photographer's Ephemeris and ShadeMap, and express a desire for features such as sunrise alignment, calendar downloads, and a mobile app. A few commenters note that Stonehenge is technically not a true henge, and there is discussion about the safety and pedestrianization of streets during such events.
 
-## 12. [AI Engineering from Scratch](https://news.ycombinator.com/item?id=48219853) (↑11, 💬0)
-**Article:** The article describes a free, open-source AI engineering curriculum containing 435 lessons across 20 phases. It emphasizes building every algorithm from raw math before using any frameworks, covering linear algebra through autonomous swarms in Python, TypeScript, Rust, and Julia.
+## 12. [New map reveals lost roads of the Roman Empire](https://news.ycombinator.com/item?id=48206543) (↑38, 💬6)
+**Article:** A new high-resolution digital map of Roman roads has nearly doubled the known extent of the network to 300,000 km, though only 2.7% is precisely located. The map reveals that Rome's innovation was integrating existing local roads into the first continent-scale network, not all of which led to Rome.
 
-**Comments:** No comments were provided for this story.
+**Comments:** The top comment points to the actual project website, Itiner-e, and lists previous related HN discussions. One commenter critiques the article's infographic and common misconceptions about Roman road construction, arguing they were not typically paved with large stones.
 
-## 13. [The FBI Wants 'Near Real-Time' Access to US License Plate Readers](https://news.ycombinator.com/item?id=48247737) (↑85, 💬33)
-**Article:** The FBI is planning to purchase nationwide, near real-time access to automated license plate reader (ALPR) data, according to procurement documents. This comes alongside a proposed bipartisan bill to restrict ALPR use by state and local governments, and other security news including a Google Chrome exploit disclosure and deepfake-related arrests.
+## 13. [ICE Awards $25M Iris-Scanning Contract to Bi2 Technologies](https://news.ycombinator.com/item?id=48252720) (↑63, 💬9)
+**Article:** ICE has awarded a $25.1 million no-bid contract to Bi2 Technologies for iris-scanning devices, allowing agents to authenticate identities during field operations. The contract bypassed standard security reviews and independent audits, and the devices are due by late June.
 
-**Comments:** The thread heavily debated the legality and implications, citing the Supreme Court's Carpenter v. United States ruling on warrantless tracking. Many commenters argued this constitutes unconstitutional mass surveillance, while others noted the mismatch between court rulings and actual government practice. Suggestions included banning ALPR cameras at the local government level and pointing out that car-dependent infrastructure inherently enables government tracking.
+**Comments:** Commenters express strong concerns about the no-bid contract, lack of oversight, and the potential for mass surveillance and human rights violations. There is skepticism about the competence of the contractor and speculation about corruption or kickbacks in the selection process.
 
-## 14. [Solving the “Zork” Mystery](https://news.ycombinator.com/item?id=48198615) (↑32, 💬12)
-**Article:** The author investigates the etymology of the word "Zork," challenging the claim it was MIT jargon for an unfinished program. Through Wikipedia history analysis and correspondence with Richard Stallman and Richard Gabriel, they find no confirmation of the "unfinished program" usage, concluding the term was likely just a nonsense word similar to "foobar."
+## 14. [Toxic chemical leak at a manufacturing facility in Orange County](https://news.ycombinator.com/item?id=48252060) (↑104, 💬69)
+**Article:** A state of emergency was declared in Orange County, California, after a tank containing 7,000 gallons of volatile methyl methacrylate at an aerospace facility began to fail. Emergency crews sprayed the tank with water to prevent an explosion or spill, while thousands were evacuated from the surrounding area.
 
-**Comments:** Commenters generally agreed that "Zork" was a general nonsense word rather than specific jargon for unfinished code. Some shared personal experiences with Zork's difficulty and the social nature of playing text adventures in the 1980s, while others noted that the distinction between "unfinished code" and "generic placeholder" was never particularly sharp.
+**Comments:** A key comment links the incident to a recent EPA proposal to deregulate chemical facility safety rules. Commenters discuss the toxicology of the chemical, the challenge of draining the tank due to a stuck valve, and the urban planning issue of residential areas developing around industrial plants.
 
-## 15. [Shipping a laptop to a refugee camp in Uganda](https://news.ycombinator.com/item?id=48241997) (↑610, 💬212)
-**Article:** A detailed account of shipping a MacBook from Australia to a Congolese refugee student in a Ugandan camp. The process took 42 days, traversed 12 countries, and involved numerous bureaucratic hurdles: postal service rejection, customs clearance requiring a Tax Identification Number (TIN) the refugee didn't have, and a multi-day journey to obtain the necessary documentation.
+## 15. [Judson's Last Ride](https://news.ycombinator.com/item?id=48246993) (↑16, 💬1)
+**Article:** The article content is unavailable.
 
-**Comments:** Commenters praised Django's determination but criticized the author's approach, suggesting he should have asked the recipient about local shipping methods first. Several commenters from Africa explained that informal "grey market" couriers or hand-carrying items on flights are far more reliable than formal shipping. The thread highlighted how corruption and bureaucracy in developing countries impede development, with many sharing similar horror stories from other nations.
+**Comments:** The single comment expresses gratitude for having read the story and appreciation that the internet remains a place for sharing personal life stories.
 
-## 16. [Why Japanese companies do so many different things](https://news.ycombinator.com/item?id=48237163) (↑791, 💬376)
-**Article:** The article explores why Japanese companies are unusually diversified, using Toto as a key example—a toilet manufacturer whose advanced ceramics division is now its most profitable business due to demand for memory chip components. It argues this diversification stems from Japan's unique corporate structure, which emphasizes lifetime employment, employee-centric governance, and insulation from shareholder pressure.
+## 16. [Reverse engineering circuitry in a Spacelab computer from 1980](https://news.ycombinator.com/item?id=48248954) (↑82, 💬16)
+**Article:** The article reverse-engineers an ALU/register board from the 1980 Spacelab computer (Mitra 125 MS), which used multiple 74181 ALU chips for a 32-bit ALU instead of a microprocessor. It describes how the computer's processor was built from TTL logic chips and details the board's architecture and components.
 
-**Comments:** Commenters debated the merits and drawbacks of the Japanese model, noting that while it fosters deep expertise and survival-oriented diversification, it also creates zombie companies and rigid labor markets. Several commenters pointed out that American firms were similarly diversified before 1980s financialization, and that the "culture" explanation is often overblown compared to structural and legal factors.
+**Comments:** Commenters discuss the PCB's unusual grid of holes, with debate about whether it was multi-layer or two-layer, and how traces ran between holes. The thread also covers the software (HAL/S and Fortran) that ran on the computer and memory segmentation details.
 
-## 17. [Improving C# Memory Safety](https://news.ycombinator.com/item?id=48225782) (↑99, 💬20)
-**Article:** Microsoft is redesigning C#'s unsafe keyword in a planned C# 16 feature to enforce stricter memory safety contracts, requiring that all unsafe operations be explicitly marked and documented with safety comments. The change makes unsafe a propagation-oriented contract similar to Rust, ensuring that safety boundaries are visible, reviewable, and compiler-enforced.
+## 17. [SpaceX launches Starship v3 rocket](https://news.ycombinator.com/item?id=48242959) (↑355, 💬232)
+**Article:** SpaceX launched Starship Version 3 for the first time on Flight 12, successfully reaching space despite engine failures on both the booster and upper stage. The mission included deploying dummy payloads and achieving a pinpoint landing in the Indian Ocean, marking major progress in heat shield performance.
 
-**Comments:** Most commenters saw this as a positive but niche change that will rarely affect typical developers, who seldom use unsafe code. Some expressed concern that C# is becoming more Rust-like, potentially eroding its distinct advantages, while others noted the importance of explicitly marking APIs like CollectionsMarshal and MemoryMarshal that currently allow memory-unsafe operations without the unsafe keyword.
+**Comments:** Commenters note the mixed results - engine failures and a failed boostback burn were disappointing, but the successful re-entry, payload deployment, and soft landing were major achievements. There is debate about the program's progress toward reusability and lunar landing timelines, with some praising the iterative development approach while others question the overall schedule and costs.
 
-## 18. [Ebola Outbreak Now Third Largest Recorded and "Spreading Rapidly"](https://news.ycombinator.com/item?id=48248659) (↑21, 💬6)
-**Article:** The Ebola outbreak in DRC has become the third largest on record with nearly 750 cases and 177 deaths, driven by the uncommon Bundibugyo virus which lacks established vaccines or therapeutics. The article criticizes US withdrawal from global health leadership under the Trump administration, noting that previous USAID and CDC support was critical for logistics and outbreak detection.
+## 18. [Show HN: Anyone interested in a tool helps to explore C++ ASTs](https://news.ycombinator.com/item?id=48228106) (↑13, 💬1)
+**Article:** ACAV is an interactive AST visualization tool for C, C++, and Objective-C that uses Clang and Qt to let users explore abstract syntax trees from real codebases via a compilation database. It provides source-AST navigation, declaration context views, and caching for responsiveness, targeting students, researchers, and developers building Clang-based tools.
 
-**Comments:** Commenters largely agreed the outbreak will likely be ignored until it spreads outside DRC, with one noting that diseases in "third world" places are easily overlooked. A brief debate emerged about whether a European outbreak would receive more coverage, with one commenter pointing out DRC is a former Belgian colony.
+**Comments:** Only one comment, from the author, provides the GitHub repository link and invites questions.
 
-## 19. [Rubish: A Unix shell written in pure Ruby](https://news.ycombinator.com/item?id=48245262) (↑123, 💬79)
-**Article:** Rubish is a Unix shell written in pure Ruby that aims to be fully bash-compatible while deeply integrating Ruby features, allowing users to mix shell commands with Ruby code, blocks, iterators, and libraries. It parses shell syntax and compiles it to Ruby code executed by the Ruby VM, supporting method chaining, Ruby array literals, lambda expressions, and custom Ruby-defined prompts.
+## 19. [Don't Roll Your Own](https://news.ycombinator.com/item?id=48252192) (↑75, 💬58)
+**Article:** The author argues that web developers should not override native browser behaviors like scrolling, link navigation, text selection, context menus, copy-paste, password fields, and date pickers. The article laments that custom implementations often break user expectations, accessibility, and security, citing examples like GitHub's link handling and custom form controls.
 
-**Comments:** Commenters were largely amused by the project's clever name ("rubish" sounding like "rubbish"), though many noted practical concerns about availability on remote servers and performance compared to shells like bash or rc. Some expressed concern that the codebase appears "vibe-coded" with overly long methods and poor organization, while others defended it as typical of single-developer projects and praised the deep Ruby integration concept.
+**Comments:** Commenters strongly agree with the article, with many arguing that JavaScript shouldn't even be allowed to intercept these actions. Some debate valid exceptions like Google Docs requiring custom controls, while others note that "rolling your own" is often driven by business incentives like ads and tracking rather than user experience.
 
-## 20. [BambuStudio has been violating PrusaSlicer AGPL license since their fork](https://news.ycombinator.com/item?id=48245862) (↑324, 💬115)
-**Article:** Josef Prusa publicly accused Bambu Lab of violating the AGPL license by keeping their networking plugin closed-source as a separate binary that downloads at runtime, arguing this constitutes a derivative work since BambuStudio cannot function without it. He also raised concerns about Chinese laws that could compel companies to share data with the state, framing this as a broader risk with any Chinese manufacturer of strategic technology.
+## 20. [80386 microcode disassembled](https://news.ycombinator.com/item?id=48247004) (↑217, 💬43)
+**Article:** The author describes the collaborative reverse-engineering of the 80386 microcode from die photos, using neural networks, image processing, and human verification to extract and disassemble 94,720 bits of microcode. The work revealed 215 microcode entry points, the interfaces between hardware accelerators (multiply/divide, barrel shifter, protection test unit), and a potential 40-year-old security bug in I/O permission bitmap handling.
 
-**Comments:** Commenters were split between those condemning Bambu's license violations and those arguing the legal boundaries are unclear, with some noting AGPL enforcement is expensive and difficult. Several commenters expressed concern about industrial espionage risks for businesses using Bambu printers for prototyping, while others argued the cloud-authorized printing was actually desired by users.
+**Comments:** Commenters express admiration for the reverse-engineering effort, with many describing it as "peak Hacker News." Contributors explain the extraction process details, including the use of convolutional neural networks to classify bits and manual verification, while others discuss related projects like nand2tetris and homebrew CPUs.
 
 ---
-_Generated 2026-05-23 11:04 MDT_
+_Generated 2026-05-23 19:22 MDT_
 
 ---
 
