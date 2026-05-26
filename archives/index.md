@@ -1,11 +1,12 @@
 # HN Digest Archive
 
-All 13 issues, ordered by date.
+All 14 issues, ordered by date.
 
 ## 2026
 
 ### May
 
+- [May 26](./2026/may/hn-digest-2026-05-26.md)
 - [May 25](./2026/may/hn-digest-2026-05-25.md)
 - [May 24](./2026/may/hn-digest-2026-05-24.md)
 - [May 23](./2026/may/hn-digest-2026-05-23.md)
