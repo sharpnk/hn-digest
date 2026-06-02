@@ -1,107 +1,107 @@
 # HN Digest — June 2, 2026
 
-## 1. [A walking tour of surveillance infrastructure in Seattle](https://news.ycombinator.com/item?id=48369980) (↑155, 💬59)
-**Article:** This guide details a walking tour of downtown Seattle designed to help participants identify various surveillance technologies in public spaces, such as cameras, Amazon Go stores, and automated license plate readers. It provides information on each technology's appearance, function, and social implications, encouraging discussion about privacy and societal norms.
+## 1. [Coreutils for Windows](https://news.ycombinator.com/item?id=48372853) (↑69, 💬48)
+**Article:** Microsoft has released a preview build of coreutils for Windows, packaging uutils/coreutils, findutils, and a GNU-compatible grep into a single multi-call binary. The project aims to provide native UNIX-style commands on Windows to reduce friction when moving between environments, though several commands conflict with CMD and PowerShell built-ins, and it requires PowerShell 7.4+. Some POSIX-only commands are intentionally dropped due to Windows limitations around signals, permissions, and file systems.
 
-**Comments:** Commenters debate the article's critical theory language and technical accuracy, with some finding it too academic or condescending, while others appreciate the subject matter. A key debate centers on balancing the public safety benefits of surveillance with concerns about misuse, data breaches, and the potential for an oppressive surveillance state, with some commenters critical of what they see as an apathetic public.
+**Comments:** Commenters noted the project is a restricted uutils fork and question why Microsoft didn't upstream its fixes or provide a more complete port. Many expressed disappointment with the limited command set, shell conflicts, and lack of essential tools like head/tail, while others pointed to existing alternatives like msys2 or busybox-w32. Several users speculated the effort is motivated by AI agent tooling, and opinions ranged from appreciation for Microsoft's effort to dismissals of the project as unnecessary or broken.
 
-## 2. [Fidonet: Technology, Use, Tools, and History (1993)](https://news.ycombinator.com/item?id=48370291) (↑80, 💬28)
-**Article:** This technical overview describes FidoNet, a store-and-forward email WAN from 1984 that used modems on the telephone network, supporting over 20,000 nodes globally. It details its numeric addressing hierarchy, topology for routing email, and mechanisms for gatewaying to the uucp network and Internet.
+## 2. [Three Ways to Get Paid](https://news.ycombinator.com/item?id=48373054) (↑29, 💬10)
+**Article:** Jason Zweig shares his father's three-part rule for making a living: 1) Lie to people who want to be lied to, and get rich. 2) Tell the truth to those who want the truth, and make a living. 3) Tell the truth to those who want to be lied to, and go broke. The short post sets up these categories as a framework for understanding professional ethics and financial outcomes.
 
-**Comments:** Commenters share nostalgic memories of running and using FidoNet nodes, highlighting the community aspect, the technical challenge of getting it working, and its revolutionary impact on communication before the Internet. Many lament the loss of its tight-knit, spam-free community compared to modern social platforms.
+**Comments:** Commenters expanded on the framework, proposing additional categories like lying to those who want the truth (scams) or the role of telling people what they already know. Some criticized the brevity of the post, noted that the "read rest" link was broken, and questioned the rule's universality, with one commenter listing five jobs where it doesn't apply.
 
-## 3. [Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai](https://news.ycombinator.com/item?id=48368121) (↑438, 💬174)
-**Article:** Adafruit announces they received a demand letter from law firm Fenwick & West, representing Flux.ai, threatening legal action over a planned article about the company. Adafruit argues its reporting was a matter of public security interest based on publicly accessible information from a server misconfiguration and has paused publishing to consider a response.
+## 3. [A walking tour of surveillance infrastructure in Seattle](https://news.ycombinator.com/item?id=48369980) (↑188, 💬91)
+**Article:** This guide provides a walking tour of surveillance infrastructure in downtown Seattle, cataloging visible technologies like surveillance cameras, Amazon Go stores, automated license plate readers (ALPRs), and Wi-Fi tracking devices. Each entry explains how the technology works, its social implications, and prompts discussion questions about privacy, bias, and consent. The guide focuses on making hidden surveillance visible to the public.
 
-**Comments:** The community is highly critical of Flux.ai, with many commenters sharing negative experiences with its product, billing practices, and support. They view the legal letter as a SLAPP suit and a marketing blunder that has backfired, with several stating it will make them actively avoid Flux.ai, while praising Adafruit for transparency.
+**Comments:** Commenters debated the technical accuracy of the guide, with some noting outdated information (Amazon Go has shut down) and overblown claims about MAC address tracking given modern randomization. Several criticized the academic jargon (e.g., "gazes" and "encoded ways of seeing") as inaccessible. A significant thread examined the trade-off between surveillance's crime-solving benefits and risks of abuse, with one user sharing a detailed personal story about the limits of video evidence in Seattle courts.
 
-## 4. [Why Janet? (2023)](https://news.ycombinator.com/item?id=48367907) (↑342, 💬167)
-**Article:** This article presents a case for the Janet programming language, a small Lisp dialect, highlighting its simplicity, ease of distribution as native executables, powerful PEG-based text parsing, and excellent subprocess DSL. It also praises Janet's embeddability, support for both mutable and immutable collections, hygienic macros with referential transparency, and its unique ability to pass values from compile-time to run-time.
+## 4. [Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai](https://news.ycombinator.com/item?id=48368121) (↑463, 💬187)
+**Article:** Adafruit reports receiving a demand letter from Fenwick & West on behalf of Flux.ai, threatening legal action including Computer Fraud and Abuse Act claims over an unpublished article. Adafruit says it accessed only information that Flux made publicly available via a server misconfiguration and has paused publishing while considering its response. The electronics company says it is looking to resolve the matter constructively with Flux's founder.
 
-**Comments:** Commenters generally praise Janet for its simplicity, fast startup, and the utility of its compile-time execution feature, often using it as a scripting tool. Key criticisms include its lack of proper namespaces, limited library ecosystem, and a feeling that the promised "Janet for Mortals" book is not as beginner-friendly as claimed, with some differentiating it from similar languages like Fennel and Tcl.
+**Comments:** Commenters overwhelmingly sided with Adafruit, with many noting that they'd previously had poor experiences with Flux's AI PCB tool, describing it as expensive and ineffective. Several called the legal action a SLAPP suit that backfired, since it generated widespread negative publicity for Flux. Limor Fried (ladyada) commented that Adafruit hoped to resolve the matter on a podcast, and multiple users said they would now avoid Flux entirely.
 
-## 5. [Expanding Project Glasswing](https://news.ycombinator.com/item?id=48369863) (↑77, 💬77)
-**Article:** Anthropic announces the expansion of Project Glasswing, its initiative to secure critical software using its "Mythos" AI model. The expansion adds roughly 150 new organizations, spanning critical infrastructure sectors like power, water, and healthcare, to help them find and patch vulnerabilities, with the long-term goal of shifting from finding bugs to accelerating patching.
+## 5. [Fidonet: Technology, Use, Tools, and History (1993)](https://news.ycombinator.com/item?id=48370291) (↑93, 💬31)
+**Article:** This 1993 technical overview describes FidoNet, a store-and-forward email WAN operating over dial-up telephone modems with over 20,000 nodes worldwide. The document details its hierarchical addressing scheme (zone:net/node.point), protocols (Xmodem-based basic standard, Zmodem streaming), and routing topology that minimizes long-distance costs. It also explains gateways to the Internet via UUCP and the DNS zone fidonet.org.
 
-**Comments:** Many commenters are highly skeptical, viewing the limited release of Mythos as a marketing or scarcity play to build hype and secure enterprise customers before a potential IPO, rather than a genuine security concern. Others debate the model's actual capabilities, with some pointing to a lack of convincing public results and questioning whether this is a responsible rollout or a means to mask compute constraints.
+**Comments:** Commenters shared nostalgic memories of running BBSs and FidoNet nodes in the 1980s and 1990s, with several recalling their exact node addresses. Many highlighted the community aspect — tight-knit groups formed around local nodes, the privilege of earning a node number by providing service, and the revolutionary experience of communicating internationally at low cost. Several noted that FidoNet and related "alt nets" like fsxNet are still active today.
 
-## 6. [Love systemd timers](https://news.ycombinator.com/item?id=48367904) (↑220, 💬148)
-**Article:** Seth Godin's short post argues that positive qualities like customer delight, curiosity, satisfaction, and trust aren't things to be "added" to products or experiences—they're what remain when organizations stop actively ruining them.
+## 6. [Why Janet? (2023)](https://news.ycombinator.com/item?id=48367907) (↑354, 💬177)
+**Article:** The author makes a case for learning Janet, a small Lisp dialect, highlighting its simplicity (learnable in an afternoon), easy distribution (compiles to a small native binary), built-in parsing expression grammars, a shell scripting DSL, embeddability, and powerful macro system with compile-time value serialization.
 
-**Comments:** Commenters strongly agree with the premise, providing extensive examples: Windows 11's file explorer UI bloat, corporate "empowerment" initiatives that actually disempower employees, AI-generated content eroding creator trust, and the short-term thinking that leads companies to extract value rather than build it. A debate emerges about whether ads are still effective, with some linking modern surveillance advertising to the same "ruining" dynamic.
+**Comments:** Commenters largely praised Janet for its fast startup, portability, and the "sh" DSL. Discussion focused on comparisons to Tcl and Fennel, criticism of Lisp bracket syntax, concerns about limited libraries/package management, and appreciation for the compile-to-runtime value passing feature.
 
-## 7. [The newest Instagram “exploit” is the goofiest I've seen](https://news.ycombinator.com/item?id=48359102) (↑2072, 💬461)
-**Article:** (missing)
+## 7. [Expanding Project Glasswing](https://news.ycombinator.com/item?id=48369863) (↑94, 💬102)
+**Article:** Anthropic is expanding Project Glasswing, a program using its "Mythos Preview" AI model to scan critical software for vulnerabilities, to ~150 new organizations. The program aims to spur the industry to adapt to powerful AI cyberattacks by providing defenders with superior tools, and they plan to eventually shift from finding vulnerabilities to patching them.
 
-**Comments:** (missing)
+**Comments:** Many commenters were deeply skeptical, viewing the program as a marketing and scarcity play (to mask limited compute for a public release) or a scheme to lock in enterprise customers. Others debated the model's actual efficacy, with some pointing out missed vulnerabilities and questioning ethical claims.
 
-## 8. [CSS-Native Parallax Effect](https://news.ycombinator.com/item?id=48368291) (↑98, 💬46)
-**Article:** (missing)
+## 8. [Love systemd timers](https://news.ycombinator.com/item?id=48367904) (↑240, 💬158)
+**Article:** The article's content was not retrievable, appearing as corrupted binary data. The title indicates a positive discussion about systemd timers as a replacement for cron for scheduling tasks.
 
-**Comments:** (missing)
+**Comments:** The thread is a strong debate between systemd timer advocates and cron defenders. Supporters praised timers for better logging (journalctl), handling missed runs (e.g., after downtime), and cleaner environment management. Critics cited accidental complexity, hard-to-debug failures, and the elegance and simplicity of cron for basic needs.
 
-## 9. [Reviving Teletext for Ham Radio](https://news.ycombinator.com/item?id=48325668) (↑36, 💬15)
-**Article:** (missing)
+## 9. [Preparing for KDE Plasma's Last X11-Supported Release](https://news.ycombinator.com/item?id=48370588) (↑82, 💬73)
+**Article:** KDE announced that Plasma 6.8 will be the first release to remove the X11 session entirely, dropping all X11-specific code for the shell. They state 95% of users are on Wayland and that focusing on a single display server will allow for new performance and memory optimizations.
 
-**Comments:** (missing)
+**Comments:** Commenters expressed concern over remaining Wayland issues, particularly for accessibility software, multi-monitor setups with specific window placement, and features like "always on top." While many praised KDE's Wayland implementation, others felt the transition was premature and would break workflows for users with specialized needs.
 
-## 10. [Stop Ruining It](https://news.ycombinator.com/item?id=48368059) (↑136, 💬54)
-**Article:** (missing)
+## 10. [CSS-Native Parallax Effect](https://news.ycombinator.com/item?id=48368291) (↑107, 💬46)
+**Article:** The author describes a modern CSS method for creating a parallax scrolling effect using the `view-timeline-name` and `animation-timeline` properties. The technique uses a single utility class, smooths the effect by scaling the child element to prevent empty space, and respects the `prefers-reduced-motion` accessibility setting.
 
-**Comments:** (missing)
+**Comments:** Commenters noted the lack of a live demo on the page, which was a major point of frustration. The primary discussion compared this new scroll-driven timeline method to the older pure-CSS 3D perspective technique, with the consensus that the new method is simpler to set up but suffers from limited browser support, especially on Firefox.
 
-## 11. [Show HN: Eyeball](https://news.ycombinator.com/item?id=48367723) (↑141, 💬52)
-**Article:** "Eyeball" is a minimalist precision-clicking game where users click a line to match a hidden target percentage. It is inspired by Matthias Wandel's classic game and is designed primarily for mouse or trackpad use, as finger taps are less accurate.
+## 11. [Stop Ruining It](https://news.ycombinator.com/item?id=48368059) (↑160, 💬74)
+**Article:** Seth Godin argues that desirable qualities like customer delight, curiosity, and trust are not features to be added, but are what remains when you avoid ruining them in the first place. The core idea is that people start with a baseline of positive attributes, and the goal should be to not destroy them through poor design, management, or marketing.
 
-**Comments:** Commenters largely found the game fun and addictive, with many sharing their best scores. Key suggestions included adding a training mode, a timer for extra challenge, and support for angled or curved lines, while a few users noted issues with low contrast and the distracting on-screen indicator.
+**Comments:** Many comments apply the concept to software, especially criticizing Windows 11's File Explorer for adding unwanted "improvements" that ruin functionality. A major debate centers on whether features like tabs are improvements or ruinations, with a consensus that removing existing utility is more damaging than failing to add new features. A recurring insight is the "via negativa" principle—improvement by subtraction—and the observation that rebuilding trust after ruining it is far more costly than not ruining it in the first place.
 
-## 12. [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://news.ycombinator.com/item?id=48364055) (↑590, 💬1013)
-**Article:** The article discusses the potential market impact of IPOs from Anthropic, SpaceX, and OpenAI, which are valued in the hundreds of billions. It questions whether the stock market can absorb these large offerings, especially given rule changes that could force passive index funds to purchase shares at IPO prices.
+## 12. [Reviving Teletext for Ham Radio](https://news.ycombinator.com/item?id=48325668) (↑42, 💬20)
+**Article:** The author describes reviving the 1980s teletext system for use in ham radio by sending digital teletext pages over the AX.25 protocol using a computer's sound card. Teletext is praised for being a low-bandwidth, efficient digital system, and the project aims to create a digital counterpart to slow-scan television (SSTV) for transmitting text and images.
 
-**Comments:** The thread is highly skeptical, with many commenters viewing the IPOs as a "dump" on retail investors, noting waived index inclusion rules and comparisons to the 2008 financial crisis. Others debate the valuations, pointing to SpaceX's real business but questioning AI companies' lack of moats and the rapid depreciation of hardware.
+**Comments:** Commenters discuss the irony of the Linux kernel dropping AX.25 support just as such projects gain interest, noting userspace workarounds exist. They share nostalgia for teletext and related pre-internet data systems (like VBI data on TV signals), and debate the viability of decentralized, uncensorable networks, noting ham radio's legal limitations on encryption and commercial use.
 
-## 13. [Preparing for KDE Plasma's Last X11-Supported Release](https://news.ycombinator.com/item?id=48370588) (↑67, 💬65)
-**Article:** The blog post announces that Plasma 6.8 will be the last KDE release supporting an X11 session, with a full transition to Wayland. It claims over 95% of current Plasma 6.6 users are on Wayland, and that removing X11 code will enable new performance improvements and features.
+## 13. [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://news.ycombinator.com/item?id=48364055) (↑615, 💬1050)
+**Article:** The Economist article (linked via archive.ph) discusses whether the stock market can absorb the massive IPOs of heavily-valued private companies like Anthropic, SpaceX, and OpenAI, given their trillions in combined valuations.
 
-**Comments:** Comments are divided; many users praise KDE's Wayland progress and stability, but others raise concerns about accessibility software not working on Wayland, missing features like "always on top" for windows, and issues with multi-display setups. A vocal minority criticizes the move as premature and dismissive of remaining X11-heavy workflows.
+**Comments:** Comments heavily focus on allegations that rules were changed to force passive index funds (401ks, pensions) to buy these stocks at IPO prices, waiving profitability and seasoning requirements. Many argue the companies are overvalued with no moats, see the IPOs as a race to cash out before a correction, and express skepticism about the sustainability of AI and SpaceX valuations.
 
-## 14. [Why Custom Attributes in .NET Give Me Nightmares](https://news.ycombinator.com/item?id=48343435) (↑52, 💬14)
-**Article:** The author rants about the complexity of parsing custom attributes in .NET binaries, particularly the difficulty of resolving enum types. The process requires expensive assembly resolution, type tree traversal, and handling of type forwarders, making it a nightmare for those maintaining low-level parsing tools.
+## 14. [Show HN: Eyeball](https://news.ycombinator.com/item?id=48367723) (↑159, 💬54)
+**Article:** "Eyeball" is a simple precision-clicking game where you click on a line to mark a target fraction. It is built for mouse/trackpad use and tracks your best, average, and streak scores.
 
-**Comments:** Commenters generally agree that custom attributes are powerful but best used for static, per-type metadata. Several note that the parsing pain is mainly for hand-parsing binary files; using .NET's built-in reflection handles these complexities automatically. Others discuss alternative patterns like fluent builders or DI registration instead of heavy attribute use.
+**Comments:** Users share their scores and find the game fun and addictive. Many request features like a training mode for missed targets, a time limit, or different shapes (angles, curves). One user notes the game is a modern take on Matthias Wandel's classic "Eyeball" game, which involved guessing geometric attributes like angle bisection.
 
-## 15. [Great Question (YC W21) Is Hiring Applied AI Interns](https://news.ycombinator.com/item?id=48369098) (↑1, 💬0)
-**Article:** This is a job posting for a paid summer AI engineer internship at Great Question, a Y Combinator-backed customer research platform. The role involves building AI features like semantic search and real-time agents, and candidates are expected to show self-driven AI side projects and strong engineering skills.
+## 15. [Why Custom Attributes in .NET Give Me Nightmares](https://news.ycombinator.com/item?id=48343435) (↑60, 💬19)
+**Article:** The author explains why .NET custom attributes are poorly designed, focusing on the complexity of parsing their binary format. A key problem is that enum arguments require resolving the full type to determine the underlying type's byte size, which involves expensive assembly resolution, type tree traversal, and handling type forwarders.
 
-**Comments:** (no comments)
+**Comments:** Commenters generally agree that custom attributes are powerful but easy to misuse. A consensus emerges that attributes are best for pure, static metadata (like [JsonIgnore]), while fluent builders or DI patterns are superior for dynamic per-member logic. One commenter notes that this parsing complexity is only an issue when parsing assemblies manually; .NET's own reflection handles it transparently.
 
-## 16. [Squillions: How money laundering won](https://news.ycombinator.com/item?id=48344535) (↑112, 💬97)
-**Article:** A review of two books on money laundering examines the huge gap between declining cash use by ordinary people and the rising value of banknotes in circulation—over $2 trillion in US dollars alone—which is largely unaccounted for. The article argues that this missing cash is primarily used for criminal transactions, and that governments are both profiting from seigniorage and unwilling to investigate the problem thoroughly, leaving the scale of money laundering unknown but estimated in the trillions.
+## 16. [Webcam head tracking, webcam to control in‑game FOV](https://news.ycombinator.com/item?id=48336783) (↑72, 💬37)
+**Article:** OpenFOV is a webcam-based head tracking tool for iRacing that unlocks VR-style functionality for monitor users. It uses a webcam to control the in-game field of view, offering a middle ground between standard screens and full VR setups.
 
-**Comments:** Commenters debate the true purpose and effectiveness of anti-money laundering (AML) laws, with some arguing they primarily enable state surveillance and tax enforcement against ordinary citizens while powerful actors bypass them easily. Others discuss the practicalities of using high-value notes in Switzerland versus the UK, the role of crypto in laundering, the prevalence of cash in small businesses for tax avoidance, and the systemic incentives that make fighting money laundering less profitable than facilitating it.
+**Comments:** Commenters debated the practicality of webcam head tracking, with some noting it takes getting used to due to the disconnect between head and eye movement. Many pointed to existing alternatives like OpenTrack and emphasized that the slight head movements required become second nature in sim games, while others questioned its utility compared to true VR.
 
-## 17. [Webcam head tracking, webcam to control in‑game FOV](https://news.ycombinator.com/item?id=48336783) (↑64, 💬36)
-**Article:** OpenFOV is an open-source tool that uses a webcam to track a user's head movements and control the in-game field of view in iRacing, providing VR-like functionality for standard monitor setups. The project is MIT-licensed and available on GitHub for Windows.
+## 17. [Great Question (YC W21) Is Hiring Applied AI Interns](https://news.ycombinator.com/item?id=48369098) (↑1, 💬0)
+**Article:** Great Question (YC W21) is hiring an AI Engineer Intern for summer 2026, offering a 3-month remote role focused on building real features like semantic search and AI moderators. The position requires candidates to demonstrate hands-on AI projects and a self-starter attitude, with mentorship from the CTO.
 
-**Comments:** Commenters discuss their experiences with similar head-tracking tools like OpenTrack and FaceTrackNoIR, noting that while effective for sim racing and flight sims, the technique requires a learning period to decouple eye and head movement. Several users recommend alternatives like the SmoothTrack mobile app and note that OpenTrack has largely replaced dedicated infrared trackers, while others debate whether head rotation (as in VR) or positional head tracking (making the monitor a window) is the more natural approach.
+**Comments:** No comments were provided for this story.
 
-## 18. [macOS needs its grid back](https://news.ycombinator.com/item?id=48364800) (↑355, 💬225)
-**Article:** The author describes how macOS's Spaces feature in Leopard (2006) allowed virtual desktops to be arranged in a customizable grid, enabling powerful spatial memory-based navigation that was lost when Lion (2011) replaced it with a single-row Mission Control layout. Frustrated by the lack of an adequate replacement, the author built GridLion, an app that restores grid-based space navigation on modern macOS.
+## 18. [Key Chemistry Question Answered, No Quantum Computer Required](https://news.ycombinator.com/item?id=48323220) (↑7, 💬0)
+**Article:** A team of chemists led by Garnet Chan used classical computers to understand the nitrogenase enzyme, a complex chemical reaction long thought to require quantum computers. The achievement demonstrates that classical methods can solve intricate biochemical problems, challenging the notion that quantum computers are essential for such tasks.
 
-**Comments:** Commenters strongly agree that Apple's removal of grid-based Spaces was a major regression, with many sharing similar workflows that relied on 2D spatial memory for productivity. The thread critiques Apple's trend of removing power-user features in favor of simplified designs, with several users recommending tiling window managers (Aerospace, Yabai), KDE Plasma for Linux, or other third-party tools as alternatives for better window and workspace management.
+**Comments:** No comments were provided for this story.
 
-## 19. [PCMFlowG722 wideband (HD voice) codec for ESP32](https://news.ycombinator.com/item?id=48337190) (↑13, 💬1)
-**Article:** PCMFlowG722 is an open-source G.722 wideband (HD voice) codec add-on for the PCMFlow library, designed for real-time two-way voice over packet radio or networks on ESP32 and similar microcontrollers. It provides 7 kHz audio at 16 kHz sampling using 64 kbps—the same bitrate as G.711 but with double the audio bandwidth—and fits neatly into ESP-NOW 250-byte payloads.
+## 19. [Squillions: How money laundering won](https://news.ycombinator.com/item?id=48344535) (↑122, 💬103)
+**Article:** The article investigates the vast amount of cash in circulation that remains unaccounted for, arguing it is primarily used for money laundering and criminal transactions. It highlights how central banks are indifferent to this issue, contributing to a massive global illicit financial system estimated at trillions.
 
-**Comments:** The single comment notes that while the library is not limited to the ESP32, its payload size was specifically designed to fit within ESP-NOW packets, highlighting the practical relevance for low-power wireless voice applications.
+**Comments:** Commenters discussed the role of cash in sovereignty and tax evasion, with many criticizing anti-money laundering laws as tools for surveillance that fail to stop crime. Some noted Switzerland's acceptance of high-value notes contrasted with UK policies, while others debated whether cash should be stigmatized and if cryptocurrencies are a better alternative.
 
-## 20. [CQL: Categorical Databases](https://news.ycombinator.com/item?id=48335022) (↑83, 💬30)
-**Article:** CQL (Categorical Query Language) is an open-source language and IDE that uses category theory to perform data-related tasks like querying, combining, and migrating databases with mathematical guarantees. It features an embedded automated theorem prover that ensures data integrity at compile time, supports flexible I/O, rich constraints, and generalizes SQL concepts using principles from applied category theory.
+## 20. [Rethinking Search as Code Generation](https://news.ycombinator.com/item?id=48372547) (↑4, 💬1)
+**Article:** Perplexity introduces "Search as Code" (SaC), an architecture that exposes search stack components as SDK primitives for AI agents to compose custom retrieval pipelines via generated code. This replaces traditional monolithic search APIs, enabling fine-grained control over retrieval, ranking, and filtering for complex agent tasks.
 
-**Comments:** Commenters debate how CQL fundamentally differs from SQL, with some noting that relational models already have category-theoretic foundations and that compile-time constraint checking could be added to SQL directly. Others highlight CQL's advantages in schema composition, functorial data migration that preserves constraints, and cleaner handling of nulls and inheritance—though many admit the documentation is sparse and the practical advantages over SQL remain narrow for everyday use.
+**Comments:** One commenter found the approach interesting but questioned how a coding agent would know enough about a codebase to construct a multi-stage search pipeline based solely on a prompt. They noted that sequential tool calls may be necessary, though existing coding agents already encourage parallel tool calling.
 
 ---
-_Generated 2026-06-02 11:09 MDT_
+_Generated 2026-06-02 11:49 MDT_
 
 ---
 
