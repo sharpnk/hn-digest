@@ -1,11 +1,12 @@
 # HN Digest Archive
 
-All 98 issues, ordered by date.
+All 99 issues, ordered by date.
 
 ## 2026
 
 ### Aug
 
+- [Aug 19](./2026/aug/hn-digest-2026-08-19.md)
 - [Aug 18](./2026/aug/hn-digest-2026-08-18.md)
 - [Aug 17](./2026/aug/hn-digest-2026-08-17.md)
 - [Aug 16](./2026/aug/hn-digest-2026-08-16.md)
