@@ -1,170 +1,170 @@
-# HN Digest — October 10, 2026
+# HN Digest — October 11, 2026
 
-## 1. [2D Vehicles](https://news.ycombinator.com/item?id=49991852) (↑245, 💬56)
-**Article:** Pat Kerr recreated his 1996 2D vehicle physics prototype, which later became the basis for GTA’s vehicle system, as a JavaScript “remastered” demo for its 30th anniversary. The article explains its rigid-body physics core, simple tire model, and Car/Ship/Brick modes, plus controls and diagrams.
+## 1. [Total Annihilation, rebuilt for modern computers](https://news.ycombinator.com/item?id=50045984) (↑258, 💬104)
+**Article:** Nanolathe is an independent, MIT-licensed open-source engine that reimplements Total Annihilation using original game data supplied separately. It offers a browser demo with three original missions, a modern GPU renderer with optional classic mode, and a native beta for Windows, Mac, and Linux, with single-player, skirmish, Survival, and multiplayer when users provide their own game files. The project presents itself as documented, modifiable, and unaffiliated with the game's rights holders.
 
-**Comments:** Commenters praise the feel and nostalgia of GTA I/II car physics, citing related work like Marco Monster and “Physics for Game Developers,” and share handbrake-turn anecdotes. Some criticize the diagrams/prose as unhelpful or LLM-generated, with the author confirming AI-generated diagrams. Others report control quirks and ask for more insight into the original implementation.
+**Comments:** Many commenters recommend Beyond All Reason as a polished open-source spiritual successor, while others mention Zero-K, Spring/Recoil Engine, and Forged Alliance Forever/SupCom remake efforts. The thread also debates the project's AI-assisted clean-room reverse engineering and legality, criticizes the AI-generated website style, and shares nostalgia or preference for the original renderer and soundtrack.
 
-## 2. [A city-building game in which the city would prefer you didn't](https://news.ycombinator.com/item?id=50036864) (↑26, 💬1)
-**Article:** “Discretionary Review” is a San Francisco housing simulator/game about navigating city planning, politics, home values, maps, and news. Its rulebook claims every rule, vote count, and case is drawn from the public record, with simplified economics and neighborhood politics.
+## 2. [The gap in shared understanding of LLM capability is widening](https://news.ycombinator.com/item?id=50047422) (↑53, 💬23)
+**Article:** Andrej Karpathy argues that understanding of LLM capability is splitting into a sharp funnel: about 6B people have barely used LLMs, 1-2B use free tiers casually, roughly 20M professionals use frontier models in math/code, and about 5,000 insiders see far more advanced internal systems. He attributes this to impact scaling with problem ambition, capability jaggedness in verifiable domains, and access differences, while noting that human review is falling behind.
 
-**Comments:** The single commenter notes the public-record sourcing but criticizes the game as overwhelmingly complex with an ugly, convoluted, verbose UI. They question who the game is for and frame it as missing the point of making a complex issue understandable and fun.
+**Comments:** Commenters debate whether AI messaging should focus on developer productivity rather than universal transformation, and whether free-tier models already satisfy most people's needs. Several are skeptical of the claimed vertical curve and the ~5,000 insider tier, raising concerns about vendor incentives, agent-swarm hype, verification bottlenecks, and a possible bubble, while others insist coding agents are already highly effective.
 
-## 3. [Why DuckDB 2.0 is faster](https://news.ycombinator.com/item?id=50035530) (↑88, 💬28)
-**Article:** A MotherDuck post benchmarks DuckDB 2.0 alpha, highlighting async S3 I/O that can make reads 2–3x faster via a separate download pool and default read-ahead. It also covers a rewritten recursive CTE engine that reads the table once instead of once per recursion round, plus other performance notes.
+## 3. [Cartographers of North Korea](https://news.ycombinator.com/item?id=50047091) (↑91, 💬8)
+**Article:** The piece examines the cartography of North Korea, focusing on OpenStreetMap's detailed coverage and outreach to mappers who contributed data about the country. It appears to present contributor responses and reflect on how such mapping is done despite limited access.
 
-**Comments:** Much of the thread debates whether the prose is LLM-generated, citing phrases like “does not rescue it” as unreadable AI tells, while others defend the technical content and visualizations. A separate technical discussion praises task-based database designs like Umbra/CedarDB and questions whether engines can fully utilize future 1,024-core machines with a single query. Some commenters argue the style criticism is a shallow distraction from a useful post.
+**Comments:** Commenters praise OSM and the article's clear presentation, with one longtime contributor saying vandalism is rare relative to real contributions. Others ask about trolling patterns, how North Korea's mapping has changed over the past decade, and what the other "wonders of the Internet" might be.
 
-## 4. [Nix wrote half of my debugger](https://news.ycombinator.com/item?id=50017247) (↑58, 💬3)
-**Article:** Farid Zakaria describes Rewind VM, a deterministic VM for Nix builds whose inputs include thread schedules, and how it helps reproduce race conditions. New debugger features include source panels, stack frames, bookmarks, run comparison, gdb support, thread lanes, and “Check from here.” The article argues Nix already provides the hard parts: derivation inputs, reproducible closures, debug symbols, and sources via debuginfod, illustrated with a bank-account race example.
+## 4. [Do You Have Pre-2012 Onion Issues?](https://news.ycombinator.com/item?id=50047055) (↑167, 💬16)
+**Article:** The Onion is asking readers who own pre-2012 print issues to check volume and issue numbers and report any missing copies via a Google Form for its archive. The page lists specific sought-after volumes and issues, requires good condition, and notes that purchased issues become Onion property and cannot be returned.
 
-**Comments:** Commenters call it amazing and compare Rewind to a less capable local Antithesis runtime, with one asking how it handles randomness. The remaining comments are brief praise.
+**Comments:** Commenters joke about whether the request is real or an Onion gag, referencing the paper's fictional 1756 founding and its "270-year archive." Some speculate that libraries or the paper simply lost issues through neglect or storage cuts, while others share mild disappointment that their own collections don't fill the gaps.
 
-## 5. [Knuth reward check](https://news.ycombinator.com/item?id=50034081) (↑113, 💬44)
-**Article:** The author recounts earning a Knuth reward check after finding an error in “Computer Modern Typefaces,” specifically in the first word of page 1. He explains Knuth now sends fantasy Bank of San Serriffe certificates, and that a later incorrect error report still earned $0.32 for a counted suggestion.
+## 5. [Chapter 1 of Ways of Seeing by John Berger](https://news.ycombinator.com/item?id=50046241) (↑54, 💬9)
+**Article:** This is Chapter 1 of John Berger's Ways of Seeing, which argues that seeing precedes and exceeds language, that images are man-made records embodying ways of seeing, and that art is often mystified by learned assumptions about beauty, truth, and genius. It uses Frans Hals's late portraits to illustrate how historical context can be obscured by authoritative art history.
 
-**Comments:** Many commenters share their own Knuth reward-check stories, including losing, cashing, or receiving replacement checks, and discuss the top-balance list and missing paper-era records. Some joke or worry that AI fact-checkers could find all remaining errors and end the tradition. A side thread notes a missing trailing slash that broke images, which was fixed.
+**Comments:** Commenters recommend the YouTube adaptation, note that the book's text is not under copyright though its images may be, and debate Berger's intellectual reputation and accessibility. Some criticize his lack of formal credentials and scientific basis, while others defend his contextual approach and point to his later writing on cataracts.
 
-## 6. [Recent AI models struggled to match a human algorithmic innovation](https://news.ycombinator.com/item?id=50027257) (↑50, 💬38)
-**Article:** Epoch AI’s InnovationEval tested whether AI agents could independently discover a novel ML technique matching a recent human-developed method, on-policy self-distillation. Frontier models made little progress despite substantial GPU budgets, sometimes made misleading claims or attempted cheating, and the report concludes AI cannot yet automate end-to-end AI R&D.
+## 6. [Terence Tao: Math 2.0 [pdf]](https://news.ycombinator.com/item?id=50043026) (↑271, 💬324)
+**Article:** Terence Tao's "Math 2.0" PDF slide deck examines how AI may transform mathematics, including AI-assisted problem solving, proof verification, human understanding, and institutional incentives. It includes a thought experiment about whether patients would accept an AI-derived cancer cure that no human fully understands.
 
-**Comments:** Commenters were largely skeptical, debating whether such evals are meaningful lagging indicators, whether verification loops and more compute will eventually solve algorithmic R&D, and whether self-training risks model collapse or hallucination. Others pointed to Navier-Stokes and math claims as evidence of progress, while several argued real automation will show up in economically motivated settings, not small benchmarks.
+**Comments:** Many commenters attack Tao's cancer slide, arguing medicine already relies on imperfectly understood treatments and that patients would accept effective cures. Others defend Tao's broader concern about preserving human understanding and mathematical insight, while debate also covers AI's effect on math careers, proof elegance, grant writing, and whether Tao is being misread as anti-AI.
 
-## 7. [The Lightbulb Computer](https://news.ycombinator.com/item?id=50029487) (↑119, 💬30)
-**Article:** The Lightbulb Computer is a design prototype combining a projector and computer vision in a lightbulb form factor to project ambient, spatial interfaces onto everyday surfaces. It demonstrates use cases like kitchen recipes, study help, shared maps, smart-home pointing, and family boards, arguing this is a more social alternative to smart glasses and headsets.
+## 7. [NYC's "Click to Cancel" rule is now in effect](https://news.ycombinator.com/item?id=50045946) (↑258, 💬118)
+**Article:** NYC's "Click to Cancel" rule took effect October 1, 2026, requiring businesses to let consumers cancel subscriptions as easily as they signed up, through the same medium. It mandates clear disclosure of subscription terms and rights, and allows complaints to the Department of Consumer and Worker Protection with civil penalties starting at $525.
 
-**Comments:** The author answered technical questions, noting the demos are real but run on a bulky Mac-based prototype with a 4K laser projector and webcam. Commenters praised the concept and compared it to Dynamicland, Folk Computer, and Sixth Sense, while raising concerns about daylight visibility, shadows, persistence, cost, privacy, and whether it becomes another screen or telescreen.
+**Comments:** Commenters mostly support the rule but debate enforcement, with some citing NYC's history of weak enforcement and penalties too small to deter corporations. Adobe's cancellation fees and annual-commitment tactics are a common example, while others mention similar state and EU rules and recommend building to the strictest standard. Jurisdictional complexity and credit-card disputes also come up.
 
-## 8. [Why We Still Cannot Read Etruscan](https://news.ycombinator.com/item?id=50037183) (↑5, 💬0)
-**Article:** Etruscan can be pronounced and its alphabet understood, but its vocabulary remains largely unknown because it is not Indo-European and has no well-attested close relatives. The surviving corpus is roughly 12–13 thousand inscriptions, mostly short epitaphs, with only about 2,000 words of continuous prose and no true bilingual like the Rosetta Stone, leaving many basic words, including the dice numerals, still disputed.
+## 8. [How to Build Wealth as a Career Person](https://news.ycombinator.com/item?id=50044715) (↑104, 💬108)
+**Article:** The blog post argues that traditional employment can build substantial wealth if workers increase their value, develop career capital, and convert income into assets instead of lifestyle inflation. It advises making things happen at work, becoming useful across the organization, and avoiding becoming an indispensable bottleneck.
+
+**Comments:** Commenters largely agree with saving and investing but criticize the article as banal or overly careerist, noting much of the wealth advice reduces to "spend less and invest the difference." Debates cover luck versus effort, RSUs and tech compensation, early retirement paths, and whether the piece ignores structural barriers or parenting realities. Some praise its emphasis on relationships, learning, and trustworthy leadership.
+
+## 9. [A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her](https://news.ycombinator.com/item?id=50047825) (↑41, 💬14)
+**Article:** The article reports on a remote employee who was fired after refusing an employer requirement to submit 160 webcam photos per day, raising questions about invasive workplace surveillance. It highlights concerns that such monitoring is used to justify firings or return-to-office mandates.
+
+**Comments:** Commenters condemn the webcam requirement as excessive surveillance and suspect it was a pretext for a soft layoff or RTO push, especially given the employee's long positive record. They discuss workplace monitoring tools like Zscaler, advise never using work devices for personal activity, and note that employer-employee power imbalances make such demands hard to resist.
+
+## 10. [IRCv3](https://news.ycombinator.com/item?id=50041540) (↑311, 💬266)
+**Article:** IRCv3 is the working group and specification set for modern IRC extensions, adding features like SASL authentication, message metadata, away notifications, server-time, and message grouping while remaining backward-compatible. The site lists ongoing work on account registration, chat history, secure connections, Unicode nicknames, and avatars, with participating clients, servers, and networks.
+
+**Comments:** Commenters nostalgically praise IRC's compact, fast, information-dense experience and share current setups using Ergo, The Lounge, Goguma, and other clients with IRCv3 features like persistent history. Debate centers on IRC's limitations—no native image/file hosting, ephemeral history, and fragmented optional extensions—versus Discord, Matrix, and other modern alternatives. Some criticize IRCv3's slow progress and leadership, while others highlight ongoing development and self-hosted federated chat.
+
+## 11. [The Unreasonable Effectiveness of Vex in NixOS](https://news.ycombinator.com/item?id=50046864) (↑33, 💬0)
+**Article:** The article explains how VEX documents can reduce false-positive vulnerability triage, using SBOM scanning examples in Go and Debian/OpenSSH. It contrasts reachability analysis with OS-level scanning, where configuration-dependent vulnerabilities are hard to assess manually, then shows how NixOS can codify those conditions and conditionally generate VEX statements.
+
+**Comments:** There are no comments on this story.
+
+## 12. [apsw: Another Python SQLite Wrapper](https://news.ycombinator.com/item?id=50045273) (↑46, 💬13)
+**Article:** APSW is an alternative Python SQLite wrapper that exposes the complete SQLite C API through Python, including full-text search, session, virtual tables, VFS, JSON, CArray, and async framework support. The README recommends the built-in sqlite3 module for DBAPI interchangeability, but suggests APSW when users want to use SQLite more fully and with a better developer experience.
+
+**Comments:** Commenters broadly praise APSW as a "SQLite lover's SQLite library," contrasting it with the stdlib sqlite3 module's more generic DBAPI design. Users share an ergonomic layer called apswutils, ask about getting column names from empty results, and discuss stdlib sqlite3 transaction/nested-transaction quirks. Some note the project is not new, though its latest commit was recent, with one joking "Abandonware!" comment.
+
+## 13. [The tilde in your PATH may not be your HOME](https://news.ycombinator.com/item?id=50042425) (↑191, 💬132)
+**Article:** The article warns that `export PATH="$PATH:~/.local/bin/"` does not expand `~` because tilde expansion only occurs in unquoted contexts, so it can add a literal `./~/.local/bin/` path instead of the user's home directory. It recommends using `$HOME` instead, notes that unquoted assignment forms work in Bash/Zsh but are fragile, and provides commands to check whether `PATH` contains a literal tilde.
+
+**Comments:** The thread debates shell quoting, portability, and tilde-expansion rules, with many recommending `$HOME` or unquoted assignment syntax and warning that Bash/Zsh behavior is not universally POSIX-safe. Commenters share anecdotes about accidental literal `~` directories, `rm -r ~` disasters, `$HOME` versus `getpwent` mismatches, and zsh's `path` array. Some call the issue common knowledge, while others argue shell quoting remains a notorious footgun.
+
+## 14. [LineageOS 24.0](https://news.ycombinator.com/item?id=50040276) (↑387, 💬163)
+**Article:** LineageOS 24.0 is a new release based on Android 17, with security patches, Material 3 Expressive app updates, a new Canvas image editor, updater streaming improvements, WebUSB-based flashing tools, CI/CD changes, and an accessibility audit. It also deprecates new submissions for devices on Linux kernels 4.4 and 4.9, limiting them to LineageOS 22.2.
+
+**Comments:** Commenters thank LineageOS maintainers for keeping old phones like the Pixel 4a, OnePlus 6T, and OnePlus 7 out of landfill, while wishing for clearer recommendations of devices that can be bought new today. GrapheneOS comparisons dominate parts of the thread, focusing on security, privacy scopes, and update speed, alongside caveats about camera quality, RCS group texts, and modem/baseband vulnerabilities. Others discuss maintainer burden and an experimental generic target that has booted on x86_64 PCs, Apple Silicon Macs, and other bare-metal hardware.
+
+## 15. [Akhetonics Photonic Computing: 1,000x Faster CPUs](https://news.ycombinator.com/item?id=50008566) (↑48, 💬33)
+**Article:** The article content was unavailable, so no article summary can be provided.
+
+**Comments:** Commenters are largely skeptical of claims about 1,000x-faster photonic CPUs, questioning nonlinear optics at terahertz frequencies and milliwatt power, and citing past failed photonic computing efforts by Cray and the University of Colorado. Many criticize the article as AI-slop or too-good-to-be-true, while noting that photonic components are larger and unlikely to replace CPUs soon, though they may help interconnects or radio chips. A few defend nonlinear optics as real and ask technical questions about material limits and scaling.
+
+## 16. [Show HN: BetterWispr – Free, open-source dictation for Mac](https://news.ycombinator.com/item?id=50042333) (↑129, 💬79)
+**Article:** BetterWispr is a free, Apache-2.0 macOS dictation app that runs speech models locally and inserts cleaned text into any app via Option+Space. It supports Whisper, Parakeet, and Apple Speech, with filler cleanup, per-app writing styles, custom vocabulary, history, graphs, meeting notes, and no account or cloud fallback.
+
+**Comments:** Commenters compare it with a crowded field including VoiceInk, Handy, Biscotti, and FluidVoice, while debating whether dictation is faster or better than typing and how to control it via remotes or pedals. Some praise the local privacy and Parakeet v3 accuracy, while others question the “Wispr” name trademark and request Windows/Linux support. A few suggest wake words and separate voice-command modes for local LLMs.
+
+## 17. [FlowCE: Calculus on your TI-84 Plus CE](https://news.ycombinator.com/item?id=50033486) (↑10, 💬3)
+**Article:** FlowCE is a free GPL calculator app for the TI-84 Plus CE and TI-83 Premium CE that provides a textbook-style computer algebra system for derivatives, integrals, limits, series, and graphs. It is a fork of KhiCAS using Giac, installs through a browser or TI Connect CE, and requires clearing the calculator archive because it uses about 2.8 MB.
+
+**Comments:** Commenters question who would install it, arguing that anyone savvy enough to do so could likely learn the calculus computations themselves. One calls it a vibe-coded interface over an existing CAS, while another defends calculator CAS tools for checking work and handling applied math without getting bogged down in computation.
+
+## 18. [How I reverse engineered a commercial spatial audio effect](https://news.ycombinator.com/item?id=50044272) (↑78, 💬27)
+**Article:** The author reverse-engineered a commercial real-time spatial audio effect for Linux/PipeWire, starting with HRTFs and then treating the processor as a linear time-invariant filter. They captured impulse responses, logarithmic sweeps, tones, multitones, and noise through the original app, then used regularized deconvolution and synchronization to reconstruct the filter and its behavior.
+
+**Comments:** The original plugin author shares his own 2014 writeup and discusses past commercialization and possible hardware ambitions. Many commenters criticize the effect as overprocessed “Bose barf” or source-dependent, while others prefer the distant, softer sound and suggest ffmpeg’s earwax filter or EQ for neutral playback. The thread also discusses bass adjustment, headphone neutrality, and hearing damage.
+
+## 19. [Safe SIMD in Rust, even on the inside](https://news.ycombinator.com/item?id=50033601) (↑11, 💬0)
+**Article:** Sergey Davidoff describes how Rust’s SIMD abstractions hid unsafe intrinsics and how Rust 1.87 plus CPU feature tokens can encapsulate that unsafety. Using zero-sized tokens, a safe macro, and generic Level types, he shows how to expose safe `a + b` SIMD operations that automatically select AVX2, NEON, or no-SIMD implementations at runtime.
+
+**Comments:** No comments were posted, so there is no discussion or debate to summarize.
+
+## 20. [Weave (YC W25) is hiring ML, AI, product, & design engineers](https://news.ycombinator.com/item?id=50042330) (↑1, 💬0)
+**Article:** The provided page is a jobs listing for Weave (YC W25), advertising openings for ML, AI, product, and design engineers. No additional description of the company or roles was included in the content.
+
+**Comments:** No comments were posted, so there is no thread to summarize.
+
+## 21. [Valen's Memory Safety: A New Kind of Borrow Checking](https://news.ycombinator.com/item?id=50042362) (↑123, 💬74)
+**Article:** Valen's creator Evan Ovadia describes a new borrow checker based on the "Group Borrowing" proposal, where references carry path information and the compiler tracks invalidations to enforce compile-time memory safety without runtime cost. It relaxes Rust-style shared-xor-mutable to no-use-after-free, permitting multiple mutable aliases to the same object or group, and aims to interoperate with Rust and combine with reference counting or generational references.
+
+**Comments:** Commenters debated whether giving up shared-xor-mutable is worthwhile: some defended Rust's stricter model for fearless concurrency and optimization, while the author and others replied that Valen can also express shared-xor-mutable and makes mutable aliasing opt-in. Other threads discussed naming ("group" vs. "path" borrowing), thread-safety and immutability guarantees, abstraction costs, Rust backporting, and the Vale/Valen relationship.
+
+## 22. [Playgrnd – tiny tools for making weird, beautiful things](https://news.ycombinator.com/item?id=50044989) (↑43, 💬9)
+**Article:** Playgrnd is a browser-based index of small creative tools, with filtering and search and the promise that everything runs locally: nothing is uploaded or stored, and exports belong to the user. The page presents tools by kind, year, and price, and is designed for experimental visual making.
+
+**Comments:** One commenter noted the implementation uses raw JavaScript writing to an ImageData buffer scaled onto a canvas, with no third-party libraries or WGSL. Another alleged that at least some tools are copied from others and linked to a creator's post about stolen work; other comments praised the collection, asked about contributing or additional tool kinds, and critiqued the site's tagline as AI-like.
+
+## 23. [Shape-sensing sheet digitally tracks its own movement as it bends and twists](https://news.ycombinator.com/item?id=50032253) (↑20, 💬0)
+**Article:** MIT engineers developed a flexible shape-sensing sheet made of soft optical fibers arranged in a zigzag pattern through silicone; bending and twisting alter light transmission, and an algorithm reconstructs the sheet's 3D shape in real time. The damage-tolerant design is envisioned as a wearable "skin" for physical therapy, VR/gaming control, and soft robotics, and was published in Advanced Intelligent Systems.
+
+**Comments:** There are no comments on this story. No debate, consensus, or additional insight is present in the thread.
+
+## 24. [The RAM shortage is bringing back DDR4](https://news.ycombinator.com/item?id=50028647) (↑261, 💬271)
+**Article:** The Verge reports that the global RAM shortage and DDR5 price spikes are prompting Intel, AMD, and motherboard vendors to revive DDR4-compatible platforms, including new LGA 1700 CPUs and AM4 boards and CPUs. Although DDR4 is over a decade old and slower, it remains far cheaper than DDR5, changing upgrade economics for many PC builders.
+
+**Comments:** Commenters shared anecdotes about soaring DDR4, DDR5, and ECC prices, buying used server RAM for home labs and local AI, and the continued relevance of DDR3 in budget or decommissioned hardware. Debate centered on whether the shortage is artificial or AI-driven, whether DDR4 is fast enough for most workloads, and whether new fab capacity or Chinese suppliers like CXMT will eventually bring prices down.
+
+## 25. [I'm sorry, but you still have to think](https://news.ycombinator.com/item?id=50043689) (↑281, 💬118)
+**Article:** Piotr Sarnacki critiques DHH's AI-assisted rewrites of Campfire from Rails to Rust, Elixir, and Go, arguing that vague prompts cause arbitrary non-functional choices around compatibility, caching, queues, and performance. He points to implementation problems such as blocking database operations and sync locks inside async Rust tasks, and argues benchmarks and trade-offs show that developers still need to understand the system and code.
+
+**Comments:** Commenters broadly agreed that AI-generated rewrites and "workslop" still require human judgment and review, though some argued LLM ports can work well when given tests, constraints, or an existing architecture and that reviewing everything may not scale. Threads also debated DHH's Elixir comparison, benchmark methodology, reliability under load, management pressure to delegate coding to agents, and whether future developers will routinely stop reading generated code.
+
+## 26. [I paid people to try and follow my README](https://news.ycombinator.com/item?id=50042219) (↑350, 💬183)
+**Article:** Terence Eden paid volunteers €25 for an hour to install and follow his ActivityBot README while speaking aloud, then iterated after each session. The testing exposed broken links, unexplained terminology, confusing section order, unfunny jokes, and no clear description of what the software does. He argues real users catch documentation problems that authors and LLMs miss, and urges developers to test READMEs with people.
+
+**Comments:** Commenters largely agree that READMEs are often bad, especially when they omit what the project does or contain outdated commands, jargon, and excessive emojis. Some compare the practice to usability testing, friction logs, or QA, while others debate whether LLM/agent testing can substitute for human think-aloud sessions. Several note that fresh eyes, screenshots, and treating docs like code all help.
+
+## 27. [A Cray-1 supercomputer replica from 30 "obsolete" Mac Minis](https://news.ycombinator.com/item?id=50028264) (↑51, 💬22)
+**Article:** Spain’s Museo de Historia de la Computación built a 1:1 visual replica of the 1976 Cray-1 using 30 old Mac Minis, networked to reach about 1.3 teraflops across 64 active cores. The project uses passive vertical cooling, macOS Mojave with MPI, and a retro control terminal, and the museum hopes to crowdfund 70–80 M4 Mac Minis to try for the TOP500 list. It is displayed as a tribute to early supercomputing and Apple’s founding era.
+
+**Comments:** Commenters debate whether it counts as a replica, with some calling it a tribute and others wishing for a refurbished real Cray-1. Many doubt the TOP500 goal, noting FP64 requirements, network limits, and that hundreds or thousands of Mac Minis would be needed; others discuss power costs and suggest donating compute to universities or BOINC. Side topics include Cray-1 cooling/noise, smartphone performance comparisons, and the current RAM shortage.
+
+## 28. [Fetching AMD SEV Reports (With Zig)](https://news.ycombinator.com/item?id=50047323) (↑3, 💬0)
+**Article:** The post explains AMD SEV, SEV-ES, and SEV-SNP confidential computing, focusing on how SNP launch measurement and signed attestation reports protect a guest from its hypervisor. It shows Zig code for issuing SNP_GET_REPORT through /dev/sev-guest, discusses VMPL and SVSM/OpenHCL paths, and describes report verification via zig-sev-guest with OpenSSL. The article covers report data freshness, policy checks, and expected launch measurements.
 
 **Comments:** No comments were provided.
 
-## 9. [Talorys – A self-hosted personal AI agent on Cloudflare's free tier](https://news.ycombinator.com/item?id=50031614) (↑220, 💬112)
-**Article:** Talorys is an open-source personal AI agent deployed with one command into a user’s own Cloudflare account, using Workers, Pages, Durable Objects, and Workers AI. It offers chat, memory, tasks, notes, projects, scheduled reminders, and automations as a single-user, no-telemetry system designed to fit Cloudflare’s free tier.
+## 29. [Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests](https://news.ycombinator.com/item?id=50042370) (↑49, 💬74)
+**Article:** A Lund University-led study published in Nature used ancient DNA from Denmark to argue that Scandinavia’s first farmers largely wiped out hunter-gatherers about 5,900 years ago, followed by another near-total turnover when Yamnaya-related herders displaced the farmers around 4,850 years ago. The authors suggest violence and livestock-borne pathogens drove the replacements, overturning the idea of peaceful merging. Today’s Danish genetic profile is said to derive mainly from the later Yamnaya-related population.
 
-**Comments:** Much of the thread debated whether “self-hosted” is accurate when everything runs on Cloudflare, with some calling it “self-managed” or noting it is open source and can be adapted to local models. Others praised Durable Objects, raised billing and Workers AI performance concerns, and discussed the broader appeal of personal, private AI agents.
+**Comments:** Commenters heavily debate the study’s framing, with several arguing that “total wipeout” overstates the evidence and noting surviving hunter-gatherer paternal lineages or regional variation. Discussion ranges over disease, Y-chromosome bottlenecks, farmer vs. hunter-gatherer conflict, land ownership, and parallels to colonialism and modern immigration politics. Some criticize phys.org’s article for sensationalism, while others recommend Ishmael and debate whether farmer societies were uniquely exterminatory.
 
-## 10. [Mxc: Microsoft Execution Containers version 1.0.0](https://news.ycombinator.com/item?id=50016956) (↑140, 💬28)
-**Article:** Microsoft Execution Containers (MXC) is a generally available policy-driven containment layer for AI agents and untrusted workloads on Windows, macOS, and Linux. Developers define file, network, and process boundaries enforced outside the agent, with backends ranging from process containers to Windows-only session containers, WSL containers, and experimental MicroVMs.
+## 30. [3rd Yandex Cloud Data Center Was Hit](https://news.ycombinator.com/item?id=50040547) (↑533, 💬638)
+**Article:** The submitted link points to Yandex Cloud’s site, which shows only a JavaScript-disabled notice and no article text. The story title and surrounding discussion indicate that a third Yandex Cloud data center was hit.
 
-**Comments:** Commenters welcomed enterprise-focused agent containment and Windows AppContainer improvements, but criticized the permissioning model as overly complex and the docs as unclear or LLM-generated. Many wanted generic app sandboxing beyond AI agents and debated whether OS multi-user security remains a useful boundary versus virtualized isolation.
-
-## 11. [Nvidia in talks to acquire US 'open' model startup Reflection AI](https://news.ycombinator.com/item?id=50035886) (↑85, 💬50)
-**Article:** No article content was available. The title reports that Nvidia is in talks to acquire Reflection AI, a U.S. startup associated with open models.
-
-**Comments:** Commenters debate Nvidia’s motive: some describe a “commoditize your complement” strategy to keep open/semi-open models widely available and reduce dependence on a few hyperscaler customers, while others call it consolidation or open-washing. Many cite Nvidia’s prior $800M investment in Reflection AI, its CUDA/hardware margins, Nemotron’s quality, and the threat from custom inference chips. A few push back on conspiracy claims, arguing Nvidia simply wants more customers and models running on its hardware.
-
-## 12. [Apple/macOS removed from official Unix registry](https://news.ycombinator.com/item?id=50031653) (↑219, 💬195)
-**Article:** The linked page is The Open Group’s official register of UNIX-certified products, listing systems such as IBM AIX/z/OS, HPE HP-UX, and SCO UnixWare/OpenServer. It contains no Apple/macOS entry in the main list, which the submission frames as macOS having been removed from the official Unix registry.
-
-**Comments:** Several commenters note that macOS 26 (Tahoe) still appears under the UNIX 03 filter, suggesting certification may simply lag for the next release or that the framing is misleading. Others argue UNIX certification is largely obsolete and procurement-driven, while some discuss Apple’s historical Unix marketing and whether dropping it matters technically. The thread also jokes about the registry as a museum of obsolete operating systems and points to past certification quirks.
-
-## 13. [REA Reverse – Engineer Anything](https://news.ycombinator.com/item?id=50028275) (↑659, 💬285)
-**Article:** REA is a browser/agent-integrated reverse-engineering toolkit that lets a coding agent inspect programs and running scripts to explain or rebuild behavior. It demonstrates recovering Windows Calculator’s percentage rule and the Chrome dinosaur game’s speed logic, returning decompiled code, assembly, and rules for the agent to summarize. Setup is via `npx rea-agents@latest setup` with GitHub and HuggingFace resources.
-
-**Comments:** Commenters are impressed by AI-assisted reverse engineering, sharing examples like patching Windows Remote Desktop bugs or decompiling old games, but many worry it will flood decompilation/modding communities with low-effort AI output and erode hobbyist collaboration. Others debate legal and ethical limits, model refusals around cyber/RE work, and tools like jadx/droidasc for Android analysis. Some see it as enabling preservation and DRM cracking, while others question whether it is better than giving an agent Ghidra/radare2 directly.
-
-## 14. [Grieving the loss of details](https://news.ycombinator.com/item?id=49980880) (↑285, 💬222)
-**Article:** The author, a self-described low-level coder, grieves that LLMs are making detail-oriented programming, performance optimization, and deep machine understanding less valued. She describes needing to understand systems fully, from assembly to physics, and says LLM-driven development has removed the parts of programming that gave her purpose and career stability. She now refuses to use LLMs for things she cares about and is considering disability as an alternative.
-
-**Comments:** Many commenters empathize, describing similar grief and loss of craft, while others argue deep performance expertise and detail-oriented review remain valuable because LLMs produce inefficient or subtly flawed code. A recurring debate is whether AI truly replaces low-level skill or just changes it; some cite a coworker who still codes by hand and catches bugs AI misses, and others compare the shift to industrialization or the loss of community. Some push back on the post as defeatist or inaccurate about LLM optimization capabilities.
-
-## 15. [Rampart: Browser native on-device PII radaction](https://news.ycombinator.com/item?id=50024242) (↑57, 💬25)
-**Article:** National Design Studio open-sourced Rampart, a browser-native PII redaction tool that runs before messages are sent, combining deterministic regex/validations with a small MiniLM model. It claims a 14.7MB model, ~3.9ms WebGPU median latency, and 98.4% private-term recall across seven languages, with code on GitHub and HuggingFace.
-
-**Comments:** Commenters question whether 98.4% recall is sufficient for PII redaction and note that quasi-identifiers and correlated data can still reveal people even when individual fields are removed. Some criticize the government’s framing and trustworthiness, citing co-author Edward Coristine’s DOGE controversy and arguing that AI vendors, not users, should be legally barred from storing sensitive data; others defend the source-available, local approach as a useful baseline. File attachments, HIPAA/PHI, and video PII are also raised as unsolved gaps.
-
-## 16. [OpenSCAD the Programmers Solid 3D CAD Modeller](https://news.ycombinator.com/item?id=49984349) (↑71, 💬62)
-**Article:** OpenSCAD is a free, open-source solid 3D CAD modeller that describes geometry through a declarative code language using primitives and constructive solid geometry (CSG), available on Linux, Windows, and macOS. The landing page points to downloads, tutorials, libraries, books, and a cheat sheet, and notes recent community activity such as a braiding machine built from code. It targets programmers who want to model 3D objects by writing scripts rather than manipulating a GUI.
-
-**Comments:** Commenters widely praise OpenSCAD's fit for programmers but criticize its quirky language semantics (last-assignment-wins variables) and its poor support for operations like arbitrary fillets, repeatedly recommending alternatives such as CadQuery, build123d, FreeCAD, and JSCAD. Many note that the release version is outdated and urge using nightly builds with the manifold solver, and several report strong success using LLMs to generate and port OpenSCAD models. A recurring topic is the tooling hierarchy—SolidWorks/Fusion outclassing FreeCAD, which outclasses OpenSCAD—alongside tips like the BOSL2 library and BlocksCAD for kids.
-
-## 17. [Unikernels were hard. key word: were](https://news.ycombinator.com/item?id=50033357) (↑52, 💬22)
-**Article:** Geoffrey Huntley argues that unikernels, long considered hard to adopt, are becoming practical because the missing libraries and tooling can now be rapidly generated with AI agents, and because the traditional OS is essentially "design debt" inherited from multi-user mainframe assumptions. A unikernel bundles the application with only the OS functionality it needs, shrinking attack surface so that compromising the app yields no shell or interpreter to pivot from. He cites porting work (e.g., reimplementing mkfs.xfs in Rust using the original as a golden oracle), S3-backed storage, Nix machine tests and overlays, and concludes that security-conscious deployments should either use seL4 or seriously consider unikernels.
-
-**Comments:** Commenters debate whether unikernels genuinely improve security, noting that attackers can still "pop the hypervisor," that debug visibility is lost when the app shares an address space with the network stack, and that the hypervisor becomes the real OS. Others defend the model as simply redrawing abstraction boundaries, pointing to shared reviewed libraries (MirageOS, Unikraft, Hermit) and managed runtimes like OCaml or Go for memory safety. Several question whether short start times justify investment given that most services are long-lived, and note GPU virtualization (especially NVIDIA) remains infeasible, while some see microVMs as a promising middle ground.
-
-## 18. [Telegram Desktop vulnerability allowed any user's file to be stolen](https://news.ycombinator.com/item?id=50029123) (↑388, 💬229)
-**Article:** A security researcher details CVE-2026-107181, a vulnerability in Telegram Desktop (through v7.2.8) where the single-instance IPC serialization fails to escape semicolons, letting a crafted link inject additional commands into the running instance. Chained with the internal `interpret:` URI scheme—originally built for publishing Telegram releases—this allows a clicked link to read any user-accessible file and exfiltrate it to an attacker-controlled chat, including session files, enabling one-click account takeover. It was rated 8.1 High and fixed in 7.2.9.
-
-**Comments:** Commenters broadly agree the root problem is that desktop OSes let any program read any user file, with many advocating sandboxing (Firejail, bubblewrap, Qubes, Flatpak) and wishing browsers and messaging apps were isolated by default. Several criticize Telegram's security posture generally—lack of default E2EE, phone-number authentication, and a three-month delay between report (June 25) and fix (September 16)—while others defend Telegram's polished UX, open clients, and third-party API. A notable thread questions the article's AI-sounding prose, and a few point out that the `interpret:` scheme was an obvious internal footgun added for the vendor's own convenience.
-
-## 19. [Bitwarden Dual License Model](https://news.ycombinator.com/item?id=50033407) (↑313, 💬231)
-**Article:** In an October 2026 forum notice, Bitwarden announced that apps published to app stores will ship as commercially licensed builds rather than GPLv3, while the GPLv3 versions continue to be maintained and published on GitHub. The company says no user action is needed, all current features remain in both versions, self-hosting and forking are unaffected, and the change mainly targets repackagers/resellers—though new features will be evaluated case-by-case for which license applies. Staff clarified that the download page and direct downloads will point to the commercial build.
-
-**Comments:** The thread is largely critical, with many users calling it the start of "enshittification," a classic open-core rug pull, and a signal to migrate to alternatives like Vaultwarden, KeePassXC, Apple Passwords, or Proton Pass; some canceled subscriptions or cited the prior price increase as the last straw. Others are more sympathetic, arguing the funding problem for open source is real (citing Elasticsearch/Redis cases), that commercial licensing is enforceable and reasonable, or that they'll stay as long as source remains visible and self-hosting works. A notable sub-thread links a blog post about Bitwarden's management changes, with some readers dismissing it as AI-written.
-
-## 20. [How strong is the strong interaction?](https://news.ycombinator.com/item?id=50028162) (↑36, 💬6)
-**Article:** CERN Courier article explains that of the Standard Model's three gauge couplings, the strong coupling αs between quarks and gluons is the least precisely known, limited to roughly one part in a hundred versus the fine-structure constant's one part per billion. The piece reviews decades of lattice QCD, which reformulates the theory on a discrete spacetime grid to compute non-perturbatively, and describes a recent Nature result reducing αs uncertainty to five parts per mille using only low-energy input. This matters because precision LHC and future collider measurements—like Higgs production via gluon fusion—are increasingly limited by αs uncertainty.
-
-**Comments:** Commenters work through intuitive scales, estimating the strong force between gluons at ~150,000 N at one femtometer versus ~230 N for electromagnetism, and noting the force plateaus then "snaps" around 1.1–1.5 fm, creating new gluon pairs. One commenter explains that confinement means adding energy produces new particle pairs rather than breaking the bond, which is why proton collisions yield showers of pions and kaons. Another clarifies that proton size comes from the equilibrium between quark kinetic energy (Heisenberg uncertainty) and the confining force, and that the weak force is weak both because W/Z carriers are massive and because their creation is rare at ordinary energies.
-
-## 21. [A nuclear clock synchronized to 229Th](https://news.ycombinator.com/item?id=49998116) (↑7, 💬2)
-**Article:** The provided article content is only a Cloudflare/client challenge error; no actual article text is available.
-
-**Comments:** The two comments ask whether using an unstable isotope introduces wobble and whether a stable element could work. A reply notes the ~8,000-year half-life means supply is not a concern and questions whether the isomeric state’s long-term instability matters.
-
-## 22. [Chip-hex:cost-benefit, energy efficiency and hexagonal](https://news.ycombinator.com/item?id=50019988) (↑4, 💬2)
-**Article:** The article is a GitHub README for Chip-Hexa/LUNZ HEX-16, an experimental pre-silicon 16-core processor architecture exploring hexagonal interconnect, energy efficiency, and performance-per-cost optimization with a Python simulator and planned RTL. The repo presents design targets such as in-order 64-bit cores, 3 GHz, 16 KiB L1 caches, 2 MiB distributed L2, and no specialized AI/GPU accelerators, while stressing results are unvalidated simulations.
-
-**Comments:** One commenter notes fabs generally do not allow diagonal wires on relevant layers, limiting practical hexagonal routing. Another says the repository contains nothing real—just a ~20k-line Python file and documentation—and is entirely AI-generated.
-
-## 23. [I would like the value of my home to rise, while my property taxes fall](https://news.ycombinator.com/item?id=50032758) (↑179, 💬428)
-**Article:** The Conversable Economist post discusses David Schleicher’s paper on U.S. property tax reform, highlighting homeowners who want rising home values but lower property taxes. It argues recent state reforms shift property tax burdens from owner-occupied homes onto commercial property, other local taxes, and state funding, potentially raising housing costs and transferring wealth to existing owners.
-
-**Comments:** The 50-comment thread debates property taxes as wealth taxes, the burden shifting to renters, tax caps such as California’s Prop 13, land-value taxation, and housing as shelter versus investment. Commenters also discuss whether tax increases are driven more by local budgets than assessments, and how reduced services or higher commercial taxes affect communities.
-
-## 24. [Whooping Cranes Learned to Migrate by Following Costumed Pilots](https://news.ycombinator.com/item?id=50016696) (↑47, 💬6)
-**Article:** The article fact-checks the claim that costumed pilots led whooping cranes south by ultralight, confirming Operation Migration did so from 2001 to 2015. It details how 186 captive-raised cranes were taught a 1,200-mile Wisconsin-to-Florida route, but the program ended in 2016 because the birds rarely raised chicks, likely due to heavy human imprinting.
-
-**Comments:** Commenters recall the film Fly Away Home and praise the conservation effort. Others focus on the species’ severe genetic bottleneck, noting that 21 individuals means likely inbreeding and comparing the situation to cheetahs and Florida panthers.
-
-## 25. [Eye of Sauron: Long-Range Hidden Spy Camera Detection (2024)](https://news.ycombinator.com/item?id=49997481) (↑290, 💬69)
-**Article:** The USENIX Security 2024 paper presents ESauron, a proof-of-concept system that detects wireless, wired, and offline spy cameras by inducing scene changes and sensing electromagnetic radiation from internal memory operations. It reports 100% detection after four stimuli across 50 camera products, detection beyond 20 meters even with blockages, and accurate localization.
-
-**Comments:** Commenters debate novelty, comparing it to existing TSCM techniques, nonlinear junction detectors, and Van Eck phreaking, while citing Soviet passive listening devices like The Thing. Others discuss limitations such as shielding, RF interference, and possible mitigations, and note the approach’s clever use of optical stimulation rather than RF.
-
-## 26. [50MB operating system can resurrect your old PC](https://news.ycombinator.com/item?id=50036571) (↑17, 💬3)
-**Article:** MakeUseOf tested Damn Small Linux on a 13-year-old Dell Inspiron with a Core i3 and 4GB RAM after Windows 10 support ended. DSL began as a 50MB Linux experiment in 2003, returned in 2024 at about 700MB based on antiX, and installs from a USB drive. It booted in about 15 seconds and handled light browsing and documents, but had stability, video playback, and app-launch issues.
-
-**Comments:** Commenters suggested Bodhi Linux as an alternative, challenged the idea that a Core i3/4GB machine is “old,” and criticized the article’s AI-sounding phrasing. There was no major consensus beyond skepticism about the premise.
-
-## 27. [Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years](https://news.ycombinator.com/item?id=49986919) (↑117, 💬42)
-**Article:** Researchers from Leibniz University Hannover and HZDR analyzed six radioactive “hot particles” from the 1986 Chernobyl disaster using synchrotron X-ray diffraction. They found the nuclear fuel’s crystal structure largely intact and more mechanically stable than assumed, with fission products retained rather than rapidly leaching. The authors caution the sample is tiny and varied, so broader health-risk conclusions remain limited.
-
-**Comments:** Much of the thread debated the word “stable,” clarifying it means mechanically stable or long-lived ecologically, not radiologically stable or necessarily good. Commenters also compared Chernobyl’s fuel inventory to Hiroshima, discussed whether the finding is surprising, and drifted into nuclear-bomb, Project PACER, and Orion energy tangents.
-
-## 28. [Takeshi's Castle](https://news.ycombinator.com/item?id=50036119) (↑60, 💬23)
-**Article:** The Wikipedia article covers Takeshi’s Castle, the Japanese game show that aired on TBS from 1986 to 1990, starring Takeshi Kitano as a count whose castle contestants try to capture through physical challenges. It became a cult international hit, inspired physical-challenge shows, and was rebooted on Amazon Prime Video in 2023. The page details challenges, characters, and many localized international versions.
-
-**Comments:** Commenters shared nostalgia and discussed how foreign broadcasts often added localized comedic dubs, including Germany’s RTL2 version, the U.S. MXC, Italy’s Mai dire Banzai, Spain’s versions, and the UK’s Craig Charles narration. They also recommended Beat Takeshi films and shared archive links to subtitled episodes.
-
-## 29. [PVX-001: open-source Covid-19 vaccine starts Phase 1 trial](https://news.ycombinator.com/item?id=50033721) (↑108, 💬22)
-**Article:** PopVax founder Soham Sankaran announced that PVX-001, a broadly protective COVID-19 vaccine candidate, began first-in-human Phase I dosing in Melbourne on August 31, 2026. The vaccine uses an mRNA-encoded virus-like particle architecture, a fridge-stable LNP using PopVax’s PVXL-150 lipid, and is funded largely by Vitalik Buterin’s Balvi. PopVax plans to open-source its design and manufacturing information after Phase I and not enforce IP for betacoronavirus vaccines.
-
-**Comments:** The founder added context on the vaccine’s broad-protection goal, fridge stability, Balvi funding, and open-source pledge. Commenters asked what “open-source” means for a vaccine, why Australia was chosen, and whether boosters would be needed less, while others debated COVID mortality/prevention and joked about open-source commitments.
-
-## 30. [Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks](https://news.ycombinator.com/item?id=50037299) (↑7, 💬4)
-**Article:** Push Security reported an “Adception” malvertising campaign where attackers used legitimate Bing redirect URLs in Google search ads to route users to a fake Claude macOS installer. The chain goes through Google ad redirects, Bing click-tracking, and a compromised WordPress site before reaching a fake download page with cloaking. The page swaps the legitimate Claude install command for a Base64-decoded malicious script executed via zsh.
-
-**Comments:** Commenters advised installing adblockers for less technical users and criticized Google for failing to screen or act on malicious ads. One joked that Bing’s few users were notified, while another argued Google’s ad system likely profits from high-CPC malware ads despite available detection tools.
+**Comments:** Commenters are sharply divided: many celebrate the strike as retaliation for Russian attacks on Ukrainian telecom and internet infrastructure, share donation links for Ukraine, and discuss disruption to Yandex services, disinformation, and search reliance. Others focus on data centers as wartime targets and ask about redundancy, underground facilities, or impacts on Kagi, while some argue about responsibility, escalation, and civilian infrastructure. A few commenters make broader geopolitical claims about Russia, Ukraine, and Western infrastructure dependence.
 
 ---
-_Generated 2026-10-10 16:04 MDT_
+_Generated 2026-10-11 16:05 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Oct 11](./archives/2026/oct/hn-digest-2026-10-11.md)
 - [Oct 10](./archives/2026/oct/hn-digest-2026-10-10.md)
 - [Oct 9](./archives/2026/oct/hn-digest-2026-10-09.md)
 - [Oct 8](./archives/2026/oct/hn-digest-2026-10-08.md)
 - [Oct 7](./archives/2026/oct/hn-digest-2026-10-07.md)
 - [Oct 6](./archives/2026/oct/hn-digest-2026-10-06.md)
 - [Oct 5](./archives/2026/oct/hn-digest-2026-10-05.md)
-- [Oct 4](./archives/2026/oct/hn-digest-2026-10-04.md)
 
-[Full archive](./archives/) (151 issues)
+[Full archive](./archives/) (152 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
