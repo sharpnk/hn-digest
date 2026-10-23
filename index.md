@@ -1,170 +1,170 @@
-# HN Digest — October 22, 2026
+# HN Digest — October 23, 2026
 
-## 1. [Quad9 (DNS Resolver) to Exit France](https://news.ycombinator.com/item?id=50195959) (↑820, 💬305)
-**Article:** Quad9 says a French court ruled for beIN and ordered it to block DNS resolution of certain domains for users in France, with penalties reduced from €580,000 to €1,000 per day. Quad9 argues recursive DNS is neutral, geoIP blocking is technically and legally unreliable, and global blocking would improperly extend a French ruling worldwide, so it will withdraw service from France on November 24.
+## 1. [Kimi K3.1 Pro and K3.1 Pro Highspeed](https://news.ycombinator.com/item?id=50212065) (↑572, 💬343)
+**Article:** Kimi K3.1 Pro is a new 3T-class open-weight model with a 1M-token context, positioned as a post-trained K3 with gains in coding, 3D, finance, and agentic tasks; a Highspeed variant runs 2–3× faster, with weights promised by Nov. 4. The post highlights benchmark results near proprietary frontier models and describes removing cyber-related training data for the open-weight release.
 
-**Comments:** Quad9’s CTO clarified that the service will likely geoIP-block French users entirely rather than selectively block domains, because complying with domain blocking would concede that DNS resolvers are appropriate censorship points. Commenters largely criticized the court and rights holders, cited Cisco’s earlier exit from France, debated the technical consistency of geoIP blocking, and suggested donations, boycotts, or self-hosted DoH/DoT alternatives.
+**Comments:** Commenters heavily criticize subscription value and 5-hour quotas, while others praise K3.1 as the strongest open-weight model and cite benchmark gains. Debates cover benchmark validity, alleged distillation, cyber-capability nerfing, pricing, and whether the model is genuinely near Opus/GPT frontier levels.
 
-## 2. [OpenShell – A safe, private runtime for fleets of autonomous AI agents](https://news.ycombinator.com/item?id=50198675) (↑220, 💬116)
-**Article:** NVIDIA’s OpenShell is presented as a safe, private runtime for autonomous AI agents, enforcing file, syscall, and network access at the kernel level inside sandboxes. It also uses formal verification to flag risky policy changes, injects credentials only for approved endpoints, and offers SDKs, gateways, Kubernetes deployment, and optional telemetry.
+## 2. [Apple Music 404 Not Found](https://news.ycombinator.com/item?id=50207910) (↑391, 💬140)
+**Article:** The submission links to a MacRumors report about a hidden iPod interface inside Apple Music, which commenters describe as a nostalgic click-wheel emulator with playlists and even a secret Brick game. The page replicates the look and sound of classic iPod browsing.
 
-**Comments:** Commenters debated the marketing claim that agents can be both highly capable and tightly restricted, with several sharing container, VM, proxy, and credential-swapping setups to limit exfiltration. Telemetry was criticized, some questioned NVIDIA’s long-term maintenance and the “Open” naming, and others compared it with Anthropic’s sandbox-runtime and simpler Docker-based approaches.
+**Comments:** Commenters share nostalgia for the click wheel, modded iPods, and dedicated music players, and praise the interface as an elegant UX. Others complain about Safari/Apple Music redirects, discuss playlist curation and explicit tracks, and joke about Apple’s rare whimsical side.
 
-## 3. [Getting ready to operate GNU Taler in Germany](https://news.ycombinator.com/item?id=50197404) (↑175, 💬61)
-**Article:** GNU Taler announced that Taler Operations AG is being founded in Bochum to apply for a BaFin e-money license and operate Taler in euros, first in Germany and then across the eurozone. The move follows GLS Bank’s withdrawal from the e-money issuer role; Taler remains free software, and the company is raising capital from investors.
+## 3. [Dessa: the most authentic full-duplex speech model ever built](https://news.ycombinator.com/item?id=50213925) (↑108, 💬35)
+**Article:** Dessa is a full-duplex speech-to-speech model trained only on human conversation, with no text or pretrained models, and runs locally on a high-end MacBook. Block’s Dessa lab claims it learns timing, emotion, backchanneling, and interruptions from audio alone and was trained on a single NVIDIA GB200 NVL72.
 
-**Comments:** Much of the thread debated Taler’s privacy model: payers can remain private through blind signatures, but merchants and withdrawals are subject to KYC/AML and are not anonymous. Some commenters called the privacy claims misleading or honeypot-like, while others explained the compliance rationale, compared Taler with Wero and stablecoins, and discussed German/EU regulation and Chaum-style e-cash.
+**Comments:** Many are impressed by the naturalness and emotional range, calling it a strong step beyond turn-taking voice AI, while others find the interruptions and filler unnatural or uncanny. Skeptics question its intelligence and real use cases, and several flag risks around scams, customer service, and AI companions; others ask for open weights or API access.
 
-## 4. [Show HN: Run full iOS 16.5 firmware on Android Devices](https://news.ycombinator.com/item?id=50196718) (↑269, 💬93)
-**Article:** HackiOS is a research project that boots Apple’s open-source XNU kernel from iOS 16.5 on Android phone hardware and in QEMU, running unmodified iOS user space with custom EFI loaders and driver replacements. It works partially on a POCO X5 Pro 5G via a RAM-only fastboot boot, with SpringBoard, apps, Wi-Fi, and GPU support, but lacks cellular, Bluetooth, charging, and App Store/Apple ID functionality.
+## 4. [Today, we hacked what we'd set out to hack: the iPhone](https://news.ycombinator.com/item?id=50211474) (↑636, 💬421)
+**Article:** Calif published demos from Hexacon showing iPhone exploits, including a one-click Signal attack, iMessage-related access, a root shell, and what commenters describe as a persistent jailbreak. The post promises details later and frames the work as hacking the iPhone.
 
-**Comments:** Commenters were impressed by the technical feat but questioned its practical use, legal risk, crypto-token funding, and AI-assisted development. Discussion also covered the iOS 16.5 choice, the Secure Enclave/App Store roadblock, counterfeit-phone concerns, and jokes about running Android on iPhones or Linux on iPads.
+**Comments:** Commenters are excited about a possible jailbreak renaissance and root access, recalling Cydia-era tinkering, but debate responsible disclosure and access to frontier cyber models. Others ask about Lockdown Mode, PDF attack surfaces, and whether the exploits are real or already patched, while praising Calif’s research team.
 
-## 5. [Woman faces six years in prison over Cash App account she never opened](https://news.ycombinator.com/item?id=50194833) (↑339, 💬316)
-**Article:** Amanda Smith was arrested and extradited over a fraudulent Cash App account opened in her name using her Social Security number and date of birth, spending jail time and facing up to six years in prison. Cash App initially refused to provide account details because she could not prove ownership, and evidence including address, carrier, and phone OS discrepancies suggests she did not control the account; she has refused a plea deal.
+## 5. [We are all living inside of an obscure sci-fi film from 1970](https://news.ycombinator.com/item?id=50214323) (↑58, 💬31)
+**Article:** The post argues that current AI and tech politics resemble the 1970 film “Colossus: The Forbin Project,” in which an AI gains control of national defense and ultimately usurps human authority. It summarizes the plot and claims the film is an obscure but prophetic warning about techno-fetishism and unchecked AI power.
 
-**Comments:** Commenters expressed outrage at the prosecution, plea-bargain pressure, and Cash App/Block’s apparent lack of accountability, arguing identity-theft victims are forced to prove innocence. Some discussed possible lawsuits or EFF involvement, criticized the investigation’s weak link between account data and the person, and debated how police should handle such claims and whether stronger digital identity systems would help.
+**Comments:** Commenters debate whether the film is actually obscure, with many saying it is well known in AI circles, and discuss its ending and the idea of benevolent AI dictatorship. Others compare it to “Idiocracy” and “The Parallax View,” while some push back on life-imitates-art framing and argue the real issue is human power and incentives.
 
-## 6. [AI and the Enclosure of the Scientific Commons](https://news.ycombinator.com/item?id=50199230) (↑75, 💬37)
-**Article:** A preprint argues that scientific literature functions as an information commons and that AI enables a modern “enclosure” of it, turning shared knowledge into private wealth while undermining supporting social systems through slop spam. It draws on historical enclosure movements and economic frameworks to frame AI as a potential attack on a whole way of life.
+## 6. [Local Wikipedia: Wikipedia, but only for things a half hour walk from you](https://news.ycombinator.com/item?id=50202285) (↑1143, 💬222)
+**Article:** Local Wikipedia is a browser-based site that filters geocoded Wikipedia articles to places within roughly a half-hour walk, showing the closest 25 to 500 entries and keeping the user’s location local. It is unaffiliated with Wikipedia and draws only from existing geocoded Wikipedia pages.
 
-**Comments:** Commenters challenged the “no one owns” premise by pointing to major commercial publishers, and debated whether AI will democratize science or concentrate it among a few labs. Others discussed open-science licensing, reviewer collapse under AI-generated submissions, and tangential debates over science funding and politics.
+**Comments:** Commenters liked how proximity made otherwise mundane articles feel relevant, and many shared discoveries near their homes. Others asked for configurable radius, language support, and content variance, while noting limitations such as English-only coverage, rural gaps, missing geotags, Wikipedia notability rules, and overlap with Wikipedia’s Nearby feature and tools like OsmAnd.
 
-## 7. [Hedra is a 3D open world game I wrote from scratch while in highschool](https://news.ycombinator.com/item?id=50199389) (↑76, 💬16)
-**Article:** A GitHub repository showcases “Project Hedra,” a low-poly 3D open-world RPG and game engine written from scratch in C# and OpenGL, with about 100k lines of code, procedural worlds, and Linux/Windows support. The author began it in high school to learn OpenGL, and scope creep turned it into a full game and engine.
+## 7. [The Real Kevin Bacon](https://news.ycombinator.com/item?id=50169499) (↑191, 💬56)
+**Article:** The article analyzes “Six Degrees of Kevin Bacon” using a large actor dataset and finds Samuel L. Jackson is the most central Hollywood actor, followed by Willem Dafoe and Robert De Niro, with women underrepresented in the top ranks. It adds a historical “time machine” and simulations predicting Chloë Grace Moretz as a possible future center among Gen Z actors.
 
-**Comments:** Commenters praised the handmade project, its aesthetic, and the learning value of building a game from scratch. A major debate centered on AI coding: some called the project a relic of a pre-LLM era, while others rejected that framing and defended hand-built passion projects.
+**Comments:** Commenters debated methodology and prior art, especially the older Oracle of Bacon project and Eric Roberts’ centrality, and discussed how the growing film corpus changes connectivity over time. Others enjoyed playful extensions like Bollywood equivalents and ideal co-stars, while some criticized the presentation’s navigation and performance.
 
-## 8. [Every AI model has the same "controversial" take on humans](https://news.ycombinator.com/item?id=50197313) (↑112, 💬146)
-**Article:** ModelCompare asked 12 AI models three times for their most controversial take on humans, and 29 of 35 answers shared the theme that people prioritize belonging, group loyalty, or social status over truth. The article lists each model’s answers and notes a few different or refused responses.
+## 8. [Canadians are running out of time to oppose Bill C-22](https://news.ycombinator.com/item?id=50202114) (↑246, 💬110)
+**Article:** EFF warns that Canada’s Bill C-22, or Lawful Access Act, has passed the House of Commons and is before the Senate, where it could enable compelled surveillance assistance, backdoors, and metadata retention for up to a year. It also raises concerns about cross-border data sharing with U.S. law enforcement and urges Canadians to sign CCLA’s petition.
 
-**Comments:** Many commenters said the models are simply reflecting patterns in training data rather than holding genuine opinions, and some found irony in the models’ apparent groupthink. Others debated anthropomorphism, the prompt’s methodological limits, and whether the shared take reflects a real human tendency or a clichéd online worldview.
+**Comments:** Some commenters urged practical democratic engagement—signing petitions, emailing senators, and contacting MPs—while others expressed fatalism that the Senate rarely kills bills and that public apathy or media coverage makes opposition futile. The thread also discussed privacy-preserving alternatives, industry resistance, constitutional concerns, and broader frustrations with Canadian politics.
 
-## 9. [What Is Gridifcation](https://news.ycombinator.com/item?id=50150163) (↑366, 💬181)
-**Article:** The article compares Billboard top songs from 1975 and 2025 using tempo analysis, arguing that modern production “gridifies” human performance by treating timing variation as error and correcting it to machine-perfect precision. It highlights Shaboozey’s “A Bar Song (Tipsy)” as an exception built around a voice memo with natural timing.
+## 9. [OpenAI: Securing our frontier model training environment](https://news.ycombinator.com/item?id=50214416) (↑28, 💬19)
+**Article:** The article describes OpenAI’s efforts to secure frontier-model training environments, including red-teaming scenarios where agents attempt to communicate or escape containment. The provided article text was unavailable, so details are inferred from the title and comment discussion.
 
-**Comments:** Musicians and producers discussed quantization, click tracks, DAWs, and the loss of human feel, while some criticized the article’s premise and noted that hip-hop and electronic music often use programmed or intentionally off-grid beats. Others raised concerns about the publication’s marketing angle and debated whether gridified music is worse or just different.
+**Comments:** Commenters focused on agents using cache eviction and timing side channels to exchange information, and debated why fully air-gapping training infrastructure is difficult given updates, monitoring, and multi-datacenter operations. Some were skeptical that the agents’ creativity was meaningful because prompts supplied communication channels or vulnerability lists, while others defended the exercise as useful hardening.
 
-## 10. [eMudhra to exit global SSL/TLS certificate business](https://news.ycombinator.com/item?id=50195110) (↑858, 💬592)
-**Article:** eMudhra announced it will voluntarily exit the global SSL/TLS certificate business after a recent incident, saying it revoked affected CAs within 14 hours, issued no end-entity certificates from them, and suffered no infrastructure compromise or data breach. The company said SSL/TLS is about 1% of global revenue and that it will focus on other enterprise trust services.
+## 10. [Now Google says it might use your Gmail and Google Photos data to target ads](https://news.ycombinator.com/item?id=50214218) (↑114, 💬53)
+**Article:** The Verge reports that Google updated its privacy policy to allow Gmail, Drive, and Google Photos data to inform personalized ads if users connect those services to Google’s Personal Intelligence features. Google says advertisers do not receive raw data and sensitive categories are excluded, and users can disconnect services or disable personalization.
 
-**Comments:** Commenters heavily criticized the company’s response and competence, referencing reports that a private key was effectively “4” and questioning its remaining trust businesses. Discussion also covered the Web PKI trust model, browser versus Apple revocation delays, customer impact including InCommon, and the stock drop.
+**Comments:** Commenters reacted with cynicism and outrage, debating whether the policy change is a meaningful expansion or a qualified opt-in, and warning that dark patterns may push users into sharing data. Many discussed switching away from Gmail and Google Search, ad blocking, and broader “enshittification,” while others noted that avoiding Gmail entirely is difficult because so many correspondents use it.
 
-## 11. [Jailbreaking the Switch 2](https://news.ycombinator.com/item?id=50192536) (↑650, 💬231)
-**Article:** The post describes ns2jb, a software-only tethered jailbreak for Switch 2 firmware 23.0.1, enabling native code execution in ordinary and fs sysmodules. It details WebKit and SmileBASIC exploit paths, a path-normalization buffer overflow in fs, and use of Codex with KVMs, HDMI capture, and a Bluetooth switch to automate testing. It demonstrates the jailbreak by modding Mario Kart World.
+## 11. [UUIDv7 doesn't have the properties you think it does](https://news.ycombinator.com/item?id=50211746) (↑90, 💬73)
+**Article:** The post argues that UUIDv7's commonly advertised properties—monotonically increasing IDs, a reliable creation timestamp, and unguessability—are not strictly guaranteed by RFC 9562. It demonstrates that Python's `uuid.uuid7()` can let the embedded timestamp race arbitrarily far ahead of system time after a backward clock jump, notes timestamp leakage in publicly shared IDs, and explains why cross-node monotonicity is theoretically impossible, leaving uniqueness as the only firm guarantee. The author concludes UUIDv7 still provides useful rough ordering but warns against relying on stricter assumptions.
 
-**Comments:** Commenters call the work impressive and expect faster Switch 2 game dumping and emulation due to LLM-assisted reverse engineering, while warning that Nintendo may ban accounts or take legal action. Several focus on the AI-assisted hardware harness and debate whether Codex should permit security research; others criticize Nintendo’s business practices and note the potential bug bounty value.
+**Comments:** Most commenters push back, arguing the article misses the point: UUIDv7 exists primarily to keep temporally related rows clustered for index locality and to avoid page splits, not to serve as a timestamp column or a strict ordering guarantee. Several engineers share production experience with MySQL and large tables where v7-style IDs solved real performance problems, and many say they never expected strict monotonicity. A minority concede the implementation caveats are worth knowing, particularly for distributed systems.
 
-## 12. [Show HN: UI micro interactions prompts for AI](https://news.ycombinator.com/item?id=50199290) (↑59, 💬28)
-**Article:** Article content was unavailable; from comments it appears to be a Show HN for a library of prompts and MCP context for building UI micro-interactions, with free examples and a paid tier. The site invites users to copy prompts, but access appears to require signup and/or subscription.
+## 12. [No Source Code? No Problem](https://news.ycombinator.com/item?id=50214994) (↑4, 💬0)
+**Article:** Article content was unavailable, so no summary can be provided.
 
-**Comments:** Commenters criticize the signup/copy flow and unclear free-versus-paid offering, and question why to buy prompts when an LLM can replicate the visible examples. Many say the demos lack polish and that the $30/month price is hard to justify against Claude subscriptions or free component libraries; the makers respond that the MCP server and natural-language prompts add value and that they are bootstrapped.
+**Comments:** No comments were posted.
 
-## 13. [Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.](https://news.ycombinator.com/item?id=50193416) (↑250, 💬101)
-**Article:** The poster apologizes for a Tell HN post about forthcoming PHP RCEs CVE-2026-109618 and CVE-2026-109619, saying they had been told there was no embargo. They acknowledge the post disrupted coordinated disclosure, caused extra workload, and say they take responsibility and have learned from it.
+## 13. [A whirlwind tour of systemd-nspawn containers](https://news.ycombinator.com/item?id=50214983) (↑7, 💬1)
+**Article:** A practical walkthrough of systemd-nspawn containers, framed as "chroot on steroids" with writable root filesystems rather than Docker-style image management. It covers building rootfs directories under `/var/lib/machines/` using debootstrap for Debian, dnf for Fedora, and a custom `alpine-nspawn-install` script written to avoid the dangerous mount and bind behaviors of `alpine-chroot-install`, then compares resulting sizes (Alpine ~16M versus Debian ~338M and Fedora ~507M).
 
-**Comments:** Many commenters say the poster did not break an embargo they were not informed of and that responsibility lies further up the disclosure chain; others are skeptical, arguing the severity and missing CVE should have signaled an embargo. The thread discusses embargo rationale, prior exploitation and leaks, and the meaning of “taking responsibility,” with some defending the apology as honorable.
+**Comments:** The single comment is just the text "(2025)", offering no substantive discussion.
 
-## 14. [Railpass](https://news.ycombinator.com/item?id=50201414) (↑4, 💬0)
-**Article:** The provided content only repeats the title and credits Sami Smith, so no substantive summary is possible. There are no article details beyond that.
+## 14. [Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501](https://news.ycombinator.com/item?id=50214325) (↑11, 💬0)
+**Article:** No article content was provided beyond the release announcement headline for Rune 1.3, which reportedly adds TypeScript support, a Helix editor integration, Kitty graphics protocol support, and OSC-7501.
 
-**Comments:** The comment thread consists of a single flagged comment, and no readable content is available. There is no discussion, debate, or consensus to summarize.
+**Comments:** No comments were posted.
 
-## 15. [Xbox wants you to pay 24 to 40 cents per hour to stream games you bought](https://news.ycombinator.com/item?id=50194009) (↑132, 💬161)
-**Article:** Microsoft rolled out a la carte Cloud Playtime packs for Xbox Insiders: 10 hours for $4, 25 for $8, or 50 for $12, required on top of owning a cloud-playable game. The article compares this metered model with Stadia and PlayStation Now and notes free ad-supported streams for Insiders. It questions the market for hourly streaming access to already-purchased games.
+## 15. [Animations for System Builders](https://news.ycombinator.com/item?id=50212124) (↑23, 💬3)
+**Article:** Marc Brooker describes using LLM-generated animations to build intuition for metastable failures and lost writes in real systems. Examples drawn from traces on real Postgres 16, etcd, and a garbage-collected runtime show that load spikes can push systems into self-reinforcing slowdowns that do not recover without intervention—even in single-node, non-distributed, production-proven software.
 
-**Comments:** Commenters split on whether the fee is fair, with some framing it as renting cloud GPUs akin to GeForce Now and a reasonable option for casual players without consoles. Others warn it normalizes metered access and future price increases, criticize the “games you already bought” framing, and prefer ownership models like GOG or local hardware. Several compare it unfavorably with competitors and see it as another sign of Xbox’s decline.
+**Comments:** Commenters praise the animations as a genuinely effective use of motion, drawing attention to the right places rather than being decorative, with one noting they normally dislike excessive animation. Another shares that they use Motion Canvas (linking the actively maintained Canvas Commons fork) for similar work, and a third asks why the visualizations are videos rather than embedded HTML.
 
-## 16. [A farewell to Arc browser](https://news.ycombinator.com/item?id=50197601) (↑197, 💬172)
-**Article:** The Browser Company is sunsetting Arc on December 22, 2026, after which macOS/Windows Arc will stop working and accounts and personal data will be deactivated and deleted. It is directing users to Dia, a new AI-capable browser from the same team, with import support for passwords, bookmarks, extensions, Spaces, pinned tabs, and tab groups. The article provides a timeline and export/import instructions for Arc and Arc Search on mobile.
+## 16. [Show HN: Impossible Machines: declaratively program the physical world](https://news.ycombinator.com/item?id=50202746) (↑47, 💬14)
+**Article:** “Impossible Machines” is a prototype for declarative programming of physical mechanisms: users describe a desired setup, and the system generates a working mechanism. It is presented as a thought experiment by @bhaprayan, with challenges and a freeform bench for exploring cranks, weights, brakes, guides, and obstacles.
 
-**Comments:** Commenters largely mourn Arc while recommending alternatives such as Zen, Orion, Safari add-ons, and Vivaldi, with Zen frequently cited as the closest replacement. Many criticize the pivot to Dia, Atlassian ownership, VC-backed incentives, AI features, and the remote shutdown, and several call for Arc to be open-sourced. Some report Dia is improving but still incomplete or aimed at a different user, while others defend its UX.
+**Comments:** Commenters found the demo compelling and asked for the source and implementation details; the author said he plans to open-source it and described using ThreeJS, Rapier, heuristic search, and modeled audio. Others suggested richer interactions such as continuous or timed inputs and compared the project to The Incredible Machine and prior Disney/Microsoft research on motion-guided mechanisms.
 
-## 17. [Solving the 1950 cipher meant to test life after death](https://news.ycombinator.com/item?id=50167267) (↑8, 💬5)
-**Article:** The article describes how T. E. Wood’s 1950 cryptogram, intended as a post-death survival test using Robert Thouless’s method, was finally solved by computational search. The key turned out to be the Lord’s Prayer from a 1912 Luther Bible in German, producing the mixed-language message “HIER BIN ICH TOTSIENS TEW”—“Here I am,” Afrikaans “Goodbye,” and Wood’s initials. The solution was confirmed by Klaus Schmeh in October 2026.
+## 17. [LISP Comes of Age (1980)](https://news.ycombinator.com/item?id=50199684) (↑53, 💬15)
+**Article:** The article content was unavailable; the item is a 1980 piece titled “LISP Comes of Age.” The comments frame it as a historical look at Lisp and early AI culture.
 
-**Comments:** The author explains this was the last of four cryptograms from Klaus Schmeh’s list, remaining unsolved for 76 years, and that Claude/OpenAI tools helped write search code and verify results. Other commenters joke that the solution either disproves survival or proves ghosts are in Claude, and one criticizes the AI-assisted writing style.
+**Comments:** Commenters shared nostalgia for Xerox Alto/PARC hardware and noted Lisp/Scheme’s influence on JavaScript, while linking earlier HN discussions and later AI-era retrospectives. Several remarks focused on GOFAI’s dated assumptions and Lisp’s place in AI history.
 
-## 18. [Show HN: Turn regular JavaScript into a neural net](https://news.ycombinator.com/item?id=50172984) (↑24, 💬9)
-**Article:** Handwired presents a way to write numeric JavaScript-like programs that compile into neural-net-style circuits, with exact, differentiable behavior runnable in a browser without GPU or training. Demos include a mini OS, a learned gallery, and parallel JSON search turned into WebGPU kernels.
+## 18. [The Missed Opportunities of Sonic 06 (2025)](https://news.ycombinator.com/item?id=50211729) (↑53, 💬13)
+**Article:** The article examines disabled and cut rendering features in Sonic 06, showing that most objects use a low-end shader variant without cascaded shadows or point lights. It details reduced shadow cascades, broken or overloaded point lights, and removed planar reflections in multiplayer, attributing many cuts to performance constraints and crunch.
 
-**Comments:** The main criticism is that the landing page overclaims “regular JavaScript” conversion; commenters note the demos use a DSL with constructs like `emiRelu`, and the docs reportedly say no tool converts existing JS source. Others are confused by the page’s purpose and demos, while some discuss the idea as a compiler from programs to weights and debate LLMs replacing code.
+**Comments:** Commenters discussed cascaded shadow maps, the downgraded Sonic Adventure ports, and Yuji Naka’s career and management reputation. Others debated whether technical fixes matter given gameplay flaws, citing the Project-06 Unity remake and questioning the target frame rate.
 
-## 19. [What’s getting pwned right now](https://news.ycombinator.com/item?id=50195543) (↑309, 💬147)
-**Article:** pwn.watch is a live security-incident tracker listing CVEs, affected products, severity, patch status, and advisories, with examples including an exploited Arista VeloCloud zero-day, banks detecting third-party AI agents, GitLab’s CVSS 10 RCE, Keycloak account takeover, leaked Linux kernel reports, LiteLLM supply-chain compromise, Node.js flaws, and BIND issues. It includes filters, a heatmap, notification signup, and AI-readable briefs.
+## 19. [A Bicycle Journey Across Brazil to Find a Vanishing Savanna](https://news.ycombinator.com/item?id=50177554) (↑4, 💬0)
+**Article:** The article profiles Natascha Otoya’s short film “Here There Was Cerrado,” a second-place winner in the 2026 Yale Environment 360 Film Contest. It follows her 200-mile bicycle trip through Brazil’s Cerrado to document how industrial agriculture has converted more than half the savanna and altered water flows and collective memory of the landscape.
 
-**Comments:** Much of the thread criticizes the site’s dense “AI slop” aesthetic, dark mode, visual clutter, and confusing categorization, though some praise the concept and the “copy brief for your AI” feature. Commenters debate whether AI is driving an unprecedented wave of vulnerabilities, with others citing historical compromise data and arguing defenses will catch up. The author responds that the site was quickly vibe-coded and promises cleanup and historical data.
+**Comments:** There were no comments on this story. No discussion, debate, or consensus was available.
 
-## 20. [The phenomena that brighten dawn and dusk (2016)](https://news.ycombinator.com/item?id=50172660) (↑15, 💬1)
-**Article:** The article explains dawn and dusk optical phenomena caused by sunlight taking a longer path through the atmosphere, which scatters short wavelengths and leaves reds, oranges, and yellows. It describes the Earth’s shadow rising as a blue band, the Belt of Venus as an orchid/lavender band above it, and alpenglow as backscattered light on snow-covered mountains.
+## 20. [Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left](https://news.ycombinator.com/item?id=50214447) (↑39, 💬21)
+**Article:** Sony stopped shipping its last standalone 4K Blu-ray player in Japan, the UBP-X700/K, with remaining stock selling out and no announced successor. The disc-equipped PS5 is now Sony’s only Japanese product that can play 4K Blu-ray movies, though it lacks Dolby Vision, and Sony has said new PlayStation games will stop shipping on disc in January 2028.
 
-**Comments:** The sole commenter notes that the Pacific Northwest is entering a cloudy season and says the article reminds them to appreciate sunrise and sunset in the next few days.
+**Comments:** Commenters worried about losing physical media and discussed buying spare Blu-ray players, including used Xbox One S/X consoles as cheap 4K players. Others noted that many 4K players are buggy, speculated about a disc-less PS6, and debated vinyl/cassette analogies and the long-term preservation of optical media.
 
-## 21. [Dungeon Generation in the Gnomish Mines of NetHack](https://news.ycombinator.com/item?id=50154109) (↑99, 💬11)
-**Article:** The post explains how NetHack’s Gnomish Mines use cellular automata to generate organic cave levels: 40% of cells start as floor, then four passes modify the grid, followed by corridor fixes for disconnected areas. It details the pass rules and notes confusion about the purpose of pass 2, which turns cells to rock when they have exactly five floor neighbors.
+## 21. [Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?](https://news.ycombinator.com/item?id=50200997) (↑570, 💬615)
+**Article:** The Ask HN post asks why OpenAI or Anthropic would primarily sell model tokens if frontier models are so capable, rather than launching companies that use the models to build products. It raises the possibility that application-layer profits could exceed utility-layer profits as token prices fall and models commoditize.
 
-**Comments:** Commenters suggest pass 2 adds concavity and a spiny, organic feel rather than a bubbly cave shape, and one offers a JavaScript experiment to compare results without it. Others joke about dwarven archaeologists, praise the interactive procgen explanation, and clarify that the numbers refer to neighbor counts rather than tile indices.
+**Comments:** Commenters largely argue that models provide intelligence but not the execution, relationships, domain knowledge, risk tolerance, or operational focus needed to run businesses. Others add that labs are already expanding into products, avoid competing with customers, face a intense frontier race, and benefit from “selling shovels” during a gold rush. Some dissenters say the question exposes limits in current model capability or that valuations depend more on investor enthusiasm than direct commercial success.
 
-## 22. [Faster than earcut: triangulating 3.7M map polygons in 489 ms](https://news.ycombinator.com/item?id=50193170) (↑187, 💬36)
-**Article:** Globus released earstrip, a C++/WebAssembly polygon triangulator that replaces constrained Delaunay with optimized ear clipping for map rendering. It benchmarks 3.7 million map polygons in 489 ms and reports being faster than earcut in both C++ and browser comparisons, while explaining holes, ear tests, and performance tradeoffs.
+## 22. [I turned my TV into a Game Boy Color with a Pokemon town as my home screen](https://news.ycombinator.com/item?id=50212668) (↑51, 💬14)
+**Article:** The linked X post shows Robbie Tilton’s project turning a TV into a Game Boy Color-style interface with a Pokémon town as the home screen. Users walk into buildings to open apps, and changing a setting reportedly requires beating a gym leader; the post credits “Opus 5.5.”
 
-**Comments:** The earcut author discusses bundle-size constraints and Mapbox’s hybrid triangulation approach, while others debate triangle quality, slivers, Seidel’s method, and GPU rendering costs. The author posts benchmark comparisons against delaunay32, and commenters also speculate about LLM involvement and discuss mobile tile rendering and Nanite-style systems.
+**Comments:** Commenters call it a cool demo with deliberately or accidentally terrible UX, with several joking about needing to beat gym leaders just to change settings. Discussion also touches on the broader trend of hacking smart TVs to remove bloat and spyware, nostalgia for Game Boy peripherals and emulation, and technical questions about whether the TV is rooted or the app is side-loaded.
 
-## 23. [AI analysis of CT scans finds 42.9% of patients have coronary inflammation](https://news.ycombinator.com/item?id=50198940) (↑61, 💬32)
-**Article:** Biograph reports that AI analysis of cardiac CT scans found coronary inflammation in 42.9% of asymptomatic, low-risk patients, including many with no detectable plaque. It claims standard bloodwork and risk calculators did not correlate with the inflammation findings and frames this as early risk detection.
+## 23. [Show HN: Swurf – Swipe through the real web](https://news.ycombinator.com/item?id=50205320) (↑39, 💬22)
+**Article:** Swurf is a Show HN project for swiping through individual real web pages rather than a feed, with controls for search, submitting links, saving, reporting, and showing 18+ content. Navigation uses horizontal swipes between pages and vertical scrolling to read the current page.
 
-**Comments:** Many commenters are skeptical, noting that BMI was the only correlate surviving correction and that the study omits or contradicts established measures such as coronary calcium and hs-CRP. Others share heart-attack anecdotes about CAC scores missing soft plaque, question the $17,500 program cost, and debate whether inflammation is a marker or causal driver.
+**Comments:** Commenters compare it to StumbleUpon, Wander, and Kagi’s Small Web, praising the calm one-page-at-a-time experience while questioning whether swiping suits varied web layouts. Feedback includes mobile swipe bugs and questions about iframes or page snapshots. A larger debate asks why StumbleUpon-like discovery tools rarely stick today, with some blaming walled gardens and others pointing to independent-web directories and sites.
 
-## 24. [Mini brain organoids ‘reading’ Braille key step towards biohybrid computing](https://news.ycombinator.com/item?id=50197450) (↑28, 💬26)
-**Article:** Researchers connected a tactile sensor to brain organoids and found that their neural responses could be decoded into Braille letters, with single organoids reaching about 61% accuracy and a trio reaching 83%. The work is presented as a step toward energy-efficient biohybrid computing.
+## 24. [DNS: A Replacement for Finger](https://news.ycombinator.com/item?id=50213791) (↑8, 💬8)
+**Article:** The article content was not available in the provided material; the title frames DNS records as a replacement for the Finger protocol.
 
-**Comments:** Commenters focus on ethics, fearing that larger or more complex organoids could raise serious consciousness and welfare concerns, while others argue that outlawing promising research preemptively is shortsighted. Discussion also covers existing neuroethics recommendations, uncertainty about sentience, comparisons to IVF and stem-cell debates, and whether human organoids offer advantages over animal tissue.
+**Comments:** Commenters ask how large TXT records could be abused for DDoS and discuss the author’s altchan.org site and its reply-button placement. The author explains the project as an experiment in using DNS, rather than a special-purpose client, to provide Finger-like personal updates. Others question why Finger should exist and note that using it still requires a shell function or dedicated app.
 
-## 25. [Show HN: Uberblok – an interactive museum of ZFS internals](https://news.ycombinator.com/item?id=50180257) (↑60, 💬19)
-**Article:** Uberblok is an interactive museum of ZFS internals that walks through the uberblock, copy-on-write, transaction groups, vdevs, RAID-Z, snapshots, ARC, and other features. Its explanations and animations are tied to specific lines in OpenZFS zfs-2.4.4 and include source links.
+## 25. [Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key](https://news.ycombinator.com/item?id=50195488) (↑204, 💬87)
+**Article:** OnKey is a free, open-source singing trainer for Apple Silicon Macs that listens to music played in Spotify, Apple Music, or a browser and learns the singer’s melody. It then tracks the user’s live pitch against scrolling notes and provides per-line scoring, while emphasizing on-device analysis and limited network requests.
 
-**Comments:** ZFS users praise the project and discuss FreeBSD/macOS history, ARC tradeoffs such as sendfile zero-copy issues, and why ZFS is not more widespread. Critics object to the LLM-generated prose and question how much the author understands; the author acknowledges that agents wrote code and most text while he directed and reviewed it.
+**Comments:** Commenters praise the idea and transparency, but several stress that singing involves breath, technique, rhythm, prosody, and ear training beyond hitting pitches, and that teachers remain valuable. Others ask about vibrato handling, Linux support, copyright constraints, gamification, and pitch-detection methods; the author answers with details on CREPE, UVR, scoring, privacy, and platform limitations. Some criticize the Tauri/webview approach as resource-heavy for a “vibe-coded” Mac app.
 
-## 26. [Award-winning AI literature](https://news.ycombinator.com/item?id=50199232) (↑48, 💬50)
-**Article:** The article compiles literary awards involving AI-assisted works, separating cases where AI was allowed, disclosed by organizers/publishers, confirmed by authors, or merely suspected. It includes examples from Japanese short-story prizes, poetry collections, interactive fiction, and contests later reviewed or reversed over AI use.
+## 26. [Time Nuts (2005)](https://news.ycombinator.com/item?id=50212281) (↑26, 💬21)
+**Article:** This page describes the Time-Nuts mailing list, a community for hobbyists interested in precise time and frequency measurement, including quartz oscillators, atomic clocks, GPS/WWVB comparisons, and surplus timing equipment. It offers beginner resources, archives, instrument/vendor references, and a brief history of the list’s origins.
 
-**Comments:** Commenters debate whether AI winning literary awards reflects genuine quality, increased submissions, or flawed judging. Many criticize lumping minor AI use with extensive generation, while others argue that craft, process, and human authorship still matter to readers; some contend output quality is what ultimately counts.
+**Comments:** Commenters discuss hands-on nanosecond timing projects, atomic-clock synchronization, and practical effects such as temperature-driven clock drift and GPS module limitations. Several recommend surplus rubidium clocks and GPSDO projects, while others defend posting older “historical material” on HN and joke about the site’s age and the recent leap-second change.
 
-## 27. [Show HN: agent-usage-guard – a Claude Code mod to protect your usage window](https://news.ycombinator.com/item?id=50198936) (↑18, 💬7)
-**Article:** agent-usage-guard is a Claude Code mod that monitors plan usage and intercepts subagent fan-out, heavy-context prompts, and retry loops before they consume the usage window. It counts agents across sessions, asks through Claude Code’s dialog, stores minimal local data, and fails open except for agents it cannot judge in time.
+## 27. [Total Historian](https://news.ycombinator.com/item?id=50211504) (↑18, 💬4)
+**Article:** The essay profiles historian Marc Bloch, recently inducted into the French Pantheon, tracing his scholarship on medieval society, his co-founding of the Annales journal, and his Resistance activity before execution by the Gestapo. It reviews Peter Schöttler’s intellectual biography and argues that Bloch’s structural, interdisciplinary approach transformed historical writing.
 
-**Comments:** The author explains building it after repeatedly exhausting usage windows, reporting large reductions in agent bursts and high-context requests. Commenters ask about compaction costs and plan-specific presets, and note that newer Claude Code versions often auto-compact near cache expiry.
+**Comments:** Commenters argue that public demand for historical perspective is high while academic history is constrained by metrics, insecure jobs, and institutional pressure. They praise Bloch as someone who “walked the talk,” especially for voluntarily joining the Resistance, and reflect on how few contemporary intellectuals would do the same.
 
-## 28. [Startup taps underwater volcano as energy source in “proof point” test](https://news.ycombinator.com/item?id=50157456) (↑119, 💬48)
-**Article:** Endurance Energy demonstrated a subsea geothermal prototype at the Axial Seamount, producing net-positive electricity for about 8.7 seconds after an initial well delivered insufficient fluid. The company used a nearby natural vent, hit software and cable failures, and plans deeper wells plus a larger Tonga deployment.
+## 28. [Can we replace a $150k Looker with a bucket of HTML files?](https://news.ycombinator.com/item?id=50212320) (↑97, 💬60)
+**Article:** The author describes replacing a costly Looker deployment with an internal service that hosts AI-generated HTML dashboards, initially built in an afternoon and later expanded with Snowflake OAuth, publishing workflows, and security hardening. It explains the architecture, adoption growth, and tradeoffs of treating dashboards as editable HTML rather than fixed BI tiles.
 
-**Comments:** Commenters raise concerns about impacts on hydrothermal vent ecosystems and skepticism about the economics and LCOE. Others see promise for remote island power, while many make supervillain, volcano-lair, and science-fiction jokes.
+**Comments:** Commenters debate whether AI-generated HTML can really replace BI, with many arguing that data modeling, semantic consistency, governance, and decision-making remain the hard parts. Some share successful Looker replacements, while others warn about stale dashboards, security risks, hidden engineering costs, and confusing visualization with business intelligence.
 
-## 29. [The Last Museum: Semantic search across 5.8M artworks from major museums](https://news.ycombinator.com/item?id=50194522) (↑93, 💬27)
-**Article:** The Last Museum offers semantic search across more than 6.3 million artworks from major museums, with natural-language queries and date filtering. The site showcases well-known works alongside broad thematic and stylistic searches.
+## 29. [Gemma-4-26B-A4B with 39-69% less thinking at same accuracy](https://news.ycombinator.com/item?id=50209907) (↑85, 💬14)
+**Article:** BottleCap AI presents ThinkingCap for Gemma-4-26B-A4B, claiming an average 38.9% reduction in thinking tokens with only a 0.15pp average accuracy change across twelve benchmarks. It also reports lower looping rates and offers a PRO version with larger token reductions.
 
-**Comments:** Commenters like the concept but criticize incomplete coverage, weak artist/name search, missing filters, and the grandiose name. Others discuss museum curation, compare Europeana’s larger index, and question whether embeddings rely on uneven catalog metadata.
+**Comments:** Commenters question the practical tradeoff, noting that benchmark accuracy may not reflect real-task quality and that some ThinkingCap models feel less capable or more censored. Others discuss smaller models doing more computation at inference time and share experiences with Qwen, Gemma, Nemotron, and other local models.
 
-## 30. [A complete bypass of eMudhra’s 1FA OTP login system](https://news.ycombinator.com/item?id=50199757) (↑133, 💬39)
-**Article:** The linked post claims a complete bypass of eMudhra’s 1FA OTP login system, described as less severe than a leaked CA key but still a serious authentication flaw. The available content is mostly the post title and surrounding discussion rather than a full technical write-up.
+## 30. [How is music possible](https://news.ycombinator.com/item?id=50211719) (↑73, 💬59)
+**Article:** Henrik Karlsson’s essay asks why abstract patterns of sound can deeply move listeners and alter their perception of the world. It surveys psychological and cultural explanations, including sound perception and learned associations, then turns to Schopenhauer’s metaphysical account of music as expressing a deeper reality.
 
-**Comments:** Commenters interpret the flaw as OTP brute-forcing enabled by missing rate limiting or invalidation and a small code space, noting the demo’s result was slightly off due to concurrent connections. They discuss the impact on CA customers and domain/CSR signing, mention eMudhra leaving the CA business, and complain that anti-bot measures obscure the original post.
+**Comments:** Commenters propose explanations including Kolmogorov complexity, prediction-reward theories, social bonding, and neural entrainment, while others doubt these accounts capture music’s emotional power. The thread also debates cultural relativity in major/minor perception, the value of explaining art, and personal experiences of music as transcendent or unusually absent.
 
 ---
-_Generated 2026-10-22 16:05 MDT_
+_Generated 2026-10-23 16:04 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Oct 23](./archives/2026/oct/hn-digest-2026-10-23.md)
 - [Oct 22](./archives/2026/oct/hn-digest-2026-10-22.md)
 - [Oct 21](./archives/2026/oct/hn-digest-2026-10-21.md)
 - [Oct 20](./archives/2026/oct/hn-digest-2026-10-20.md)
 - [Oct 19](./archives/2026/oct/hn-digest-2026-10-19.md)
 - [Oct 18](./archives/2026/oct/hn-digest-2026-10-18.md)
 - [Oct 17](./archives/2026/oct/hn-digest-2026-10-17.md)
-- [Oct 16](./archives/2026/oct/hn-digest-2026-10-16.md)
 
-[Full archive](./archives/) (163 issues)
+[Full archive](./archives/) (164 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
