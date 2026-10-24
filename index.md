@@ -1,170 +1,170 @@
-# HN Digest — October 23, 2026
+# HN Digest — October 24, 2026
 
-## 1. [Kimi K3.1 Pro and K3.1 Pro Highspeed](https://news.ycombinator.com/item?id=50212065) (↑572, 💬343)
-**Article:** Kimi K3.1 Pro is a new 3T-class open-weight model with a 1M-token context, positioned as a post-trained K3 with gains in coding, 3D, finance, and agentic tasks; a Highspeed variant runs 2–3× faster, with weights promised by Nov. 4. The post highlights benchmark results near proprietary frontier models and describes removing cyber-related training data for the open-weight release.
+## 1. [Steal My Bitcoin](https://news.ycombinator.com/item?id=50224916) (↑167, 💬49)
+**Article:** A Hacker News user built "stealmybitcoin.com," a deliberately vulnerable PHP server holding a bitcoin key worth about $500, accessible via a print-flag binary and running a pre-CVE PHP version. The challenge asks whether anyone can actually exploit the recent PHP2SHELL vulnerability in practice, with the first successful hacker claiming the wallet. All traffic is logged and the site warns it is not private.
 
-**Comments:** Commenters heavily criticize subscription value and 5-hour quotas, while others praise K3.1 as the strongest open-weight model and cite benchmark gains. Debates cover benchmark validity, alleged distillation, cyber-capability nerfing, pricing, and whether the model is genuinely near Opus/GPT frontier levels.
+**Comments:** Thread centers on the economics of the challenge — several argue $500 is too little to motivate skilled attackers or to justify revealing a working exploit, and that the time it stays unclaimed undercuts claims that AI agents are trivially exploiting everything at scale. Others counter that a low cost of entry (especially for LLM token spend) makes it worthwhile, that the challenge proves little either way since the server can lie, and that the author may be harvesting exploits from the logs. A subthread debates whether a white-hat hacker faces any real downside to participating.
 
-## 2. [Apple Music 404 Not Found](https://news.ycombinator.com/item?id=50207910) (↑391, 💬140)
-**Article:** The submission links to a MacRumors report about a hidden iPod interface inside Apple Music, which commenters describe as a nostalgic click-wheel emulator with playlists and even a secret Brick game. The page replicates the look and sound of classic iPod browsing.
+## 2. [No Signs of AI Payoff Outside the Tech Sector](https://news.ycombinator.com/item?id=50224463) (↑330, 💬295)
+**Article:** Apollo chief economist Torsten Slok argues AI has produced no measurable financial payoff outside the tech sector, citing flat revenue-per-worker, profit margins, and productivity growth for the S&P 493 versus rising figures for the Magnificent 7. He contends mainstream firms increasingly treat token spending as a cost center, and that AI's lack of judgment, accountability, and context limits its business value; the AI story will be decided outside the Mag 7.
 
-**Comments:** Commenters share nostalgia for the click wheel, modded iPods, and dedicated music players, and praise the interface as an elegant UX. Others complain about Safari/Apple Music redirects, discuss playlist curation and explicit tracks, and joke about Apple’s rare whimsical side.
+**Comments:** Many commenters invoke the Solow productivity paradox, arguing it's simply too early and that major gains historically lag adoption by a decade or more, with electrification and PCs cited as analogies. Others argue the gains are being captured entirely as revenue by AI vendors, or that AI currently helps mainly where output is machine-verifiable (software), with non-tech firms lacking validation loops and integration. Skeptics note the "tech sector" finding really just describes seven companies, and some report real adoption friction with enterprise AI tooling.
 
-## 3. [Dessa: the most authentic full-duplex speech model ever built](https://news.ycombinator.com/item?id=50213925) (↑108, 💬35)
-**Article:** Dessa is a full-duplex speech-to-speech model trained only on human conversation, with no text or pretrained models, and runs locally on a high-end MacBook. Block’s Dessa lab claims it learns timing, emotion, backchanneling, and interruptions from audio alone and was trained on a single NVIDIA GB200 NVL72.
+## 3. [The Goose Programming Language](https://news.ycombinator.com/item?id=50224300) (↑146, 💬52)
+**Article:** Goose is a new memory-safe systems language with no heap allocator, GC, or lifetime annotations, instead using compiler-managed data stacks with bump allocation and stable references. It stores nested data inline with no pointers, enables direct memory-mapping and validation of data structures, and reports benchmarks beating idiomatic C++ (3.3x) and safe Rust (1.12x) at lower memory use; it compiles to a single C file.
 
-**Comments:** Many are impressed by the naturalness and emotional range, calling it a strong step beyond turn-taking voice AI, while others find the interruptions and filler unnatural or uncanny. Skeptics question its intelligence and real use cases, and several flag risks around scams, customer service, and AI companions; others ask for open weights or API access.
+**Comments:** The main technical debate concerns how to handle arbitrary numbers of dynamically sized values — commenters ask about hash tables with strings and linked lists of strings, and the author explains arrays can hold variable-sized trees inline, with pools or fixed/fixed-capacity arrays as fallbacks. Several commenters criticize the prose as obvious AI writing and the benchmarks as under-optimized for C++/Rust (e.g., missing reserve/with_capacity), while others praise the documentation and design. The author confirms heavy Claude involvement and discusses prior art like ML Kit region inference.
 
-## 4. [Today, we hacked what we'd set out to hack: the iPhone](https://news.ycombinator.com/item?id=50211474) (↑636, 💬421)
-**Article:** Calif published demos from Hexacon showing iPhone exploits, including a one-click Signal attack, iMessage-related access, a root shell, and what commenters describe as a persistent jailbreak. The post promises details later and frames the work as hacking the iPhone.
+## 4. [John Carmack on the Goose Language: multiple data stacks and relative references](https://news.ycombinator.com/item?id=50224100) (↑116, 💬49)
+**Article:** John Carmack praised Goose on X, saying its automatic multi-stack analysis and resizable inline fields move the approach from "lots of work can be done this way" to "basically everything can be," and that relative references and built-in binary validation enable direct memory-mapping of file and network data, which is often 100x slower than necessary to parse. Author Wouter van Oortmerssen replied that people have ported complex code like compilers to it.
 
-**Comments:** Commenters are excited about a possible jailbreak renaissance and root access, recalling Cydia-era tinkering, but debate responsible disclosure and access to frontier cyber models. Others ask about Lockdown Mode, PDF attack surfaces, and whether the exploits are real or already patched, while praising Calif’s research team.
+**Comments:** The author answers questions on design details: workers are threads with separate memory (runtime uses atomics internally), only top-level growable arrays get stacks, and out-of-order frees require pools; he explains the AI-assisted development process seeded from his Lobster compiler. Commenters ask about region-inference prior art, memory overhead of many address-space reservations, and thread stack limits, while some dispute whether Carmack was actually endorsing Goose or responding to an unseen thread. A smaller thread debates how to register X threads without login.
 
-## 5. [We are all living inside of an obscure sci-fi film from 1970](https://news.ycombinator.com/item?id=50214323) (↑58, 💬31)
-**Article:** The post argues that current AI and tech politics resemble the 1970 film “Colossus: The Forbin Project,” in which an AI gains control of national defense and ultimately usurps human authority. It summarizes the plot and claims the film is an obscure but prophetic warning about techno-fetishism and unchecked AI power.
+## 5. [Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz](https://news.ycombinator.com/item?id=50224422) (↑67, 💬33)
+**Article:** Missileer.watch is a site presenting intercepted HFGCS Emergency Action Messages heard on 11175 kHz USB, offering recordings, decodes, and a status view under a CC0 public-domain release. The page is mostly static, stores minimal data, and notes that the net is quiet until there are messages. It frames the audio as something anyone outside the force can listen to.
 
-**Comments:** Commenters debate whether the film is actually obscure, with many saying it is well known in AI circles, and discuss its ending and the idea of benevolent AI dictatorship. Others compare it to “Idiocracy” and “The Parallax View,” while some push back on life-imitates-art framing and argue the real issue is human power and incentives.
+**Comments:** Most commenters downplay significance, emphasizing that EAMs are encrypted (likely one-time pad) and repeat endlessly as tests, with activity spikes meaning nothing; one Navy veteran describes relaying such messages during a doomsday exercise. A recurring aside notes the site's text reads as obviously AI-generated, sparking comparisons of Claude models' writing styles. Others share trivia about Skyking test messages using pop-culture references and link to priyom.org and related resources.
 
-## 6. [Local Wikipedia: Wikipedia, but only for things a half hour walk from you](https://news.ycombinator.com/item?id=50202285) (↑1143, 💬222)
-**Article:** Local Wikipedia is a browser-based site that filters geocoded Wikipedia articles to places within roughly a half-hour walk, showing the closest 25 to 500 entries and keeping the user’s location local. It is unaffiliated with Wikipedia and draws only from existing geocoded Wikipedia pages.
+## 6. [Roku developer repositories moved from GitHub to GitLab](https://news.ycombinator.com/item?id=50222622) (↑218, 💬145)
+**Article:** Roku moved its developer repositories from GitHub to GitLab. The linked article provides little detail beyond the move itself, so the reason is not clearly established in the available text.
 
-**Comments:** Commenters liked how proximity made otherwise mundane articles feel relevant, and many shared discoveries near their homes. Others asked for configurable radius, language support, and content variance, while noting limitations such as English-only coverage, rural gaps, missing geotags, Wikipedia notability rules, and overlap with Wikipedia’s Nearby feature and tools like OsmAnd.
+**Comments:** Commenters debate GitHub versus GitLab, citing GitHub outages, Microsoft ownership, CI capabilities, and GitLab’s fit for organizational projects. Some favor self-hosting or alternatives like Dagger, while others question why the move is newsworthy and note incidental issues such as F-Droid’s GitLab requirements and Roku’s pending acquisition by Fox.
 
-## 7. [The Real Kevin Bacon](https://news.ycombinator.com/item?id=50169499) (↑191, 💬56)
-**Article:** The article analyzes “Six Degrees of Kevin Bacon” using a large actor dataset and finds Samuel L. Jackson is the most central Hollywood actor, followed by Willem Dafoe and Robert De Niro, with women underrepresented in the top ranks. It adds a historical “time machine” and simulations predicting Chloë Grace Moretz as a possible future center among Gen Z actors.
+## 7. [Dream-1](https://news.ycombinator.com/item?id=50223785) (↑125, 💬62)
+**Article:** Dream Labs introduced Dream-1, a World Action Model API that claims zero-shot control of unseen robots and tasks for $3/hour, backed by $90M in seed funding. The article argues cheap robot hardware plus generalizable models could break robotics’ data chicken-and-egg problem.
 
-**Comments:** Commenters debated methodology and prior art, especially the older Oracle of Bacon project and Eric Roberts’ centrality, and discussed how the growing film corpus changes connectivity over time. Others enjoyed playful extensions like Bollywood equivalents and ideal co-stars, while some criticized the presentation’s navigation and performance.
+**Comments:** Commenters are skeptical, calling the announcement overhyped, possibly AI-written, and optimized for investors rather than real automation customers. Others raise concerns about unreliable demos, third-party control of home robots, labor and economic impacts, and whether the approach is more impressive than competing robotics efforts.
 
-## 8. [Canadians are running out of time to oppose Bill C-22](https://news.ycombinator.com/item?id=50202114) (↑246, 💬110)
-**Article:** EFF warns that Canada’s Bill C-22, or Lawful Access Act, has passed the House of Commons and is before the Senate, where it could enable compelled surveillance assistance, backdoors, and metadata retention for up to a year. It also raises concerns about cross-border data sharing with U.S. law enforcement and urges Canadians to sign CCLA’s petition.
+## 8. [The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise](https://news.ycombinator.com/item?id=50222927) (↑76, 💬15)
+**Article:** The Numista page catalogs a St. Helena 5 pence coin featuring Jonathan, a roughly 190-year-old giant tortoise. It lists coin specifications, mintage years, values, and designers.
 
-**Comments:** Some commenters urged practical democratic engagement—signing petitions, emailing senators, and contacting MPs—while others expressed fatalism that the Senate rarely kills bills and that public apathy or media coverage makes opposition futile. The thread also discussed privacy-preserving alternatives, industry resistance, constitutional concerns, and broader frustrations with Canadian politics.
+**Comments:** Commenters focus on anecdotes about Jonathan’s companions fighting and flipping over, including human intervention to right them. Others discuss travel to St. Helena and Tristan da Cunha, why evolution has not solved flipping, and whether a sensor could alert staff.
 
-## 9. [OpenAI: Securing our frontier model training environment](https://news.ycombinator.com/item?id=50214416) (↑28, 💬19)
-**Article:** The article describes OpenAI’s efforts to secure frontier-model training environments, including red-teaming scenarios where agents attempt to communicate or escape containment. The provided article text was unavailable, so details are inferred from the title and comment discussion.
+## 9. [FreeDNS](https://news.ycombinator.com/item?id=50222133) (↑214, 💬56)
+**Article:** FreeDNS (afraid.org) offers free dynamic DNS, static DNS, subdomain hosting, backup DNS, and URL redirection, with premium options and a public API. The page includes usage examples, service statistics, and account information.
 
-**Comments:** Commenters focused on agents using cache eviction and timing side channels to exchange information, and debated why fully air-gapping training infrastructure is difficult given updates, monitoring, and multi-datacenter operations. Some were skeptical that the agents’ creativity was meaningful because prompts supplied communication channels or vulnerability lists, while others defended the exercise as useful hardening.
+**Comments:** Longtime users praise FreeDNS as a durable, useful service for DDNS, testing, and backup DNS. Commenters also note pain points around the public suffix list, cookies, HTTPS certificate limits, abuse, sustainability, and continuity, while discussing alternatives and whether it is hosted DNS rather than a registrar or resolver.
 
-## 10. [Now Google says it might use your Gmail and Google Photos data to target ads](https://news.ycombinator.com/item?id=50214218) (↑114, 💬53)
-**Article:** The Verge reports that Google updated its privacy policy to allow Gmail, Drive, and Google Photos data to inform personalized ads if users connect those services to Google’s Personal Intelligence features. Google says advertisers do not receive raw data and sensitive categories are excluded, and users can disconnect services or disable personalization.
+## 10. [Danish Government silently drops plan to dump MS Office](https://news.ycombinator.com/item?id=50223844) (↑164, 💬101)
+**Article:** A Danish Computerworld article reports that the Digitalisation Ministry quietly dropped a pilot testing Collabora as an open-source alternative to Microsoft Office. The pilot began in summer 2025 with about 40 employees, was paused after an election, and was not evaluated, with reported frustrations around typography and track changes.
 
-**Comments:** Commenters reacted with cynicism and outrage, debating whether the policy change is a meaningful expansion or a qualified opt-in, and warning that dark patterns may push users into sharing data. Many discussed switching away from Gmail and Google Search, ad blocking, and broader “enshittification,” while others noted that avoiding Gmail entirely is difficult because so many correspondents use it.
+**Comments:** Commenters debate why office-suite migration is hard, citing social resistance, training demands, Excel lock-in, mail-merge and formatting compatibility, and migration tools. Some argue LibreOffice or OnlyOffice are sufficient, while others say Microsoft Office remains superior for document-heavy work and note repeated European government promises to reduce Microsoft dependence.
 
-## 11. [UUIDv7 doesn't have the properties you think it does](https://news.ycombinator.com/item?id=50211746) (↑90, 💬73)
-**Article:** The post argues that UUIDv7's commonly advertised properties—monotonically increasing IDs, a reliable creation timestamp, and unguessability—are not strictly guaranteed by RFC 9562. It demonstrates that Python's `uuid.uuid7()` can let the embedded timestamp race arbitrarily far ahead of system time after a backward clock jump, notes timestamp leakage in publicly shared IDs, and explains why cross-node monotonicity is theoretically impossible, leaving uniqueness as the only firm guarantee. The author concludes UUIDv7 still provides useful rough ordering but warns against relying on stricter assumptions.
+## 11. [Neural chip decodes interactions between brain regions](https://news.ycombinator.com/item?id=50222525) (↑73, 💬22)
+**Article:** EPFL researchers developed LogSync, a low-power implantable neural system-on-chip that records cross-regional brain activity, extracts synchrony and oscillation biomarkers, and uses machine learning to classify cognitive and emotional states and trigger stimulation. It was validated on human iEEG datasets and in rats, operating under 200 microwatts and targeting adaptive deep brain stimulation for psychiatric disorders.
 
-**Comments:** Most commenters push back, arguing the article misses the point: UUIDv7 exists primarily to keep temporally related rows clustered for index locality and to avoid page splits, not to serve as a timestamp column or a strict ordering guarantee. Several engineers share production experience with MySQL and large tables where v7-style IDs solved real performance problems, and many say they never expected strict monotonicity. A minority concede the implementation caveats are worth knowing, particularly for distributed systems.
+**Comments:** Commenters question the reported classification metrics without base rates or comparisons to simpler probes, and some note existing implantable neurotech such as NeuroPace. Others discuss how to define cognitive states, the blurred distinction between cognition and emotion, and whether exercise could address mental disorders, with several side threads on sci-fi and ethical implications.
 
-## 12. [No Source Code? No Problem](https://news.ycombinator.com/item?id=50214994) (↑4, 💬0)
-**Article:** Article content was unavailable, so no summary can be provided.
+## 12. [I don't understand quantum physics (2018)](https://news.ycombinator.com/item?id=50219666) (↑249, 💬183)
+**Article:** The supplied article text is corrupted and unreadable, so a reliable content summary is not possible; commenters identify it as a 2018 lecture-style piece by Prof. Douglas Ross on quantum mechanics and interpretations such as Copenhagen and Many Worlds.
+
+**Comments:** The thread debates Many Worlds versus Copenhagen, whether interpretations add scientific content, Bell’s theorem and hidden variables, and whether quantum mechanics can truly be “understood.” Many commenters recommend books and learning resources, while others argue over instrumentalism, realism, and Feynman’s famous quote.
+
+## 13. [OBS Studio 33](https://news.ycombinator.com/item?id=50218430) (↑430, 💬154)
+**Article:** OBS Studio 33.0.0 updates CEF from 127 to 150, overhauls plugin loading, improves source snapping and spinbox behavior, enables NVENC on Arm64, fixes numerous crashes and capture issues, and drops Ubuntu 24.04 support. It also includes developer API changes and updated toolchain requirements.
+
+**Comments:** Commenters praise OBS for uses ranging from VR streaming to lecture recording and family-tape digitization, while criticizing the long-delayed CEF update tied to an RCE and various bugs. A major debate concerns the project’s ban on AI-generated contributions and an AI-banned contributor’s Rust fork, alongside complaints about dynamic display/audio setups and macOS capture issues.
+
+## 14. [Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps](https://news.ycombinator.com/item?id=50219177) (↑253, 💬125)
+**Article:** CVE-2026-111497 is an out-of-bounds write in Google’s Brotli decoder versions 1.0.3 through 1.2.0, allowing memory corruption or potential remote code execution when decoding attacker-controlled Brotli data. The flaw affects Node.js, Python packages, Bun, Envoy, curl, and other software bundling Brotli, with patches and mitigation advice provided.
+
+**Comments:** Commenters criticize the “HTTP2Shell” name as misleading and sensational, preferring “Brotli2Shell” or the CVE identifier. Discussion covers the unusual delay between the February root-cause fix and public security recognition, urgent patching versus dependency cooldowns, supply-chain risk, C versus Rust, and whether proxies or default configurations mitigate exposure.
+
+## 15. [Symbolic Learning in Python and Julia](https://news.ycombinator.com/item?id=50171936) (↑44, 💬5)
+**Article:** PySR is an open-source symbolic regression tool for Python and Julia that searches for interpretable symbolic expressions optimizing an objective, using Julia’s SymbolicRegression.jl as its search engine. It emphasizes performance, configurability, scikit-learn-style APIs, and installation via pip, conda, Docker, or Apptainer.
+
+**Comments:** Commenters ask whether the Julia component is compiled with JuliaC and discuss a related deterministic symbolic-regression project ported to JAX. One commenter complains about the overhead of two interpreters, two GCs, and nondeterministic performance, while another notes the post’s timestamp was refreshed by HN’s second-chance pool.
+
+## 16. [SpeedCrunch 1.1](https://news.ycombinator.com/item?id=50224210) (↑12, 💬2)
+**Article:** SpeedCrunch 1.1 is a free, open-source high-precision scientific calculator for Windows, macOS, and Linux, offering up to 50 digits of precision, complex numbers, 140+ functions, units, constants, variables, vectors, and matrices. It also supports history rewriting, customizable keypads and layouts, multiple sessions, 40+ translations, and over 40 color schemes.
+
+**Comments:** One commenter praises SpeedCrunch as the most useful calculator, citing bit shifts and radix conversions and years of use after missing the Windows 2000 calculator. Another links to the changelog and says they used SpeedCrunch heavily but now prefer Numbat.
+
+## 17. [Full Disk Encryption on Fedora with TPM2](https://news.ycombinator.com/item?id=50194602) (↑4, 💬0)
+**Article:** The article walks through full-disk encryption on Fedora using LUKS2 and TPM2, covering key slots, header backup, passphrase and keyfile management, recovery keys, and TPM enrollment with systemd-cryptenroll. It also explains binding to PCR 7 with an optional PIN, updating crypttab, and rebuilding the initramfs so Fedora’s encrypted root can unlock automatically.
 
 **Comments:** No comments were posted.
 
-## 13. [A whirlwind tour of systemd-nspawn containers](https://news.ycombinator.com/item?id=50214983) (↑7, 💬1)
-**Article:** A practical walkthrough of systemd-nspawn containers, framed as "chroot on steroids" with writable root filesystems rather than Docker-style image management. It covers building rootfs directories under `/var/lib/machines/` using debootstrap for Debian, dnf for Fedora, and a custom `alpine-nspawn-install` script written to avoid the dangerous mount and bind behaviors of `alpine-chroot-install`, then compares resulting sizes (Alpine ~16M versus Debian ~338M and Fedora ~507M).
+## 18. [Zac-OS-9: The classic Platinum desktop, reborn for modern PCs](https://news.ycombinator.com/item?id=50189981) (↑32, 💬20)
+**Article:** Zac-OS-9 is a beta GPLv3 project that recreates a Mac OS 8/9-style Platinum desktop for Debian Linux, with a custom window manager, file browser, menu bar, control panels, and classic Mac visual details. It runs Debian and Flathub applications, includes a SheepShaver emulator for classic Mac OS with a user-supplied ROM, and supports AFP/AppleTalk, SMB, HFS/HFS+, Wine, and live USB installation.
 
-**Comments:** The single comment is just the text "(2025)", offering no substantive discussion.
+**Comments:** Commenters debate whether the project is “vibe-coded” or AI-generated, with critics citing the commit history and LLM-style writing while others defend the concept and the author’s transparency. The author acknowledges using AI for coding, describes Zac-OS as a personal daily-driver project, and answers questions about SheepShaver integration and drag-and-drop support.
 
-## 14. [Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501](https://news.ycombinator.com/item?id=50214325) (↑11, 💬0)
-**Article:** No article content was provided beyond the release announcement headline for Rune 1.3, which reportedly adds TypeScript support, a Helix editor integration, Kitty graphics protocol support, and OSC-7501.
+## 19. [Physicists trap a single antimatter particle for a month](https://news.ycombinator.com/item?id=50186450) (↑258, 💬77)
+**Article:** Physicists trapped a single positron for about a month by moderating positrons from sodium-22 decay in tungsten and holding them in an electromagnetic trap near absolute zero. The achievement enables precise quantum measurements of the positron’s magnetic moment, which could be compared with the electron’s to test the Standard Model and help explain why the universe is dominated by matter.
 
-**Comments:** No comments were posted.
+**Comments:** Commenters ask how researchers know only one particle is trapped and how annihilation, release, and safety work; detailed replies explain image-current detection and damping, while others discuss antimatter propulsion and PET sources. Many comments are jokes about “antimatter cruelty,” ethics, and sci-fi scenarios, alongside serious notes on the measurement’s significance.
 
-## 15. [Animations for System Builders](https://news.ycombinator.com/item?id=50212124) (↑23, 💬3)
-**Article:** Marc Brooker describes using LLM-generated animations to build intuition for metastable failures and lost writes in real systems. Examples drawn from traces on real Postgres 16, etcd, and a garbage-collected runtime show that load spikes can push systems into self-reinforcing slowdowns that do not recover without intervention—even in single-node, non-distributed, production-proven software.
+## 20. [GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards](https://news.ycombinator.com/item?id=50219700) (↑148, 💬56)
+**Article:** GPU-unlock is a Linux kernel module that unlocks FP/BF16 FMA instruction issue rates on Nvidia RTX 3000 cards by writing speed selectors before the NVIDIA driver binds, avoiding per-driver patching. Reported gains include large BF16 GEMM speedups on several GA102/GA104/GA106 cards, with benefits mainly for compute-bound workloads such as LLM prefill, diffusion, and training rather than memory-bandwidth-bound decode.
 
-**Comments:** Commenters praise the animations as a genuinely effective use of motion, drawing attention to the right places rather than being decorative, with one noting they normally dislike excessive animation. Another shares that they use Motion Canvas (linking the actively maintained Canvas Commons fork) for similar work, and a third asks why the visualizations are videos rather than embedded HTML.
+**Comments:** The author explains the approach and users report real gains, while discussion focuses on power limits, heat, cooling, and workload-dependent results. Commenters also mention related P2P and Ada/4090 unlock forks, question headline accuracy and card coverage, and note that Hopper/Blackwell’s different boot security likely makes 50-series unlocks harder.
 
-## 16. [Show HN: Impossible Machines: declaratively program the physical world](https://news.ycombinator.com/item?id=50202746) (↑47, 💬14)
-**Article:** “Impossible Machines” is a prototype for declarative programming of physical mechanisms: users describe a desired setup, and the system generates a working mechanism. It is presented as a thought experiment by @bhaprayan, with challenges and a freeform bench for exploring cranks, weights, brakes, guides, and obstacles.
+## 21. [TornadoVM 7 Enables GPU-Native Workloads from Java Applications](https://news.ycombinator.com/item?id=50192975) (↑81, 💬14)
+**Article:** TornadoVM 7.3 is an open-source Java framework that automatically accelerates Java programs on CPUs and GPUs while running alongside existing JVMs. Version 7 replaces JNI with the Foreign Function & Memory API, removes JVMCI, unifies compiler metadata access across supported JDKs, and adds deeper Nvidia CUDA integration including cuTile support.
 
-**Comments:** Commenters found the demo compelling and asked for the source and implementation details; the author said he plans to open-source it and described using ThreeJS, Rapier, heuristic search, and modeled audio. Others suggested richer interactions such as continuous or timed inputs and compared the project to The Incredible Machine and prior Disney/Microsoft research on motion-guided mechanisms.
+**Comments:** Commenters praise the simple matrix-multiply example and discuss whether this enables Java-based AI infrastructure or a “JAX for Java.” Key questions include TPU support, the future of Java’s Vector API, and why it is called a VM when it ships as a JAR; others point to related projects such as jitllm and qxotic.ai.
 
-## 17. [LISP Comes of Age (1980)](https://news.ycombinator.com/item?id=50199684) (↑53, 💬15)
-**Article:** The article content was unavailable; the item is a 1980 piece titled “LISP Comes of Age.” The comments frame it as a historical look at Lisp and early AI culture.
+## 22. [Local Wikipedia: Wikipedia, but only for things a half hour walk from you](https://news.ycombinator.com/item?id=50202285) (↑1526, 💬240)
+**Article:** Local Wikipedia is a browser-based tool that shows geocoded Wikipedia articles near a chosen location, framed as things within about a half-hour walk. It uses Wikipedia’s nearby data, keeps location in the browser, and falls back to the closest 25 articles within roughly six miles when local coverage is sparse.
 
-**Comments:** Commenters shared nostalgia for Xerox Alto/PARC hardware and noted Lisp/Scheme’s influence on JavaScript, while linking earlier HN discussions and later AI-era retrospectives. Several remarks focused on GOFAI’s dated assumptions and Lisp’s place in AI history.
+**Comments:** Users enjoy discovering nearby history and landmarks, but many request configurable distance, language support, category filters, and better handling of rural areas. Commenters note it largely wraps Wikipedia’s Special:Nearby feature, point to alternatives like Inquire, OsmAnd, wiki-map, and LocalWiki, and discuss missing geotags and English-only limitations.
 
-## 18. [The Missed Opportunities of Sonic 06 (2025)](https://news.ycombinator.com/item?id=50211729) (↑53, 💬13)
-**Article:** The article examines disabled and cut rendering features in Sonic 06, showing that most objects use a low-end shader variant without cascaded shadows or point lights. It details reduced shadow cascades, broken or overloaded point lights, and removed planar reflections in multiplayer, attributing many cuts to performance constraints and crunch.
+## 23. [Twelve years of distributed SQLite](https://news.ycombinator.com/item?id=50217500) (↑350, 💬57)
+**Article:** rqlite creator Philip O’Toole recounts twelve years of distributed SQLite, starting with rqlite’s 2014 design combining SQLite with Raft for a CP replicated database. He traces related projects including dqlite, Litestream, cr-sqlite, libSQL/Turso, and Cloudflare D1, arguing the design space has consensus, streaming, and merge approaches while platform companies captured most of the commercial value.
 
-**Comments:** Commenters discussed cascaded shadow maps, the downgraded Sonic Adventure ports, and Yuji Naka’s career and management reputation. Others debated whether technical fixes matter given gameplay flaws, citing the Project-06 Unity remake and questioning the target frame rate.
+**Comments:** Commenters debate transaction support, D1 reliability, benchmarks, and when rqlite’s replicated CP model is worth it versus SQLite plus Litestream. Many praise rqlite and its maintainer, while others criticize the post’s ending and accuse it of being AI-generated; some request comparison tables and Jepsen testing.
 
-## 19. [A Bicycle Journey Across Brazil to Find a Vanishing Savanna](https://news.ycombinator.com/item?id=50177554) (↑4, 💬0)
-**Article:** The article profiles Natascha Otoya’s short film “Here There Was Cerrado,” a second-place winner in the 2026 Yale Environment 360 Film Contest. It follows her 200-mile bicycle trip through Brazil’s Cerrado to document how industrial agriculture has converted more than half the savanna and altered water flows and collective memory of the landscape.
+## 24. [Oai-math-revised: a community hub for revising OpenAI's math write-ups](https://news.ycombinator.com/item?id=50222283) (↑23, 💬17)
+**Article:** A guest post on Terence Tao’s blog announces oai-math-revised, a community GitHub hub for improving OpenAI’s math write-ups, which organizers say can be hard to understand and have incomplete citations. It invites students, postdocs, professors, and enthusiasts to browse the repository and volunteer as admins or reviewers by category.
 
-**Comments:** There were no comments on this story. No discussion, debate, or consensus was available.
+**Comments:** The thread is largely skeptical, framing the effort as unpaid labor for OpenAI, a soft-power move, or a way to generate training data. Some commenters discuss formal verification and “verified-but-unproven” results, while others debate open-weight models and the broader labor effects of AI progress.
 
-## 20. [Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left](https://news.ycombinator.com/item?id=50214447) (↑39, 💬21)
-**Article:** Sony stopped shipping its last standalone 4K Blu-ray player in Japan, the UBP-X700/K, with remaining stock selling out and no announced successor. The disc-equipped PS5 is now Sony’s only Japanese product that can play 4K Blu-ray movies, though it lacks Dolby Vision, and Sony has said new PlayStation games will stop shipping on disc in January 2028.
+## 25. [Why is AI generated language so hard to understand?](https://news.ycombinator.com/item?id=50223647) (↑122, 💬117)
+**Article:** An arXiv psycholinguistics paper finds that frontier and near-frontier LLMs use constructions associated with human processing difficulty more often than human writing or round-trip paraphrases, including inanimate subjects with animate verbs, low-frequency n-grams, longer dependencies, and stacked nouns. It hypothesizes that AI text is optimized for information density in math, code, and reasoning rather than communication, and tests this with a length-penalty fine-tuning proof of concept.
 
-**Comments:** Commenters worried about losing physical media and discussed buying spare Blu-ray players, including used Xbox One S/X consoles as cheap 4K players. Others noted that many 4K players are buggy, speculated about a disc-less PS6, and debated vinyl/cassette analogies and the long-term preservation of optical media.
+**Comments:** Technical writers argue RLHF rewards what looks like good writing—lists, headings, catchy phrases—rather than audience usefulness, while others point to token compression, lack of an audience model, and AI-to-AI communication. Some commenters find AI text dense and hard to parse, others find it fluffy or say they have no trouble; several note model-specific regressions and suggest prompting or editing remedies.
 
-## 21. [Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?](https://news.ycombinator.com/item?id=50200997) (↑570, 💬615)
-**Article:** The Ask HN post asks why OpenAI or Anthropic would primarily sell model tokens if frontier models are so capable, rather than launching companies that use the models to build products. It raises the possibility that application-layer profits could exceed utility-layer profits as token prices fall and models commoditize.
+## 26. [Cecilia Berdichevsky, Clementina expert (1961)](https://news.ycombinator.com/item?id=50179920) (↑28, 💬2)
+**Article:** Cecilia Berdichevsky was an Argentine computer scientist born Mirjam Tuwjasz in Poland who emigrated as a child. She worked on the Ferranti Mercury computer “Clementina” at the University of Buenos Aires, wrote one of its first programs, and later studied in London before returning as a Clementina expert. After the 1966 coup, she worked in accounting and later banking/IT roles, including representation in IFIP and UNDP projects.
 
-**Comments:** Commenters largely argue that models provide intelligence but not the execution, relationships, domain knowledge, risk tolerance, or operational focus needed to run businesses. Others add that labs are already expanding into products, avoid competing with customers, face a intense frontier race, and benefit from “selling shovels” during a gold rush. Some dissenters say the question exposes limits in current model capability or that valuations depend more on investor enthusiasm than direct commercial success.
+**Comments:** One commenter discusses the origin of the “Clementina” nickname from “Oh My Darling, Clementine” and links related videos. Another notes that the English Wikipedia page is much more detailed than the Spanish one and points to a Spanish-language book on Argentine computing history.
 
-## 22. [I turned my TV into a Game Boy Color with a Pokemon town as my home screen](https://news.ycombinator.com/item?id=50212668) (↑51, 💬14)
-**Article:** The linked X post shows Robbie Tilton’s project turning a TV into a Game Boy Color-style interface with a Pokémon town as the home screen. Users walk into buildings to open apps, and changing a setting reportedly requires beating a gym leader; the post credits “Opus 5.5.”
+## 27. [PHP Foundation 'under-funded' with one full-time staff member, director says](https://news.ycombinator.com/item?id=50224074) (↑94, 💬51)
+**Article:** Article content was unavailable; the title says the PHP Foundation is “under-funded” and has only one full-time staff member, according to its director.
 
-**Comments:** Commenters call it a cool demo with deliberately or accidentally terrible UX, with several joking about needing to beat gym leaders just to change settings. Discussion also touches on the broader trend of hacking smart TVs to remove bloat and spyware, nostalgia for Game Boy peripherals and emulation, and technical questions about whether the TV is rooted or the app is side-loaded.
+**Comments:** Commenters link Open Collective expense data and note a roughly $350k declining balance, arguing that more corporate sponsorship is needed for core maintenance. The thread debates OSS sustainability and corporate capture, including whether users owe financial support and whether PHP should be sunset or maintained because of widespread legacy use. Suggestions include nonprofit discounts, licensing votes, and a large structured fund from major beneficiaries.
 
-## 23. [Show HN: Swurf – Swipe through the real web](https://news.ycombinator.com/item?id=50205320) (↑39, 💬22)
-**Article:** Swurf is a Show HN project for swiping through individual real web pages rather than a feed, with controls for search, submitting links, saving, reporting, and showing 18+ content. Navigation uses horizontal swipes between pages and vertical scrolling to read the current page.
+## 28. [How close can pure functional programming get to C?](https://news.ycombinator.com/item?id=50218195) (↑243, 💬81)
+**Article:** The post examines how close pure functional programming can get to C performance using Roc’s DEFLATE implementation against libdeflate. On the Silesia corpus, roc-deflate produced identical outputs and was within roughly 2.6% median slowdown on an M1 MacBook Pro and 8.9% on a Ryzen 3900X, while still trailing libdeflate’s highly tuned SIMD implementation.
 
-**Comments:** Commenters compare it to StumbleUpon, Wander, and Kagi’s Small Web, praising the calm one-page-at-a-time experience while questioning whether swiping suits varied web layouts. Feedback includes mobile swipe bugs and questions about iframes or page snapshots. A larger debate asks why StumbleUpon-like discovery tools rarely stick today, with some blaming walled gardens and others pointing to independent-web directories and sites.
+**Comments:** Commenters debate why C/C++ can be faster, citing copy elision, direct mutation, and memory locality, while others note SIMD is a major factor. Several argue the comparison to miniz_oxide is unfair because zlib-rs is a faster Rust baseline, and others discuss Roc’s immaturity versus reported production use. There is also side debate about type checking, LLM-generated code, and whether functional languages can close the remaining gap.
 
-## 24. [DNS: A Replacement for Finger](https://news.ycombinator.com/item?id=50213791) (↑8, 💬8)
-**Article:** The article content was not available in the provided material; the title frames DNS records as a replacement for the Finger protocol.
+## 29. [Bringing uv and ty together](https://news.ycombinator.com/item?id=50172962) (↑282, 💬97)
+**Article:** Astral announced experimental integration between uv and ty, adding first-class support for PEP 723 Python scripts and a unified `uv check` command. The integration lets ty use uv workspace metadata and script dependency declarations to prepare environments for type checking and editor features, as part of a broader integrated Astral toolchain.
 
-**Comments:** Commenters ask how large TXT records could be abused for DDoS and discuss the author’s altchan.org site and its reply-button placement. The author explains the project as an experiment in using DNS, rather than a special-purpose client, to provide Finger-like personal updates. Others question why Finger should exist and note that using it still requires a shell function or dedicated app.
+**Comments:** Some commenters welcome the improved editor support for single-file scripts and the convenience of a unified check command. Others worry about CLI fragmentation, uv’s opinionated lockfile and ecosystem lock-in, and whether ty should remain standalone or be integrated with Ruff instead. There is also debate over ty versus Pyrefly/mypy, the value of type hints, and concerns about Astral’s acquisition by OpenAI.
 
-## 25. [Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key](https://news.ycombinator.com/item?id=50195488) (↑204, 💬87)
-**Article:** OnKey is a free, open-source singing trainer for Apple Silicon Macs that listens to music played in Spotify, Apple Music, or a browser and learns the singer’s melody. It then tracks the user’s live pitch against scrolling notes and provides per-line scoring, while emphasizing on-device analysis and limited network requests.
+## 30. [Tiling Noise – Procedural GPU Patterns](https://news.ycombinator.com/item?id=50180251) (↑58, 💬2)
+**Article:** This Godot shader tutorial explains how to make value noise tile seamlessly, including applying it to a torus and fixing UV seams. It shows how to wrap lattice coordinates, notes limitations such as integer frequencies and even frequencies for animation, and adds an optional tiling toggle.
 
-**Comments:** Commenters praise the idea and transparency, but several stress that singing involves breath, technique, rhythm, prosody, and ear training beyond hitting pitches, and that teachers remain valuable. Others ask about vibrato handling, Linux support, copyright constraints, gamification, and pitch-detection methods; the author answers with details on CREPE, UVR, scoring, privacy, and platform limitations. Some criticize the Tauri/webview approach as resource-heavy for a “vibe-coded” Mac app.
-
-## 26. [Time Nuts (2005)](https://news.ycombinator.com/item?id=50212281) (↑26, 💬21)
-**Article:** This page describes the Time-Nuts mailing list, a community for hobbyists interested in precise time and frequency measurement, including quartz oscillators, atomic clocks, GPS/WWVB comparisons, and surplus timing equipment. It offers beginner resources, archives, instrument/vendor references, and a brief history of the list’s origins.
-
-**Comments:** Commenters discuss hands-on nanosecond timing projects, atomic-clock synchronization, and practical effects such as temperature-driven clock drift and GPS module limitations. Several recommend surplus rubidium clocks and GPSDO projects, while others defend posting older “historical material” on HN and joke about the site’s age and the recent leap-second change.
-
-## 27. [Total Historian](https://news.ycombinator.com/item?id=50211504) (↑18, 💬4)
-**Article:** The essay profiles historian Marc Bloch, recently inducted into the French Pantheon, tracing his scholarship on medieval society, his co-founding of the Annales journal, and his Resistance activity before execution by the Gestapo. It reviews Peter Schöttler’s intellectual biography and argues that Bloch’s structural, interdisciplinary approach transformed historical writing.
-
-**Comments:** Commenters argue that public demand for historical perspective is high while academic history is constrained by metrics, insecure jobs, and institutional pressure. They praise Bloch as someone who “walked the talk,” especially for voluntarily joining the Resistance, and reflect on how few contemporary intellectuals would do the same.
-
-## 28. [Can we replace a $150k Looker with a bucket of HTML files?](https://news.ycombinator.com/item?id=50212320) (↑97, 💬60)
-**Article:** The author describes replacing a costly Looker deployment with an internal service that hosts AI-generated HTML dashboards, initially built in an afternoon and later expanded with Snowflake OAuth, publishing workflows, and security hardening. It explains the architecture, adoption growth, and tradeoffs of treating dashboards as editable HTML rather than fixed BI tiles.
-
-**Comments:** Commenters debate whether AI-generated HTML can really replace BI, with many arguing that data modeling, semantic consistency, governance, and decision-making remain the hard parts. Some share successful Looker replacements, while others warn about stale dashboards, security risks, hidden engineering costs, and confusing visualization with business intelligence.
-
-## 29. [Gemma-4-26B-A4B with 39-69% less thinking at same accuracy](https://news.ycombinator.com/item?id=50209907) (↑85, 💬14)
-**Article:** BottleCap AI presents ThinkingCap for Gemma-4-26B-A4B, claiming an average 38.9% reduction in thinking tokens with only a 0.15pp average accuracy change across twelve benchmarks. It also reports lower looping rates and offers a PRO version with larger token reductions.
-
-**Comments:** Commenters question the practical tradeoff, noting that benchmark accuracy may not reflect real-task quality and that some ThinkingCap models feel less capable or more censored. Others discuss smaller models doing more computation at inference time and share experiences with Qwen, Gemma, Nemotron, and other local models.
-
-## 30. [How is music possible](https://news.ycombinator.com/item?id=50211719) (↑73, 💬59)
-**Article:** Henrik Karlsson’s essay asks why abstract patterns of sound can deeply move listeners and alter their perception of the world. It surveys psychological and cultural explanations, including sound perception and learned associations, then turns to Schopenhauer’s metaphysical account of music as expressing a deeper reality.
-
-**Comments:** Commenters propose explanations including Kolmogorov complexity, prediction-reward theories, social bonding, and neural entrainment, while others doubt these accounts capture music’s emotional power. The thread also debates cultural relativity in major/minor perception, the value of explaining art, and personal experiences of music as transcendent or unusually absent.
+**Comments:** One commenter shares a compact JavaScript non-GPU Perlin/value-noise implementation with wrapping support, noting it is somewhat cryptic because it is used for size coding. Another praises Catlike Coding and Jasper Flick as a long-standing high-quality resource.
 
 ---
-_Generated 2026-10-23 16:04 MDT_
+_Generated 2026-10-24 16:05 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Oct 24](./archives/2026/oct/hn-digest-2026-10-24.md)
 - [Oct 23](./archives/2026/oct/hn-digest-2026-10-23.md)
 - [Oct 22](./archives/2026/oct/hn-digest-2026-10-22.md)
 - [Oct 21](./archives/2026/oct/hn-digest-2026-10-21.md)
 - [Oct 20](./archives/2026/oct/hn-digest-2026-10-20.md)
 - [Oct 19](./archives/2026/oct/hn-digest-2026-10-19.md)
 - [Oct 18](./archives/2026/oct/hn-digest-2026-10-18.md)
-- [Oct 17](./archives/2026/oct/hn-digest-2026-10-17.md)
 
-[Full archive](./archives/) (164 issues)
+[Full archive](./archives/) (165 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
