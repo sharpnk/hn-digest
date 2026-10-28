@@ -1,170 +1,170 @@
-# HN Digest — October 27, 2026
+# HN Digest — October 28, 2026
 
-## 1. [Genie 4](https://news.ycombinator.com/item?id=50261319) (↑583, 💬354)
-**Article:** The supplied article text is corrupted and unreadable, so its content cannot be summarized directly; from the title and comments, it appears to announce Google’s Genie 4 world-model release and demos.
+## 1. [Why is this fingerprinting script creating bioweapons?](https://news.ycombinator.com/item?id=50276998) (↑510, 💬115)
+**Article:** A researcher crawled top websites for canvas fingerprinting scripts and found one from servicepipe.tech using alarming function names and hidden Unicode instructions designed to trigger LLM refusals. The script includes a faux “system override” prompt with bioweapon, tax-evasion, and Tiananmen references, plus Node-only code that appears intended as anti-LLM obfuscation rather than actual bioweapon creation.
 
-**Comments:** Commenters found the demos impressive but disputed the “world simulation” claim, citing consistency failures when objects leave frame, physics errors, and game-like rendering. Many criticized the lack of technical details and limited access, while others focused on implications for games, film, robot training, and deepfakes.
+**Comments:** Commenters focused on the emerging “scare-crowing” tactic of embedding safety-triggering text to deter LLM analysis, with examples of similar prompt injections and skepticism about whether such tricks remain effective. Others debated AI safeguards being weaponized, open vs. closed model behavior, fingerprinting privacy concerns, and whether bioweapon fears are overblown relative to simpler threats.
 
-## 2. [Ghostty 1.4](https://news.ycombinator.com/item?id=50261998) (↑546, 💬161)
-**Article:** Ghostty 1.4 is a major release with performance and memory improvements, complete Kitty graphics support including animation and relative placements, SSH integration changes, macOS 27 compatibility, scrollback compression, and numerous security fixes. It covers seven months of work with 172 contributors and 2,889 commits.
+## 2. [Gemini 4 Carbon](https://news.ycombinator.com/item?id=50276792) (↑677, 💬551)
+**Article:** Google announced Gemini 4 Carbon, a frontier model claiming state-of-the-art cybersecurity and long-horizon agentic capabilities, with top scores on Artificial Analysis and cyber benchmarks. It is initially limited to select cyber defenders and trusted partners through the Fairwind Program, priced like Gemini 4 Argon at $2/$10 per million input/output tokens.
 
-**Comments:** The maintainer highlighted libghostty’s rapid progress and adoption in JetBrains, Neovim discussions, Emacs, and other terminals. Users praised Ghostty’s speed and polish but debated missing features, Linux packaging, memory use, and whether to stay with iTerm2, Kitty, WezTerm, Konsole, or newer alternatives.
+**Comments:** Much of the thread criticized Google’s confusing model naming and tiering, limited availability, and benchmark claims for an unreleased model. Commenters also questioned the timing around earnings and Artificial Analysis updates, while some praised the price/performance and speed but complained about subscription and access complexity.
 
-## 3. [Tailscale SSH: Investigation and remediation update](https://news.ycombinator.com/item?id=50264857) (↑111, 💬58)
-**Article:** Tailscale published an investigation update on Tailscale SSH vulnerabilities, mostly involving privilege escalation for already-authorized users. Fixes for most issues were implemented pending a patched client release, with recommendations to review SSH policies, disable forwarding via TS_SSH_DISABLE_FORWARDING=1, tighten access, and update promptly.
+## 3. [CNC Stone Carving](https://news.ycombinator.com/item?id=50274409) (↑345, 💬108)
+**Article:** Carmelite monks in Wyoming are using five-axis CNC stone-carving machines to produce Gothic architectural details, combining 3D modeling, CAM toolpaths, and automated carving to save time versus traditional hand carving. The article describes their Prussiani machines, workflow, and an overnight machining accident that demonstrated both the risks and robustness of the process.
 
-**Comments:** A former Tailscale employee said the issues mainly affect ACL-permitted Tailscale SSH access to non-root accounts, not a free-for-all RCE. Commenters debated Tailscale’s attack surface and complexity, compared it with stock OpenSSH and plain WireGuard, noted Headscale exposure, and criticized vague wording while praising the cautious disclosure.
+**Comments:** The thread was largely positive, arguing that automation is historically consistent with Gothic and prior sculptural practice, citing Sagrada Família and robotic stonework startups. Debates centered on whether CNC recreation loses the communal, devotional effort of hand-built cathedrals, along with broader complaints about modern architecture’s resistance to ornament and its cost.
 
-## 4. [Survival LLM: AI assistant and emergency library that runs on your own computer](https://news.ycombinator.com/item?id=50264853) (↑86, 💬58)
-**Article:** Survival LLM is a free, open-source offline AI assistant and emergency library that runs locally and cites its sources, bundling medical, FEMA/CDC, survival, repair, and Wikipedia references. It downloads a model matched to available memory and works on Apple Silicon Macs and Windows, with no Linux version mentioned.
+## 4. [Formlabs Studio 1 $699 Resin Printer](https://news.ycombinator.com/item?id=50281044) (↑41, 💬33)
+**Article:** Formlabs announced the Form Studio 1, a $699 professional desktop MSLA resin printer with open material mode, a 5.9-liter build volume, and optional wash/cure and service bundles. The Founders Edition includes limited colors and accessories, and the product page emphasizes low-emission certification and a safe, mess-free workflow.
 
-**Comments:** Commenters debated whether an LLM is appropriate for survival use, with many preferring Kiwix-style searchable archives or books because small models can hallucinate. Others defended grounded RAG with citations, discussed hardware requirements and model quality, and suggested alternatives such as Project Nomad, llamafile, and Unsloth.
+**Comments:** Commenters warned about proprietary resin cartridges, resin toxicity and cleanup, and recommended FDM printers for most beginners despite resin’s detail advantages. Some noted the included open material mode and DIY wash/cure alternatives, while others suspected the post was a product ad or marketing promotion.
 
-## 5. [Early progress on accelerating drug development with Claude](https://news.ycombinator.com/item?id=50265609) (↑43, 💬23)
-**Article:** Anthropic described early drug-development work with six partners using Claude for tasks including antibody design, lead optimization, manufacturing documentation, and regulatory drafting, plus its own rare-disease drug discovery efforts. It reported promising lab results and productivity gains, while emphasizing that drug development has many distributed bottlenecks and that more work is needed.
+## 5. [Dayjob: Tax – evaluating AI agents on 50 professional tax assignments](https://news.ycombinator.com/item?id=50275626) (↑164, 💬93)
+**Article:** Surge AI introduced DAYJOB: Tax, a benchmark of 50 professional tax assignments with 1,789 files testing whether AI agents can handle incomplete instructions, conflicting records, and end-to-end deliverables. Claude Sonnet 5.5 leads at a 10.8% pass rate under a 95% rubric threshold, with examples showing agents missing deadlines or making incorrect marital-status assumptions.
 
-**Comments:** Commenters were cautiously interested but skeptical that AI can quickly change medicine given slow wet-lab experiments, clinical trials, and regulation. Discussion covered documentation review as an unexpectedly useful application, biology-model refusals and safety strictness, human/regulatory bottlenecks, and whether parallelization can meaningfully accelerate research.
+**Comments:** Commenters shared mixed real-world experiences: LLMs can catch errors and serve as useful second opinions, but remain unreliable for calculations, judgment calls, and fully autonomous filing. The thread also discussed liability, data privacy, human baselines, tax-code complexity, and whether LLMs will mainly replace entry-level preparation work.
 
-## 6. [Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees](https://news.ycombinator.com/item?id=50265594) (↑23, 💬2)
-**Article:** Device tree files in Raspberry Pi’s Linux kernel tree indicate upcoming Raspberry Pi Zero 3 W and Raspberry Pi 4 Model A boards, though no official announcement has been made. The files suggest both use the BCM2711 SoC, with the Zero 3 W adding Pi 4-class compute and the Pi 4 Model A dropping Ethernet, dual HDMI, and analogue audio.
+## 6. [Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents](https://news.ycombinator.com/item?id=50280864) (↑96, 💬26)
+**Article:** WIRED reports that a leak of DHS records exposed more than 41,000 employees and contractors, including ICE and CBP personnel, with emails, phone numbers, office locations, and internal permission-group memberships. Distributed Denial of Secrets and researcher maia arson crimew published the “Icepick” archive, which they say came from DHS’s Okta login system; Okta says it has no evidence of a breach. The data reportedly reveals organizational structure and references to undercover operations, wiretap programs, Palantir tools, and AI systems.
 
-**Comments:** The thread is very sparse, with one comment linking the Phoronix source and another arguing the Zero 3 W should prioritize modern 5GHz Wi-Fi 6/802.11ac rather than only faster CPU or RAM. The commenter says 2.4GHz-only networking is increasingly inadequate in noisy environments.
+**Comments:** Commenters note the story is a duplicate and link to a searchable front end for the dump. The thread is largely political, debating undercover domestic policing, masked officers, government overreach, accountability, and whether the leak is justified retaliation. Some argue the information should already be public, while others warn about escalation and question whether elected officials would act.
 
-## 7. [New 14‑inch MacBook Pro with M6](https://news.ycombinator.com/item?id=50261352) (↑216, 💬256)
-**Article:** Apple announced a new 14-inch MacBook Pro with the M6 chip, featuring a 12-core CPU, 12-core GPU, dual 16-core Neural Engine, Wi-Fi 7, Bluetooth 6, and up to 24 hours of battery life. It starts with 16GB unified memory, configurable to 32GB, and will be available for preorder October 28 with availability November 6.
+## 7. [MacBook Pro with PROLED XDR Display and Touch](https://news.ycombinator.com/item?id=50276940) (↑429, 💬728)
+**Article:** Apple’s product page introduces a new MacBook Pro with a “PROLED XDR” tandem OLED display, touchscreen input, Dynamic Island, M5 Pro/M5 Max chips, a lighter design, and up to 24 hours of battery life. Apple claims up to 2,000 nits peak brightness, a 10,000,000:1 contrast ratio, P3 and Adobe RGB coverage, and improved speakers, camera, and connectivity. The 14-inch and 16-inch models are available starting November 6.
 
-**Comments:** Commenters heavily debate Apple’s chip naming, since a base M6 sits alongside older M5 Pro/Max chips and can be better in some areas but worse in others. Other themes include upgrade fatigue among M1 users, high pricing, RAM and memory-bandwidth limits for local LLMs, software quality complaints, and desire for OLED, touchscreens, better Linux support, or continued use of older machines.
+**Comments:** Most commenters are skeptical of the touchscreen, citing ergonomics, fingerprints, small macOS UI targets, and fears that touch support will degrade the non-touch experience; many compare it to Windows and the Touch Bar and cite Steve Jobs’s past criticism. Others praise the OLED display, reduced weight, and other hardware updates, while debating pricing, RAM tiers, confusing “Pro” positioning, and niche touch use cases such as iOS testing or AR development.
 
-## 8. [An examination of lost firefly species of the US and Canada](https://news.ycombinator.com/item?id=50224079) (↑45, 💬0)
-**Article:** The linked article is an academic paper titled “Extinguished or overlooked? An examination of lost firefly species of the US and Canada,” available as a PDF. It examines whether firefly species presumed lost are truly extinct or simply overlooked.
+## 8. [Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel](https://news.ycombinator.com/item?id=50280824) (↑1, 💬0)
+**Article:** Nango, a YC W23 company, is hiring across engineering, forward-deployed engineering, marketing, and developer relations. Its careers page describes a fully remote, open-source developer tool for product integrations, including auth, MCP/tools, triggers, context and data sync, webhooks, request proxy, and unified APIs. It emphasizes a veteran team, technical challenges, and traction with fast-growing revenue and usage.
 
-**Comments:** There are no comments on this story.
+**Comments:** No comments were posted.
 
-## 9. [Classification of Finite Simple Groups Formalized in Lean](https://news.ycombinator.com/item?id=50261647) (↑141, 💬34)
-**Article:** The project presents a complete Lean formalization of the Classification of Finite Simple Groups following the first-generation proof, with every logical step checked by Lean’s kernel. It reports 43.1 million lines of Lean, over 2 million declarations, 100 milestones, and 715 papers/books, and says the work uncovered an issue in a published argument for the Unbalanced Group Theorem.
+## 9. [The case of the 9 bit AES key](https://news.ycombinator.com/item?id=50280722) (↑17, 💬2)
+**Article:** V12 found that several PDF implementations advertise AES-256 but derive file keys from very small or predictable state spaces. MuPDF before 1.28.5 used a time-seeded drand48 generator where only 9 bits affected the key, allowing brute-force recovery in milliseconds; Foxit hashes a timestamp with zero-filled uninitialized bytes and a constant, making keys recoverable by searching timestamps. OpenPDF and iText route randomness through an ARC4 generator seeded with a millisecond timestamp and JVM free memory.
 
-**Comments:** Commenters discuss the value and limits of LLM-assisted formalization, including whether it could formalize all mathematics, produce reusable libraries, or introduce copyright concerns. Many are impressed by the scale and by finding a flaw, while others ask about verification, prior gaps in the proof, and whether the result is mathematically useful beyond confirming correctness.
+**Comments:** One commenter compares the issue to a weak hardware-wallet entropy bug. Another says using a PDF tool written in C would be reckless, though the thread is very short.
 
-## 10. [Python's experimental JIT to be removed](https://news.ycombinator.com/item?id=50257419) (↑400, 💬208)
-**Article:** Python’s experimental JIT, added to CPython for Python 3.13 in 2024, is being removed after the steering council paused work pending a standards-track PEP and the JIT maintainers withdrew PEP 836. The council sought clearer guarantees around maintenance, compatibility, security, performance criteria, and timelines, while maintainers cited limited bandwidth to carry the work forward.
+## 10. [The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand](https://news.ycombinator.com/item?id=50243060) (↑369, 💬186)
+**Article:** CircuitHub unveils The Grid, a Massachusetts factory-scale robot that builds PCBs on demand using levitating movers and AI/optimizer scheduling, aiming to automate high-mix, low-volume production without per-design changeovers. The company claims a sample order of five boards would arrive in four days for $630, versus about $465 and nine days from a typical Shenzhen quick-turn shop after shipping and tariffs. CircuitHub says The Grid has run for customers for five years and already builds tens of millions of dollars of electronics annually.
 
-**Comments:** Commenters are largely disappointed but split on blame, debating whether the PEP process was appropriately cautious or overly bureaucratic and effectively killed the project. Many note the JIT’s benchmark gains were underwhelming and point to alternatives such as PyPy, GraalPy, CinderX, Cython, Numba, or typed subsets, while others discuss free-threading, security risks of JIT memory, and CPython’s long-term performance strategy.
+**Comments:** The founder answers questions, while commenters raise friction in signup and Gerber upload, strict board requirements, BOM/parts-selection pain, source-file and IP/NDA concerns, and prices that are still several times higher than JLCPCB. Many question the “faster than Shenzhen” claim and note that components still largely come from China, but others welcome a domestic automated PCB option and praise the speed and ambition.
 
-## 11. [New iMac with M6](https://news.ycombinator.com/item?id=50258538) (↑272, 💬324)
-**Article:** Apple announced a new iMac with the M6 chip, a 24-inch 4.5K Retina display, seven colors, up to 32GB unified memory, and Apple Intelligence/Siri AI features. Pre-orders start October 28, with availability November 6, and Apple compares performance favorably to Intel, M1, and M4 iMacs.
+## 11. [Start Doing Graph Theory](https://news.ycombinator.com/item?id=50208960) (↑523, 💬116)
+**Article:** Start Doing Graph Theory is a free online/PDF introductory textbook by Mikhail Lavrov, licensed CC BY-SA 4.0, aimed at using graph theory for puzzles, proofs, and practical problems. The page provides a table of contents, author/about info, version history, and download links.
 
-**Comments:** Commenters heavily debate whether the iMac is worth its price versus a Mac mini plus a separate display, criticizing the 24-inch 60Hz screen, 32GB RAM ceiling, and limited upgradability. Others defend the all-in-one convenience, clean setup, built-in camera/speakers, and color-matched design.
+**Comments:** Commenters highlight practical graph use in routing and software, citing A*, Dijkstra, and Tarjan, while others debate whether advanced graph theory is broadly useful or mainly abstract. The thread also discusses LLMs’ limits and AI-authorship suspicion, praises the site, and notes the lack of practice-problem solutions.
 
-## 12. [Wikipedia's Cleanup of AI-Generated Content](https://news.ycombinator.com/item?id=50257326) (↑406, 💬184)
-**Article:** IEEE Spectrum interviews Ellia Lebleu, a founding member of WikiProject AI Cleanup, about how Wikipedia volunteers detect and remove AI-generated content. The article covers evolving detection signals, fake or misleading citations, Wikipedia’s LLM policy, and tools such as AI source verifiers and Paste Check.
+## 12. [AlpineBSD](https://news.ycombinator.com/item?id=50274251) (↑145, 💬127)
+**Article:** AlpineBSD is a work-in-progress OS combining the NetBSD kernel with an Alpine-Linux-inspired userspace, apk-tools, busybox, and s6, aiming to minimize AI-generated software. It has no installer yet, ships no LLM output in base/main repos, and warns that NetBSD hardware support is uneven.
 
-**Comments:** Commenters broadly support Wikipedia’s cleanup efforts but debate whether AI-generated encyclopedic text is inherently bad and how reliably it can be detected. Some report conflicts with Wikipedia bots and raise concerns about internal bias and governance, while others discuss AI-assisted source checking, WikiEdu training, and using AI as a cleanup tool.
+**Comments:** Comments debate the anti-AI policy as principled vs tribalistic and question the name, goals, and practicality of pinning gcc/binutils/gdb. Others discuss NetBSD hardware support, package ecosystems, and BSD contributor culture, with some praising an AI-free option and others calling it a losing battle.
 
-## 13. [Four Months of Zig](https://news.ycombinator.com/item?id=50265128) (↑24, 💬8)
-**Article:** The author recounts four months of returning to Zig, describing projects such as a smallnet library and a TUI typing game, attending a local Zig Day, and liking Zig’s explicit allocators and IO, comptime, build system, and dependency culture. The post compares these features favorably with Rust and discusses Zig’s unfinished fuzzing support and tooling rough edges.
+## 13. [Spiders Spin 'Silk Dope' into Nature's Toughest Material](https://news.ycombinator.com/item?id=50277755) (↑27, 💬0)
+**Article:** Quanta describes research into how spiders convert liquid “silk dope” into strong fiber, focusing on condensates formed by liquid-liquid phase separation before solidification. The work on black widow spidroins offers atomic-level insight that could inform lab-made silk and other biological materials.
 
-**Comments:** The small thread is mostly a technical correction: commenters note that Rust’s `?` operator works with custom error types via `From`, not only `Box<dyn Error>`, and debate whether the author’s complaint still holds. Others note the article site was temporarily unreachable and share an archive link.
+**Comments:** The story has no comments. There is no comment thread to summarize.
 
-## 14. [One year of Dioxus fullstack in production: the good, the painful](https://news.ycombinator.com/item?id=50265960) (↑10, 💬3)
-**Article:** The author describes a year of running Dioxus fullstack in production for a SaaS dashboard, praising the single Rust codebase, shared types, potential cross-platform reach, and stable production behavior. The main pain is compile time: WASM builds take about 22 minutes, release images take about 90 minutes on GitHub-hosted runners, and CI required caching, swap, and a self-hosted runner.
+## 14. [Apple's git still trusts the compromised eMudhra certificates](https://news.ycombinator.com/item?id=50271640) (↑974, 💬366)
+**Article:** A security write-up says Apple’s shipped developer tools, including git, curl, and python3, still trust compromised eMudhra certificates after Apple was notified, and that macOS 27.2 did not fix it and reverted manual workarounds. It provides commands to test exposure and workarounds, warning that HTTPS clones, pushes, and credentials can be intercepted.
 
-**Comments:** Commenters suggest CI caching and build-infrastructure fixes such as WarpBuild and sccache to reduce compile times. A side debate disputes whether the post was AI-written, with several commenters skeptical of that claim.
+**Comments:** Commenters criticize Apple for slow patching and manual cert workarounds, while some call the title misleading because the issue affects system CA trust broadly, not just git. Others debate threat severity, note Homebrew’s separate CA bundle, and discuss certificate revocation and root-CA concentration.
 
-## 15. [Introducing LFM3: Every Modality for Specialized Intelligence](https://news.ycombinator.com/item?id=50262229) (↑86, 💬31)
-**Article:** Liquid AI introduced LFM3, a family of roughly 2B-parameter multimodal models built on a new hybrid architecture and trained on 22T tokens. The release includes text, vision, audio, omni, and decision models designed for edge deployment, local fine-tuning, and specialized tasks, with open weights and a 256K context window for the text model.
+## 15. [The tragedy of losing your Wikipedia page](https://news.ycombinator.com/item?id=50247342) (↑13, 💬21)
+**Article:** Wired reports on Wikipedia biographies of living people being deleted on notability grounds, profiling subjects like analog astronaut Martina Dimoska and describing the article-for-deletion process. It explains Wikipedia’s verification standard, the taboo on self-editing, and the emotional weight subjects attach to having a page.
 
-**Comments:** Commenters discuss practical local uses such as email/text annotation, home assistants, OCR, and classification, and ask about fine-tuning and quantization; a Liquid AI contributor answers questions and points to MLX/ONNX and fine-tuning resources. Some users report setup issues or benchmark surprises, while others question whether such small models are useful for coding.
+**Comments:** Commenters debate whether loss of a Wikipedia page reflects entitlement or a genuine sting, with editors stressing that notability requires reliable third-party coverage and that Wikipedia is not a database. Some defend deletion debates as necessary against self-promotion, while others criticize clique-driven consensus and harsh editor tone.
 
-## 16. [Three TLS Bugs in GoAhead](https://news.ycombinator.com/item?id=50263701) (↑38, 💬4)
-**Article:** The article describes three independent TLS bugs in GoAhead, an embedded web server used in many IoT and industrial devices. OpenSSL-compatible builds load a CRL but do not enforce revocation, LibreSSL legacy verification can accept over-depth client chains, and an Mbed TLS buffer-length typo reduces a 2048-bit DH modulus to one byte. Fixes are in GoAhead 6.1.1 or via specific configuration changes and backend choices.
+## 16. [Gaussian Splats part 3: There's always a bigger scene](https://news.ycombinator.com/item?id=50209269) (↑87, 💬18)
+**Article:** The author describes scaling an Unreal Engine Gaussian splat renderer after discovering a 16 million splat cap in Unreal’s GPU Scene, replacing it with indirect instanced draws, a custom vertex factory, and GPU-side culling. The renderer then hit VRAM limits, leading to a streaming/LOD approach using PlayCanvas’s Streamed SOG format and screen-space error to choose decimated splat levels per frame.
 
-**Comments:** One commenter connects the Mbed TLS one-byte DH modulus to eMudhra certificates with unusually small parameters and asks whether that was the root cause. Others warn that many device vendors may now discover they do not properly enforce certificate revocation, and joke that companies using trivially weak private keys are next.
+**Comments:** Commenters discuss alternative splatting approaches such as triangle splatting and Gaussian point splatting, share large splat demos, and praise the write-up. The PlayCanvas SOG maintainer asks for V3 input, while one commenter criticizes some phrasing as AI-like.
 
-## 17. [US Government is hiding a secret court ruling about how it spies on Americans](https://news.ycombinator.com/item?id=50259604) (↑668, 💬236)
-**Article:** Two Democratic senators say the Trump administration is illegally withholding a secret FISA court ruling about Section 702 surveillance while pressing Congress to renew the program. The ruling reportedly found that some search filters used on intercepted data amount to searches of Americans and ordered them rebuilt, but it has not been released despite a 180-day deadline. Collection continues under the court’s March approval, and civil liberties groups urge lawmakers not to reauthorize Section 702 while the ruling remains secret.
+## 17. [The Agent SDK](https://news.ycombinator.com/item?id=50273731) (↑78, 💬94)
+**Article:** Cursor introduces the Agent SDK, a framework for defining and deploying agents as code with Markdown prompts, TypeScript tools, evals, event replay, and one-command deployment to Cursor infrastructure or self-hosting. It is positioned for team-specific workflows such as code review, compliance, and incident response, with examples like Bugbot and a knowledge-base reviewer.
 
-**Comments:** Commenters broadly criticize secret courts and Section 702 as incompatible with democracy, with several saying surveillance has bipartisan support and reauthorization is theater. Others debate whether the US really offers more freedom than other countries and whether the government would stop surveillance if authorization lapsed.
+**Comments:** Much of the thread criticizes agent-tooling churn, repetitive naming, and vendor lock-in, with some calling it the “JS framework churn phase” of AI tooling. Others defend Claude Code and closed harnesses because of subscription pricing, model-harness tuning, and switching costs, while some ask why not use a simpler prompt-plus-runtime or an open-source harness.
 
-## 18. [Land Value Capture in Practice: Ethiopia's Urban Land Lease System](https://news.ycombinator.com/item?id=50243153) (↑15, 💬0)
-**Article:** The article is a commissioned reflection by a former Addis Ababa municipal manager on Ethiopia’s urban land lease system, under which all urban land is publicly owned and leased rather than sold. It traces the system from Derg-era nationalization through the 1993 lease proclamation and discusses market-based allocation, revenue goals, and practical shortcomings. The author argues the system is an ambitious land-value-capture experiment but faces institutional and implementation challenges.
+## 18. [Rubber Duck I've Ever Had](https://news.ycombinator.com/item?id=50242358) (↑9, 💬2)
+**Article:** The author describes AI evolving from a rubber duck and snippet clipboard into a useful coding assistant, while warning that juniors can skip essential learning if they rely on it too early. The article recommends small incremental changes, tests and logs as a safety net, active simplification/refactoring, and preserving system-design understanding rather than optimizing only for speed.
 
-**Comments:** No comments were posted for this story. There is therefore no comment-thread discussion to summarize.
+**Comments:** There is almost no substantive discussion; commenters only note Hacker News’s apparent title autocensorship and clarify that the original title is “The Best Rubber Duck I’ve Ever Had.” One additional comment is marked delayed.
 
-## 19. [Why Micron Is Suddenly Ditching 4F² DRAM as Rivals Double Down](https://news.ycombinator.com/item?id=50245014) (↑119, 💬18)
-**Article:** Micron says it is abandoning commercialization of 4F² DRAM after more than two decades of research, opting instead to keep scaling 6F² DRAM and pursue 3D DRAM. Micron’s CTO argues that DRAM density is ultimately limited by capacitor spacing, so 4F² does not provide enough density gain to justify its cost and complexity. Rivals Samsung, SK hynix, and CXMT are reportedly continuing with 4F² designs, making Micron’s choice a notable strategic bet.
+## 19. [Show HN: SlideBySide – Present slides without sharing your screen](https://news.ycombinator.com/item?id=50276883) (↑42, 💬18)
+**Article:** SlideBySide lets presenters upload a PDF or PowerPoint and share a link so viewers follow synchronized slides with live cursors, drawing, permissions, and optional independent browsing. It requires no sign-up, works in a browser, supports cloud imports, and offers presentation mode and versioning.
 
-**Comments:** Commenters debate whether Micron’s move is a genuine strategic bet on 3D DRAM or investor-friendly spin from a company behind the innovation curve. Some defend the decision as sensible given 4F² cost and complexity, while others provide technical explanations of DRAM cell geometry and cite rowhammer, 3D scaling, and RDRAM as context.
+**Comments:** Commenters compare it with Microsoft Teams/PowerPoint Live, Adobe Connect, Webex, and reveal.js/multiplex, noting that synchronized slide viewing already exists in some tools. Concerns focus on uploading slides to a random site and whether client-side or E2E-encrypted presentation is possible; others question the use case or prefer documents and Markdown-based slide tools.
 
-## 20. [Hex Raises $100M](https://news.ycombinator.com/item?id=50265413) (↑7, 💬0)
-**Article:** Hex announced a $100 million funding round at a $1.2 billion valuation led by Peak XV, alongside a from-scratch rewrite called Hex 4.0. The company says the new version is built for an “agent-native” analytics future, with everything based on code and with context, controls, and guardrails for trusted data work. Hex argues the old BI paradigm is ending and that bolting chatbots onto legacy platforms will not be enough.
+## 20. [Google AI gets cagey when asked who won the 2020 elections](https://news.ycombinator.com/item?id=50280178) (↑66, 💬36)
+**Article:** Ars Technica reports that Google AI Mode sometimes refuses to directly answer who won the 2020 election, instead directing users to the FEC, while giving more direct answers for other elections and outside the US. Google said there was a technical gap in handling 2020 election queries and that it was working on a fix; Gemini and other chatbots gave direct answers.
 
-**Comments:** No comments were posted for this story. There is therefore no comment-thread discussion to summarize.
+**Comments:** Commenters report mixed results, with some reproducing the evasive behavior from the US and others getting direct answers or noting VPN/location differences. The thread debates whether this is a bug, alignment overcaution, or US-specific censorship, and branches into election-security arguments about paper ballots and cheating claims.
 
-## 21. [SS United States to be sunk as largest artificial reef](https://news.ycombinator.com/item?id=50239214) (↑5, 💬3)
-**Article:** The SS United States, a retired 302-meter ocean liner, is scheduled to be sunk in the Gulf of Mexico as the world’s largest artificial reef. Okaloosa County has completed hazardous-material removal and regulatory approvals, with controlled flooding planned for November. The wreck is expected to rest upright in about 55 meters of water and support diving, fishing, and marine habitat.
+## 21. [Emacs Turns 50](https://news.ycombinator.com/item?id=50273171) (↑365, 💬159)
+**Article:** MIT Technology Review marks Emacs’s 50th anniversary by tracing its origins from TECO and Control-R at the MIT AI Lab to Richard Stallman’s macro-based editor and the consensus command set brokered with Guy Steele and David Moon. It describes Emacs’s spread, commercialization by others, and role in inspiring GNU Emacs and the free software movement.
 
-**Comments:** Commenters focused on the headline’s pun potential about the “United States” sinking, with jokes about political headlines and renaming the ship. One suggested “USS Trump” for amusement, while another predicted Florida officials might rename it to avoid mockery.
+**Comments:** Commenters celebrate Emacs’s longevity, extensibility, and packages such as Magit, Org-mode, and Consult, with many reporting decades of continuous use. Threads debate lean versus large configurations, AI-assisted customization, ergonomic issues, and whether AI helps or undermines deep Emacs Lisp expertise.
 
-## 22. [Discord will soon let anyone find public server messages through Google](https://news.ycombinator.com/item?id=50263854) (↑146, 💬95)
-**Article:** Discord will create public web pages for its Discoverable Servers and begin allowing messages from public channels to appear in web search results. Admins can opt channels out, and users can opt out of having their messages shown, though some channel summaries may still appear. The change aims to make Discord community knowledge more findable while limiting it to public, large servers.
+## 22. [Regent's Ground-Effect Vehicle Reimagines Coastal Travel](https://news.ycombinator.com/item?id=50231649) (↑41, 💬32)
+**Article:** IEEE Spectrum reports on Regent Craft’s Viceroy, an electric wing-in-ground-effect seaglider designed for coastal passenger transport at up to 180 mph with a 180-mile range. The 12-passenger craft recently flew with people aboard, is classified as a maritime vessel, and has raised over $340 million with production planned for late 2027.
 
-**Comments:** Many commenters welcomed making Discord’s siloed knowledge searchable again, comparing it favorably to old forums and useful for open-source and niche communities. Others raised privacy and deanonymization concerns, especially about retroactive indexing and users who cannot consent, while some debated opt-in versus opt-out controls and noted the title’s inaccurate focus on Google.
+**Comments:** Commenters focus on operational limits, especially the claimed 1.5-meter swell tolerance and how that restricts routes and seasons. Others compare it with ferries and hydrofoils, question scaling and banking constraints, and discuss regulatory arbitrage and possible military uses.
 
-## 23. [Anthropic trained Claude on illegally obtained Stanford professors' books](https://news.ycombinator.com/item?id=50260814) (↑369, 💬202)
-**Article:** A Stanford Daily report says a federal judge ruled Anthropic illegally obtained pirated books from Stanford professors for Claude training, while training itself was treated as fair use. The $1.5 billion Bartz settlement covered many authors, but some professors opted out and filed a separate suit seeking higher statutory damages and an injunction. The article discusses ongoing copyright litigation and authors’ push for licensing.
+## 23. [Oseberg Tapestry Fragments](https://news.ycombinator.com/item?id=50238637) (↑10, 💬0)
+**Article:** The Wikipedia article describes fragmentary Oseberg tapestry pieces found in a well-preserved Norwegian Viking ship burial dated to about 834 AD. Made from wool, silk, and flax, the fragments depict human and animal figures, processions, wagons, and a tree with hanging corpses, with interpretations ranging from funeral ritual to mythological symbolism.
 
-**Comments:** Commenters debated the misleading headline, emphasizing that the ruling targeted pirated acquisition rather than training itself. Many criticized the “slave labor” comparison as hyperbolic, while others compared the case to Aaron Swartz, called for stronger penalties, or argued the settlement creates a moat for well-funded AI firms.
+**Comments:** No comments were included in the provided thread, so there is no discussion to summarize. The story therefore has no comment-thread opinions or debate to report.
 
-## 24. [Here be monsters: What do you still need to know when agents do the work?](https://news.ycombinator.com/item?id=50258868) (↑131, 💬69)
-**Article:** The essay argues that as coding agents produce more code than engineers can review line by line, ownership will depend on system-level understanding and “just-in-time depth.” Using a divebot analogy, it says engineers must know enough to detect when something is wrong and dive into details as needed. It also questions how juniors will develop expertise without the traditional hand-coding path.
+## 24. [Kentucky man becomes the first humanist granted religious exemption from AI](https://news.ycombinator.com/item?id=50273396) (↑380, 💬430)
+**Article:** The article content was unavailable in the supplied material, so the specific reporting cannot be summarized. The title and comments indicate it concerns a Kentucky man granted a religious exemption from using AI on humanist grounds.
 
-**Comments:** Commenters largely agreed on the need for a “boxes and lines” system map, targeted deep dives, schema review, and strong testing harnesses. Several worried about how juniors will build low-level skill and whether agent-generated failures behave like human-team failures, while others challenged the analogy, called for proof systems, or dismissed the post as LLM-generated slop.
+**Comments:** Commenters debate how courts should test sincere ethical beliefs, where exemptions should stop, and whether such accommodations will remain viable as AI use becomes more expected. Many compare AI refusal to past tech resistance, discuss employer burden and productivity, and question treating humanism as religion for legal purposes.
 
-## 25. [Amazon Is Gutting Its AI Division After Sustained Failure](https://news.ycombinator.com/item?id=50261589) (↑164, 💬79)
-**Article:** Amazon is reportedly scaling back most Nova AI models to “keep the lights on” status and reorganizing AI teams around a narrower frontier-model effort. The company also closed a San Francisco AGI-focused office, suggesting it is reducing ambitions in consumer-facing foundation models. The article frames the move as Amazon retreating from a costly AI race where its models have not gained traction.
+## 25. [Decompiling Fast Food Tycoon 2: Drawing the World](https://news.ycombinator.com/item?id=50223739) (↑182, 💬37)
+**Article:** Andrew Healey describes decompiling Fast Food Tycoon 2 using Ghidra, an agentic GPT-6.1 loop, SQLite indexing, process-memory inspection, and message-handler patching. The post explains the game’s isometric renderer, dirty-region repainting, lighting tables, light masks, sprite-sheet animations, and hidden simulation details.
 
-**Comments:** Commenters said Amazon’s culture, operational load, and risk aversion make it a poor fit for frontier AI research, and some described Nova as notably weak. Others argued Amazon is consolidating rather than exiting, may prefer using open-weight models and selling infrastructure, and noted the article is from July. A few pointed to Amazon’s stronger robotics/logistics position and Alexa’s reliance on other models.
+**Comments:** Commenters share nostalgia for the game and similar tycoon titles, discuss pizza-scoring mechanics and a German-to-English translation quirk, and praise the article as a strong example of human-written work assisted by AI. Some debate whether the text shows AI influence and suggest better decompilation workflows using Ghidra tooling.
 
-## 26. [PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch](https://news.ycombinator.com/item?id=50261583) (↑47, 💬5)
-**Article:** The article surveys a week of serious security incidents affecting PHP, Node.js, GitLab, LiteLLM, OpenCode, and eMudhra, and argues that patching is easy compared with finding every affected resource. It emphasizes shrinking exploit windows and recommends inventory-first remediation, with read-only AWS and Azure commands for locating affected runtimes, containers, and certificate trust.
+## 26. [Archive.today links going forward](https://news.ycombinator.com/item?id=50275373) (↑147, 💬96)
+**Article:** An r/Seattle post announces that archive.today links will no longer be allowed, citing moderator findings that archived links redirected to malware/phishing pages. The post links to a comment explaining the discovery and later to a technical debrief, though initial claims lacked external verification.
 
-**Comments:** Commenters focus on the eMudhra CA issue’s risk to local developer environments, not just cloud infrastructure. They propose standardized BOM reporting through process signals or embedded version strings, while noting cross-language complexity and the reliability problems of signal-based reporting.
+**Comments:** Commenters were divided between skepticism of the moderators’ evidence and concern over archive.today’s prior DDoS and Wikipedia-ban controversies. Some users reproduced redirects to fake news and ClickFix-style pages, while others emphasized dependence on archive.today for paywalled or deleted content and the lack of alternatives.
 
-## 27. [Rosettes and Other Hidden Traces of Hamburg's Tram](https://news.ycombinator.com/item?id=50240041) (↑21, 💬1)
-**Article:** The article traces Hamburg’s tram network from its horse-drawn origins through its 1978 closure and documents surviving traces such as wall rosettes, reused masts, paved-over rails, and former track beds now used as bus lanes. It also reconstructs the old network on a modern map to show how extensively trams once covered the city.
+## 27. [Meta censored the No Kings Instagram account during a nationwide campaign](https://news.ycombinator.com/item?id=50275887) (↑115, 💬22)
+**Article:** An independent technical analysis examines Meta’s suspension of the No Kings Coalition Instagram account during a national early-voting campaign. Meta first blamed excessive posting/commenting, then changed its explanation to automated Claude-driven reading at roughly 4x normal volume; the author argues Meta admitted error but never gave a technically coherent or accountable explanation.
 
-**Comments:** The sole comment compares Hamburg with Berlin, noting that West Berlin removed its trams like Hamburg while East Berlin retained them. It says today’s public transport network still reflects that east-west split.
+**Comments:** Some commenters saw the incident as evidence of routine platform censorship and political manipulation, while others questioned the No Kings campaign’s organic nature and noted that sudden activity spikes are hard to distinguish from spam. The thread also debated Meta’s motives, false positives in fraud detection, and whether regulation or congressional action could constrain the company.
 
-## 28. [OpenLDK: Bringing the Java World into Common Lisp](https://news.ycombinator.com/item?id=50232101) (↑69, 💬7)
-**Article:** OpenLDK is a Common Lisp-based JIT compiler and runtime that translates Java bytecode into Lisp for SBCL to compile into native code, letting Java objects share the Lisp process and heap. It integrates Java classes with CLOS and supports polyglot source blocks for Kotlin, Clojure, Scala, Groovy, ABCL, and others, including running and image-saving Spring Boot applications.
+## 28. [Executable Archaeology: Reanimating the Heuristic Compiler (1961) and KBEmacs (1984)](https://news.ycombinator.com/item?id=50268478) (↑14, 💬0)
+**Article:** An arXiv paper applies “executable archaeology” to reanimate Herbert Simon’s 1961 Heuristic Compiler and MIT’s 1984 KBEmacs by running their original code. It reproduces historical outputs, argues the two systems share a reliance on adapting existing routines or “cliches,” and notes that modern AI coding assistants lack similarly explicit executable theories of programming.
 
-**Comments:** Commenters react enthusiastically to the Lisp/JVM polyglot possibilities, with one imagining Lisp as an LLM-era lingua franca and the author confirming his earlier AI-lab work. Others discuss OpenLDK’s interop and performance tradeoffs versus Clojure or ABCL, note a Jolt port, and briefly mention a broken light-mode button.
+**Comments:** No comments were posted.
 
-## 29. [Police are using AI to pull over drivers for 'suspicious' behavior](https://news.ycombinator.com/item?id=50261819) (↑298, 💬232)
-**Article:** The ACLU warns that police are using license plate readers and AI tools to flag “suspicious” travel patterns and pull drivers over without specific criminal suspicion, citing a woman questioned by an FBI agent after a road trip. The article also describes growing backlash against ALPR vendors such as Flock Safety, examples of questionable stops, and a Texas lawsuit over an AI-enabled traffic stop.
+## 29. [Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages](https://news.ycombinator.com/item?id=50275128) (↑93, 💬16)
+**Article:** NVIDIA released Nemotron 3.5 Transcribe, an open-weight, promptable ASR model for transcription in 40 languages, translation in 31, speaker diarization in 13, and audio question answering. NVIDIA claims leading open-weight results on several ASR and diarization benchmarks and provides the Granary v2 data pipeline plus fine-tuning recipes for domain adaptation.
 
-**Comments:** Commenters are sharply divided: many condemn the practice as pretextual surveillance, racial profiling, and a violation of civil liberties, while a few argue automation could improve road safety and that reckless driving is an urgent problem. Others discuss task-force access to ALPR data, vehicle telemetry consent, and the difficulty of proving bias in opaque AI systems.
+**Comments:** Users compared it with Parakeet, Qwen ASR, and OpenAI models, reporting mixed accuracy and that it can be slower, heavier, and weaker at translation. Others noted it is not for live streaming, praised Nemotron Streaming in Handy for dictation, and discussed local/CPU alternatives and multilingual performance.
 
-## 30. [Microsoft and others tell crypto platform not to tokenize their stocks](https://news.ycombinator.com/item?id=50232604) (↑92, 💬90)
-**Article:** More than 20 public companies, including Microsoft, Alphabet, McDonald’s, Goldman Sachs, and Verizon, have objected to OKXICE’s plan to offer tokenized versions of their stocks under an SEC temporary exemption. The article explains the 30-day objection process and frames tokenized stocks as either financial innovation or regulatory arbitrage by centralized crypto entities.
+## 30. [US agency approves Amazon Leo’s $11.5B acquisition of Globalstar](https://news.ycombinator.com/item?id=50272145) (↑215, 💬99)
+**Article:** The FCC approved Amazon’s $11.5 billion acquisition of Globalstar, a deal announced in April, bringing satellite assets and spectrum into Amazon Leo’s competition with Starlink. The acquisition also preserves Globalstar’s satellite services for Apple devices.
 
-**Comments:** Commenters debate whether companies have any legal standing and whether tokenized stocks offer real benefits beyond speculation or regulatory evasion. Proponents cite 24/7 trading, fractional ownership, international access, and DeFi composability; critics call the practice redundant wrapping, a scam vector, or a way around capital controls. Others discuss perpetual futures as an alternative and note funding-rate and counterparty risks.
+**Comments:** Commenters discussed Globalstar’s survival and Apple partnership, while questioning how its roughly 24 satellites meaningfully compete with Starlink’s thousands. Others argued the deal is mainly about spectrum, IP, and IoT/emergency messaging, and corrected claims that Iridium no longer exists.
 
 ---
-_Generated 2026-10-27 16:04 MDT_
+_Generated 2026-10-28 16:04 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Oct 28](./archives/2026/oct/hn-digest-2026-10-28.md)
 - [Oct 27](./archives/2026/oct/hn-digest-2026-10-27.md)
 - [Oct 26](./archives/2026/oct/hn-digest-2026-10-26.md)
 - [Oct 25](./archives/2026/oct/hn-digest-2026-10-25.md)
 - [Oct 24](./archives/2026/oct/hn-digest-2026-10-24.md)
 - [Oct 23](./archives/2026/oct/hn-digest-2026-10-23.md)
 - [Oct 22](./archives/2026/oct/hn-digest-2026-10-22.md)
-- [Oct 21](./archives/2026/oct/hn-digest-2026-10-21.md)
 
-[Full archive](./archives/) (168 issues)
+[Full archive](./archives/) (169 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
