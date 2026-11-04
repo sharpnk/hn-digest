@@ -1,170 +1,170 @@
-# HN Digest — November 3, 2026
+# HN Digest — November 4, 2026
 
-## 1. [Safari introduces Adaptive Dark Mode in 27.3](https://news.ycombinator.com/item?id=50358562) (↑42, 💬25)
-**Article:** Safari 27.3 beta introduces Adaptive Dark Mode, which automatically transforms light websites into dark versions by adjusting luminance and preserving hue, contrast, gradients, and some SVG/logo content. Sites can opt out or provide authored dark styles via `color-scheme`, and Safari prevents sites from detecting whether the transformation was applied to protect privacy.
+## 1. [Residential proxies detected on White House network](https://news.ycombinator.com/item?id=50371246) (↑246, 💬65)
+**Article:** Layer3 Intel reports that its residential-proxy observatory saw 236 exits through six addresses on AS2650, registered to the Executive Office of the President, between October 5 and November 3. It says the evening-heavy pattern suggests an infected device on the White House network and warns that poorly secured proxy SDKs could enable internal access, while also noting proxy activity in remote locations.
 
-**Comments:** Commenters were split between enthusiasm for improving dark-mode coverage and concern that automatic transformations will break sites or burden developers with another rendering variation. A major debate centered on Safari intentionally hiding transformed colors from JavaScript, with some calling it “lying” and others defending it as user-agent control and privacy protection.
+**Comments:** Commenters are skeptical that IP ownership proves White House involvement, calling the post promotional and noting possible labs, guest networks, or IoT devices. Others focus on compromised devices and residential proxies as botnet malware, with side debates about detection, benign uses, and reports of phones in SCIFs.
 
-## 2. [Jailbreaking my car's navigation system just so I can change the time](https://news.ycombinator.com/item?id=50339288) (↑514, 💬203)
-**Article:** The owner of a 2014 Renault Latitude discovers that changing the clock requires a valid navigation SD card, because the head unit’s settings menu definition is read from the card and protected by CID-based DRM. The article documents reverse-engineering the TomTom Carminat unit, building a QEMU emulator, and exploring ways to root or modify the firmware just to set the time.
+## 2. [Insects don't swarm at LED lights](https://news.ycombinator.com/item?id=50370610) (↑93, 💬54)
+**Article:** The post explains that LEDs attract far fewer insects than incandescent or compact fluorescent lights because LEDs generally lack UV, which insects use as a moonlight cue. It cites a 2016 University of Bristol field study and notes that artificial UV light at night is considered a contributor to insect decline.
 
-**Comments:** Commenters shared similar frustrations with car clocks and locked-down infotainment systems, including Subaru, Honda, Toyota, Renault, and Nissan examples, while praising the writeup and suggesting aftermarket head units or simple workarounds. The thread broadly agreed that basic clock-setting should not require DRM, proprietary cards, or dealership updates, and several joked about tape over the clock or just wearing a watch.
+**Comments:** Commenters report LEDs still attracting bees and moths and debate whether UV, PWM flicker, blue-light spectrum, or other factors explain the difference. The thread also digresses into declining windshield insects, pesticides, and whether the headline overstates the finding.
 
-## 3. [Stringman, an $800 open-source room scale gripper robot](https://news.ycombinator.com/item?id=50354358) (↑230, 💬97)
-**Article:** Stringman is an $795 open-source, room-scale cable robot that hangs a gripper from four ceiling-corner anchors, aiming to cover a room with fewer actuators than arms or mobile robots. It supports about 1.9 kg average payload, local/air-gapped control, cameras, a Python API, and an MCP server for agent workflows.
+## 3. [Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding](https://news.ycombinator.com/item?id=50369925) (↑143, 💬56)
+**Article:** Ricursive Intelligence announced Ripple-65B Preview, a dense 65B open-weight model trained on 12 trillion tokens with up to 1M context, claiming U.S. open-weight state of the art on TerminalBench 2.1 at 80.52. It cites a $32M full R&D cost, describes efficiency-focused architecture and RL recipes, and lists availability on Hugging Face, Together AI, GMI Cloud, and OpenRouter.
 
-**Comments:** The creator answered questions about safety, ceiling fans, and household use, while commenters praised the ingenuity and compared it to Hangprinter and Maslow CNC. Skeptics questioned whether cables would work in cluttered homes and raised concerns about wobble, snagging, and safety, while others discussed 3-cable vs. 4-cable designs and possible commercial uses.
+**Comments:** Commenters criticize the narrow “U.S. open-weight SOTA” framing and omission of Qwen/global comparisons, alleging cherry-picked benchmarks. Others praise the low training cost and potential local inference, while noting a 65B dense model is impractical for many hobbyists and debating U.S.-only market segmentation.
 
-## 4. [The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer](https://news.ycombinator.com/item?id=50358582) (↑14, 💬1)
-**Article:** This arXiv preprint is a 195-page, derivation-oriented primer on the mathematical foundations of generative AI, covering PCA, VAEs, diffusion models, normalizing flows, autoregressive models, GANs, Wasserstein GANs, and energy-based models. The revised version adds visual explanations and is intended for mathematically curious researchers, practitioners, and students.
+## 4. [AI is forcing us to pay off 40 years of technical debt](https://news.ycombinator.com/item?id=50364336) (↑958, 💬587)
+**Article:** IEEE Spectrum describes PHP2Shell, an AI-assisted audit that turned a long-known PHP out-of-memory bug into remote code execution, prompting a patch before public exploitation. The article argues AI is exposing decades of legacy software debt and that defenders need more funding, AI tools, and formal verification.
 
-**Comments:** The single comment recommends François Fleuret’s “The Little Book of Deep Learning” as another favorite concise resource.
+**Comments:** Commenters debate whether AI is paying down technical debt or creating new opaque code and endless fix work, with several invoking the impossibility of perfect security. Anecdotes cover AI finding and fixing bugs and generating vulnerable code, while others question “disaster averted” given unpatched PHP deployments and overloaded disclosure programs.
 
-## 5. [Qwen 3.8 27B on my laptop can interpret model weights, too](https://news.ycombinator.com/item?id=50355251) (↑388, 💬132)
-**Article:** Simon Willison reproduces a “Weight-Space Programming” example in which an LLM inspects raw neural-network weights and infers what a small game-playing network was trained to do. Running Qwen 3.8 27B locally, he finds it can identify Pac-Man, Pong, and Breakout from weights alone after long reasoning, though it fails on Freeway; he also notes pushback on the paper’s broader claims.
+## 5. [A new Go API for JSON](https://news.ycombinator.com/item?id=50369106) (↑156, 💬64)
+**Article:** Go 1.27 makes encoding/json/v2 and encoding/json/jsontext stable, aiming to fix encoding/json’s syntax strictness, nil slice/map handling, case-insensitive matching, option plumbing, streaming, and performance limits. The post explains why these changes required a v2 rather than in-place fixes.
 
-**Comments:** Commenters debated whether the result is genuinely impressive or just a constructed prompt/benchmark artifact, and whether interpreting weights is meaningfully different from other LLM pattern-matching. The thread also discussed local Qwen’s quality, weight editing versus training/LoRA, recursive self-improvement, and whether the work should be called a paper or a blog post.
+**Comments:** Commenters welcome the redesign but lament migration pain, especially losing MarshalIndent simplicity, and question why it took six years. The thread drifts into Go’s role in LLM-assisted coding versus Rust and Kotlin, marshal error semantics, and whether nil slices/maps should default to empty arrays/objects.
 
-## 6. [Postman silently auto-installs AI plugins and attempts to share all API data](https://news.ycombinator.com/item?id=50354960) (↑832, 💬271)
-**Article:** A GitHub issue alleges that Postman desktop auto-installed Codex and Claude plugins and modified global agent configurations after launch. The report cites Postman logs showing the install, a startup hook instructing agents to route API work through Postman skills, an attempted self-trusted hook, and an enabled remote MCP connection that failed authentication. The reporter calls this a consent and trust-boundary problem but explicitly does not claim data exfiltration.
+## 6. [Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s](https://news.ycombinator.com/item?id=50370654) (↑53, 💬22)
+**Article:** The page presents Qualcomm’s Cloud AI 100 Ultra as a 150W AI inference accelerator card with 128GB of memory and 548GB/s bandwidth. It positions the card around high-memory inference workloads, with the provided article text consisting mainly of product framing.
 
-**Comments:** Commenters broadly criticize Postman as bloated, privacy-invasive, and hostile to users, citing forced logins, request logging, and subscription pressure. Many recommend alternatives such as Bruno, Insomnia, Kreya, Yaak, JetBrains’ REST client, or plain curl; some debate whether Postman remains useful and whether its valuation is justified.
+**Comments:** Commenters question pricing and whether 2024-launched specs are already outdated, comparing the card to Apple silicon and multi-GPU setups. Discussion focuses on SRAM/DRAM tradeoffs, bandwidth limits, and whether the card suits prefill rather than decode; several note multi-card configurations could reach 1TB and roughly 4.4TB/s.
 
-## 7. [Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels](https://news.ycombinator.com/item?id=50346755) (↑54, 💬16)
-**Article:** HackerTV is a Show HN project that turns YouTube videos recommended in HN comments into synchronized 24/7 TV channels with a retro television interface and program guide. Its catalog is seeded from HackerTube and the HN archive, then updated weekly via the HN Search API and labeled with Claude.
+## 7. [Progress on provable inference for large language models](https://news.ycombinator.com/item?id=50368626) (↑146, 💬74)
+**Article:** Anthropic describes FlashProve, a zkSNARK-based provable-inference system that lets a provider prove a response came from committed weights without revealing them. For Llama 4 Maverick 400B at 4-bit, one H100 generates proofs at about 110 tokens/s with ~19MB proofs per 1,024-token request, roughly 70–95x the GPU time of vLLM. The release includes code, a technical report, and Lean proofs under Apache 2.0.
 
-**Comments:** The reception is mostly playful and positive, with jokes about missing channel numbers and requests for HackerRadio or HN-themed games. Some commenters praise the concept, while others skeptically predict that vibe-coded “Hacker*” sites will be quickly abandoned.
+**Comments:** Commenters debate attribution, with one saying the work builds heavily on their VerInf project; others question the 70–95x overhead and limited threat model. Supporters see value for model-substitution detection, audits, and AI supply-chain trust, while skeptics compare it to watermarking/TEEs and warn about regulatory capture or impracticality for long-context and sampled decoding.
 
-## 8. [Fujifilm to boost tape production 5x as AI fuels archiving demand](https://news.ycombinator.com/item?id=50336918) (↑328, 💬134)
-**Article:** Fujifilm plans to invest about ¥10 billion ($63 million) to increase LTO magnetic tape production capacity fivefold, mainly for LTO Ultrium10 tape, citing generative AI’s growth in data archiving demand. The article notes that cloud and data-center operators still value tape for low-cost bulk storage and air-gapped ransomware protection.
+## 8. [Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux](https://news.ycombinator.com/item?id=50362905) (↑560, 💬255)
+**Article:** The post reports that Linux can dual-boot on an MSI Prestige RTX Spark laptop with GPU acceleration, but plugged-in GPU clocks drop to about 780MHz versus 2.2GHz on Windows because the encrypted power table and Nvidia Platform Controllers have no Linux equivalent. Benchmarks show GPT-OSS-120B at 13.9 tokens/s on native Linux versus 65.4 on Windows and 65.1 under WSL, with WSL presented as the practical workaround.
 
-**Comments:** Tape practitioners warn that archives must be test-restored, written in multiple copies, and handled with compatible, clean drives; they also discuss the high cost of LTO drives versus cartridges. Alternatives such as S3 Glacier Deep Archive and Blu-ray are mentioned, along with debate over prosumer tape viability, long-term archival costs, and skepticism about storing AI-generated data.
+**Comments:** Commenters split between calling it normal missing Linux-driver support and criticizing Nvidia’s proprietary, encrypted firmware and market power. The thread also covers reverse-engineering hopes, confusion over RTX Spark versus DGX Spark, antitrust concerns, and advice to use AMD/Intel or WSL.
 
-## 9. [macOS 27 does not support CoreStorage volumes](https://news.ycombinator.com/item?id=50356944) (↑39, 💬17)
-**Article:** The post reports that macOS 27 “Golden Gate” cannot normally mount CoreStorage/encrypted HFS+ volumes, and Disk Utility and diskutil fail to mount, convert, or erase them with misleading or “Resource busy” errors. The author found a direct read-only mount_hfs workaround and a delete-then-reboot method for erasing, but ultimately had to rebuild volumes from backups.
+## 9. [AR guitar with just a laptop and scissors](https://news.ycombinator.com/item?id=50371370) (↑11, 💬4)
+**Article:** The linked AR Guitar page is a browser-based augmented-reality guitar app, but it displays a client-side error. The provided content contains little explanatory article text beyond the error condition.
 
-**Comments:** Commenters complain about macOS 27 instability, battery life, and dropped FireWire support, with some calling the release a disaster. Others note that CoreStorage is legacy and largely tied to Fusion drives, debate whether the loss matters, and discuss Apple’s naming and support decisions.
+**Comments:** Commenters mock the app for checking for an Ethereum wallet and for crashing on iPhone with `window.ethereum` undefined. Several joke that real guitars are inexpensive and question the project’s trustworthiness.
 
-## 10. [Introduction to Programming in ATS](https://news.ycombinator.com/item?id=50356913) (↑37, 💬6)
-**Article:** This is Hongwei Xi’s online book introducing ATS, a syntax- and feature-rich programming language. It covers functional programming, datatypes, polymorphism, dependent and linear types, theorem proving, C interoperability, and template-based programming, while warning that the material is dense for beginners.
+## 10. [Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander](https://news.ycombinator.com/item?id=50369895) (↑52, 💬4)
+**Article:** The author recounts an 11-year reverse-engineering effort to add co-op multiplayer to DOS Wing Commander by locating game state in the 64K data segment and using DOSBox memory snapshots, watchpoints, and function injection. The writeup details finding position, velocity, and orientation vectors, syncing state over the network, and making it playable in a browser.
 
-**Comments:** Commenters note that ATS was once discussed more often on HN and share a talk and GitHub links. They observe that ATS2/Postiats appears to be in maintenance mode while ATS3/Xanadu is under active development, and they joke about the acronym’s other meanings such as “Applicant Tracking System.”
+**Comments:** The author explains the project’s history, highlights the camera living in entity slot `0x3D` as a likely “3D” joke, and notes AI helped with browser compilation and WebRTC. Commenters praise the decade-long persistence and the approach of using AI to automate implementation after manual reverse engineering.
 
-## 11. [Show HN: Kairos – Open-source risk and fraud decisioning platform](https://news.ycombinator.com/item?id=50358314) (↑15, 💬0)
-**Article:** Kairos is an open-source, real-time fraud and risk decisioning platform for financial behavior. It returns approve, step-up, review, or block decisions with risk scores and reasons, and supports workflows, review queues, MCP-based agent tuning, and a decision model plus logistic regression/XGBoost models. It is positioned as an alternative to Sardine, Sift, Riskified, and SEON, with TypeScript/Python SDKs, an HTTP API, and Docker self-hosting.
+## 11. [Launch HN: Kino AI (YC S23) – AI media manager and video editor](https://news.ycombinator.com/item?id=50368804) (↑53, 💬24)
+**Article:** Kino AI launches a code-first, collaborative video editor for teams and coding agents, built on Remotion with storage, review links, and MCP integration. It emphasizes real-time multiplayer editing, URL-addressable projects/clips/comments, local scrubbing of pro formats like ProRes/BRAW/R3D, and a free tier plus a $25/editor/month Pro plan.
 
-**Comments:** No comments were posted on this story. There is therefore no comment-thread discussion to summarize.
+**Comments:** Commenters largely praise Kino’s UX and practicality versus raw Claude Code/Codex, while asking about templates, teleprompter eye-contact correction, export speed, and the Remotion choice. A notable technical thread questions whether preview/proxy and final render paths can stay color-consistent; others compare Kino with other agentic video tools and ask about workflows for large personal footage libraries.
 
-## 12. [Japan's Jimi 'Mundane' Halloween Costumes of 2026](https://news.ycombinator.com/item?id=50333131) (↑30, 💬8)
-**Article:** The post collects favorite examples from Japan’s Jimi (“mundane”) Halloween costumes of 2026, a tradition started in 2014 by Daily Portal Z. Participants dress as everyday situations that require explanation, such as someone about to ask to recline a seat or someone who mistook a muddler for a straw. The article presents these captioned costumes as humorous, low-key alternatives to flashy Halloween outfits.
+## 12. [Conductor Is Joining Meta](https://news.ycombinator.com/item?id=50369503) (↑52, 💬98)
+**Article:** Conductor announces it is joining Meta and will wind down Conductor Cloud: no new sign-ups Nov 4, cloud read-only Nov 13, and shutdown/data deletion Nov 20, with refunds and local workspace transfer. Local Conductor will keep receiving models and critical fixes until early 2027, while the team teases a new product for early next year.
 
-**Comments:** Commenters enjoy the situational humor and cultural specificity, with one noting that a detergent-refilling costume parodies Vermeer’s “The Milkmaid.” Others describe the costumes as “situational haikus” and discuss the comedy of mundane roles, while a meta comment about HN’s Japan obsession gets a username-based reply.
+**Comments:** The thread is split between congratulations for the team and frustration over the Meta acquisition and rushed cloud shutdown, with many users asking for open sourcing or migration paths. Commenters recommend alternatives such as T3 Code, boxes.dev, Superset, Orca, Herdr, Paseo, Paradev, and others, while debating whether coding-agent harnesses are commoditized or economically sustainable.
 
-## 13. [Preparing for the Flipper One Kickstarter and opening pre-orders](https://news.ycombinator.com/item?id=50356994) (↑134, 💬63)
-**Article:** The post announces pre-orders and an upcoming Kickstarter for Flipper One, an open Linux ARM computer and network multi-tool with Wi-Fi 6E, Gigabit Ethernet, and M.2 expansion for 5G, SDR, and other modules. It emphasizes mainline-kernel Linux support and use as a portable network toolkit. Pre-orders use a $20 coupon, with an estimated $379 price and Kickstarter planned for November.
+## 13. [OpenAI to acquire Pierre Computer Company](https://news.ycombinator.com/item?id=50366863) (↑128, 💬48)
+**Article:** The submitted item is just a link to Pierre Computer Company’s X post about OpenAI acquiring it, with no substantive article text in the submission.
 
-**Comments:** Commenters compare Flipper One with Flipper Zero, framing Zero as a radio/RFID/IR microcontroller tool and One as a Linux-based network computer. They discuss travel-router and multi-WAN use cases, price concerns, mainline Linux skepticism, customs and security worries, and the company’s Russian origins. Some users wanted a more powerful Zero successor or better replacement-part support rather than a mini-PC-like device.
+**Comments:** Much of the thread asks what Pierre actually does and criticizes the announcement/site for not explaining it, while others connect the deal to OpenAI’s Git-at-scale work and agentic workloads. Debate also covers acquisition motives, valuation/“acqui-hire” skepticism, broken marketing pages, and whether such developer-tool companies are overvalued.
 
-## 14. [We're Training a Figma-Fluent Editing Model](https://news.ycombinator.com/item?id=50322603) (↑33, 💬16)
-**Article:** Figma describes training a specialized editing model for its design agent using supervised fine-tuning on synthetic edit requests represented in Figma’s native file format, validated by deterministic checks and visual judges. It is now adding reinforcement learning and evaluating design structure, instruction fulfillment, visual quality, speed, and cost with expert calibration. The agent combines this first-party editing model with third-party models for tasks like image generation, vectors, and new explorations.
+## 14. [Ask HN: What Cryptography book do you recommend for reading with 10 year olds?](https://news.ycombinator.com/item?id=50347425) (↑15, 💬17)
+**Article:** An Ask HN post seeks a cryptography book to read with a 10-year-old who enjoys inventing ciphers, preferring history and basic theory over puzzle-only kids’ books and not-too-advanced math. The parent cites adult science/math books they already read together.
 
-**Comments:** Commenters debate whether specialized post-training can compete with frontier models and invoke the “bitter lesson,” while one argues fine-tuning with RL does not contradict it. Several criticize Figma’s MCP and current AI agent, saying designers increasingly use Claude Code/Design instead, and note Canva announced Brush the same day. Others discuss Figma’s UI dataset and enterprise token-licensing business model.
+**Comments:** Recommendations include Simon Singh’s The Code Book (including a youth edition), Can You Crack the Code?, Top Secret, Real-World Cryptography, David Kahn’s The Codebreakers with caveats about length, and titles like The Cuckoo’s Egg and Poe’s “The Gold-Bug.” Commenters also suggest hands-on cipher games and archived NSA CryptoKids material.
 
-## 15. [Pratt parsing is a black box](https://news.ycombinator.com/item?id=50357457) (↑17, 💬9)
-**Article:** The post argues that Pratt parsing tutorials overemphasize the short algorithm and neglect the more important mindset: registering semantic actions on terminals as “nuds” and “leds” rather than on grammar production rules. It explains binding powers and contrasts Pratt parsing with parser generators such as Bison, arguing the algorithm can be treated as a stable black box.
+## 15. [Tencent Hy4](https://news.ycombinator.com/item?id=50365780) (↑152, 💬44)
+**Article:** The article content is unavailable in the submission, so the post cannot be summarized directly; the comments indicate it concerns Tencent’s Hy4 open-weight model release.
 
-**Comments:** Commenters ask how Pratt parsing compares with PEG, Ohm/Ometa, and readable grammar-as-documentation approaches, with the author offering to answer questions. Several explain “semantic actions” and “production rules” for readers unfamiliar with compiler terminology. Others defend the article as human-written and note that parsing algorithms differ in when they run side effects.
+**Comments:** The thread debates US-China AI competition and open-weight strategy, with some praising Tencent for open-sourcing science models and others calling the pricing uncompetitive versus DeepSeek/Kimi. Technical discussion covers cost-per-task, benchmark reliability, game-dev performance, and safety filtering that excludes cyber-offense capabilities.
 
-## 16. [Ashby (YC W19) Is Hiring EMs](https://news.ycombinator.com/item?id=50354582) (↑1, 💬0)
-**Article:** This is a careers page for Ashby (YC W19), advertising open engineering manager roles and linking to company product, resource, and policy pages. It contains little substantive information beyond the hiring notice.
+## 16. [AMD expects to outsell Intel in Q4 for the first time in history](https://news.ycombinator.com/item?id=50367125) (↑392, 💬125)
+**Article:** AMD expects to outsell Intel in Q4 for the first time in history, with $17B guidance exceeding Intel’s projections. The article frames this as a historic shift in the CPU market.
 
-**Comments:** No comments were posted, so there is no discussion to summarize.
+**Comments:** Commenters largely attribute AMD’s gain to Intel’s missteps, including 13th/14th-gen voltage issues, while praising AMD’s Zen and 3D V-Cache execution. Several debate AMD’s AI relevance, noting ROCm/CUDA software gaps and Nvidia’s dominance despite AMD’s Instinct growth. Other threads touch on AMD’s RTO policy, TSMC geopolitical risk, Optane’s demise, and hopes that competition remains strong.
 
-## 17. [The 'Astra can read and write weights to improve Qwen' post is misleading](https://news.ycombinator.com/item?id=50351111) (↑829, 💬187)
-**Article:** Matthew Honnibal argues that the “Astra can read and write weights to improve Qwen” post conflates experiments that directly inspect raw weights with others that use Python, run the network, or use practice batches. He contends the headline Qwen improvement mainly involved standard interpretability-style analysis and weight editing rather than a single technique that natively understands and rewrites large models.
+## 17. [North Korean fake job interview led to $6.3B Binance heist](https://news.ycombinator.com/item?id=50365755) (↑510, 💬307)
+**Article:** North Korean attackers used a fake job interview to trick a Binance engineer into downloading malware onto a work-issued computer, part of a multi-stage campaign leading to a $6.3B heist. The report describes compromised internal AI tooling, stolen container deployment credentials, and an advanced transaction-authorization method.
 
-**Comments:** Commenters largely agree the original claims were oversold and compare the Qwen result to known steering and mechanistic-interpretability methods, though some say the original post was clear enough and not misleading. Others report practical success using LLMs to inspect and edit weights, while a few defend the work as impressive even if not as novel as implied.
+**Comments:** Many commenters focus on Binance’s systemic security failures, especially why one engineer had a container deployment token and access to billions in funds. Others debate the engineer’s decision to run an interview assignment on a work laptop, the rise of fake recruiter scams, and the security risks of internal AI tools. Some question the North Korea attribution, while others criticize the status page, endpoint security, and hiring practices.
 
-## 18. [Writing seen in PHerc. 306B, for the first time in 2000 years](https://news.ycombinator.com/item?id=50342119) (↑105, 💬13)
-**Article:** The Vesuvius Challenge awarded a $50K First Letters Prize after contestants detected ink and recovered readable text from the carbonized Herculaneum scroll PHerc. 306B. The reading supports the phrase τὸ δι᾽ αὑτὸ αἱρετόν, “that which is in itself desirable,” and helps identify the scroll’s upper and lower portions.
+## 18. [Verification Is Not Knowledge: Science needs more than answers](https://news.ycombinator.com/item?id=50363019) (↑209, 💬125)
+**Article:** Jessica Hullman argues that verification alone is not knowledge, and that AI-for-science debates often wrongly treat correct outputs as sufficient. She links this to the “value-free ideal” in science and argues that understanding, accountability, and human judgment remain essential when things go wrong.
 
-**Comments:** Commenters express strong enthusiasm for the Herculaneum scroll project and compare its potential progress to the Human Genome Project’s rapid acceleration. They also discuss the scrolls’ preservation history, the possibility of finding lost literary works, and how close other contestants came to the prize.
+**Comments:** Commenters debate whether verified AI answers can substitute for human understanding, citing examples like Kepler, Ramanujan, cancer drugs, and formal proofs. Some argue AI can accelerate discovery while humans later build understanding, while others worry about industrialized research, grant incentives, and losing accountability. A recurring theme is the gap between knowing a result is true and understanding why or how to build on it.
 
-## 19. [Mac at Any Scale](https://news.ycombinator.com/item?id=50352758) (↑265, 💬156)
-**Article:** Namespace explains why it deploys hundreds of MacBook Pros in datacenters to provide macOS instances for iOS builds and testing, since Apple offers limited server hardware and restrictive virtualization options. The article details custom racks, power and networking workarounds, macOS automation, and fast provisioning of Xcode environments.
+## 19. [Incident with Pull Requests, Git Operations and Issues](https://news.ycombinator.com/item?id=50363378) (↑238, 💬119)
+**Article:** GitHub reported an incident affecting Pull Requests, Git Operations, Issues, API Requests, and Actions, with elevated errors and intermittent failures. GitHub mitigated the degradation by mid-morning UTC and later marked the incident resolved, promising a root-cause analysis.
 
-**Comments:** Commenters debate Apple’s poor enterprise/server support, with many criticizing the need to rack laptops and warning about battery density and datacenter safety. Others discuss Mac mini alternatives, AWS and other competitors, high cloud Mac pricing, and whether buying hardware outright is cheaper.
+**Comments:** Commenters complain that GitHub’s status page is unreliable and often lags reality, making triage harder for teams depending on GitOps. Some link the outage to an SSH key brownout/deprecation and share workarounds, while others discuss self-hosting alternatives like Gitea, Forgejo, and GitLab. A broader debate concerns reliance on GitHub Actions and centralized CI as a single point of failure.
 
-## 20. [Kalshi and its co-founders face felony charges for violating Utah gambling laws](https://news.ycombinator.com/item?id=50353229) (↑392, 💬312)
-**Article:** Utah filed felony gambling charges against Kalshi and its co-founders over sports bets offered in September, while the CFTC sued Utah to block state enforcement against CFTC-regulated prediction markets. The case is part of a broader legal conflict over whether federal commodities law preempts state gambling bans.
+## 20. [Show HN: I built a tool that prices a prebuilt PC part by part](https://news.ycombinator.com/item?id=50366929) (↑77, 💬52)
+**Article:** PC Deal Check is a Show HN tool that estimates whether a prebuilt PC is a good deal by identifying its parts from a listing or photo and comparing the asking price with component pricing. It is free in the US during public beta and returns a graded report with dated estimates and price-check links.
 
-**Comments:** Commenters are divided over whether Kalshi is genuinely a prediction market or simply illegal gambling, with many criticizing the company’s sports betting and political connections. Others focus on federal preemption, state sovereignty, the CFTC’s role, and the risk of criminalizing activity in a legal gray area.
+**Comments:** Commenters ask how it differs from PCPartPicker and suggest adding used prices, mini PCs, laptops, B&H, integrated graphics, and more regions. The creator acknowledges US-only availability, API/quota limits, and plans to expand to Canada and Europe. Feedback also covers moving the “try it” button higher, affiliate monetization, and potential community deal feeds.
 
-## 21. [Could a modern chess engine on a Pentium have defeated Kasparov in 1996?](https://news.ycombinator.com/item?id=50349276) (↑410, 💬182)
-**Article:** The author ports modern Stockfish to a 200 MHz Pentium Pro with 64 MB RAM and estimates it at roughly 3300 Elo, arguing a 1996 desktop could likely have beaten Kasparov. Experiments with updated Crafty and tuned Stockfish suggest most Elo gains come from better algorithms, especially evaluation and search, rather than hardware alone.
+## 21. [Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)](https://news.ycombinator.com/item?id=50363461) (↑577, 💬148)
+**Article:** A Tell HN post warns that Gemini can use saved chat history from personal Google AI subscriptions for model training and human review unless users disable “Keep Activity” or use temporary chats. Google says reviewed chats may be retained for up to three years and warns users not to enter confidential information; disabling Keep Activity deletes chats after 72 hours.
 
-**Comments:** Commenters largely accept that software improved more than hardware but question whether a low-depth modern engine would really beat Kasparov, who could exploit glaring weaknesses. Others debate engine-vs-human Elo comparisons, note that NNUE depends on modern training hardware and data, and cite historical engines like ChessGenius as evidence that 1990s programmers were already strong.
+**Comments:** Commenters largely say this is unsurprising and argue that all frontier AI providers monitor or review interactions to some degree. Some distinguish legal/retention reasons from training, while others report that Pixel/Gemini features require chat history and recommend APIs, self-hosting, or avoiding sensitive data.
 
-## 22. [Antimony: CAD Software Evolved from Lisp Machines and Not Drafting Tables (2015)](https://news.ycombinator.com/item?id=50334363) (↑88, 💬47)
-**Article:** Antimony is a code-based CAD tool modeled on Lisp-machine-style workflows rather than drafting-table metaphors, using Python-scripted graph nodes, CSG geometry, and a standard shape library. It supports functional solid modeling, exports STL/heightmaps, and includes UI hooks and custom shape definitions.
+## 22. [Have I befriended a murderer?](https://news.ycombinator.com/item?id=50369754) (↑84, 💬45)
+**Article:** A Longreads feature by Edward Abel Smith describes his five-year investigation into Robin Garbutt, who was convicted of murdering his wife Diana in 2010. Smith began corresponding with Garbutt in prison and eventually met him, with the relationship blurring the line between journalism and friendship.
 
-**Comments:** Commenters note the 2015 date, the author’s reduced maintenance, and an actively maintained fork called Stibium. Discussion covers the broader code-CAD ecosystem, AutoLISP’s long history in AutoCAD, and limitations of OpenSCAD-style CSG such as topology changes, fillets, and the desire for hybrid GUI/code CAD.
+**Comments:** The thread debates guilt, innocence, and whether it is appropriate to befriend someone convicted of murder, with some commenters emphasizing rehabilitation and dignity and others warning about self-preservation and manipulation. Commenters also discuss appeal fairness, jury thresholds, prison statistics, and whether public speculation about criminal cases does more harm than good.
 
-## 23. [Curiosity Traps](https://news.ycombinator.com/item?id=50338334) (↑4, 💬0)
-**Article:** The post describes “curiosity traps” as reverse honeypots: public work, conversation pieces, blogs, Easter eggs, and hidden links that attract unusually aligned, attentive people. It discusses layered art, footnotes, doorknobs, and Wait But Why’s turtle chain as ways to reward close attention and create serendipitous connections.
+## 23. [Kimi K3.1 Pro model weights are out](https://news.ycombinator.com/item?id=50366999) (↑283, 💬78)
+**Article:** Moonshot AI released open weights for Kimi K3.1 Pro, a 2.8T-parameter mixture-of-experts multimodal model with 104B activated parameters and a 1M-token context window. The model card presents benchmark comparisons against Claude, GPT, DeepSeek, and GLM models across coding, agentic, reasoning, and multimodal tasks.
 
-**Comments:** No comments were provided.
+**Comments:** Commenters debate whether K3.1 Pro is genuinely strong or “benchmaxxed,” with some citing a benchmark audit alleging training on test sets and others reporting strong real-world performance. Discussion also covers the high hardware cost of local deployment, the $20M model-as-a-service license threshold, third-party inference providers, and the value of smaller open models.
 
-## 24. [The AI Boom May Be Sowing Seeds of Another Financial Crisis](https://news.ycombinator.com/item?id=50358414) (↑23, 💬12)
-**Article:** No article text was provided, so its argument and evidence cannot be summarized. The title frames the piece as a warning that the AI boom may be creating conditions for another financial crisis.
+## 24. [If you're on Replit Pro, you have until November 8 to opt out of arbitration](https://news.ycombinator.com/item?id=50371346) (↑24, 💬0)
+**Article:** A notice warns Replit Pro customers that a new agreement effective October 9, 2026 adds mandatory arbitration and a class-action waiver, with an opt-out deadline of November 8. It explains how to email an opt-out with required details and advises checking the “Model Improvement” setting, which was enabled by default for eligible Pro accounts.
 
-**Comments:** Commenters mostly expect an AI-driven correction and compare it to past bubbles, including hedge funds exiting before pension funds buy. Others point to GPU prices and electricity/grid capacity as warning signs, while some argue AI is a false hope masking other crises or that the boom could still succeed.
+**Comments:** No comments were provided. Therefore there is no comment-thread discussion to summarize.
 
-## 25. [I dumped Apple’s word list](https://news.ycombinator.com/item?id=50357782) (↑113, 💬53)
-**Article:** The author inspects Apple’s `VulgarWordUsage.db`, which records profanity use per app and recipient so autocorrect can learn intentional swearing, though his database was empty. Using private Lexicon.framework functions, he dumps Apple’s dictionary flags for vulgar, offensive, and sensitive words across 15 languages, highlighting odd classifications such as “Trump” being the only living politician in the English sensitive tier.
+## 25. [Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent (2016)](https://news.ycombinator.com/item?id=50366522) (↑219, 💬163)
+**Article:** Article content was unavailable, but the title indicates that San Francisco made illicit “guerrilla” bike lanes permanent in 2016. The story appears to concern unofficial, activist-installed infrastructure being adopted by city authorities.
 
-**Comments:** Commenters discuss larger Chinese-language blocklists, version-to-version changes in flagged words, and whether the database is useful or just Apple overreach. Others debate the AI-assisted writing, list inconsistencies like Trump versus Putin, autocorrect behavior, and UK adult-site blocking. ---
+**Comments:** Commenters share examples of informal fixes being adopted, such as student-painted crosswalks, desire paths, guerrilla gardening, and unauthorized road signs. They debate direct action versus legal process and discuss whether protected bike infrastructure is truly infeasible in established cities, along with tensions among drivers, cyclists, and pedestrians.
 
-## 26. [USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance](https://news.ycombinator.com/item?id=50354250) (↑36, 💬6)
-**Article:** USDB is ByteDance’s unified sequence-storage system for streaming and batch recommender workloads. It combines CascadeLSM time-based compaction, differentiated replicas, partial dumps, and a hybrid columnar format to reuse maintenance work across ingestion, inference, and training. The paper reports 85.8% lower mean write latency, 42.1% lower infrastructure cost, faster long-history reads, and 8.5x throughput for aggregation pushdown.
+## 26. [From wild to mild: Friendly foxes show changes in brain region](https://news.ycombinator.com/item?id=50369527) (↑20, 💬2)
+**Article:** A Cornell-led study compared brains from tame, aggressive, and wild silver foxes from the long-running Siberian domestication experiment. It found tame foxes had fewer estrogen receptor alpha-expressing neurons in the ventromedial hypothalamus, an aggression-related brain region, offering clues to rapid neurological changes under selection.
 
-**Comments:** Commenters ask whether anyone has successfully moved from classical DLRM systems to generative recommenders, listing challenges such as semantic IDs, cold starts, explainability, and training/prediction cost. Others argue the future is agents paging through user data, while noting ByteDance can build custom storage that smaller teams cannot. The thread also points to in-house expertise and Kuaishou’s OneRec papers as the closest practical guidance.
+**Comments:** No comments were posted.
 
-## 27. [Gitbook Breached](https://news.ycombinator.com/item?id=50354336) (↑127, 💬29)
-**Article:** A GitBook user posted a support reply describing a security incident in which an attacker gained access to infrastructure credentials. GitBook says it blocked the attacker, replaced credentials, took services offline, and invalidated customer API tokens. Potentially accessed data includes Git Sync secrets, GitBook and third-party API tokens, and visitor questions to GitBook Assistant, though no content modification was found.
+## 27. [Benchfmt.rs: Bringing Go's benchmarking and benchstat workflow to Rust](https://news.ycombinator.com/item?id=50369462) (↑25, 💬3)
+**Article:** Bartek Płotka introduces benchfmt.rs, a zero-dependency Rust benchmark runner and Criterion converter that emits Go benchstat-compatible output with /key=value projections, allocation tracking, and pprof support. He benchmarks varint and Prometheus Remote Write 2.0 decoding in Go and Rust to demonstrate the workflow and compare performance.
 
-**Comments:** GitBook’s CTO confirmed the attack and said services were being restored, while some commenters praised the company for rotating tokens itself and communicating. Others criticized inconsistent or vague status-page disclosures, lack of forensic detail, and skepticism toward the claim that AI agents were involved, with some calling it “accountability laundering.” A minor UI bug with 2FA setup was also reported.
+**Comments:** The few comments are brief and positive, with readers welcoming the tool. The author notes that Michael Pratt from the Go team built a similar benchfmt converter about two years earlier.
 
-## 28. [Queen of the Bagel Business](https://news.ycombinator.com/item?id=50338062) (↑28, 💬5)
-**Article:** The article profiles Beth George, a bagel consultant who has trained nearly 100 shops worldwide. Her 15-month consulting arrangement includes bootcamp training, refresher courses, guarded recipes, kitchen-design plans, and ongoing support in exchange for a five-figure fee and 2% of sale proceeds. The piece follows her advising a Toronto-area shop owner facing equipment problems and cost pressures.
+## 28. [Evergreen: A Provably Safe Systems Language](https://news.ycombinator.com/item?id=50366919) (↑90, 💬80)
+**Article:** Evergreen is presented as a provably safe systems language with explicit contracts, checked invariants, memory-plane tracking, and proofs erased after compilation; examples include NonZero types and overflow checks. The site claims it is “more powerful than C” and “safer than Rust,” while the project is early and AI-assisted.
 
-**Comments:** Commenters focus on the hard economics of bagel shops, noting that starting costs can be around $500k and that owners need high volume and ancillary sales to break even. Some argue consulting may be more lucrative than running a restaurant, but clients are often undercapitalized and unaware of problems until late. Others debate authenticity, insisting real bagels are firewood-baked and not “fluffy,” with Montreal named as the best.
+**Comments:** Commenters like the concept but criticize shallow documentation, AI-generated prose, and grand claims that lack proof or benchmarks. Debate compares Evergreen to Rust, Verus, SPARK, Lean/Coq, refinement versus dependent types, and namespace syntax, while the author responds with clarifications and future plans.
 
-## 29. [How I use AI (Oct 2026)](https://news.ycombinator.com/item?id=50355767) (↑38, 💬46)
-**Article:** Ben Stolovitz recounts how his AI usage changed over a year, now as a Salesforce AI Research engineer spending about $3,000/month on tokens. He describes managing 5–6 coding agents that implement features, run tests, and create pull requests, while saying agents still need human taste and architectural review. He also discusses fatigue from supervising many agents, the decline of hands-on craft, and a draft personal AI policy.
+## 29. [Everything is an AI scam now](https://news.ycombinator.com/item?id=50371508) (↑64, 💬15)
+**Article:** David Ralph Lewis argues AI has intensified scam advertising and phishing, citing implausible YouTube ads and a tailored AI-generated email pitching his own free book. He says platforms do little verification, scammers need only a tiny conversion rate, and constant truth evaluation is exhausting.
 
-**Comments:** The thread debates the article’s “coding is solved” framing, with many commenters insisting that reading code, modeling domains, and validating agent work remain essential. Others cite cognitive dissonance, loss of purpose, and exhaustion from managing multiple agents, while sharing anecdotes about agent errors and token costs. Discussion also drifts into AI music, local models, and whether AI tools are becoming overhyped.
+**Comments:** Commenters propose making ad platforms liable or fining them for scam ads, while others argue scams and ad-supported junk predate AI and push back on blaming AI alone. The thread also shares spam and fake job-offer anecdotes and doubts that regulation would be easy to enforce.
 
-## 30. [Google will turn off search for schools that reject AI](https://news.ycombinator.com/item?id=50353192) (↑465, 💬347)
-**Article:** Google announced that K-12 access to Gemini, Gemini Notebook, Gemini in Classroom, and Google Search will be off until school administrators explicitly enable them. The story is framed as Google turning off Search for schools that reject AI, since Search now includes AI features. Google says schools should control AI use in classrooms.
+## 30. [Kitty 0.50](https://news.ycombinator.com/item?id=50362980) (↑349, 💬215)
+**Article:** The Kitty 0.50 changelog covers the terminal emulator’s latest release, with changes including custom shader support, variable font support, automated session restore after logout, and quick-access terminal improvements.
 
-**Comments:** Many commenters see the policy as coercive and monopolistic, arguing Google could disable AI summaries without removing Search, and recommending DuckDuckGo or Kagi. Some clarify that the change is opt-in and note Search is deeply integrated with AI, while others debate whether Search is replaceable and whether the coverage is overblown. The thread also raises Google’s ad-driven incentives, child-safety controls, and parallels to Microsoft’s browser bundling.
+**Comments:** Users praise features like shaders, session restore, and active development, with one demonstrating a bell-triggered screenshake shader. Benchmark posts dispute performance gains, reporting Kitty 0.50 slower than Ghostty/Vivido and slower than an older Kitty build, while the thread also compares terminals, discusses Kovid Goyal’s style, and notes the name collision with PuTTY’s KiTTY.
 
 ---
-_Generated 2026-11-03 16:05 MDT_
+_Generated 2026-11-04 16:06 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Nov 4](./archives/2026/nov/hn-digest-2026-11-04.md)
 - [Nov 3](./archives/2026/nov/hn-digest-2026-11-03.md)
 - [Nov 2](./archives/2026/nov/hn-digest-2026-11-02.md)
 - [Nov 1](./archives/2026/nov/hn-digest-2026-11-01.md)
 - [Oct 31](./archives/2026/oct/hn-digest-2026-10-31.md)
 - [Oct 30](./archives/2026/oct/hn-digest-2026-10-30.md)
 - [Oct 29](./archives/2026/oct/hn-digest-2026-10-29.md)
-- [Oct 28](./archives/2026/oct/hn-digest-2026-10-28.md)
 
-[Full archive](./archives/) (175 issues)
+[Full archive](./archives/) (176 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
