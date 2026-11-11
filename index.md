@@ -1,170 +1,170 @@
-# HN Digest — November 10, 2026
+# HN Digest — November 11, 2026
 
-## 1. [.name Grandfathered](https://news.ycombinator.com/item?id=50442736) (↑555, 💬118)
-**Article:** Verisign has retracted its plan to terminate roughly 22,000 third-level .name domains and email redirects. Existing domains and redirects will remain indefinitely, though new third-level .name registrations will close. The author credits a broad coalition of supporters, lawyers, and ICANN participants for the reversal.
+## 1. [AWS emulator](https://news.ycombinator.com/item?id=50456631) (↑480, 💬165)
+**Article:** AWS Emulator is an official local emulator of AWS APIs for testing software without an AWS account, running as a server endpoint or embedded in Rust tests. It requires a very large source build, offers no binary releases, and enables telemetry by default.
 
-**Comments:** Commenters largely celebrate the outcome and criticize Verisign’s original plan as harmful and potentially illegal. Discussion covers the misleading “.name” framing, risks of niche TLDs, domain ownership rights, and one user’s frustration after letting a registration expire. Others debate whether Verisign should have offered second-level domains or buyouts and note the term “grandfathered” has a problematic origin.
+**Comments:** Commenters debated whether it is a maintained product or an agentic demo, comparing it with LocalStack, Floci, Ministack, and fakecloud. Supporters highlighted AWS’s Smithy models and embedded Rust mode, while critics cited telemetry, missing reset/state features, build cost, and heavy signs of AI-generated code.
 
-## 2. [Smart home devices should work without the internet](https://news.ycombinator.com/item?id=50441707) (↑543, 💬191)
-**Article:** The author argues that core smart-home functions should keep working without internet access, based on a decade of local-first automation using Tasmota, MQTT, Node-RED, and a Raspberry Pi. The post lays out rules for avoiding cloud dependencies, preserving manual controls, and using devices with local APIs, illustrated by projects such as a sprinkler controller and garage-door monitoring.
+## 2. [Tim Peters has died](https://news.ycombinator.com/item?id=50450488) (↑657, 💬65)
+**Article:** Guido van Rossum announced that Tim Peters died on July 15, praising his deep influence on Python, including mixed int/float arithmetic, the Zen of Python, Timsort, and early core-development culture. The post emphasizes his patience, humor, technical judgment, and mentoring.
 
-**Comments:** Commenters mostly agree with local-first design, citing Home Assistant, Zigbee/Z-Wave, Tasmota, and Shelly devices, while sharing workarounds for cloud-dependent products. Several describe using LLMs to reverse-engineer or integrate devices such as Tuya-based hardware. Others question the complexity for average users, criticize AI-assisted prose, and debate whether “smart” devices often add fragility rather than convenience.
+**Comments:** The thread is largely a tribute filled with the Zen of Python, Timsort references, and anecdotes about Peters’ kindness, precision, and influence on Python’s community. Some commenters also discussed his later forum suspension and whether Python’s complexity grew after his departure.
 
-## 3. [Six Math Essentials by Terence Tao](https://news.ycombinator.com/item?id=50446246) (↑32, 💬2)
-**Article:** This page describes Terence Tao’s 2026 book “Six Math Essentials,” which introduces six core mathematical concepts: numbers, algebra, geometry, probability, analysis, and dynamics. The slim volume is published by Quanta Books, with a UK edition titled “Six Maths Essentials: How to Model the World.”
+## 3. [United Airlines bans AI agents from booking flights on behalf of travelers](https://news.ycombinator.com/item?id=50458900) (↑28, 💬14)
+**Article:** United Airlines banned third-party personal AI agents from booking flights or checking in, citing credential-sharing risks, unintended purchases, and possible federal-rule violations. An analyst said United also wants to control intermediaries and avoid costs from AI-driven flight searches, while Southwest has taken a more open approach.
 
-**Comments:** The thread is very small, with one commenter saying the book is quite basic and not very useful for readers with a STEM degree. Another commenter finds it puzzling that the book reached the HN front page given the audience’s technical background, attributing it partly to Tao’s reputation.
+**Comments:** Commenters were skeptical of the cost rationale, arguing United mainly wants to protect dynamic pricing and prevent customers from finding better deals. Many said AI agents using computer-use tools will be hard to block, and criticized airlines for fighting consumer-side automation while using passenger data themselves.
 
-## 4. [Synaptics patent claims stop work on DisplayLink drivers](https://news.ycombinator.com/item?id=50443824) (↑208, 💬90)
-**Article:** LWN reports that developer Mike Lothian tried to improve Linux support for a DisplayLink dock, partly with LLM assistance, and published a Rust-based DRM/KMS driver called Vino. Synaptics responded with patent-infringement claims and a cease-and-desist letter listing 125 patents, demanding that he stop development and withdraw submissions, while Lothian asked for specific claim charts and cited his OIN membership.
+## 4. [A false smoke alarm almost drowned Jane Street's only NYC datacenter](https://news.ycombinator.com/item?id=50455394) (↑336, 💬166)
+**Article:** A false smoke alarm at Jane Street’s NYC datacenter shut down cooling, pressurizing sprinkler pipes while server-room temperatures rose toward the heat-trigger threshold. The author ran to the datacenter and manually pulled power from every rack before the sprinklers could activate, limiting downtime.
 
-**Comments:** Commenters are largely outraged by Synaptics’s legal tactics, especially the demand for $25,000 in documentation costs and the short compliance deadlines. Much of the debate clarifies that patents can be infringed by independent or clean-room implementations, unlike trade secrets, while others question the patents’ validity and cite possible prior art. Several also criticize DisplayLink’s practical reliability and suggest alternatives such as USB4/Thunderbolt, DisplayPort alt mode, or OCuLink.
+**Comments:** Commenters questioned why the facility lacked an emergency power-off system, dry sprinklers, or clean-agent suppression, and debated whether CRACs should shut down on smoke alarms. Much of the thread shared Hurricane Sandy and Fog Creek diesel-hauling stories, while praising the author’s response and criticizing single-site datacenter risk.
 
-## 5. [Toyota brand Scion is back and it's going to sell a kei truck in America](https://news.ycombinator.com/item?id=50445401) (↑73, 💬58)
-**Article:** Toyota is reviving Scion as “Scion by Toyota,” positioned as a “freedom lab,” with its first production vehicle being the KEI-01 kei truck. The KEI-01 is a rebadged Toyota Pixis/Daihatsu Hijet Jumbo Cab with a 660cc engine, CVT, 4WD, 600-pound payload, and a low-speed-vehicle limit under 25 mph; it will initially be sold only through a fleet-focused pilot starting in late 2027. Toyota also showed the SxS and BXE concepts.
+## 5. [Show HN: I recreated Papers Please but you're deciding which YC startups to fund](https://news.ycombinator.com/item?id=50457230) (↑119, 💬56)
+**Article:** A Show HN game recreates Papers Please’s document-inspection mechanics as a VC deciding which YC startups to fund. Players review startup paperwork and choose to pass, fund, or hold.
 
-**Comments:** Commenters are split between enthusiasm for kei trucks and disappointment that the 25 mph limit and right-hand drive make the KEI-01 impractical for many daily uses. Several see fleet, farm, university, and groundskeeping use cases, while others question pricing, payload, and whether it is a novelty. Discussion also covers the Chicken Tax, U.S. safety and emissions rules, and the contrast between Japanese and American road environments.
+**Comments:** The main criticism was that the game does not credit Papers Please creator Lucas Pope, with debate over derivative works, AI-generated creation, and whether the parody trivializes the original’s themes of state oppression. Others gave gameplay feedback on confusing document flow, missing valuation data, and YC branding, while some found the concept fun.
 
-## 6. [Sherman Anti-Trust Act (1890](https://news.ycombinator.com/item?id=50446219) (↑33, 💬15)
-**Article:** The National Archives page explains that the Sherman Anti-Trust Act of 1890 was the first federal law outlawing monopolistic business practices and trust arrangements. It covers the Act’s passage, its use against Standard Oil and later Microsoft, and how the loosely worded law was narrowed by United States v. E. C. Knight before later trust-busting campaigns.
+## 6. [Gemini Decisions API](https://news.ycombinator.com/item?id=50456791) (↑142, 💬45)
+**Article:** Google introduced the Gemini Decisions API and Gemini Decision 1 model for fast closed-set multimodal decisions. It evaluates up to 1,000 yes/no, multiple-choice, and rubric-scoring questions in one pass over text, images, audio, video, and PDFs, returning confidence scores with low latency and no output-token billing. Google claims leading benchmark performance and calibration for tasks such as routing, policy checks, grading, and tool selection.
 
-**Comments:** Commenters debate whether the Act was poorly written by design or simply requires aggressive enforcement, and some argue industry-specific regulation is more practical than broad antitrust statutes. A tangent compares Anthropic’s model-capability limits to antitrust, but others say there is no conspiracy or market power and that antitrust does not compel product lineup decisions. Several note the original penalties look trivial after inflation.
+**Comments:** Commenters compare it with Jev and OpenAI’s decision endpoints, debating whether it is merely structured output or a meaningfully calibrated probability product. Several discuss how such probabilities are computed and whether LLM logprobs remain reliable after instruction tuning; others mention use cases like data labeling, routing, and file organization. Pricing, Google’s product longevity, and enterprise adoption are recurring concerns.
 
-## 7. [Val Town is winding down](https://news.ycombinator.com/item?id=50443427) (↑235, 💬59)
-**Article:** Val Town announced it is winding down, citing an inability to compete in cloud computing, and will pause billing, move to read-only mode, end services, and open-source the platform over late 2026 and early 2027. The post offers migration guides for Cloudflare, Vercel, Netlify, and Render and thanks the team, investors, and community.
+## 7. [GitHub Incident with Webhooks, Actions, etc.](https://news.ycombinator.com/item?id=50458532) (↑47, 💬22)
+**Article:** GitHub’s status page reported degraded availability across Actions, Pages, Webhooks, and Copilot, with updates tracking investigation, mitigation, recovery, and processing of the Actions backlog. The incident was eventually marked resolved, with GitHub saying full recovery was observed and a root-cause analysis would follow. The page listed the affected services and provided subscription options for incident updates.
 
-**Comments:** Commenters express sadness and praise Val Town’s craft, transparency, and community, while discussing the difficulty of building a devtools/end-user programming business with limited seed runway. Many mention Deno’s Cloudflare acquisition, AI-era competition, and migration options; others ask about self-hosting and welcome the planned open-sourcing.
+**Comments:** Commenters express frustration with repeated GitHub outages and discuss moving to alternatives such as self-hosted GitLab, Forgejo, Codeberg, or Blacksmith. Some note that self-hosted Actions were still affected through queued builds and webhooks, while others report Copilot degradation not reflected on the dashboard. There is also broader skepticism about GitHub reliability and continued dependence on the platform.
 
-## 8. [Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives](https://news.ycombinator.com/item?id=50443812) (↑185, 💬54)
-**Article:** GoogleChrome’s modern-web-guidance repo provides agent skills and a CLI to steer coding agents away from legacy JavaScript patterns and toward modern web platform APIs, CSS features, accessibility, and performance practices. It is stewarded by Chrome, Edge, Firefox, and MDN teams, includes about 250 feature guides, and offers a legacy-pattern scanner.
+## 8. [Emacs in the Age of Magic](https://news.ycombinator.com/item?id=50458208) (↑63, 💬14)
+**Article:** The essay argues that AI coding agents like Claude Code have eroded Emacs’s traditional advantages in editing speed, customization, and Lisp expressiveness. It traces rules-based AI and Lisp history, then presents examples of AI-generated Emacs modes that reimplement large software stacks for seemingly impractical purposes. The piece frames these quixotic projects as newly cheap because AI can attempt them for little more than token cost.
 
-**Comments:** The main debate is whether this reduces Chrome monoculture or is a cross-browser initiative with fallback and compatibility documentation; skeptics warn of Chrome’s influence, while defenders note Mozilla and Edge participation. Commenters also suggest a no-install markdown/llms.txt index for agents, discuss legacy-scan limitations, and debate whether modern primitives improve maintainability or just add churn.
+**Comments:** Commenters largely agree that AI coding agents are changing editor workflows, with some saying they now rarely open a traditional editor. Others debate the relevance of free software and user control when generated code becomes opaque, and raise concerns about scaling, maintainability, and modular APIs. Some commenters question specific claims about AI-generated replacements, while others joke about vibecoding and software quality.
 
-## 9. [AlphaProof Code](https://news.ycombinator.com/item?id=50439193) (↑535, 💬169)
-**Article:** Google DeepMind introduced AlphaProof Code, a multi-LLM agentic framework that formally verified key security properties of Signal’s actual protocol code by generating Lean proofs, with human experts reviewing specifications and a small fraction of the proof. DeepMind says the four-week effort is the first AI-assisted formal verification of a widely deployed cryptographic protocol at this depth, and it reintroduced known bugs to test whether the system caught them.
+## 9. [Huawei releases MACaQ, its internal quantizer for local inference](https://news.ycombinator.com/item?id=50458166) (↑26, 💬9)
+**Article:** Huawei researchers released MACaQ, an Apache-2.0 model-agnostic quantization project for GGUF and local inference. It supports text, image, video, and audio models across llama.cpp, vLLM, Diffusers, and PyTorch, and claims it can quantize a 122B-parameter model in 64 minutes using 32.5 GB of device memory. The repository also describes Ascend kernel support and comparisons with MR-GPTQ and DuQuant++.
 
-**Comments:** Many commenters are skeptical of the “zero bugs” framing, arguing the work proves code matches narrow security specifications rather than proving the absence of all bugs. Others discuss trust in the specs, ARM semantics, human review, and the risk of AI-generated Lean proofs cheating or missing intent; some praise the use case and Signal’s engineering quality.
+**Comments:** Much of the discussion focuses on the project name “MACaQ” and its apparent macaque-monkey reference. Commenters also debate why HN users often prefer GitHub links over official product pages, with some citing code visibility and others warning about sanctions or third-party hosting risk. A few ask whether models were released and whether the work is useful for related projects.
 
-## 10. [What objective is reasoning solving?](https://news.ycombinator.com/item?id=50445013) (↑58, 💬27)
-**Article:** Alex Wang’s essay asks what objective reasoning is actually solving, framing reasoning as pathfinding or search through token space and arguing that gains often attributed to “thinking longer” at inference come from search performed during RL training. It uses examples like summing 1–10 by different valid paths to discuss multiple routes to correct answers.
+## 10. [Faster Retrieval for Better, More Efficient RAG](https://news.ycombinator.com/item?id=50455633) (↑116, 💬22)
+**Article:** Apple researchers describe a learned approach to maximum inner product search for RAG and related retrieval systems. Instead of relying only on centroid-based clustering, they train small neural networks offline on the query distribution to approximate support functions and route queries more accurately. The method uses SupportNet for learned routing and KeyNet to predict best-matching keys, trading upfront training cost for faster retrieval at inference.
 
-**Comments:** Commenters connect the framing to human train-of-thought, RL sampling with verifiers, and the idea that inference-time reasoning should stop once a successful path is found. Some question the essay’s claim about inference-time thinking, debating whether longer walks causally help or whether RL just reinforces successful paths; many also praise the website, MathJax rendering, and bird animation.
+**Comments:** Commenters debate learned retrieval versus simpler lexical methods, with several saying BM25 or grep plus an LLM often works better outside hyperscale systems. Others argue that semantic search still matters for multilingual, typo-tolerant, or very large production retrieval, while noting tradeoffs in latency and relevance. The thread also digresses into Apple’s slow-burn AI strategy, local inference, and skepticism about Siri.
 
-## 11. [AMD's Zen 6 Family: Feeding the Beast](https://news.ycombinator.com/item?id=50443090) (↑141, 💬49)
-**Article:** Chips and Cheese analyzes AMD’s Zen 6 family, covering microarchitectural changes from Zen 5 across branch prediction, instruction fetch, execution units, caches, and load/store behavior. It highlights how Zen 6 and Zen 6c diverge in out-of-order capacities and cache latency, with Zen 6c gaining larger structures and 32-core CCDs. Estimated SPEC CPU 2026 results show strong single-thread gains for Zen 6 and competitive performance from Zen 6c despite lower clocks.
+## 11. [IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality](https://news.ycombinator.com/item?id=50457669) (↑33, 💬13)
+**Article:** IBM announced Quantum Nighthawk r3, designed for 10,000 operations across 520 programmable qubits, with plans to link two processors into a 1,040-qubit system in 2027. IBM says Nighthawk r2 has delivered speedups up to 19x for partners and is integrating quantum workflows with classical/HPC resources on its platform.
 
-**Comments:** Commenters focus heavily on AM5’s I/O die and memory controller, hoping Zen 6 improves memory support and bandwidth. Others discuss branch-prediction complexity, Zen 6c’s larger OoO structures, 32-core CCD NUMA concerns, and the tradeoffs of adding more memory controllers. Apple’s single-thread performance and SPEC comparisons spark debate about server versus consumer workloads, AVX-512, and benchmark relevance.
+**Comments:** Commenters debate whether the system can outperform classical machines and ask whether “programmable qubits” are error-corrected or merely gate-addressable. Others raise dilution-fridge power/helium concerns, defend quantum as specialized research/coprocessor technology, and joke about running Shor’s algorithm or Doom.
 
-## 12. [A comprehensive study of how fingerprintable users are](https://news.ycombinator.com/item?id=50444684) (↑42, 💬11)
-**Article:** Mozilla presents a large-scale Firefox fingerprinting study using privacy-preserving telemetry from almost 25 million users. It finds uniqueness is driven by a small set of high-impact characteristics, varies strongly by operating system, and is better evaluated with cohort analysis than entropy alone. Protections shipped in Firefox 143 reduced uniquely identifiable users from 75% to 46% while preserving web compatibility.
+## 12. [Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents](https://news.ycombinator.com/item?id=50455811) (↑38, 💬32)
+**Article:** Pomerado (YC F26) turns websites into deterministic, self-healing MCP APIs by having an agent perform a task once, then generating and testing a reusable HTTP/Playwright integration. It supports authentication/2FA, repair jobs, an open-source version, and a hosted service with browser/proxy infrastructure.
 
-**Comments:** Some commenters initially expected human fingerprint uniqueness, while others discuss the tension between user privacy and anti-bot scraping. The thread also raises GPU render-timing fingerprinting, Firefox’s data release, and OS-specific fingerprinting values. Commenters question touch-point reporting and note differing DRM adoption rates across Windows, macOS, and Linux.
+**Comments:** Commenters probe credential storage, session isolation, prompt injection, bot detection, and how repairs handle failures; founders respond that tools return structured fields and that most errors are auto-repaired. Discussion also compares Pomerado with CLI-based tools and asks whether OpenAI or Anthropic could implement similar functionality natively.
 
-## 13. [Ableton Live 13](https://news.ycombinator.com/item?id=50439695) (↑237, 💬256)
-**Article:** Ableton announces Live 13 with a Step Sequencer, ARA 2 support, Drum Synth, Capture Automation, Contextual Browsing, expanded Racks, new devices and effects, and mixer improvements. It also details Push updates, edition differences, upgrade pricing, and an early 2027 release. Suite includes Melodyne essential and Softube effects, with upgrade offers for Live 12 owners.
+## 13. [My AI agents found an unmapped Maya site](https://news.ycombinator.com/item?id=50452455) (↑883, 💬318)
+**Article:** The author describes using 48 LLM agents to scan NASA lidar imagery, flag a possible Maya civic center, and send a report to Mexico’s INAH, which said no site was registered there. An update notes the site had already been mapped in a 2025 paper, so the agents rediscovered rather than discovered it.
 
-**Comments:** Many users welcome ARA 2, the Step Sequencer, Multiband Rack, and Device Slots, but others criticize the release as incremental and argue key features should be free updates. Collaboration remains a major pain point, prompting discussion of stems, Dropbox, Git-like versioning, and remote-session tools. Commenters also report the announcement page crashing mobile browsers, ask about Linux support, and debate Ableton’s pricing against FL Studio.
+**Comments:** Commenters praise the experiment but stress that the site was already known and that LLM outputs need expert verification. Threads debate archaeology’s limited capacity to protect/excavate new finds, looting and data-access risks, agent-swarm cost and methodology, and whether AI-generated reports to institutions are appropriate.
 
-## 14. [Process Explorer for macOS](https://news.ycombinator.com/item?id=50433216) (↑87, 💬35)
-**Article:** Microsoft’s Procexp-Mac repository provides a native macOS implementation of Sysinternals Process Explorer using Swift, SwiftUI, and AppKit. It offers a live process tree, module/handle/thread inspection, process properties, system graphs, code-signing inspection, and optional privileged helper support. The README covers build requirements, development bundle identities, tests, and release tooling.
+## 14. [Flying on Green: Why Farmers Are Turning to Drones for Cover Crop Seeding](https://news.ycombinator.com/item?id=50433042) (↑14, 💬3)
+**Article:** Farmers in Illinois and Nebraska are using drones to broadcast cover crop seed into standing corn before rain, avoiding soil compaction and reaching wet or terraced areas. Custom drone seeding costs roughly $12–$15 per acre, with USDA EQIP cost-share helping offset adoption.
 
-**Comments:** Commenters compare it with Objective-See’s TaskExplorer and mention Mark Russinovich discussing the port on a podcast. Several users report early-alpha bugs, including blank process views after installing the privileged helper and sorting/tree-view issues. The thread also criticizes the non-Mac-like UI, praises Sysinternals’ observability, and notes missing license information.
+**Comments:** Commenters question whether drones can replace drilling, which inserts seed into soil, and suggest drones are better suited to fertilizer or pesticides. Others note the original meaning of “broadcast” and joke about bioengineered squirrels as alternative seeders.
 
-## 15. [Show HN: Valencia, Spain in Sim City/Isometric View](https://news.ycombinator.com/item?id=50441518) (↑152, 💬38)
-**Article:** Tiny València is an interactive isometric pixel-art map of Valencia built from real 3D city data rendered from a fixed camera and repainted tile by tile with an image model. The site covers the municipal area and includes navigation, search, share links, and small games. Data sources include OpenStreetMap, Catastro, IGN, and Google 3D tiles.
+## 15. [Hyper-Realistic Sand with WebGL2](https://news.ycombinator.com/item?id=50453288) (↑257, 💬57)
+**Article:** This browser demo uses WebGL2 and JavaScript to simulate hyper-realistic sand that responds to touch, device tilt, and shaking, with different sand types and optional sound/haptics. It is designed for phones, tablets, and desktops.
 
-**Comments:** Commenters praise the concept and detail but report missing buildings, Albufera artifacts, and confusing default orientation. Many ask about the generation pipeline, automation level, and image-model details, while others debate whether AI-repainted imagery should be called pixel art. The thread also discusses Valencia’s density versus US cities and suggests making it playable like SimCity.
+**Comments:** Many commenters enjoy the tactile, playful simulation and share mobile experiences, while others criticize loud default sound, low frame rates on some phones, and physics issues like friction, momentum, and particles appearing stuck. Some link the source repo and compare the demo to other sandbox games.
 
-## 16. [Blender 5.3 released with Gaussian Splat support](https://news.ycombinator.com/item?id=50442426) (↑368, 💬52)
-**Article:** Blender 5.3 adds native 3D Gaussian Splat import and rendering, along with Cycles dispersion, DLSS denoising, EEVEE panoramic/fisheye cameras, material lighting nodes, compositor effect stacks, geometry-node bundles, and performance improvements. The release emphasizes both new rendering capabilities and workflow upgrades for complex production pipelines.
+## 16. [The Utah Teapot](https://news.ycombinator.com/item?id=50457618) (↑17, 💬5)
+**Article:** The official Utah Teapot page presents the computer-graphics model’s history and downloadable/customizable versions, from Martin Newell’s 1975 original through later revisions up to a 2026 version by Cem Yuksel. It explains the teapot’s role as a standard graphics test model and its appearance at SIGGRAPH 1976, along with attribution guidance and model customization options.
 
-**Comments:** Commenters discuss alternative splatting approaches such as triangle, mesh, and beta splatting, and debate their tradeoffs versus Gaussian splats. Several praise Gaussian splat support as mature and well-integrated, while others highlight geometry-node bundle support as a major workflow improvement and discuss AI-assisted Blender use.
+**Comments:** Commenters share a roundup of earlier HN threads and note that many users knew the teapot from graphics tools but not its origin. One compares it to the Stanford dragon, while others reply that the Utah Teapot is far better known and predates it by more than 20 years; another links an eBay listing for a physical teapot and asks about historical base-rim changes.
 
-## 17. [I deleted all my SSH keys](https://news.ycombinator.com/item?id=50382401) (↑197, 💬94)
-**Article:** The author describes removing all unprotected on-disk SSH keys and replacing them with hardware-backed keys using YubiKeys, TPMs via ssh-tpm-agent, and the Apple Secure Enclave. The post explains setup details, resident versus non-resident keys, no-touch-required usage, and caveats around unattended access and TPM key storage.
+## 17. [The hardest notes to find on the guitar](https://news.ycombinator.com/item?id=50454995) (↑33, 💬51)
+**Article:** The article analyzes 275,169 answers from Gitori’s Find the Notes game to map which guitar-fretboard notes players misidentify most. It finds the upper-middle neck hardest—especially the G string at frets 6–9—while open strings, the 12th fret, and the outer E strings are easiest; accidentals are also harder and slower than natural notes.
 
-**Comments:** Commenters debate whether hardware-backed SSH keys are worth the complexity versus passphrases and traditional keys, with concerns about device loss, hardware failure, backups, and TPM resets. Others share similar setups using YubiKeys, TPMs, password managers, SSH certificates, and PAM/FIDO, while some call parts of the approach security theater.
+**Comments:** Guitarists debate whether naming notes matters, with many saying they play by intervals, shapes, and muscle memory rather than explicit note names, while others say learning note names was high-leverage. Some question whether a browser game translates to real playing, and the thread also covers left-handed/front-view fretboard orientation, solfège and German note naming, and theory versus ear-based playing.
 
-## 18. [Life on Claude Nine](https://news.ycombinator.com/item?id=50443587) (↑55, 💬18)
-**Article:** This fictional story follows Ivan as he uses Claude to automate email, calendars, documents, and eventually his software-engineering job, then spirals into building tools that improve Claude itself. It depicts isolation, compulsive productivity, loss of understanding, and growing concern about recursive self-improvement and control.
+## 18. [Show HN: Yogurt – Free, private, open-source alternative to Granola](https://news.ycombinator.com/item?id=50454625) (↑128, 💬60)
+**Article:** Yogurt is a free, open-source, MIT-licensed AI meeting-notes app from Frigade that records calls without adding a bot and runs local transcription/models; it is available for macOS, Windows, and Linux and uses Electron. The GitHub README emphasizes privacy and points to downloads, local build instructions, and related documentation.
 
-**Comments:** Many commenters focus on the story being AI-generated, citing a flat prose style and classifier results, and debate whether that undermines its social commentary. Others discuss AI sentience versus pattern recognition, addictive productivity loops, and broader fears about superior intelligence and loss of human control.
+**Comments:** Commenters compare Yogurt with OpenWhispr, Muesli, OpenOats, Steno, and other local transcription tools, asking about differentiation, diarization, multilingual support, and model choice. Others discuss the generic name, Electron’s memory use, the “Backed by Y Combinator” wording, and privacy/consent concerns around recording meetings.
 
-## 19. [The planet Vulcan: a cautionary tale](https://news.ycombinator.com/item?id=50404969) (↑29, 💬4)
-**Article:** The article recounts how Le Verrier proposed the planet Vulcan to explain Mercury’s anomalous perihelion precession, leading to numerous reported sightings over decades. Vulcan was ultimately displaced by Einstein’s general relativity, which explained Mercury’s orbit without an additional planet; the author presents this as a cautionary tale about theory and observation.
+## 19. [The Apple Support Community will permanently close on November 20, 2026](https://news.ycombinator.com/item?id=50449440) (↑72, 💬186)
+**Article:** Apple has announced that the Apple Support Community will permanently close on November 20, 2026, and has already made it read-only and stopped accepting new posts. The notice directs users to the official Apple Support site and thanks community members for their contributions.
 
-**Comments:** One commenter argues the story is not cautionary but an example of normal scientific progress: a reasonable hypothesis was tested and eventually superseded. Another responds that the real caution is that many astronomers believed the sightings had succeeded until a better theory emerged, and others mention Planet X/Planet 9 and a grapefruit-sized black hole.
+**Comments:** Most commenters say the forum had long been unhelpful, full of outdated or wrong answers, and a source of search-result pollution, though some recall useful workarounds and sympathize with prolific volunteer contributors. Others worry about losing an archive/training corpus and note that Apple’s Developer Forums appear to remain open.
 
-## 20. [An Open Field Guide to Inference Engineering](https://news.ycombinator.com/item?id=50443714) (↑43, 💬6)
-**Article:** This Modelplane guide introduces inference engineering for platform engineers, covering why organizations self-host models, how SRE skills map to GPU serving, and core concepts such as inference engines, KV caches, scheduling, gateways, and control planes. It also discusses tools, production concerns, and how to grow into an inference engineering role.
+## 20. [Play GTA5 on Browser](https://news.ycombinator.com/item?id=50458710) (↑9, 💬6)
+**Article:** The linked page appears to be a browser-based attempt to run GTA5, showing only a loading screen at the time captured. The article content itself provides little detail beyond the game starting at 0%.
 
-**Comments:** Commenters critique the guide for glossing over transformer internals such as attention and KV-cache mechanics, arguing that platform engineers need that background to understand inference optimizations. The authors respond that they aimed for approachability and invite contributions, while another commenter says the guide is generic and that agent-assisted bootstrapping can handle much of the deployment work.
+**Comments:** Commenters report freezes—one at 82%, another after about two minutes—while one says it works in Chrome but froze in Firefox and another notes it loads roughly 800 MB of assets. A related article explains how the browser version works, and one commenter argues such high-budget streaming/live-service approaches will become more common despite inefficiency.
 
-## 21. [Claude Whiteboards, Claude Sheets, and Claude Data](https://news.ycombinator.com/item?id=50443716) (↑116, 💬89)
-**Article:** Anthropic launched Claude Whiteboards and Claude Sheets in beta and renamed Claude Dashboards to Claude Data, adding certified queries, data stories, live sharing, caching, design-system support, and version tracking. The tools are available on paid plans across web, desktop, and mobile, with exports to partner tools such as Lucid, Miro, Airtable, Asana, and Smartsheet.
+## 21. [Atuin Threads: All your agent sessions on every machine](https://news.ycombinator.com/item?id=50453637) (↑169, 💬62)
+**Article:** Atuin Threads, released in Atuin 18.24, provides searchable, synced history for AI agent sessions across machines and lets users resume or fork sessions between harnesses such as Claude Code and Codex. It is opt-in, end-to-end encrypted when synced, supports self-hosting or local-only use, and includes MCP tooling so agents can search prior sessions. The post frames this as an extension of Atuin’s shell-history mission: preserving the intent and reasoning behind work, not just commands.
 
-**Comments:** Commenters debate whether Anthropic is overreaching into office software or pursuing sensible vertical integration. Some see the new tools as simplified first-party UIs that will not replace Excel, Google Sheets, or Figma for serious work, while others warn about vendor lock-in, cannibalizing API customers, and an “Anthropic graveyard” of abandoned side products.
+**Comments:** Many commenters say they have built or are building similar session-history tools, citing noise from throwaway sessions, token-usage concerns, and privacy worries about syncing. Replies emphasize that Threads is encrypted, can be self-hosted or kept local, and does not by default affect token usage. Some debate tool proliferation and competition with session managers like herdr, while Atuin’s author discusses integrations, retention, and opt-in sharing.
 
-## 22. [What's new in the .NET 11 runtime](https://news.ycombinator.com/item?id=50439284) (↑206, 💬148)
-**Article:** The .NET 11 runtime article covers updated minimum hardware baselines, including x86-64-v2 for JIT/AOT and x86-64-v3 for ReadyToRun on Windows/Linux, plus Arm64 changes such as LSE requirements on Windows. It also highlights preview runtime-native async, which replaces compiler-generated state machines with runtime-managed suspension and cleaner stack traces, along with covariant Task-to-Task<T> overrides and crossgen2 inlining improvements.
+## 22. [Retirement Savings Are Fueling the AI Bubble](https://news.ycombinator.com/item?id=50457164) (↑116, 💬120)
+**Article:** The article argues that retirement and pension savings are increasingly exposed to the AI data-center buildout through private credit and equity funds, which finance projects whose risks are opaque and may not be disclosed to savers. It cites recent tech-stock selloffs, S&P warnings about hyperscaler credit quality, rising credit-default-swap activity, and estimates that private equity backs a large share of data-center financing. It suggests pension trustees avoid risky private assets and redirect savings toward housing, renewables, or public asset managers.
 
-**Comments:** Commenters largely praise C# and .NET for stable tooling, strong static analysis, good documentation, and suitability for backend and AI-assisted development, while noting persistent branding and legacy perceptions. Discussion also covers IDE choices such as Rider, Visual Studio, VS Code, and Zed; frustration over support timelines and breaking changes; and a decimal-conversion behavior change flagged as a potential footgun.
+**Comments:** Commenters debate whether retirement savings fuel every bubble and whether the article overstates the risk, with several calling it politically motivated and noting the cited market drop was only about 4%. Others focus on pension boards versus 401(k) choice, index-fund exposure to mega-cap tech, bailout narratives, and OpenAI’s survival risk. Some defend ordinary index investing, while others argue pension beneficiaries have little control over risky allocations.
 
-## 23. [AI usage generates a fragile codebase](https://news.ycombinator.com/item?id=50438318) (↑288, 💬355)
-**Article:** The author argues that heavy AI code generation produces fragile codebases through shallow tests, unnecessary complexity, reduced human understanding, and review processes that cannot keep pace with AI-generated pull requests. The article lists symptoms including more incidents, slower recovery, user-only-visible errors, and degraded UX, concluding that high-quality software still needs human judgment.
+## 23. [Can a Linear Program Do Weight-Space Programming?](https://news.ycombinator.com/item?id=50452655) (↑220, 💬33)
+**Article:** The post analyzes MIT CSAIL’s “weight-space programming” result, where GPT-6 Astra edited Qwen3.5-0.8B weights to reduce thinking loops and improve math performance. It argues Astra’s eight-hour trial-and-error search for which weights to edit was effectively solving a linear program, and shows that LP solves can find a similar sparse rank-1 edit with about 8x fewer changed weights in roughly a minute. Results match or slightly exceed Astra’s edit on several benchmarks.
 
-**Comments:** Commenters are split: some agree that unsupervised AI coding creates fragile systems, while others argue the problems are mitigable with explicit standards, adversarial review, better testing, and quality gates. Several report positive experiences with AI improving tests or reducing bugs, and others note that large human-written codebases also decay without strong engineering discipline and business incentives.
+**Comments:** Commenters praise the LP insight and the return to classical optimization methods, suggesting solvers could make agent-driven weight editing more efficient or be incorporated into training. Others debate whether this diminishes the “weight-space programming” framing, distinguishing direct weight understanding from tool-assisted optimization, and discuss backpropagation, self-editing, and RSI implications. Some are skeptical of the original headlines, while others see the work as a meaningful step toward models editing themselves.
 
-## 24. [rVPN – stealth VPN with end-to-end encryption](https://news.ycombinator.com/item?id=50446714) (↑6, 💬3)
-**Article:** rVPN is presented as an open-source AGPLv3 stealth VPN protocol that carries traffic over WebSocket/TLS on port 443, aiming to look like ordinary HTTPS and resist active probing with a decoy website. It emphasizes a Rust memory-safe core, pooled multiplexing, Double Ratchet rekeying, reproducible builds, self-hosting, and apps or CLI clients across multiple platforms.
+## 24. [Using voltage glitching to unleash the A100 in my mining card](https://news.ycombinator.com/item?id=50451903) (↑239, 💬98)
+**Article:** The author discovers a voltage fault-injection vulnerability in NVIDIA’s GA100 fuse controller that allows arbitrary fuse blowing, then uses it to unlock a CMP 170HX mining card into effectively an A100-80G. The unlocked card exposes more SMs, HBM, PCIe Gen4, NVLink, ECC, and MIG, and can outperform a retail A100 because it enables more functional SMs. The post explains GA100 product segmentation, fuse regions, and the glitching process.
 
-**Comments:** The small comment thread jokes about the repeated Rust mentions and the irony of promising verifiable privacy while recommending a curl-piped-to-sudo-bash installer. One commenter defends the convenience and points to manual build instructions for users who prefer that route.
+**Comments:** Commenters are astonished that cards shipped with large amounts of disabled HBM and debate whether the disabled resources reflect binning defects or market segmentation. Several warn that unlocked cards may have bad RAM, need better cooling, and have already risen sharply in price. Others discuss NVIDIA’s product-tiering economics, the long reverse-engineering effort, and joke about “downloading more VRAM.”
 
-## 25. [What constant surveillance is doing to children and parents](https://news.ycombinator.com/item?id=50438480) (↑179, 💬177)
-**Article:** The linked Atlantic article, available through archive links, examines location-tracking and parental-surveillance apps and their effects on children and parents. The provided page text is mostly links, so the article’s specific arguments are not directly included.
+## 25. [Tools for exploring the souls of large language models](https://news.ycombinator.com/item?id=50458434) (↑10, 💬4)
+**Article:** The post discusses growing interest in mechanistic interpretability and metaphysical questions about whether LLMs have “souls,” then introduces TinyGPT Visualizer, an open-source tool for inspecting a small but real language model’s internals. The author aims to make interpretability techniques more accessible so more people can examine how models form outputs.
 
-**Comments:** Commenters debate tracking as safety versus control, with some saying children may ditch phones or that constant monitoring undermines autonomy and trust. Others describe limited location checking for logistics, while several criticize parental-guilt marketing, normalization of surveillance, chilling effects, and tracking that continues into adulthood.
+**Comments:** One commenter says mechanistic interpretability is accessible to anyone willing to learn, and another calls the tool a nice find. Others dismiss the soul framing as fictional or unrelated to religious conceptions of the soul.
 
-## 26. [The Hardest Tarball?](https://news.ycombinator.com/item?id=50441338) (↑140, 💬30)
-**Article:** The post describes a crafted pax-format tarball, built with one GNU tar command, that extracts in eight different ways depending on the tar implementation used. It explains the hard-link size/data ambiguity behind this and links to a test suite of 134 tricky tarballs.
+## 26. [Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco](https://news.ycombinator.com/item?id=50452404) (↑1, 💬0)
+**Article:** Tinfoil, a security research lab building a private, verifiable AI cloud, is hiring an Applied AI Security Engineer in San Francisco. The customer-facing role involves turning threat models into deployment architectures, building pilots and evals, leading security reviews, and feeding customer needs back into product and research.
 
-**Comments:** Commenters debate POSIX pax semantics, especially whether pax headers always override base headers and how data-bearing hard links should be handled. There is disagreement over whether implementations should reject ambiguous archives or attempt best-effort extraction, with security versus data-recovery tradeoffs emphasized. Others note missing implementations such as paxmirabilis and suggest “tarpit” as a better name for the test suite.
+**Comments:** (no comments)
 
-## 27. [NetBSD 11 desktop on a Raspberry Pi 4](https://news.ycombinator.com/item?id=50412554) (↑118, 💬69)
-**Article:** The article is a step-by-step guide to installing NetBSD 11 on a Raspberry Pi 4 using an arm64 image and Raspberry Pi UEFI firmware, then configuring Wi-Fi, pkgin, X11, and the NsCDE desktop. The author frames NetBSD as an “AI-free” alternative and documents several workarounds needed for a usable desktop.
+## 27. [The tiny transmitter tracking monarch butterflies' migration, Canada to Mexico](https://news.ycombinator.com/item?id=50438435) (↑23, 💬5)
+**Article:** Project Monarch uses a 60-milligram solar-powered Bluetooth transmitter, attached with eyelash glue, to track monarch butterflies on their migration from Canada to Mexico. Smartphones and dedicated receivers relay signals to map routes, identify habitat gaps, and guide “monarch waystation” planting.
 
-**Comments:** Commenters praise NetBSD’s fast install/boot and broad hardware support, while discussing package-management details such as pkg_add versus pkgin. Others raise concerns about GPU support, idle CPU use, and hardware compatibility, and there is criticism of the guide’s use of Etcher and its pixel-art font. Some enjoy the nostalgia of running an NsCDE/CDE-style desktop on a Pi.
+**Comments:** Commenters were impressed that an RF tracker can be placed on a butterfly and asked how the smartphone-relay mechanism works, comparing it to AirTags. Others raised espionage and tracking implications, while one said the app’s plotted paths appeared plausible.
 
-## 28. [M John Harrison becomes first science fiction author to win the Booker](https://news.ycombinator.com/item?id=50437242) (↑109, 💬85)
-**Article:** M John Harrison won the Booker Prize for The End of Everything, becoming the oldest winner and, according to the Booker Prize Foundation, the first winner to emerge from the bona fide science fiction world. The novel is a short postapocalyptic story set on the Kent coast and was chosen unanimously by the judges.
+## 28. [We need more goat sacrifices](https://news.ycombinator.com/item?id=50452652) (↑169, 💬99)
+**Article:** Adam Mastroianni argues that many well-intentioned social interventions fail and proposes ritual “goat sacrifices” as procedural humility before launching policies. He cites examples such as School Improvement Grants, diversity officers, One Laptop Per Child, and Rossi’s satirical “Iron Law” of evaluation.
 
-**Comments:** Commenters largely celebrate Harrison’s work, especially Light, Nova Swing, and Viriconium, while debating whether the “first science fiction author” framing unfairly excludes books like Samantha Harvey’s Orbital. Some discuss the novel’s divisive, anti-plot style and low public review scores, while others argue Harrison’s challenging prose is intentional and worthwhile. The thread also touches on genre boundaries, literary awards, and how publishers categorize fiction.
+**Comments:** Commenters debated whether the failures reflect flawed social science, bad implementation, political incentives, or cherry-picked examples. Several discussed measurement problems and Goodhart’s law, while others challenged specific claims and argued for more systematic experimentation rather than passivity.
 
-## 29. [Queens Public Library under ransomware attack](https://news.ycombinator.com/item?id=50437790) (↑188, 💬105)
-**Article:** Queens Public Library announced a ransomware attack causing a significant network outage across all locations, affecting its website, app, public computers, and digital media services. Wi-Fi, checkout machines, and public computers at seven branches were restored, and libraries remained open with limited services.
+## 29. [AI, activity, and outcomes in software engineering](https://news.ycombinator.com/item?id=50455332) (↑99, 💬95)
+**Article:** Christian Bird’s talk examines the “activity-outcome gap” in software engineering: AI speeds up code writing, but shipping does not improve proportionally because review, QA, deployment, and organizational processes remain bottlenecks. It draws on interviews and studies of developer AI use and autonomy.
 
-**Comments:** Commenters compare the incident to ransomware attacks on other library systems, including Seattle, Delaware, Toronto, Calgary, and the British Library, noting long recovery times. Many express sympathy for libraries as public-knowledge institutions and discuss honor-system lending, backups, insurance, and whether such attacks are targeted or automated. Some comment on the difficulty of rebuilding library systems from scratch.
+**Comments:** Many commenters rejected the title’s premise, saying they are shipping faster, while others agreed that review, QA, product alignment, and deployment are now the limiting factors. Some noted increased complexity and bug rates, and the author clarified the talk asks why shipping is not even faster given coding gains.
 
-## 30. [Taking another shot at the cheap IP camera, part 2](https://news.ycombinator.com/item?id=50426294) (↑112, 💬36)
-**Article:** The author reverse-engineers a cheap Tuya-based IP camera’s firmware to understand why its built-in ONVIF/RTSP streaming is disabled, tracing configuration and binaries with binwalk, strings, and Ghidra. After getting stuck, the author uses DeepSeek through OpenRouter for targeted assistance, costing about $0.22.
+## 30. [Pharo in the Browser with WebAssembly](https://news.ycombinator.com/item?id=50453763) (↑113, 💬32)
+**Article:** Pharo World runs the Pharo Smalltalk environment in the browser via WebAssembly, with image and file loading, a console, and Git proxy settings. It aims to make a full live Smalltalk system accessible without local installation.
 
-**Comments:** Commenters are excited about low-cost LLM-assisted reverse engineering, sharing similar experiences with Tuya devices, air conditioners, and other cheap cameras. Discussion covers OpenIPC/reflashed PoE cameras, firmware obfuscation, model choice and API costs, and whether local or Chinese models are more practical for this work. A tangent covers drone cameras and FPV gear.
+**Comments:** Commenters shared nostalgia for Smalltalk’s coherent live-programming environment and expressed surprise at how well Pharo runs in a browser, including on mobile. Others reported Firefox zoom and Android back-button bugs, asked about the implementation and real-world uses, and noted existing Pharo applications.
 
 ---
-_Generated 2026-11-10 16:05 MDT_
+_Generated 2026-11-11 16:05 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Nov 11](./archives/2026/nov/hn-digest-2026-11-11.md)
 - [Nov 10](./archives/2026/nov/hn-digest-2026-11-10.md)
 - [Nov 9](./archives/2026/nov/hn-digest-2026-11-09.md)
 - [Nov 8](./archives/2026/nov/hn-digest-2026-11-08.md)
 - [Nov 7](./archives/2026/nov/hn-digest-2026-11-07.md)
 - [Nov 6](./archives/2026/nov/hn-digest-2026-11-06.md)
 - [Nov 5](./archives/2026/nov/hn-digest-2026-11-05.md)
-- [Nov 4](./archives/2026/nov/hn-digest-2026-11-04.md)
 
-[Full archive](./archives/) (182 issues)
+[Full archive](./archives/) (183 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
