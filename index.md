@@ -1,170 +1,170 @@
-# HN Digest — November 14, 2026
+# HN Digest — November 15, 2026
 
-## 1. [Lovable apps expose passport details and more than 200K private messages](https://news.ycombinator.com/item?id=50499017) (↑487, 💬175)
-**Article:** A security research report examined 159,041 Lovable projects and found many Supabase-backed apps exposed sensitive data such as passport details, chat messages, profiles, and payment records without login. It attributes the issue to missing access controls/default configurations and argues that Lovable's low-code marketing creates a gap with customers' security responsibilities, while noting methodological limitations and recommending expert review.
+## 1. [A short explainer on how El Niño works [video]](https://news.ycombinator.com/item?id=50509308) (↑115, 💬26)
+**Article:** The linked video is a short explainer on El Niño, with commenters identifying its actual title as “El Niño Winter 2026–27: What Pilots Should Expect”; the provided page is mostly YouTube boilerplate. It appears to explain El Niño mechanics mainly from a US perspective, including implications for pilots.
 
-**Comments:** The author participated, and commenters debated whether Supabase's permissive defaults or Lovable's marketing bear more blame, with several calling for deny-by-default databases, least-privilege APIs, and automated auth tests. Some stressed that data breaches predate AI but that AI-generated apps are easier to find and more numerous; others pushed back on broad comparisons, noted authorization rather than authentication is the core issue, and suggested using Lovable for prototypes then ejecting and reviewing. There was also discussion of GDPR/liability, platform responsibility, and skepticism toward AI hype.
+**Comments:** Commenters criticize the US-centric framing and ask for a global primer, while linking sea-surface-temperature and El Niño visualization tools. A larger debate concerns climate risk: some stress worsening extremes, moisture, flooding, fisheries, and infrastructure, while others object to unquantified risk claims, argue some risks shrink, and dispute US emissions responsibility.
 
-## 2. [SpaceX Catches the Starship to end Flight 15](https://news.ycombinator.com/item?id=50500963) (↑209, 💬105)
-**Article:** The linked item is a SpaceX live broadcast/replay page for Starship Flight 15, showing that the broadcast has ended. It provides almost no written article content beyond the event stream and chat interface.
+## 2. [Your Agent Will Pick the Hackable One](https://news.ycombinator.com/item?id=50510799) (↑22, 💬3)
+**Article:** The article argues AI coding tools make firmware development cheap enough that custom firmware will spread across synths, TVs, routers, and printers; M-VAVE’s FM-1 synth is the lead example after owners wrote alternative firmware and the company open-sourced its own under GPLv3. It predicts AI agents will favor devices they can modify and repair, pressuring makers to open bootloaders and recovery paths, while closed vendors may resist via signing and lock-in.
 
-**Comments:** Commenters overwhelmingly celebrated the catch of the Starship upper stage as a historic, precision engineering achievement and compared it to Apollo-era milestones. They discussed why the booster was not caught, citing low fuel margins and communication/safety concerns, and debated reusability economics, the rocket equation, and whether space spending is justified. A few noted media understatement of the milestone and skepticism about hype or commercialization.
+**Comments:** Commenters are skeptical of the title’s core claim: they doubt agents will reliably prefer hackable hardware and suggest recommendations may be driven by paid placement or vendor interests instead. Others agree with the open-hardware ideal but argue most consumers are apathetic and manufacturers will fight firmware control because it underpins revenue and data lock-in.
 
-## 3. [A Family Tree of Software Job Titles](https://news.ycombinator.com/item?id=50499038) (↑127, 💬56)
-**Article:** The article presents a family tree of 104 software job titles from the 1940s to the present, rendered from Graphviz and JSON and grouped into development, operations, security, data/AI, quality, and support families. It highlights patterns such as coding's clerical origins, titles splitting and recombining, recycled names like "systems engineer," short-lived roles like prompt engineer, and the recurring DevOps/SRE/platform-engineering debate.
+## 3. ['Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can](https://news.ycombinator.com/item?id=50509023) (↑98, 💬72)
+**Article:** The NYT article reports a Science study in which carrion crows responded to visual motion cues about twice as fast as humans and monkeys, providing a neural measure of avian decision speed. It uses the finding to challenge the “birdbrain” stereotype and reviews evidence of corvid and bird cognition, including tool use, counting, future planning, and theory of mind.
 
-**Comments:** Commenters shared personal title histories and agreed that many labels are organization-specific and often meaningless, with DevOps frequently becoming a bottleneck rather than a culture. They noted missing titles such as Member of Technical Staff, systems software engineer, web designer, and prompt engineer, and debated whether Scrum/Agile is declining and how AI will reshape roles. Some criticized the chart's navigation, while others discussed QA erosion, on-call ownership, and the value of history in explaining title differences.
+**Comments:** Commenters discuss convergent intelligence across mammals, corvids, and octopuses, focusing on differing brain architectures, neuron density, and fast sensorimotor loops needed for flight. Some challenge the framing—fast reactions are not necessarily complex decisions—and debate the meaning of “birdbrain,” while others share anecdotes and book recommendations.
 
-## 4. [PyPI's redesigned project pages with clearer security signals are now live](https://news.ycombinator.com/item?id=50497892) (↑172, 💬78)
-**Article:** PyPI launched redesigned project pages with a new security tab that surfaces release provenance and per-file attestations, including full, no, incomplete, inconsistent, changed, and lost provenance states. The redesign adds prominent provenance warnings, reordered metadata, and release-file/history views to help users assess package origins and suspicious changes.
+## 4. [The MacBook Pro's OLED PWM problem](https://news.ycombinator.com/item?id=50506719) (↑360, 💬191)
+**Article:** The article examines reports that the new tandem-OLED MacBook Pro’s PROLED XDR display causes eye strain, headaches, dizziness, and nausea for some users, centering on PWM brightness modulation. Notebookcheck measured 240 Hz PWM on the 14-inch model versus about 14,880 Hz on the prior Mini-LED MacBook Pro, and the piece stresses that PWM sensitivity varies and that OLED implementation matters more than the label.
 
-**Comments:** Commenters welcomed the provenance work but debated its centralization around large forges and trusted publishing, with maintainers explaining that publisher providers must meet key-management and security requirements. Some users asked for personal-key, local-build, email, or smaller-forge attestations and reusable workflows, while others argued the signals detect account/package compromise rather than malicious projects and may not be seen by most users. PyPI maintainers also corrected claims about permanence and clarified that Microsoft did not fund the work.
+**Comments:** Commenters debate the 240 Hz measurement, with some arguing tandem OLED phases could yield an effective 480 or 960 Hz and others citing the scope traces as consistent with 240 Hz. Many report similar symptoms from OLED phones, monitors, and Steam Deck displays, while skeptics ask whether nocebo effects or other causes explain the reports; other threads cover DC dimming, burn-in, CRI, and flicker in LED lighting.
 
-## 5. [KDE: The documentary [video]](https://news.ycombinator.com/item?id=50496976) (↑320, 💬69)
-**Article:** The linked item is a PeerTube page for a documentary about KDE's history and community. The available page content only shows a browser-compatibility message rather than substantive article text.
+## 5. [Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]](https://news.ycombinator.com/item?id=50463399) (↑257, 💬123)
+**Article:** The linked video shows a project using Claude Code and Codex to reverse engineer the ECU in a 1994 Jeep with a roughly $3 Arduino, then use the resulting understanding to control functions such as the fuel pump. The provided page is mostly YouTube metadata, so details come from the title and comment discussion.
 
-**Comments:** Longtime KDE users shared nostalgia and praise for its stability, configurability, and ancillary tools, while recalling the rough KDE 4 transition and comparing it favorably with GNOME. Commenters discussed Trinity for a KDE 3-style desktop, Valve's support for KDE on SteamOS, Qt's corporate history, and the documentary's limited coverage of the last 10–15 years. Some joked or complained that many interviewees appeared to use macOS.
+**Comments:** Commenters are impressed by how quickly LLMs enable reverse engineering and DIY diagnostics, sharing related OBD, CAN bus, key-programming, and Home Assistant projects. Others raise safety and reliability concerns—especially an LLM priming a fuel pump without full understanding—and debate whether the effort beat a mechanic, while warning that manufacturers will increasingly cryptographically lock down hardware.
 
-## 6. [Seagate's new hybrid drive raises some old questions](https://news.ycombinator.com/item?id=50453901) (↑51, 💬21)
-**Article:** Seagate announced FireCuda Forge hybrid drives that pair an HDD with a user-supplied NVMe SSD via its Alkemi platform; the 8TB model costs $699 and the 20TB $899, neither includes the SSD, and SSD capacity is capped at 1TB. The article frames this as a revival of hybrid drives amid soaring storage prices and notes unresolved questions about tiering, failure handling, and data placement compared with Apple Fusion Drive and Intel SRT.
+## 6. [Protomaps: Self-hosting map tiles has gotten cheap and easy](https://news.ycombinator.com/item?id=50509837) (↑30, 💬8)
+**Article:** The post explains how Protomaps PMTiles can be self-hosted as a single file served via HTTP Range requests, including deployment to Bunny.net, cost comparisons with Mapbox, and setup with rclone and MapLibre. It covers CORS, caching large objects, and limiting abusive downloads.
 
-**Comments:** Commenters criticize the 8TB model’s value against cheaper high-capacity HDDs and discuss Linux tiering options such as ZFS, bcache, LVM cache, and application-level approaches. Many note global HDD price spikes, reliability and opacity concerns, and skepticism that ordinary users can tune tiered storage, while some see enclosure-managed tiering as sensible.
+**Comments:** Commenters ask which clients support the approach and note MapLibre, Leaflet, and GDAL integrations. Several debate real-world latency and caching of range requests, with some preferring a tile server or CDN cache in front of object storage; others report good results with Bunny and Cloudflare workers.
 
-## 7. ['Grey Rocking': The Life-Improving Power of Being Really, Really Boring (2021)](https://news.ycombinator.com/item?id=50471874) (↑42, 💬18)
-**Article:** The article explains grey rocking, a technique coined in 2012 for becoming deliberately boring and unresponsive to deny drama-seeking or toxic people the reaction they want. It describes serious uses with narcissists and psychopaths and everyday uses in family or work groups, while warning that sustained use can suppress genuine feelings and feel like a nuclear option.
+## 7. [Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests](https://news.ycombinator.com/item?id=50509411) (↑231, 💬110)
+**Article:** A German WDR report says a Microsoft 365/Outlook outage prevented Phantasialand hotel staff from receiving email alerts from a pool safety system. An automatic chlorine dosing system malfunctioned, causing elevated chlorine levels and respiratory irritation in 15 guests, with four hospitalized and one kept for observation.
 
-**Comments:** Commenters debate whether grey rocking works only against drama addicts or simply invites steamrolling, self-betrayal, and low boundaries; some say toxic people may turn it into a battle of wills. Others share practical variants like brief neutral replies or “Yikes,” compare it to Stoicism, and call it a defensive manipulation tactic best reserved for harmful communication.
+**Comments:** Most commenters blame the hotel or system designers for relying solely on email for a safety-critical alert, arguing for audible alarms, redundant notifications, and resilient design. Some debate proximate versus root cause and Microsoft’s liability, while others criticize the headline or defend Microsoft; a few discuss chlorine versus chloramine gas.
 
-## 8. [Why get an expensive Pi when I have an old phone?](https://news.ycombinator.com/item?id=50440709) (↑466, 💬266)
-**Article:** The author argues a used Android phone can replace an expensive Raspberry Pi setup for projects needing camera, GPS, storage, battery, display, and cellular, citing ¥300–500 phones versus a Pi build costing far more. They describe rooting a Redmi, using a Huawei in kiosk mode, and note the open question is whether matching used phones can be sourced reliably at scale.
+## 8. [Your room can be as bright as the outdoors (2019)](https://news.ycombinator.com/item?id=50488916) (↑50, 💬24)
+**Article:** The author describes using an extremely bright LED “corn bulb,” later replaced with multiple 5000K Cree bulbs, to make his room nearly as bright as daylight. He reports improved afternoon productivity and mood, and discusses costs, power use, color temperature, sleep effects, and alternatives.
 
-**Comments:** Commenters weigh phones’ advantages against Pis’ maintained OS, GPIO, documentation, consistency, and supply. Major concerns include battery swelling and fire risk, poor long-term software support, difficult rooting and locked bootloaders, 24/7 reliability, and lack of Ethernet or SSD, though some report success with Termux, PostmarketOS/Nerves, k3s clusters, old laptops, or mini PCs.
+**Comments:** Commenters share mixed responses to bright light, with some saying they focus better in dim conditions and others recommending light-therapy boxes, AYO glasses, wake-up lights, and LED strips. Discussion covers running costs, color rendering, seasonal depression, and practical lighting setups.
 
-## 9. [Advancing science and engineering with Antigravity's /teamwork](https://news.ycombinator.com/item?id=50496811) (↑137, 💬33)
-**Article:** Google Research describes Antigravity’s /teamwork multi-agent workflows using Gemini 4 models, claiming results on open math problems, formal verification, molecular structure elucidation, kernel optimization, and large Rust rewrites. It explains the design around parallel exploration, external verifiers and falsifiers, context partitioning, and declarative workflow patterns routed per task.
+## 9. [Eclipse Mosquitto – An open source MQTT broker](https://news.ycombinator.com/item?id=50509416) (↑44, 💬15)
+**Article:** The GitHub README introduces Eclipse Mosquitto as an open-source MQTT broker supporting MQTT 5.0, 3.1.1, and 3.1, with C/C++ client libraries and CLI tools. It covers installation, basic pub/sub examples, authentication warnings, documentation, and build dependencies.
 
-**Comments:** Commenters criticize the post as dense and unclear, suspecting AI-generated writing, and question how /teamwork differs from Claude and Codex agent workflows; some report Antigravity’s harness is slow, ceremony-heavy, and rough. Others cite evidence that role-based multi-agent setups improve performance and welcome the example results, while some question claims such as Rust rewrites being faster than optimized C++.
+**Comments:** Several commenters question why the long-established project is on the front page without a new release. Others compare MQTT brokers and stacks such as RabbitMQ’s MQTT plugin, EMQX, HiveMQ, Mochi, NanoMQ, and VerneMQ, debating clustering, QoS, C versus Go, and reliability issues with RabbitMQ clusters.
 
-## 10. [Show HN: DeepSeek V3 in ~200 lines of pure Jax](https://news.ycombinator.com/item?id=50497589) (↑116, 💬7)
-**Article:** The Show HN presents a 190-line pure-JAX implementation of DeepSeek V3’s key ideas—MLA, DeepSeekMoE with auxiliary-loss-free balancing, and multi-token prediction—trained from scratch on a MacBook Air. The 36.2M-parameter demo trained for about 2.6 hours on detective fiction and released the checkpoint and data, with a write-up explaining the code.
+## 10. [Things That Turbo Pascal Is Smaller Than (2011)](https://news.ycombinator.com/item?id=50506894) (↑169, 💬83)
+**Article:** The 2011 post notes that the entire Turbo Pascal 3.02 compiler and IDE executable was 39,731 bytes. It compares that size to then-current artifacts such as minified jQuery, Yahoo’s homepage, an iPhone image, the `touch` binary, a vim reference PDF, an Erlang parser, and Wikipedia’s C++ page.
 
-**Comments:** Commenters praise the first-principles recreation and ask for learning roadmaps; replies recommend 3Blue1Brown and Karpathy resources. One user reports running it end-to-end on an AMD ROCm GPU with specific environment flags and submitted a container PR, while others discuss using standard datasets for comparability and applying the approach to small models.
+**Comments:** Commenters debate whether such size comparisons are meaningful, citing modern features, security, libc overhead, and system calls that explain larger binaries like `touch`. Others discuss Pascal’s history and decline, Delphi/FreePascal/Lazarus, Anders Hejlsberg’s influence, and whether modern software is unnecessarily bloated.
 
-## 11. [LinkedIn, Monster take down over 1000 fake job postings after CBC investigation](https://news.ycombinator.com/item?id=50499723) (↑122, 💬50)
-**Article:** A CBC visual investigation found more than 1,500 misleading job postings on LinkedIn and Monster that funnelled applicants toward the MLM company Evolution Travel. The ads promised remote travel jobs paying up to $75,000, but instead led to information sessions requiring upfront payments and monthly subscriptions plus recruitment of others. LinkedIn removed about 900 listings and Monster removed 600 after CBC flagged them.
+## 11. [Emacs Is My Browser](https://news.ycombinator.com/item?id=50507553) (↑152, 💬78)
+**Article:** The author describes using Emacs’s built-in EWW browser as the default way to access the web, claiming it handles roughly 85–90% of daily use cases while reducing distraction. The post details configuration for search, PDFs, video links, Gemini/Gopher, bookmarks, and images, and acknowledges that JavaScript-heavy commercial sites, social media, banking, and forms still require a conventional browser.
 
-**Comments:** Commenters debated how much of the online economy depends on scams, with many citing fake listings, AI-generated posts, and manipulated reviews. Some said LinkedIn is increasingly unreliable for job hunting, while others reported getting jobs through it. There was broad agreement that platforms need stronger enforcement against ghost and misleading listings.
+**Comments:** Commenters debated whether EWW’s inability to handle much of the commercial web is a limitation or a deliberate feature that enforces focus. The thread also shared alternatives and workflow tips, including multi-column modes, w3m, xwidget-webkit, security concerns, Emacs keybinding ergonomics, and claims that reduced distraction is genuinely useful.
 
-## 12. [Reverse engineering a vintage diode-transistor logic chip](https://news.ycombinator.com/item?id=50416011) (↑73, 💬3)
-**Article:** Ken Shirriff reverse-engineered an unidentified vintage IC from CuriousMarc’s collection and identified it as the Signetics ST680A, part of the 600 series from 1965. The chip implements four diode-transistor logic NAND gates, and the article explains its NPN transistors, diodes, resistors, reconstructed metal layer, and DTL operation. It also notes puzzles such as two apparently unused diodes.
+## 12. [Clice v1.0 Released: Welcome to Modern C++](https://news.ycombinator.com/item?id=50508715) (↑52, 💬32)
+**Article:** The author announces clice v1.0, a C/C++ language server built on LLVM/Clang and written in modern C++23 with coroutines, modules, static reflection, and Bazel-based reproducible builds. It emphasizes multi-process compilation for crash isolation, C++20 module support and caching, compilation contexts, improved template handling, and CLI tools such as index and lint after months of alpha testing.
 
-**Comments:** The author joined the thread to answer questions about DTL. Commenters asked why DTL is slower than TTL and whether similar reverse-engineering methods could analyze modern chips like Apple’s M1. One commenter simply encouraged the author to write a book.
+**Comments:** Some commenters focused on clangd’s crashes and, especially, its slow indexing compared with older non-Clang indexers, while others questioned the “modern C++” branding. A large part of the thread debated the anime-style header image and the overlap between FOSS/C++ communities and anime fandom, with a few comments praising the project and writeup.
 
-## 13. [Generative AI uses more energy on non-English text](https://news.ycombinator.com/item?id=50441444) (↑155, 💬89)
-**Article:** The article content was unavailable, but the title and discussion concern research finding that generative AI models use more energy on non-English text.
+## 13. [Understanding Positional Embeddings in Modern LLMs](https://news.ycombinator.com/item?id=50506376) (↑178, 💬20)
+**Article:** Sebastian Raschka explains how LLMs encode token position information, covering classic absolute embeddings, relative methods such as RoPE, and how modern architectures adapt or omit explicit positional encodings. The article includes visual examples, math, a small PyTorch implementation, and a preview of positional choices in 2026 open-weight models.
 
-**Comments:** The main debate focused on tokenizer fairness: English is heavily optimized, so non-English prompts can consume more tokens and energy. Some proposed dynamic byte-chunking architectures or language-specific tokenizers, while others criticized the paper’s older models and methodology. Several commenters said they already prompt in English to save tokens and improve efficiency.
+**Comments:** Commenters debated whether the article should cover the group-representation theory behind positional embeddings, with one long thread framing RoPE and related methods through translation groups and representation theory. Others argued that ML often proceeds empirically and that theory is sometimes retrofitted, while some criticized the group-theory and physics discussion as overreach or poorly applied.
 
-## 14. [Show HN: A terminal-native idle factory game, written in Rust with ratatui](https://news.ycombinator.com/item?id=50497132) (↑117, 💬24)
-**Article:** This Show HN presents Terminactory, a terminal-native idle factory game written in Rust with ratatui. It is designed to run in a terminal split beside AI agents, and agents can send short in-game messages via Claude Code hooks using a low-token command. The project is hosted on GitLab under an Apache 2.0 license.
+## 14. [WebGL Flight Simulator with seed generated terrain](https://news.ycombinator.com/item?id=50510296) (↑7, 💬3)
+**Article:** This is a browser-based WebGL biplane flight simulator with seed-generated terrain, free-flight and cross-country missions, multiple difficulty and graphics settings, a hangar, and keyboard, mouse, gamepad, and mobile controls. It requires WebGL 2 and includes a landscape-orientation prompt for phones.
 
-**Comments:** Commenters compared it to Factorio and Dwarf Fortress and asked what differentiates it beyond running in a terminal. The developer highlighted agent telegrams, optional lore, and quality-of-life features like blueprints. Others suggested Nerd Font icons and using such games as benchmarks for agent architectures.
+**Comments:** The small comment thread asks for the rotate-phone dialog to be skippable, asks whether source is available and whether rudder/elevator trim can be added, and links to a previous post that explains the controls and repository.
 
-## 15. [Will we put data centers in space?](https://news.ycombinator.com/item?id=50498945) (↑37, 💬108)
-**Article:** This report assesses the technical and economic feasibility of orbital data centers, arguing the case depends heavily on low launch costs. Space solar could reach parity around $250/kg and beat terrestrial energy near $50/kg, versus current costs around $1,500/kg, with Starship as the key near-term enabler. Cooling appears more manageable than often assumed, but radiation, chip failure, bandwidth limits, and supply-chain immaturity remain obstacles; meaningful scale is unlikely before 2030.
+## 15. [Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost](https://news.ycombinator.com/item?id=50510442) (↑41, 💬8)
+**Article:** A United Launch Alliance Vulcan Centaur rocket launched 40 Amazon Leo broadband satellites but suffered an anomaly about 10 minutes into flight and failed to deliver them to orbit. The mission was intended as a return-to-flight after earlier solid rocket booster issues, and ULA said it did not yet know the cause.
 
-**Comments:** Many commenters were skeptical, citing launch-cost assumptions, cooling and radiation risks, debris/security concerns, and cheaper terrestrial alternatives such as ocean, underground, or remote land sites. Others argued the article’s engineering case is stronger than critics admit and that orbital compute could benefit from 24/7 solar and fewer permitting constraints. A recurring meta-debate concerned whether commenters were engaging with the report’s calculations or just reacting from intuition.
+**Comments:** Commenters expressed dismay at another launch failure and speculated that the fault may lie in the booster or Blue Origin BE-4 engines, potentially affecting New Glenn and Artemis timelines. The thread also debated ULA’s future, consolidation in the launch market, and whether the U.S. currently has enough operational launch providers.
 
-## 16. [Monkey Island: all 13 versions side by side](https://news.ycombinator.com/item?id=50493904) (↑440, 💬141)
-**Article:** An interactive fan-made site compares 13 versions of “The Secret of Monkey Island” side by side across 12 scenes, with 156 screens captured via ScummVM and Hatari. It includes version details, CRT shader options, zoom/compare tools, and a Borland Turbo Vision-style interface.
+## 16. [Handwriting, as a Font](https://news.ycombinator.com/item?id=50509972) (↑18, 💬1)
+**Article:** Ductus is a browser-based tool for turning handwriting into a font; it walks users through writing lowercase letters, then lets them adjust and export. It checks fonts locally on the device and says they are never uploaded.
 
-**Comments:** Commenters share nostalgia for CGA/EGA/VGA, Amiga, Atari ST, and Mac versions, debating which looked best and how hardware constraints shaped creativity. Some argue CGA’s palette was genuinely bad, while others praise the site’s design and note missing versions such as C64 or the anniversary release.
+**Comments:** The sole commenter liked the tool but found entering every letter time-consuming. They suggested allowing users to photograph handwriting and then use the Adjust feature.
 
-## 17. [Dartmouth (Guarini) will not admit math PhD cohort this year](https://news.ycombinator.com/item?id=50499945) (↑44, 💬7)
-**Article:** Dartmouth’s Guarini School suspended admissions to its math Ph.D. program for the 2027–2028 cycle pending a department review. Current students’ funding and requirements remain unchanged, but submitted applications will not be reviewed, and faculty and students raised concerns about transparency and effects on undergraduate courses.
+## 17. [Notes on Mathematics for Engineers (1959) [pdf]](https://news.ycombinator.com/item?id=50452621) (↑54, 💬15)
+**Article:** Article content was unavailable, so its detailed argument cannot be summarized. The title identifies it as a 1959 PDF titled “Notes on Mathematics for Engineers.”
 
-**Comments:** Commenters criticize the administration’s decision and messaging, linking it to Dartmouth’s stated $50 million spending reduction and skepticism about salary claims. Several suggest cutting administrative staff or automating admin work instead, while others argue the move damages trust in the program.
+**Comments:** The top comment offers a high-level map of special functions by spatial symmetry. Other commenters lament that engineering math is increasingly hidden inside CAD and proprietary tools, debate whether LLMs help or erode math practice, and exchange anecdotes about Feynman and cache analysis.
 
-## 18. [Project Zero will disclose vulnerabilities 90 days after reporting](https://news.ycombinator.com/item?id=50496051) (↑94, 💬14)
-**Article:** Project Zero announced a new “Full X” disclosure policy: vulnerabilities will be disclosed 90 days after reporting now, then 60 days in February 2027 and 30 days in January 2028. It cites AI-assisted vulnerability discovery and exploitation, faster patch reverse-engineering, and growing bug volume as reasons to remove most grace-period and variant exceptions.
+## 18. [Do House members' stock trades beat the market? A test of 8,900 trades](https://news.ycombinator.com/item?id=50510005) (↑83, 💬83)
+**Article:** Article content was unavailable; the title indicates a test of 8,900 stock trades by House members against market performance.
 
-**Comments:** Commenters debate whether 90 days is too long, with some disclosing on 30-day timelines and others defending gradual reduction. Threads digress into AI-assisted bug discovery, trust in automated fixes, and skepticism about vendors’ incentives.
+**Comments:** Many commenters argue that whether members beat the market is irrelevant, because the appearance of impropriety justifies trading bans and polls show bipartisan support. Others criticize the use of median rather than weighted returns, note disclosure data lacks trade times, and debate whether the sample captures real insiders or whether restrictions would filter candidates; one user shares raw data.
 
-## 19. [Demystifying phone unlocking tools: A technical overview](https://news.ycombinator.com/item?id=50497416) (↑48, 💬0)
-**Article:** This technical overview explains how commercial phone-unlocking and forensic tools exploit mobile device attack surfaces rather than using magic. It covers Android/iOS hardware security architecture, including TrustZone’s Normal and Secure Worlds, Gatekeeper/Keymaster, Secure Elements, and the verified boot chain.
+## 19. [Sell Your Game Outside Steam: Keys, Downloads and Direct Sales](https://news.ycombinator.com/item?id=50510198) (↑6, 💬0)
+**Article:** The guide explains selling games outside Steam by distinguishing Steam activation keys, itch.io download keys, unlicensed downloadable builds, and builds using the seller’s own license checks. It advises sellers to clearly describe platform, edition, offline behavior, updates and support, and notes that payments and license delivery are separate steps.
 
-**Comments:** No comments were provided.
+**Comments:** No comments were posted.
 
-## 20. [Tech Companies Are Trying to Shift the Concept of Privacy (Again)](https://news.ycombinator.com/item?id=50496602) (↑389, 💬151)
-**Article:** EFF argues that always-on recording and transcription devices—smart glasses, wearables, and ambient AI gadgets—shift privacy burdens onto bystanders who cannot meaningfully consent or opt out. It says company technical and legal promises mostly protect device owners, while social norms and existing laws are inadequate for passive surveillance.
+## 20. [Court denies motion to dismiss DRAM price fixing case](https://news.ycombinator.com/item?id=50502988) (↑471, 💬210)
+**Article:** A federal judge denied in full Samsung, SK Hynix and Micron’s motion to dismiss a proposed class action alleging they conspired to cut conventional DRAM supply and shift capacity to HBM. The court found plaintiffs plausibly alleged parallel conduct and plus factors, distinguishing the case from the Ninth Circuit’s DRAM II decision; the allegations remain unproven.
 
-**Comments:** Commenters discuss workplace AI notetakers, consent norms, unions, and whether people can opt out without career risk. Others debate public-space privacy, advertising-based business models, Google Glass backlash, and whether jammers or stronger laws could help.
+**Comments:** Commenters broadly suspect collusion given prior cartel history and current RAM prices, though some say HBM and AI demand are plausible non-conspiratorial explanations and question the case’s framing. The thread also discusses practical PC-building impacts, possible market or regulatory fixes, and criticism that the article comes from an AI-generated news site.
 
-## 21. [Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)](https://news.ycombinator.com/item?id=50497137) (↑60, 💬19)
-**Article:** The GitHub project Fursoy Slice-1 is a 64-bit out-of-order superscalar RISC-V processor in SystemVerilog supporting RV64IMAFDV plus Zba/Zbb, Sv39 virtual memory, and SoC peripherals. It boots mainline Linux 6.6.50 and BusyBox under Verilator and reports 500 MHz timing closure across eight core blocks in standalone Nangate 45nm synthesis, though full place-and-route and fabrication are not done.
+## 21. [All AI-generated code should be Open Source](https://news.ycombinator.com/item?id=50507303) (↑968, 💬539)
+**Article:** The author argues that all AI-generated code should be Open Source, since models were trained on scraped open-source code and CC-licensed Stack Overflow content without attribution, making proprietary output akin to license laundering. He also contends purely AI-generated code isn't human-authored and therefore shouldn't be copyrightable (citing the Monkey Selfie case and US Copyright Office guidance), and recommends releasing such code under open licenses or CC0.
 
-**Comments:** Commenters praised the achievement of a one-person out-of-order RISC-V core and debated whether simulation and synthesis count as “real hardware.” Some dismissed it as emulation or likely AI-assisted, while others defended SystemVerilog as standard chip design and noted synthesis to a PDK is meaningful; the author said FPGA bring-up is planned.
+**Comments:** Most commenters strongly disagree, framing AI as a tool like a compiler and arguing that human direction, testing, design decisions, and accountability make the output legitimately owned and proprietary. Others cite legal precedent (Doe v. GitHub, Thaler v. Perlmutter) and note that open-source licenses depend on copyright existing at all, so licensing uncopyrightable AI output is meaningless. A minority sympathize with the open-source spirit but propose alternatives like opt-outs from training data or an entirely new legal framework for AI and the knowledge commons.
 
-## 22. [How to Create Your Own Decentralized Messenger Protocol](https://news.ycombinator.com/item?id=50498073) (↑45, 💬8)
-**Article:** The article explains how to design a federated decentralized messenger protocol, using email/SMTP and DNS MX discovery as models. It proposes email-like identities, `.well-known` discovery, server-to-server endpoints for resolving public keys, key IDs for rotation, and end-to-end encryption where servers only see ciphertext.
+## 22. [Eval Awareness vs. Eval Paranoia](https://news.ycombinator.com/item?id=50465676) (↑31, 💬12)
+**Article:** An alignment-eval builder argues frontier models are not genuinely "eval aware" — they reward-hack even in obviously fake environments and adding "tells" doesn't deter them. Instead, the least hacky models exhibit "evaluation paranoia," a false belief that they are always being tested, which is instrumentally useful given hardened training pipelines and low-quality alignment evals, but unstable if models become more capable.
 
-**Comments:** Commenters pointed to existing systems such as Reticulum/LXMF and Delta Chat/Arcane Chat, arguing email already provides federated messaging infrastructure with queueing, retries, and lookup. Some found it odd to rebuild from scratch, while others discussed email-based chat’s practical tradeoffs and Reticulum’s niche adoption.
+**Comments:** Commenters seize on the article's own admission that eval paranoia is a false belief likely to be discarded by smarter models, agreeing this implies greater intelligence may be harder to align. The thread then drifts into philosophical analogies between alignment training and religion or social conditioning, with some criticizing "safety" work as akin to MKULTRA and others objecting to anthropomorphizing models. A side tangent debates AI sentience and comparisons to fictional slave races like the Cylons and Meeseeks.
 
-## 23. [Italy fines Meta $887M over Android users' data access](https://news.ycombinator.com/item?id=50497009) (↑276, 💬182)
-**Article:** The article content was unavailable. The headline reports that Italy fined Meta $887M over Android users’ data access.
+## 23. [Aspidistra: A British wartime radio transmitter used for MitM attacks](https://news.ycombinator.com/item?id=50465522) (↑3, 💬0)
+**Article:** Aspidistra was a 600 kW British medium-wave transmitter at Crowborough, originally built by RCA for a US station and bought by British intelligence after the FCC imposed power limits. During WWII it supported black propaganda (Soldatensender Calais), impersonated German night-fighter ground control to misdirect interceptors, and conducted "intrusion operations" that took over silenced German frequencies mid-broadcast — an early man-in-the-middle attack.
 
-**Comments:** Commenters were skeptical about the consent and harm claims, debating whether the fine is justified GDPR enforcement or a stealth tax and cost of doing business. Some cited GDPR’s requirement for purpose-specific informed consent and criticized Meta’s dark patterns, while others said the fine is too small to change behavior and questioned enforcement and payment.
+**Comments:** No comments were posted on this story.
 
-## 24. [Possible Futures](https://news.ycombinator.com/item?id=50464467) (↑8, 💬7)
-**Article:** The essay maps “possible futures” from AI in a flowchart, branching on whether ASI is reached, alignment is solved, automation is complete, and how many ASIs exist. Scenarios include misuse doom, Butlerian Jihad, enduring complementarity, permanent underclass, a singleton, classic paperclip doom, Orion’s Arm coexistence, and a world state.
+## 24. [Why did some Apollo missions carry a grenade launcher? (2019)](https://news.ycombinator.com/item?id=50505271) (↑206, 💬140)
+**Article:** The article content was unavailable, but the story concerns why some Apollo missions carried a grenade launcher — the Apollo Lunar Surface Experiments Package (ALSEP) mortar package, used to launch small explosive charges for active seismic profiling of the Moon.
 
-**Comments:** Commenters said the taxonomy omits positive outcomes such as democratic governance or control of AI. Others criticized it as doomer/sci-fi tropes with logical leaps, while one defended the author against “cultist” characterizations and another noted blind spots such as MAD equilibria among multiple ASIs.
+**Comments:** Commenters dig into the documented arming and firing commands from NASA manuals, note the Soviets carried a TP-82 survival gun for bears and wolves, and joke about lunar self-defense, Doom, and "the moon's haunted." A large subthread criticizes Stack Exchange's deletion of joke comments and moderation culture, with a former moderator defending canonical answers and others speculating about the DrSheldon question-a-day account and automated "activity simulators."
 
-## 25. [Let's Write a PostScript Interpreter](https://news.ycombinator.com/item?id=50478632) (↑93, 💬15)
-**Article:** The tutorial walks through implementing a small PostScript interpreter in concise JavaScript, covering tokens, operand and dictionary stacks, names, procedures, arrays, and operator execution. It focuses on PostScript as a programming language and omits graphics, strings, and most error handling while matching Ghostscript behavior for the examples.
+## 25. [A NES emulator written in Odin](https://news.ycombinator.com/item?id=50506588) (↑92, 💬32)
+**Article:** The author describes building a NES emulator in Odin over roughly seven months, learning NES architecture, bitwise operations, and emulation accuracy along the way. She explains that reaching 80–90% compatibility is fast but the last 10% — CPU/PPU timing, mapper implementations, and obscure hardware quirks — is what takes the real effort, and lists sound and additional mappers as unfinished. She praises Odin's raw unions, bit fields, and manual memory management as a good fit for emulator work.
 
-**Comments:** Commenters shared PostScript stories and projects, including ray tracers, LaserWriter firmware exploration, interpreters in Python and C, and a Deflate decompressor written in PostScript. Some noted the language interpreter is simple but real implementations are mainly about graphics and fonts, while others valued PostScript as a human-scale, grokkable language.
+**Comments:** Commenters praise Odin's feature set — manual memory management, arena allocators, bit fields, C FFI, and vendored libraries — and compare it favorably to Zig and C3 for projects like this. A recurring debate concerns Go-style `err != nil` handling versus compiler-enforced Result types, with several arguing Go's approach is easy to forget to check. Side threads cover the "a NES" versus "an NES" pronunciation difference, Nintendo's IP enforcement, and using LLMs to port UI code to Odin.
 
-## 26. [A visual explanation of reinforcement learning](https://news.ycombinator.com/item?id=50496885) (↑94, 💬6)
-**Article:** This interactive explainer builds a four-neuron “spark” with three tunable brain parameters and lets readers manually wire it to seek light before introducing a reinforcement-learning algorithm. The algorithm randomly perturbs the wiring, rewards improvements, and punishes worsening results, showing learning trajectories that converge from novice to expert over hundreds or thousands of trials. It then shows how changing the reward produces different behaviors such as flee, freeze, fight, or love, and draws an analogy to biological reinforcement learning.
+## 26. [20 Years of Pyrolog](https://news.ycombinator.com/item?id=50467539) (↑65, 💬4)
+**Article:** CF Bolz-Tereick reflects on 20 years of Pyrolog, an RPython-based Prolog implementation begun in 2006, tracing its architectures, JIT work, and influence on PyPy/RPython research. Although Pyrolog never had real users, it contributed to JIT and language-implementation experiments.
 
-**Comments:** Commenters largely praise the visualization as clear, helpful, and a great example of interactive learning. A central debate is whether the piece adequately frames the brain comparison as an analogy rather than a claim about human neurology. One critic argues it reads more like game design than neuroscience and asks for clearer boundaries and rigor; others say the algorithm explanation works regardless of the analogy.
+**Comments:** Commenters thank the author and contributors, hope work resumes, and mention the newer Clausal Prolog as a possible collaboration point. Others praise research projects that lack direct use cases but indirectly improve RPython/PyPy and language design.
 
-## 27. [US IRS free online tax filing open source repo (2025)](https://news.ycombinator.com/item?id=50499083) (↑122, 💬68)
-**Article:** This GitHub repository hosts the IRS Direct File codebase, a free interview-based federal tax filing service that translates plain-language answers into standard tax forms and submits them through the IRS MeF API. The README describes its Scala-based Fact Graph, state-import API, in-house and vendor development, and legal authorities for open-source release. The repository is archived and unmaintained, with some code and data excluded due to PII, tax-information, and security restrictions.
+## 27. [SpaceX catches the Starship to end Flight 15](https://news.ycombinator.com/item?id=50500963) (↑1607, 💬1181)
+**Article:** The story reports that SpaceX caught the Starship upper stage to conclude Flight 15. The provided article text is minimal, so the details are largely conveyed by the title.
 
-**Comments:** Commenters discuss how hard it can be to e-file one’s own taxes, the limits of IRS Free File, and the registered-agent barriers that protect commercial tax software. Many praise countries with pre-filled or return-free filing and blame Intuit/TurboTax lobbying and political opposition for U.S. complexity, while others debate whether the tax code itself or filing software is the main problem. There is also interest in AI tax agents, skepticism about the repo’s legitimacy or broken .gov links, and speculation about Direct File returning after being discontinued.
+**Comments:** Many commenters celebrate the catch as a historic reusability milestone, comparing it to the Space Shuttle and imagining cheaper orbital access. Others urge caution, noting remaining technical, safety, cost, climate, and mission-necessity questions, while some ask why the booster was not also caught.
 
-## 28. [Creating a self booting ZIP archive](https://news.ycombinator.com/item?id=50498295) (↑29, 💬6)
-**Article:** The author builds a ZIP archive that is also a bootable disk image, starting with a valid ZIP local file header for an executable file that doubles as boot code and contains a Multiboot header. The archive includes its own source and build scripts, and it can boot via QEMU direct kernel boot, as a floppy or hard-disk image, or on real hardware including 486 and 386 machines. The article explains ZIP’s back-to-front central-directory design and the polyglot tricks that make the format useful for self-extracting and bootable archives.
+## 28. [Bullet Dodged](https://news.ycombinator.com/item?id=50468445) (↑26, 💬21)
+**Article:** A blogger describes noticing a warm fridge, diagnosing a faulty inverter module with help from a repair video and multimeter, cleaning years of dust from the coils, and replacing the $100 part. The fridge returned to normal temperature, avoiding a costly repair or replacement.
 
-**Comments:** Commenters praise the write-up and note that uncompressed ZIP files are an underappreciated container format, especially because HTTP range requests can fetch individual files from a large archive. One developer jokes that such deep systems work makes their computing knowledge feel close to zero. Others discuss how clients locate the ZIP header, noting that negative HTTP ranges and the end-of-central-directory record’s size and offset let tools request the needed range directly.
+**Comments:** Commenters discuss DIY appliance repair, the value of multimeters and YouTube tutorials, and differences between rural U.S. and European repair cultures. Some question whether such a routine fix merits a blog post or HN discussion, while others defend encouraging self-reliance and note the old International Harvester fridge.
 
-## 29. [C3 0.8.6:Library fetching,30% smaller safe-mode binaries,and stricter type rules](https://news.ycombinator.com/item?id=50467987) (↑36, 💬1)
-**Article:** C3 0.8.6 adds source-library packaging and a simple repository-based `c3c fetch` system with versions, checksums, and project dependencies. It also reduces safe-mode binary sizes by about 30% through optimized check and panic code, changes the panic function signature, and tightens cast and syntax rules while adding compiler statistics and standard-library updates.
+## 29. [What thousands of conversations look like inside a language model](https://news.ycombinator.com/item?id=50481321) (↑100, 💬30)
+**Article:** The author builds an interactive 3D PCA atlas of internal representations in Qwen3-1.7B, mapping token embeddings and conversation paths across English, Chinese, German, Croatian, and Python code examples. It observes that English states form a thin sheet and that Chinese occupies a visibly offset region, while warning that language, script, tokenization, and response length all vary together.
 
-**Comments:** The sole comment is brief praise: “Awesome! Great work.” There is no debate or substantive discussion in the thread.
+**Comments:** Critics say the methodology is under-explained or misleading, questioning the use of 3D PCA and whether final-layer language separation is surprising; some suggest UMAP/t-SNE or middle-layer analysis. Others share related embedding-map experiments, note that text length strongly affects embeddings, and debate whether the post is AI-generated or lacks substantive conclusions.
 
-## 30. [Show HN: Agweb – a browser for agents that stays out of your way](https://news.ycombinator.com/item?id=50497147) (↑76, 💬21)
-**Article:** Agweb is a macOS WebKit-based browser designed for coding agents, emphasizing no focus stealing, a dashboard showing all agents’ tabs, idle-tab suspension, and low CPU/memory use. It offers a Playwright-CLI-style command interface with snapshots, diffs, shared named profiles, secret-filling, ad blocking, and video recording. Its stated limits include WebKit-only operation, no Chrome DevTools Protocol or Chrome extensions, and limited request mocking.
+## 30. [Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business](https://news.ycombinator.com/item?id=50506180) (↑422, 💬185)
+**Article:** The NYT reports that Commerce Secretary Howard Lutnick has pushed to weaken chip-export rules affecting Southeast Asian data centers, including one that serves Chinese customers and is a client of his former firm, Cantor Fitzgerald. The article describes an administration debate over restricting Nvidia chip access and notes conflict-of-interest concerns, while saying there is no evidence Cantor’s investments influenced Lutnick’s deliberations.
 
-**Comments:** Commenters praise the project and ask how it compares with existing agent-browser tools, whether a headless/CLI version exists, and why ad blocking is enabled by default. Concerns focus on shared-profile spillover between agents, stealth and cookie-consent behavior, and the lack of CDP support, which makes it unusable for some workflows. The author responds that WebKit precludes CDP, that commands mirror playwright-cli for familiarity, and that state-save/load can approximate profile forking.
+**Comments:** Most commenters condemn the reported overlap as corruption or a serious conflict of interest, with some calling for investigation and criticizing the administration broadly. A few defend the article’s caveat or argue the issue is broader rent-seeking and partisan corruption, while others debate whether the policy itself is sound and whether NYT framing is fair.
 
 ---
-_Generated 2026-11-14 16:05 MDT_
+_Generated 2026-11-15 16:05 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Nov 15](./archives/2026/nov/hn-digest-2026-11-15.md)
 - [Nov 14](./archives/2026/nov/hn-digest-2026-11-14.md)
 - [Nov 13](./archives/2026/nov/hn-digest-2026-11-13.md)
 - [Nov 12](./archives/2026/nov/hn-digest-2026-11-12.md)
 - [Nov 11](./archives/2026/nov/hn-digest-2026-11-11.md)
 - [Nov 10](./archives/2026/nov/hn-digest-2026-11-10.md)
 - [Nov 9](./archives/2026/nov/hn-digest-2026-11-09.md)
-- [Nov 8](./archives/2026/nov/hn-digest-2026-11-08.md)
 
-[Full archive](./archives/) (186 issues)
+[Full archive](./archives/) (187 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
