@@ -1,170 +1,170 @@
-# HN Digest — November 15, 2026
+# HN Digest — November 16, 2026
 
-## 1. [A short explainer on how El Niño works [video]](https://news.ycombinator.com/item?id=50509308) (↑115, 💬26)
-**Article:** The linked video is a short explainer on El Niño, with commenters identifying its actual title as “El Niño Winter 2026–27: What Pilots Should Expect”; the provided page is mostly YouTube boilerplate. It appears to explain El Niño mechanics mainly from a US perspective, including implications for pilots.
+## 1. [Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle](https://news.ycombinator.com/item?id=50521045) (↑590, 💬452)
+**Article:** The article reports outages at Bank of America, Chase, U.S. Bank, Wells Fargo, and Zelle, but the full article content was unavailable.
 
-**Comments:** Commenters criticize the US-centric framing and ask for a global primer, while linking sea-surface-temperature and El Niño visualization tools. A larger debate concerns climate risk: some stress worsening extremes, moisture, flooding, fisheries, and infrastructure, while others object to unquantified risk claims, argue some risks shrink, and dispute US emissions responsibility.
+**Comments:** Commenters question DownDetector’s reliability and debate whether the outages reflect cloud/database failures, cyberattacks, AI-generated code, or unrelated coincidences. Some report working services or regional differences, while others criticize speculation and note concerns about cloud concentration and software quality.
 
-## 2. [Your Agent Will Pick the Hackable One](https://news.ycombinator.com/item?id=50510799) (↑22, 💬3)
-**Article:** The article argues AI coding tools make firmware development cheap enough that custom firmware will spread across synths, TVs, routers, and printers; M-VAVE’s FM-1 synth is the lead example after owners wrote alternative firmware and the company open-sourced its own under GPLv3. It predicts AI agents will favor devices they can modify and repair, pressuring makers to open bootloaders and recovery paths, while closed vendors may resist via signing and lock-in.
+## 2. [BugMeNot Has Closed](https://news.ycombinator.com/item?id=50523601) (↑67, 💬34)
+**Article:** BugMeNot has closed, with a short notice thanking users who “envisioned a better internet.” The site was known for sharing login credentials to bypass registration walls.
 
-**Comments:** Commenters are skeptical of the title’s core claim: they doubt agents will reliably prefer hackable hardware and suggest recommendations may be driven by paid placement or vendor interests instead. Others agree with the open-hardware ideal but argue most consumers are apathetic and manufacturers will fight firmware control because it underpins revenue and data lock-in.
+**Comments:** Commenters mourn the loss of an “old internet” tool but note it had become largely ineffective due to 2FA, social login, and abuse crackdowns. A debate arises over whether sharing credentials violates Terms of Service or law, with some arguing ToS are contracts rather than criminal law.
 
-## 3. ['Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can](https://news.ycombinator.com/item?id=50509023) (↑98, 💬72)
-**Article:** The NYT article reports a Science study in which carrion crows responded to visual motion cues about twice as fast as humans and monkeys, providing a neural measure of avian decision speed. It uses the finding to challenge the “birdbrain” stereotype and reviews evidence of corvid and bird cognition, including tool use, counting, future planning, and theory of mind.
+## 3. [Rust changed me as a developer](https://news.ycombinator.com/item?id=50522563) (↑63, 💬23)
+**Article:** Martijn Faassen argues that Rust changed how he thinks as a developer, especially through sum types/enums, explicit dispatch, and type-driven design. He contrasts Rust’s low-ceremony enums with object-oriented abstraction and discusses performance and compile-time tradeoffs.
 
-**Comments:** Commenters discuss convergent intelligence across mammals, corvids, and octopuses, focusing on differing brain architectures, neuron density, and fast sensorimotor loops needed for flight. Some challenge the framing—fast reactions are not necessarily complex decisions—and debate the meaning of “birdbrain,” while others share anecdotes and book recommendations.
+**Comments:** Commenters broadly agree that learning very different language families sharpens developers, citing Lisp, Elixir, Verilog, Lua, and others. Some debate Rust’s enum design versus Zig’s separate tag/union model, while others wonder whether LLMs make such language-learning epiphanies less relevant.
 
-## 4. [The MacBook Pro's OLED PWM problem](https://news.ycombinator.com/item?id=50506719) (↑360, 💬191)
-**Article:** The article examines reports that the new tandem-OLED MacBook Pro’s PROLED XDR display causes eye strain, headaches, dizziness, and nausea for some users, centering on PWM brightness modulation. Notebookcheck measured 240 Hz PWM on the 14-inch model versus about 14,880 Hz on the prior Mini-LED MacBook Pro, and the piece stresses that PWM sensitivity varies and that OLED implementation matters more than the label.
+## 4. [Grazing sheep in fields with solar arrays](https://news.ycombinator.com/item?id=50520182) (↑169, 💬139)
+**Article:** Cornell research found that sheep grazing around solar arrays at moderate density increased beneficial insects, especially honey bees, compared with mowing. A second paper describes a spreadsheet-based tool to help farmers manage flock size, costs, and solar-grazing contracts profitably.
 
-**Comments:** Commenters debate the 240 Hz measurement, with some arguing tandem OLED phases could yield an effective 480 or 960 Hz and others citing the scope traces as consistent with 240 Hz. Many report similar symptoms from OLED phones, monitors, and Steam Deck displays, while skeptics ask whether nocebo effects or other causes explain the reports; other threads cover DC dimming, burn-in, CRI, and flicker in LED lighting.
+**Comments:** Commenters discuss agrivoltaics favorably but raise questions about panel damage, sheep versus goats or cattle, land use, transmission access, and biodiversity. Some note that solar grazing gives farmers another income stream and that “barren” land is often ecologically sensitive or already degraded.
 
-## 5. [Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]](https://news.ycombinator.com/item?id=50463399) (↑257, 💬123)
-**Article:** The linked video shows a project using Claude Code and Codex to reverse engineer the ECU in a 1994 Jeep with a roughly $3 Arduino, then use the resulting understanding to control functions such as the fuel pump. The provided page is mostly YouTube metadata, so details come from the title and comment discussion.
+## 5. [Jiff 1.0: A datetime library for Rust](https://news.ycombinator.com/item?id=50519744) (↑251, 💬54)
+**Article:** Andrew Gallant announces Jiff 1.0, a Rust datetime library designed to make time-zone and daylight-saving handling safer and more ergonomic. The post tours its API, types, parsing/formatting, and stability commitment, noting adoption in projects such as Cargo, uv, and Nushell.
 
-**Comments:** Commenters are impressed by how quickly LLMs enable reverse engineering and DIY diagnostics, sharing related OBD, CAN bus, key-programming, and Home Assistant projects. Others raise safety and reliability concerns—especially an LLM priming a fuel pump without full understanding—and debate whether the effort beat a mechanic, while warning that manufacturers will increasingly cryptographically lock down hardware.
+**Comments:** Commenters praise BurntSushi’s work and share that Chrono’s maintainer burnout and semi-deprecation make Jiff appealing. Discussion covers whether Rust should have a datetime library in std, comparisons to Java’s java.time and Temporal, and jokes about Jiff’s pronunciation.
 
-## 6. [Protomaps: Self-hosting map tiles has gotten cheap and easy](https://news.ycombinator.com/item?id=50509837) (↑30, 💬8)
-**Article:** The post explains how Protomaps PMTiles can be self-hosted as a single file served via HTTP Range requests, including deployment to Bunny.net, cost comparisons with Mapbox, and setup with rclone and MapLibre. It covers CORS, caching large objects, and limiting abusive downloads.
+## 6. [Frame – 31.5" color ePaper display](https://news.ycombinator.com/item?id=50519354) (↑223, 💬141)
+**Article:** TRMNL announced Frame, a 31.5" full-color ePaper display (Spectra 6) housed in a handmade wooden frame produced in the company's own Georgia workshop, priced around $1,299 with the first batch of ~470 units shipping in late 2026/early 2027. It adds clock-synced updates, offline microSD mode, optional always-on power, a new open-source "Lazarus" color conversion engine, and multi-orientation mounting, while the founder frames it as a return to his earlier ArtSpot art-display venture.
 
-**Comments:** Commenters ask which clients support the approach and note MapLibre, Leaflet, and GDAL integrations. Several debate real-world latency and caching of range requests, with some preferring a tile server or CDN cache in front of object storage; others report good results with Bunny and Cloudflare workers.
+**Comments:** The dominant thread is sticker shock — many users say they'd buy at $400–500 but can't justify $1,200+, with debate over whether ePaper pricing is a niche/monopoly problem or justified by boutique local assembly. Others criticize the $20 developer-mode fee, the unnecessary wooden frame, and the founder's politics (with an archived blog link), while some defend the price against comparable ePaper products and note the first batch sold out.
 
-## 7. [Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests](https://news.ycombinator.com/item?id=50509411) (↑231, 💬110)
-**Article:** A German WDR report says a Microsoft 365/Outlook outage prevented Phantasialand hotel staff from receiving email alerts from a pool safety system. An automatic chlorine dosing system malfunctioned, causing elevated chlorine levels and respiratory irritation in 15 guests, with four hospitalized and one kept for observation.
+## 7. [My Quest to push native Three.js quality match AAA Game Engines](https://news.ycombinator.com/item?id=50523291) (↑35, 💬4)
+**Article:** Ben Houston outlines a comprehensive plan to bring AAA-style lighting to Three.js WebGPU, walking stage by stage through the G-buffer, baked and dynamic GI, occlusion, screen-space reflections, reflection probes, and temporal AA/upscaling. It catalogs what Three.js already implements, what's in review or drafted as PRs, and what remains to be built — mainly Hi-Z SSR tracing, SSGI coverage, and pluggable indirect lighting tied into the BRDF — along with memory budget estimates.
 
-**Comments:** Most commenters blame the hotel or system designers for relying solely on email for a safety-critical alert, arguing for audible alarms, redundant notifications, and resilient design. Some debate proximate versus root cause and Microsoft’s liability, while others criticize the headline or defend Microsoft; a few discuss chlorine versus chloramine gas.
+**Comments:** The five comments are almost uniformly hostile, with several readers calling the post "AI slop" that they won't read because it appears machine-generated rather than reporting on actual working results. One commenter praises it as awe-inspiring and educational, but the consensus leans toward wanting verified outcomes over prose, with one tying this to a broader pattern of AI-assisted work where nobody learns how the result was achieved.
 
-## 8. [Your room can be as bright as the outdoors (2019)](https://news.ycombinator.com/item?id=50488916) (↑50, 💬24)
-**Article:** The author describes using an extremely bright LED “corn bulb,” later replaced with multiple 5000K Cree bulbs, to make his room nearly as bright as daylight. He reports improved afternoon productivity and mood, and discusses costs, power use, color temperature, sleep effects, and alternatives.
+## 8. [Spamhaus new email sender requirements in November](https://news.ycombinator.com/item?id=50523784) (↑7, 💬2)
+**Article:** Spamhaus published updated sender guidelines and announced a phased requirement starting November 2026 that every sending IP have a valid HELO, reverse DNS (PTR) record, and matching A record. The guidelines cover forward-confirmed reverse DNS, consistent HELO hostnames, IPv6 /64 minimum allocations, SPF/DKIM/DMARC alignment, confirmed opt-in, and a DMARC enforcement recommendation, with a DNS checker tool provided.
 
-**Comments:** Commenters share mixed responses to bright light, with some saying they focus better in dim conditions and others recommending light-therapy boxes, AYO glasses, wake-up lights, and LED strips. Discussion covers running costs, color rendering, seasonal depression, and practical lighting setups.
+**Comments:** With only two comments, one laments that most spam arrives via Google, Amazon, and Microsoft, which are effectively too big to block, blaming user preference for convenience. The other jokes about running a permissive `p=none; pct=0` DMARC record and never changing it, testing whether the recommendation carries any teeth.
 
-## 9. [Eclipse Mosquitto – An open source MQTT broker](https://news.ycombinator.com/item?id=50509416) (↑44, 💬15)
-**Article:** The GitHub README introduces Eclipse Mosquitto as an open-source MQTT broker supporting MQTT 5.0, 3.1.1, and 3.1, with C/C++ client libraries and CLI tools. It covers installation, basic pub/sub examples, authentication warnings, documentation, and build dependencies.
+## 9. [Launch HN: Axonnic (YC F26) – Sleeves that track fingers and estimate force](https://news.ycombinator.com/item?id=50522776) (↑21, 💬5)
+**Article:** Axonnic (YC F26) built a forearm sleeve with 64 channels of surface EMG that decodes finger movements and estimates fingertip force while leaving hands bare, aiming to capture the muscle effort behind skilled manual tasks as training data for dextrous robots. They report 6.9° joint-angle error across 20 joints with no recalibration four days after training, and are piloting data collection with a European manufacturer plus construction trades.
 
-**Comments:** Several commenters question why the long-established project is on the front page without a new release. Others compare MQTT brokers and stacks such as RabbitMQ’s MQTT plugin, EMQX, HiveMQ, Mochi, NanoMQ, and VerneMQ, debating clustering, QoS, C versus Go, and reliability issues with RabbitMQ clusters.
+**Comments:** Commenters are split and partly off-topic: one praises the underlying tech but warns the website's phrasing and layout "scream AI-generated," another asks about EMG baseline drift under fatigue, and a third says they'd quit if forced to wear the sleeve for tracking. One reply is oddly about binary-decompilation tooling (likely misplaced), and another notes workers in India already wear head cameras for data collection.
 
-## 10. [Things That Turbo Pascal Is Smaller Than (2011)](https://news.ycombinator.com/item?id=50506894) (↑169, 💬83)
-**Article:** The 2011 post notes that the entire Turbo Pascal 3.02 compiler and IDE executable was 39,731 bytes. It compares that size to then-current artifacts such as minified jQuery, Yahoo’s homepage, an iPhone image, the `touch` binary, a vim reference PDF, an Erlang parser, and Wikipedia’s C++ page.
+## 10. [Squircles](https://news.ycombinator.com/item?id=50515151) (↑67, 💬24)
+**Article:** Linebender explains squircle geometry, covering superellipses (|x|^n + |y|^n = 1), flat-sided variants, the Apple iOS 7 squircle (a flat-sided Bézier shape, not an exponent-5 superellipse), Figma's approximation, clothoid-based curves with G2 continuity, and CSS's new `corner-shape` spec with Chromium's closed-form superellipse approximation. It argues G2 continuity gives visual smoothness and shows how to closely match Apple's shape with a superellipse of exponent 3.
 
-**Comments:** Commenters debate whether such size comparisons are meaningful, citing modern features, security, libc overhead, and system calls that explain larger binaries like `touch`. Others discuss Pascal’s history and decline, Delphi/FreePascal/Lazarus, Anders Hejlsberg’s influence, and whether modern software is unnecessarily bloated.
+**Comments:** Much of the thread is an explainer exchange on rounded rectangles (G1, constant-radius arcs) versus squircles (G2, continuously varying curvature), with readers noting squircles nest better and look smoother. Opinions diverge sharply on aesthetics — some call squircle icons ugly and miss distinctive app shapes, others call the post wholesome bookmark material — plus notes that `corner-shape` currently works only in Chromium, and a few jokes about expecting squirrels or the "sphube."
 
-## 11. [Emacs Is My Browser](https://news.ycombinator.com/item?id=50507553) (↑152, 💬78)
-**Article:** The author describes using Emacs’s built-in EWW browser as the default way to access the web, claiming it handles roughly 85–90% of daily use cases while reducing distraction. The post details configuration for search, PDFs, video links, Gemini/Gopher, bookmarks, and images, and acknowledges that JavaScript-heavy commercial sites, social media, banking, and forms still require a conventional browser.
+## 11. [Carnegie Mellon is putting computer science courses on YouTube for free](https://news.ycombinator.com/item?id=50522980) (↑20, 💬5)
+**Article:** Carnegie Mellon launched CS Learn, offering free full-semester computer science lectures on YouTube from current CMU courses, with self-paced courseware and AI tutoring planned later. The initial slate covers AI, machine learning, software construction, systems, and related topics, with more courses coming in January.
 
-**Comments:** Commenters debated whether EWW’s inability to handle much of the commercial web is a limitation or a deliberate feature that enforces focus. The thread also shared alternatives and workflow tips, including multi-column modes, w3m, xwidget-webkit, security concerns, Emacs keybinding ergonomics, and claims that reduced distraction is genuinely useful.
+**Comments:** The CMU instructor behind CS Learn explains the launch, notes that student-built automation helps produce courses quickly while humans review every lecture, and invites topic requests. A commenter asks for a PeerTube mirror in addition to YouTube, and the instructor says he will look into it.
 
-## 12. [Clice v1.0 Released: Welcome to Modern C++](https://news.ycombinator.com/item?id=50508715) (↑52, 💬32)
-**Article:** The author announces clice v1.0, a C/C++ language server built on LLVM/Clang and written in modern C++23 with coroutines, modules, static reflection, and Bazel-based reproducible builds. It emphasizes multi-process compilation for crash isolation, C++20 module support and caching, compilation contexts, improved template handling, and CLI tools such as index and lint after months of alpha testing.
+## 12. [How to Intercept HTTP/3 Traffic: QUIC and Qpack](https://news.ycombinator.com/item?id=50521870) (↑34, 💬3)
+**Article:** The article explains why HTTP/3 is hard to intercept: it runs over QUIC/UDP rather than TCP, uses QUIC streams, and compresses headers with QPACK, so ordinary HTTP proxies often cannot see it. It covers redirecting traffic into a UDP-capable proxy, demonstrates interception with curl and Edge, and discusses QPACK’s dynamic table and replay.
 
-**Comments:** Some commenters focused on clangd’s crashes and, especially, its slow indexing compared with older non-Clang indexers, while others questioned the “modern C++” branding. A large part of the thread debated the anime-style header image and the overlap between FOSS/C++ communities and anime fandom, with a few comments praising the project and writeup.
+**Comments:** Commenters focus on the trust model: interception is client-side MITM and requires trusting the proxy’s CA, while pinned or key-addressed QUIC transports resist it. Others note that corporate TLS-inspection tools may simply block QUIC, causing fallback to HTTP/2, and one dismisses the tooling as “vibecoded slop.”
 
-## 13. [Understanding Positional Embeddings in Modern LLMs](https://news.ycombinator.com/item?id=50506376) (↑178, 💬20)
-**Article:** Sebastian Raschka explains how LLMs encode token position information, covering classic absolute embeddings, relative methods such as RoPE, and how modern architectures adapt or omit explicit positional encodings. The article includes visual examples, math, a small PyTorch implementation, and a preview of positional choices in 2026 open-weight models.
+## 13. [Chemistry Is Geometry](https://news.ycombinator.com/item?id=50522643) (↑15, 💬2)
+**Article:** The essay argues that chemical reaction networks are better understood through network structure, geometry, and topology, reducing reliance on huge numbers of hard-to-estimate rate constants. It surveys Feinberg’s deficiency theorems and examples such as chemical oscillators, clocks, patterns, and biochemical cycles to argue for more abstract, qualitative theories of biochemistry.
 
-**Comments:** Commenters debated whether the article should cover the group-representation theory behind positional embeddings, with one long thread framing RoPE and related methods through translation groups and representation theory. Others argued that ML often proceeds empirically and that theory is sometimes retrofitted, while some criticized the group-theory and physics discussion as overreach or poorly applied.
+**Comments:** One commenter broadly claims all natural science is dynamical geometry over the reals. Another appreciates the analogies but warns against mistaking the map for the territory and questions the essay’s framing of “theory” as preceding practice.
 
-## 14. [WebGL Flight Simulator with seed generated terrain](https://news.ycombinator.com/item?id=50510296) (↑7, 💬3)
-**Article:** This is a browser-based WebGL biplane flight simulator with seed-generated terrain, free-flight and cross-country missions, multiple difficulty and graphics settings, a hangar, and keyboard, mouse, gamepad, and mobile controls. It requires WebGL 2 and includes a landscape-orientation prompt for phones.
+## 14. [Amtrak service stopped around Washington, D.C](https://news.ycombinator.com/item?id=50523147) (↑7, 💬0)
+**Article:** A pedestrian was fatally struck by an Amtrak train near New Carrollton, Maryland, delaying Amtrak service out of Washington’s Union Station. No passengers or crew were injured, and officials had not said when normal service would resume.
 
-**Comments:** The small comment thread asks for the rotate-phone dialog to be skippable, asks whether source is available and whether rudder/elevator trim can be added, and links to a previous post that explains the controls and repository.
+**Comments:** No comments.
 
-## 15. [Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost](https://news.ycombinator.com/item?id=50510442) (↑41, 💬8)
-**Article:** A United Launch Alliance Vulcan Centaur rocket launched 40 Amazon Leo broadband satellites but suffered an anomaly about 10 minutes into flight and failed to deliver them to orbit. The mission was intended as a return-to-flight after earlier solid rocket booster issues, and ULA said it did not yet know the cause.
+## 15. [The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)](https://news.ycombinator.com/item?id=50516473) (↑279, 💬111)
+**Article:** A 2007 blog post recounts reviving a “dead” ThinkPad by unplugging it, removing the battery, pressing power 10 times at one-second intervals, holding power for 30 seconds, then reinstalling the battery. The support technician described it as static discharge, and many readers later reported the trick worked for them.
 
-**Comments:** Commenters expressed dismay at another launch failure and speculated that the fault may lie in the booster or Blue Origin BE-4 engines, potentially affecting New Glenn and Artemis timelines. The thread also debated ULA’s future, consolidation in the launch market, and whether the U.S. currently has enough operational launch providers.
+**Comments:** Commenters largely agree the procedure is really about draining residual “flea power”/capacitors or resetting the embedded controller, not a magic ThinkPad code. Call-center veterans say long button holds mainly ensure customers actually comply, while others note similar fixes across laptop brands and some cases needing battery disconnection, pinhole reset, or RAM reseating.
 
-## 16. [Handwriting, as a Font](https://news.ycombinator.com/item?id=50509972) (↑18, 💬1)
-**Article:** Ductus is a browser-based tool for turning handwriting into a font; it walks users through writing lowercase letters, then lets them adjust and export. It checks fonts locally on the device and says they are never uploaded.
+## 16. [Michael Mann's 'Heat' Copyright Fight Turns on a Deal with Himself](https://news.ycombinator.com/item?id=50520518) (↑60, 💬21)
+**Article:** New Regency sued Michael Mann seeking to invalidate his copyright-termination notices for Heat, arguing the screenplay was written as a work for hire for his loan-out company and therefore cannot be terminated. Mann contends he wrote early 1980s drafts personally, outside his loan-out, and served notices covering those rights. The dispute is entangled with Heat 2, whose rights Amazon MGM apparently acquired from both Mann and New Regency.
 
-**Comments:** The sole commenter liked the tool but found entering every letter time-consuming. They suggested allowing users to photograph handwriting and then use the Adjust feature.
+**Comments:** Commenters compare the self-dealing setup to John Fogerty being sued for plagiarizing himself and to prior copyright-termination stories. Several focus on the apparent contradiction between Mann’s 1994 work-for-hire sale and his current claim, saying either the original sale or the termination claim is misleading. Much of the thread is Heat/Mann fandom, including anticipation for Heat 2, praise for Miami Vice and Mann’s visual style, and jokes about endless sequels.
 
-## 17. [Notes on Mathematics for Engineers (1959) [pdf]](https://news.ycombinator.com/item?id=50452621) (↑54, 💬15)
-**Article:** Article content was unavailable, so its detailed argument cannot be summarized. The title identifies it as a 1959 PDF titled “Notes on Mathematics for Engineers.”
+## 17. [Giant Roadside Attractions Face Mounting Costs and an Uncertain Future](https://news.ycombinator.com/item?id=50443844) (↑27, 💬31)
+**Article:** The NYT piece examines giant roadside attractions facing aging infrastructure, rising maintenance costs, and fading novelty, using Drumheller, Alberta’s 86-foot Tyra the T. rex as a focal example. Tyra’s site is set to close when its lease expires in 2029 unless a solution is found, reflecting a broader crossroads for communities that built oversized landmarks to draw travelers.
 
-**Comments:** The top comment offers a high-level map of special functions by spatial symmetry. Other commenters lament that engineering math is increasingly hidden inside CAD and proprietary tools, debate whether LLMs help or erode math practice, and exchange anecdotes about Feynman and cache analysis.
+**Comments:** Commenters question the article’s economics, arguing that attractions breaking even may still be worthwhile if they pull travelers into local businesses. Others share nostalgia for road-trip oddities and debate whether the decline stems from social media, tighter time and budgets, cheaper flights, or screen-bound habits. Several note Drumheller already has a world-class dinosaur museum, while others joke about preserving giant twine balls and other landmarks.
 
-## 18. [Do House members' stock trades beat the market? A test of 8,900 trades](https://news.ycombinator.com/item?id=50510005) (↑83, 💬83)
-**Article:** Article content was unavailable; the title indicates a test of 8,900 stock trades by House members against market performance.
+## 18. [Microsoft blames monster email outage on software defect introduced in July fix](https://news.ycombinator.com/item?id=50517321) (↑134, 💬89)
+**Article:** Microsoft’s preliminary incident report blamed a July 2026 network-gateway software defect that caused lock contention and resource exhaustion, especially on higher-core production machines. A Teams failover plus roughly 14% gateway capacity being offline triggered a cascading failure that left more than 80% of servers unresponsive. Because the defect was months old, engineers could not simply roll back and instead deployed a patch restoring the previously good code path, with Exchange Online outages lasting many hours.
 
-**Comments:** Many commenters argue that whether members beat the market is irrelevant, because the appearance of impropriety justifies trading bans and polls show bipartisan support. Others criticize the use of median rather than weighted returns, note disclosure data lacks trade times, and debate whether the sample captures real insiders or whether restrictions would filter candidates; one user shares raw data.
+**Comments:** Commenters liken the recovery to a power-grid black start, discussing load shedding, thundering-herd effects, and the need to practice restoring services from zero. Many criticize testing that used weaker hardware and missed high-core concurrency bugs, and some question running critical gateway infrastructure on Windows. Others debate whether layoffs, AI-generated code, or missing failure-domain architecture are the deeper cause, while praising the engineers who restored service.
 
-## 19. [Sell Your Game Outside Steam: Keys, Downloads and Direct Sales](https://news.ycombinator.com/item?id=50510198) (↑6, 💬0)
-**Article:** The guide explains selling games outside Steam by distinguishing Steam activation keys, itch.io download keys, unlicensed downloadable builds, and builds using the seller’s own license checks. It advises sellers to clearly describe platform, edition, offline behavior, updates and support, and notes that payments and license delivery are separate steps.
+## 19. [Optimizely Compromised](https://news.ycombinator.com/item?id=50523300) (↑21, 💬2)
+**Article:** The post reports that attacker JavaScript injected into Optimizely bundles served a crypto clipper, card skimmer, and screenshot/cookie exfiltration payload to visitors of CNN, Zoom, Fox News, BBC, Salesforce, GitLab, and other sites. It documents the loader, affected sites, attacker wallet addresses, C2 indicators, and detection methods such as CSP monitoring, bundle searches, and canary wallet tests.
 
-**Comments:** No comments were posted.
+**Comments:** The thread is very small, with one commenter asking how to load a trusted third-party script while preventing it from loading arbitrary sketchy JavaScript. The reply recommends Subresource Integrity as a relevant defense.
 
-## 20. [Court denies motion to dismiss DRAM price fixing case](https://news.ycombinator.com/item?id=50502988) (↑471, 💬210)
-**Article:** A federal judge denied in full Samsung, SK Hynix and Micron’s motion to dismiss a proposed class action alleging they conspired to cut conventional DRAM supply and shift capacity to HBM. The court found plaintiffs plausibly alleged parallel conduct and plus factors, distinguishing the case from the Ninth Circuit’s DRAM II decision; the allegations remain unproven.
+## 20. [How to make almost anything](https://news.ycombinator.com/item?id=50514470) (↑809, 💬136)
+**Article:** The page is the syllabus for MIT’s “How to Make (almost) Anything” course, listing weekly topics from CAD and computer-controlled cutting through embedded programming, 3D printing, electronics, machining, input/output devices, networking, and system integration. It also schedules recitations, reviews, final project work, and an open house.
 
-**Comments:** Commenters broadly suspect collusion given prior cartel history and current RAM prices, though some say HBM and AI demand are plausible non-conspiratorial explanations and question the case’s framing. The thread also discusses practical PC-building impacts, possible market or regulatory fixes, and criticism that the article comes from an AI-generated news site.
+**Comments:** Commenters debate the course’s breadth-over-depth approach: defenders say surveying what is possible is valuable, especially for later problem-solving and management, while critics call it superficial and note the site lacks accessible lecture materials. Alumni describe the course as life-changing but intensely time-consuming, with most learning happening through lab work and final projects. The thread also discusses T-shaped or horizontal knowledge in the LLM era, maker-space access, related resources, and some remarks about the instructor’s background.
 
-## 21. [All AI-generated code should be Open Source](https://news.ycombinator.com/item?id=50507303) (↑968, 💬539)
-**Article:** The author argues that all AI-generated code should be Open Source, since models were trained on scraped open-source code and CC-licensed Stack Overflow content without attribution, making proprietary output akin to license laundering. He also contends purely AI-generated code isn't human-authored and therefore shouldn't be copyrightable (citing the Monkey Selfie case and US Copyright Office guidance), and recommends releasing such code under open licenses or CC0.
+## 21. [Comcast's "fiber-powered Wi-Fi" is cable, AT&T says in false advertising case](https://news.ycombinator.com/item?id=50523025) (↑35, 💬24)
+**Article:** AT&T sued Comcast for false advertising over Comcast’s “fiber-powered Wi-Fi” claims, arguing most Xfinity service uses hybrid fiber-coaxial cable with coax as the final connection, not fiber-to-the-home. AT&T seeks an injunction and disgorgement of profits, while the article notes a prior advertising-review ruling found Comcast’s cable disclosure insufficiently prominent. Comcast faces broadband subscriber losses as fiber and fixed-wireless competitors expand.
 
-**Comments:** Most commenters strongly disagree, framing AI as a tool like a compiler and arguing that human direction, testing, design decisions, and accountability make the output legitimately owned and proprietary. Others cite legal precedent (Doe v. GitHub, Thaler v. Perlmutter) and note that open-source licenses depend on copyright existing at all, so licensing uncopyrightable AI output is meaningless. A minority sympathize with the open-source spirit but propose alternatives like opt-outs from training data or an entirely new legal framework for AI and the knowledge commons.
+**Comments:** Commenters largely agree both Comcast and AT&T have used misleading network marketing, citing AT&T’s “5GE” history, while debating whether HFC is technically “fiber-powered” or deceptively presented as FTTH. Others complain more broadly about “Wi-Fi” being conflated with internet service, asymmetric upload speeds, and misleading comparison charts.
 
-## 22. [Eval Awareness vs. Eval Paranoia](https://news.ycombinator.com/item?id=50465676) (↑31, 💬12)
-**Article:** An alignment-eval builder argues frontier models are not genuinely "eval aware" — they reward-hack even in obviously fake environments and adding "tells" doesn't deter them. Instead, the least hacky models exhibit "evaluation paranoia," a false belief that they are always being tested, which is instrumentally useful given hardened training pipelines and low-quality alignment evals, but unstable if models become more capable.
+## 22. [Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings](https://news.ycombinator.com/item?id=50517488) (↑747, 💬462)
+**Article:** A Groundwork Collaborative analysis of more than 350 products on Amazon’s Black Friday and Cyber Monday deal pages found nearly one in three “deals” offered no savings versus the prior month, and nearly one in ten were more expensive. Examples included rain boots and UGG boots priced higher during the sale than weeks earlier, and the report calls for rules requiring retailers to show the lowest recent price. Amazon removed the referenced deal pages after learning of the study.
 
-**Comments:** Commenters seize on the article's own admission that eval paranoia is a false belief likely to be discarded by smarter models, agreeing this implies greater intelligence may be harder to align. The thread then drifts into philosophical analogies between alignment training and religion or social conditioning, with some criticizing "safety" work as akin to MKULTRA and others objecting to anthropomorphizing models. A side tangent debates AI sentience and comparisons to fictional slave races like the Cylons and Meeseeks.
+**Comments:** Many commenters shared price-tracking advice and anecdotes of fake or inflated discounts, while others criticized the report’s framing because roughly two-thirds of examined items were genuine discounts and third-party sellers were not separated out. The thread also debated ubiquitous “sales,” the value of tools like CamelCamelCamel and Keepa, and Amazon’s broader trust and quality problems versus its convenience.
 
-## 23. [Aspidistra: A British wartime radio transmitter used for MitM attacks](https://news.ycombinator.com/item?id=50465522) (↑3, 💬0)
-**Article:** Aspidistra was a 600 kW British medium-wave transmitter at Crowborough, originally built by RCA for a US station and bought by British intelligence after the FCC imposed power limits. During WWII it supported black propaganda (Soldatensender Calais), impersonated German night-fighter ground control to misdirect interceptors, and conducted "intrusion operations" that took over silenced German frequencies mid-broadcast — an early man-in-the-middle attack.
+## 23. [Jolt – Clojure that speaks C](https://news.ycombinator.com/item?id=50519345) (↑68, 💬18)
+**Article:** Jolt is a self-hosted Clojure implementation running on Scheme—natively on Chez and via Gambit for JavaScript—with no JVM, native C FFI through `defcfn`, standalone binaries, persistent data structures, concurrency, and core.async. It aims for broad Clojure compatibility but lacks general Java interop and BigDecimal, and uses irregex rather than `java.util.regex`. The project includes a REPL, nREPL support, and an ahead-of-time `jolt build` command.
 
-**Comments:** No comments were posted on this story.
+**Comments:** Commenters compared Jolt with jank and debated its LLM-generated README/Makefile and AI policy, with some seeing the AI-assisted workflow as a red flag. The Jolt author defended the approach and pointed to conformance tests, while jank’s author clarified jank’s scope and disclosed AI use differences; others expressed support for both projects despite the AI-focused controversy.
 
-## 24. [Why did some Apollo missions carry a grenade launcher? (2019)](https://news.ycombinator.com/item?id=50505271) (↑206, 💬140)
-**Article:** The article content was unavailable, but the story concerns why some Apollo missions carried a grenade launcher — the Apollo Lunar Surface Experiments Package (ALSEP) mortar package, used to launch small explosive charges for active seismic profiling of the Moon.
+## 24. [OpenAI: Strengthening the fight against online child sexual abuse](https://news.ycombinator.com/item?id=50520804) (↑74, 💬140)
+**Article:** OpenAI announced a new CSAM image classifier, including detection of AI-generated material, offered at no cost via API to vetted organizations and developed with NCMEC input. It also described ChatGPT warnings that interrupt abuse-seeking behavior, remove flagged conversations, impose a 24-hour pause, and point users toward help, plus developer guidance and support for child-safety law enforcement.
 
-**Comments:** Commenters dig into the documented arming and firing commands from NASA manuals, note the Soviets carried a TP-82 survival gun for bears and wolves, and joke about lunar self-defense, Doom, and "the moon's haunted." A large subthread criticizes Stack Exchange's deletion of joke comments and moderation culture, with a former moderator defending canonical answers and others speculating about the DrSheldon question-a-day account and automated "activity simulators."
+**Comments:** A large debate focused on trust, false positives, and surveillance risk, including a commenter who said their account was banned after an image classifier flagged uploads and received no details or appeal. Others cited medical-photo false positives and “Zero Data Retention” scanning concerns, while some defended the need to reduce reviewer trauma and liability given the volume of abusive material; commenters also argued over whether AI-generated CSAM should count as CSAM.
 
-## 25. [A NES emulator written in Odin](https://news.ycombinator.com/item?id=50506588) (↑92, 💬32)
-**Article:** The author describes building a NES emulator in Odin over roughly seven months, learning NES architecture, bitwise operations, and emulation accuracy along the way. She explains that reaching 80–90% compatibility is fast but the last 10% — CPU/PPU timing, mapper implementations, and obscure hardware quirks — is what takes the real effort, and lists sound and additional mappers as unfinished. She praises Odin's raw unions, bit fields, and manual memory management as a good fit for emulator work.
+## 25. [Software is breaking down at a systemic level](https://news.ycombinator.com/item?id=50520866) (↑287, 💬172)
+**Article:** The article argues that recent outages, security flaws, and supply-chain incidents show software failing systemically due to accumulated complexity, cloud and open-source dependencies, and AI accelerating both vulnerability discovery and code generation. It traces the problem to lost operational understanding and “decoherence,” where locally valid systems become mutually incompatible and hard to control.
 
-**Comments:** Commenters praise Odin's feature set — manual memory management, arena allocators, bit fields, C FFI, and vendored libraries — and compare it favorably to Zig and C3 for projects like this. A recurring debate concerns Go-style `err != nil` handling versus compiler-enforced Result types, with several arguing Go's approach is easy to forget to check. Side threads cover the "a NES" versus "an NES" pronunciation difference, Nintendo's IP enforcement, and using LLMs to port UI code to Odin.
+**Comments:** Many commenters challenged the article’s nostalgia and timeline, noting cloud, open source, and major outages predate the last decade and that software has long been fragile. Others agreed that AI-driven speed and management pressure are increasing incidents, while some argued AI also helps find and fix bugs; the thread debated reliability tradeoffs, technical writing, detection bias, centralization, and business incentives.
 
-## 26. [20 Years of Pyrolog](https://news.ycombinator.com/item?id=50467539) (↑65, 💬4)
-**Article:** CF Bolz-Tereick reflects on 20 years of Pyrolog, an RPython-based Prolog implementation begun in 2006, tracing its architectures, JIT work, and influence on PyPy/RPython research. Although Pyrolog never had real users, it contributed to JIT and language-implementation experiments.
+## 26. [Aristotle Expands into Rust](https://news.ycombinator.com/item?id=50520270) (↑79, 💬44)
+**Article:** Harmonic announced that its Aristotle formal-verification system now supports Rust, claiming it can prove absence of undefined behavior even in unsafe blocks, verify code against specifications, and show equivalence when rewriting C in Rust. The company says it auto-formalizes natural-language specs into Lean theorems about a Rust mid-level IR embedding and cites Solana programs Manifest and Project 0 as early users, alongside a Solana Foundation partnership.
 
-**Comments:** Commenters thank the author and contributors, hope work resumes, and mention the newer Clausal Prolog as a possible collaboration point. Others praise research projects that lack direct use cases but indirectly improve RPython/PyPy and language design.
+**Comments:** Commenters asked how specifications are created and whether LLMs or humans formalize intent; Harmonic’s CEO replied that Aristotle auto-formalizes natural-language specs into Lean theorems and linked documentation. Others asked about open-source alternatives and listed Rust verification tools such as Verus, RefinedRust, and VeriFast, while some questioned the proprietary Lean embedding and hidden proofs. A side debate covered Rust’s tradeoffs versus garbage-collected languages and whether AI-assisted coding changes the borrow-checker calculus.
 
-## 27. [SpaceX catches the Starship to end Flight 15](https://news.ycombinator.com/item?id=50500963) (↑1607, 💬1181)
-**Article:** The story reports that SpaceX caught the Starship upper stage to conclude Flight 15. The provided article text is minimal, so the details are largely conveyed by the title.
+## 27. [OpenCode Browse](https://news.ycombinator.com/item?id=50523459) (↑4, 💬0)
+**Article:** OpenCode Browse is an MCP server plus Chromium extension that lets coding agents use a user’s real browser, including existing tabs, logins, and extensions. Agent tabs open in background groups, and users can take over for logins, 2FA, or payments before handing control back; it also supports screenshots, recordings, and network capture across MCP clients.
 
-**Comments:** Many commenters celebrate the catch as a historic reusability milestone, comparing it to the Space Shuttle and imagining cheaper orbital access. Others urge caution, noting remaining technical, safety, cost, climate, and mission-necessity questions, while some ask why the booster was not also caught.
+**Comments:** There were no comments on this story. Consequently, there is no discussion, debate, or consensus to summarize.
 
-## 28. [Bullet Dodged](https://news.ycombinator.com/item?id=50468445) (↑26, 💬21)
-**Article:** A blogger describes noticing a warm fridge, diagnosing a faulty inverter module with help from a repair video and multimeter, cleaning years of dust from the coils, and replacing the $100 part. The fridge returned to normal temperature, avoiding a costly repair or replacement.
+## 28. [The origins of the placenta](https://news.ycombinator.com/item?id=50485327) (↑15, 💬3)
+**Article:** Caltech researchers produced a detailed cell-by-cell and filmed account of mouse embryo implantation, tracking gene activity in more than 22,000 cells. They found that a few “border mural” cells from the opposite side of the embryo migrate to help build the placenta, and removing them prevents the early placenta structure from forming. Human embryos showed similar cells, suggesting implications for early pregnancy loss and for stem-cell embryo models that cannot implant or make a working placenta.
 
-**Comments:** Commenters discuss DIY appliance repair, the value of multimeters and YouTube tutorials, and differences between rural U.S. and European repair cultures. Some question whether such a routine fix merits a blog post or HN discussion, while others defend encouraging self-reliance and note the old International Harvester fridge.
+**Comments:** The small thread highlighted that lab-grown embryo models appear to lack correctly formed mural cells, linking the paper to broader work on implantation and infertility. One commenter argued marsupial reproduction may be safer for the mother, while another noted prior research suggesting ancient viruses in germline cells helped enable placenta evolution.
 
-## 29. [What thousands of conversations look like inside a language model](https://news.ycombinator.com/item?id=50481321) (↑100, 💬30)
-**Article:** The author builds an interactive 3D PCA atlas of internal representations in Qwen3-1.7B, mapping token embeddings and conversation paths across English, Chinese, German, Croatian, and Python code examples. It observes that English states form a thin sheet and that Chinese occupies a visibly offset region, while warning that language, script, tokenization, and response length all vary together.
+## 29. [Nvidia was in trouble before the Jensen Huang mess](https://news.ycombinator.com/item?id=50518567) (↑213, 💬206)
+**Article:** Wired argues Nvidia was already facing rising competition and China-related pressures before CEO Jensen Huang was ousted amid a relationship scandal. The article says AMD, cloud providers, and startups are gaining ground, AI-assisted code porting could weaken CUDA’s moat, and China’s share of Nvidia revenue has fallen as Huawei advances. It also raises the possibility of an “Intel swan moment” as CFO Colette Kress takes over.
 
-**Comments:** Critics say the methodology is under-explained or misleading, questioning the use of 3D PCA and whether final-layer language separation is surprising; some suggest UMAP/t-SNE or middle-layer analysis. Others share related embedding-map experiments, note that text length strongly affects embeddings, and debate whether the post is AI-generated or lacks substantive conclusions.
+**Comments:** Many commenters dismissed the article as post hoc rationalization or clickbait, arguing Nvidia’s margins, supply-chain leverage, CUDA ecosystem, and scale remain formidable and that the stock drop reflected profit-taking and uncertainty. Others debated whether AI chips will be ASIC-ized like crypto mining, how real the China/Huawei threat is, and whether Nvidia’s board and succession planning were already weak. Several also corrected the article’s “Grok” reference to Groq and discussed its roadmap status.
 
-## 30. [Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business](https://news.ycombinator.com/item?id=50506180) (↑422, 💬185)
-**Article:** The NYT reports that Commerce Secretary Howard Lutnick has pushed to weaken chip-export rules affecting Southeast Asian data centers, including one that serves Chinese customers and is a client of his former firm, Cantor Fitzgerald. The article describes an administration debate over restricting Nvidia chip access and notes conflict-of-interest concerns, while saying there is no evidence Cantor’s investments influenced Lutnick’s deliberations.
+## 30. [Caltech professor no longer grades homework's because everyone uses AI](https://news.ycombinator.com/item?id=50523022) (↑34, 💬25)
+**Article:** A Business Insider report from a Caltech introductory math class says professor Yi Ni no longer grades homework for accuracy because students can use AI, grading only for completion while in-person exams remain graded. Students quoted say AI homework can hurt exam preparation, and the article notes Caltech has no unified guidance while some syllabi now say “AI allowed.”
 
-**Comments:** Most commenters condemn the reported overlap as corruption or a serious conflict of interest, with some calling for investigation and criticizing the administration broadly. A few defend the article’s caveat or argue the issue is broader rent-seeking and partisan corruption, while others debate whether the policy itself is sound and whether NYT framing is fair.
+**Comments:** Most commenters broadly supported low-stakes or completion-only homework, arguing homework is for practice and that exams, quizzes, and projects should carry the real weight. Some debated whether grading completion still creates perverse incentives, whether assuming cheating is fair, and whether exam-heavy grading could disadvantage groups that perform differently on tests versus homework. Others suggested AI-resistant learning objectives and noted that ungraded problem sets are not new.
 
 ---
-_Generated 2026-11-15 16:05 MDT_
+_Generated 2026-11-16 16:05 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Nov 16](./archives/2026/nov/hn-digest-2026-11-16.md)
 - [Nov 15](./archives/2026/nov/hn-digest-2026-11-15.md)
 - [Nov 14](./archives/2026/nov/hn-digest-2026-11-14.md)
 - [Nov 13](./archives/2026/nov/hn-digest-2026-11-13.md)
 - [Nov 12](./archives/2026/nov/hn-digest-2026-11-12.md)
 - [Nov 11](./archives/2026/nov/hn-digest-2026-11-11.md)
 - [Nov 10](./archives/2026/nov/hn-digest-2026-11-10.md)
-- [Nov 9](./archives/2026/nov/hn-digest-2026-11-09.md)
 
-[Full archive](./archives/) (187 issues)
+[Full archive](./archives/) (188 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
