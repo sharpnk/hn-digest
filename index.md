@@ -1,170 +1,170 @@
-# HN Digest — November 19, 2026
+# HN Digest — November 20, 2026
 
-## 1. [Anthropic hits $2T in Nasdaq debut](https://news.ycombinator.com/item?id=50562754) (↑684, 💬1210)
-**Article:** Article content was unavailable; the headline reports that Anthropic reached a $2 trillion valuation in its Nasdaq debut.
+## 1. [Hurried Announcement: Alessandro Masullo GRH](https://news.ycombinator.com/item?id=50579568) (↑1078, 💬507)
+**Article:** Ravi Vakil’s blog post hurriedly announces Alessandro Masullo’s proposed proof of the Generalized Riemann Hypothesis, saying Brian Conrad has reviewed it extensively and that the work is human, not AI-assisted. Vakil explains that the draft is being released early rather than after a planned polishing period.
 
-**Comments:** Commenters disputed the $2T figure, citing a lower market cap and confusion between fully diluted and outstanding shares, while many described the IPO as a bubble or bad sign for OpenAI. Others debated AI’s social costs—housing, unemployment, energy use—and expressed anxiety about software jobs, regulation, and open-source models.
+**Comments:** Commenters debate priority and credit in an AI-scooping era, with many noting that a PhilPapers-linked critique claims the proof is invalid. Others discuss the draft’s enormous length, verification difficulty, and the emotional/strategic implications of racing against AI labs.
 
-## 2. [Pancreatic cancer halted by virus injection in three patients](https://news.ycombinator.com/item?id=50563066) (↑312, 💬34)
-**Article:** New Scientist reports that an engineered adenovirus injected directly into pancreatic tumors halted growth in three patients during an early safety trial. The virus replicates in cancer cells activated by COX-2, and all three patients remained alive with stable disease at low doses; experts caution the results are preliminary, small, and lacked a control group.
+## 2. [Inkling 2 Mini](https://news.ycombinator.com/item?id=50581260) (↑338, 💬46)
+**Article:** Thinking Machines Lab introduces Inkling 2 Mini, an open-weights 26.4B-total/3.4B-active MoE looped transformer designed to run locally in about 20GB and perform strongly on coding and agentic benchmarks. The post details NVFP4 training, looped-architecture monitorability experiments, and a variable-loop research variant.
 
-**Comments:** Many commenters shared personal losses to pancreatic cancer and expressed hope, while others emphasized the trial’s early Phase 1 nature, tiny sample, and lack of placebo or control data. Discussion also covered misdiagnosis, the difficulty of early detection, Steve Jobs’s different pancreatic tumor type, and the ethics of placebo controls in terminal illness.
+**Comments:** Commenters are impressed by the local-model performance and looped architecture, seeing it as a potential challenge to Qwen and other small open models. Discussion covers GGUF/llama.cpp support, real hardware speeds, benchmark skepticism, and broader safety or “AI doom” concerns.
 
-## 3. [Claude solves two open problems in the physics of black holes](https://news.ycombinator.com/item?id=50563148) (↑295, 💬124)
-**Article:** An Anthropic post claims Claude Fable 5.2 solved two open theoretical physics problems about black holes and quantum gravity: completing a long-unsolved Hawking-Page transition calculation and finding an exact limit for the simplest modular bootstrap technique. The work used multiple Claude agents, was checked in Lean, and was written up with minimal human guidance.
+## 3. [Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]](https://news.ycombinator.com/item?id=50574968) (↑2137, 💬1462)
+**Article:** The linked PDF is Levent Alpöge’s claim of a proof of the Generalized Riemann Hypothesis; the article page itself was unavailable.
 
-**Comments:** Many commenters criticized the post as promotional and anthropomorphic, asking for prompts, attribution, and peer review rather than accepting “Claude solves” claims. Some found the bootstrap result technically exciting, while others questioned the paper’s novelty, the IPO timing, and whether the results matter outside simplified model universes.
+**Comments:** The thread debates credit between Alpöge, Anthropic, and human mathematics, while also focusing on whether the Lean proof checks out and how to interpret an enormous machine-verifiable argument. Reactions range from excitement about a historic result to anxiety about AI labs outpacing the mathematical community and about proofs becoming too large for humans to understand.
 
-## 4. [Garage Door Spam](https://news.ycombinator.com/item?id=50519231) (↑675, 💬278)
-**Article:** A blogger describes replacing Chamberlain’s ad-filled myQ garage-door app with ratgdo32 boards after the manufacturer cut third-party API access. The open-source, local-network setup works with HomeKit, Tailscale, and a Slack alert script, recreating his father’s old mercury-switch reminder to avoid leaving the door open.
+## 4. [We promoted developers into architects without informing them](https://news.ycombinator.com/item?id=50579331) (↑184, 💬109)
+**Article:** The post argues that AI coding tools are effectively pushing developers into architect roles, using an example where AI-generated logging caused a 15-second welcome-screen delay through unnecessary API calls. It says developers must now push back on requirements, design data models, constrain AI, and review architecture rather than just write code.
 
-**Comments:** Commenters strongly agreed that notification ads and IoT lock-in are unacceptable, citing Apple guidelines, other ad-filled apps, and calls for regulation. Many shared ratgdo, Meross, Tailwind, relay, and Home Assistant workarounds, while noting that most users lack the skill to bypass Chamberlain’s hostile design.
+**Comments:** Many commenters object to the “promotion” framing, saying architecture and requirement pushback were always part of good engineering work. Others debate role separation, junior-developer training, accountability, and whether AI reduces status and pay even as it changes the job.
 
-## 5. [The 98% Slot Machine: How Paid Advertising Became an Extraction Tax](https://news.ycombinator.com/item?id=50564159) (↑112, 💬62)
-**Article:** The article argues that paid advertising has become an extractive “98% slot machine,” suggesting ad-auction competition captures most advertiser value and leaves many businesses unable to profit. The provided content included little beyond the title and framing.
+## 5. [Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis](https://news.ycombinator.com/item?id=50578358) (↑243, 💬69)
+**Article:** Terence Tao notes three major AI-assisted results: an unforced Euler singularity proof, an unforced Navier-Stokes singularity proof, and an enormous Lean-only proof of the Generalized Riemann Hypothesis by Levent Alpöge using an internal AI model. Tao emphasizes that the results are at different stages of digestion and verification.
 
-**Comments:** Ad-industry commenters pushed back on the casino analogy, saying ad auctions are markets shaped by supply, demand, and cost-per-acquisition rather than rigged zero-sum games. Others argued the system is still extractive and enshittified, criticized the lack of data for the 98% claim, and debated whether the piece was AI-generated.
+**Comments:** Commenters react with a mix of excitement, awe, and career anxiety, while questioning whether AI can create genuinely new mathematical abstractions rather than just verify huge proofs. Discussion also covers Lean kernel verification, the significance of the GRH claim, and what these results imply for human mathematicians.
 
-## 6. [Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest](https://news.ycombinator.com/item?id=50561515) (↑153, 💬67)
-**Article:** Cornhole News is an HN-style aggregator for Midwest headlines, with Top/New/Submit/About/Jobs pages, a “politics” toggle, and links across Iowa, Illinois, Ohio, Minnesota, the Dakotas, and nearby states. It is positioned as a text-first community site and says it may eventually fund itself with two small ads for Midwestern businesses.
+## 6. [Language Models Can Rewrite Their Own Weights](https://news.ycombinator.com/item?id=50577265) (↑293, 💬98)
+**Article:** The paper claims an open 27B language model can rewrite its own weights through reasoning alone, without gradients or training, improving accuracy by 6.6 points and repairing a damaged copy of itself. It argues this “self-rewriting” capability emerges with scale and could be a step toward recursive self-improvement.
 
-**Comments:** Commenters like the stripped-back HN format and politics filter but question how “politics” is classified, how moderation and monetization will work, and whether state filters or open-source code will be available. Others debate what “Midwest” means, request Canada/Great Lakes/Plains divisions, and note UX issues such as bright design, posts reordering on upvote, and missing comment voting.
+**Comments:** Commenters are skeptical that this is genuinely “no training,” noting the main reported fix involved shortening reasoning traces to avoid token limits and resembles prior weight-editing work. Others criticize the LLM-generated prose and possible test leakage, while some see promise for continual learning or recursive self-improvement.
 
-## 7. [UK government forced to admit it issued Apple a secret encryption order](https://news.ycombinator.com/item?id=50562113) (↑391, 💬174)
-**Article:** The UK’s Investigatory Powers Tribunal ruled that the government must acknowledge it issued Apple a Technical Capability Notice under the Investigatory Powers Act. The underlying dispute concerns demands for access to encrypted iCloud data; Apple withdrew Advanced Data Protection for new UK users and is challenging the order, while the ruling only rejects total secrecy around the notice’s existence, not the order’s lawfulness.
+## 7. [The stochastic parrots have apparently proved the Riemann Hypothesis](https://news.ycombinator.com/item?id=50581084) (↑104, 💬67)
+**Article:** Scott Aaronson writes that Levent Alpöge claims Anthropic models proved the Generalized Riemann Hypothesis, producing 17.4 million lines of Lean code. He discusses Lean verification risks, the need for human mathematicians to understand the proof, and what this implies for AI-driven math.
 
-**Comments:** Commenters strongly criticize UK surveillance secrecy and debate whether Apple’s encryption wording or ADP changes are misleading; technical claims about key-encryption keys are contested with references to Apple’s documentation. Others discuss GrapheneOS/PinePhone alternatives, whether secret orders can ever be justified, and political accountability across UK parties.
+**Comments:** The thread debates the headline’s “stochastic parrots” framing, with some seeing it as a deserved jab at LLM skeptics and others calling it sneering or dismissive. Commenters also question whether 17 million lines of Lean can ever be verified, argue over the human role in the result, and speculate about AI’s accelerating mathematical capabilities.
 
-## 8. [Someone reported java4shell bug in September 2026](https://news.ycombinator.com/item?id=50558906) (↑310, 💬82)
-**Article:** A September 2026 OpenJDK pull request proposed fixing an AVX-512 Base64 decoder bug that could overwrite the output buffer on short padded tails for invalid inputs. The PR was closed after inactivity, but commenters note Oracle later took over the fix and merged a commit with identical wording.
+## 8. [Microsoft announces Windows Server 2028 with hardened security](https://news.ycombinator.com/item?id=50550430) (↑42, 💬38)
+**Article:** Microsoft announced Windows Server 2028 at Ignite 2026, featuring a hardened Server Core configuration by default, a new security baseline, Trusted Launch, Confidential VM support, Intune management, NVMe improvements, and AI inference capabilities. The release aims to raise security defaults and simplify management at scale.
 
-**Comments:** Commenters suspect AI-assisted security researchers may have rediscovered the bug from the public PR or related issue, while others caution that independent discovery is possible. The thread debates disclosure practices, stale-bot closures, Oracle’s handling, and whether to credit the LLM or the human operator; JDK maintainers explain that potential security issues often trigger private triage.
+**Comments:** Commenters debate Windows Server’s role, with many criticizing it versus Linux/BSD and urging organizations to switch, while others defend it for Active Directory, legacy applications, MSP familiarity, compliance, and operational inertia. Some sysadmins also ask for further hardening, such as disabling the Print Spooler by default, and worry about offline/OT environments and future patching.
 
-## 9. [Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]](https://news.ycombinator.com/item?id=50564366) (↑38, 💬67)
-**Article:** This is a video debate between Jacob Coxon and Robin Hanson on whether governments should slow frontier AI. The page itself provides little content beyond YouTube metadata, so the debate’s arguments are not summarized in the article text.
+## 9. [Vibecoding an inference chip](https://news.ycombinator.com/item?id=50579297) (↑78, 💬24)
+**Article:** The author describes using coding agents to program an FPGA to run a ternary-weight LLM, reaching 213 tokens per second after a 33× optimization from the first working baseline. The project used AWS F2 instances and roughly $10,000 in model tokens, with most code in C++ and some Verilog.
 
-**Comments:** Commenters debate whether alignment is solvable, whether regulation is feasible given US-China competition, and whether slowdown arguments enable regulatory capture. Some criticize Coxon’s credibility and Hanson’s slippery-slope reasoning, while others propose liability rules, renewable-energy mandates, or individual ownership of AI production.
+**Comments:** Commenters find the project impressive but question the $10,000 token cost and ask for code and model details. Some see ternary models plus FPGAs as promising for low-power inference, while others compare repetitive “make it faster” prompting to simplistic recursive-self-improvement claims.
 
-## 10. [Launch HN: Onlook (YC W25) – An open-source developer tool for designers](https://news.ycombinator.com/item?id=50562320) (↑69, 💬61)
-**Article:** Onlook is an open-source, local-first desktop design tool that runs a user’s real Git repo and dev server on an infinite canvas, letting designers edit live apps visually while bringing their own Claude Code or Codex agent. It supports exporting artifacts, is Apache 2.0 licensed, and currently offers macOS builds with Windows/Linux waitlists.
+## 10. [Finite-time blow-up for the Navier–Stokes equations](https://news.ycombinator.com/item?id=50576232) (↑222, 💬71)
+**Article:** This GitHub repository hosts a paper by L. Alpöge and T. Buckmaster on finite-time blow-up for the Navier–Stokes equations, along with a large Lean 4 formalization. It notes that the formalization contains no data, the certificate and paper source are not included, and the patched Lean package was not rebuilt.
 
-**Comments:** Commenters praise the real-code canvas and PR-based agent workflow but ask about onboarding/account friction, design-system consistency, parallel variants and merge conflicts, pricing, and comparisons with Codex, Claude design, Figma, and Pen.dev. The team responds with details on bringing your own agent, MCP/plugin plans, framework support, and future paid collaboration/cloud features.
+**Comments:** Commenters express excitement that this is the unforced Navier–Stokes result and note it landed the same day as the claimed Riemann Hypothesis proof. The thread debates credit assignment between humans and AI, calls for transcripts and release of supporting materials, and discusses why Navier–Stokes blow-up is a mathematical rather than literal physical prediction.
 
-## 11. [Reverse-Engineering Kevin J. Lang's Lost OCaml Code in Apache DataSketches](https://news.ycombinator.com/item?id=50517657) (↑16, 💬0)
-**Article:** The article recounts porting Apache DataSketches’ CpcSketch to Rust and encountering static Huffman, permutation, and estimator tables whose original OCaml generators were lost after Kevin J. Lang’s death. It describes using the checked-in tables and header diagnostics as a numerical oracle to reverse-engineer the generation process.
+## 11. [DreamCoder: Coding harness and IDE from the author of Mastering Emacs](https://news.ycombinator.com/item?id=50581110) (↑26, 💬3)
+**Article:** Mickey Petersen announces DreamCoder, a browser-based AI coding harness and IDE with a tiling window manager, after 15 months of development. The post also traces AI, Lisp, and Emacs history to explain the design philosophy behind the tool.
 
-**Comments:** No comments were provided.
+**Comments:** Commenters find the project visually and functionally interesting, with one expressing excitement about an alternative to existing Emacs-inspired AI coding harnesses. Another requests Linux arm64/Asahi builds, and a third jokes that the requester could add support with AI.
 
-## 12. [Rebuilding my local voice assistant pipeline](https://news.ycombinator.com/item?id=50566261) (↑12, 💬1)
-**Article:** The author rebuilds a Platypush voice assistant pipeline, replacing openWakeWord with microWakeWord and improving speech detection with Silero VAD, hysteresis, and an adaptive noise floor. It also covers OpenAI Whisper transcription, OpenAI/Piper TTS, and hooks for local commands and conversation flow.
+## 12. [If you can't explain something in simple terms, you don't understand it (2017)](https://news.ycombinator.com/item?id=50572355) (↑574, 💬277)
+**Article:** The post uses Richard Feynman anecdotes and John Gruber’s comments about Apple to argue that being unable to explain an idea simply signals incomplete understanding. It cites Feynman’s failed attempt to explain Fermi-Dirac statistics at a freshman level and his remarks on magnets and quantum mechanics.
 
-**Comments:** The sole commenter thanks the author, shares a small-screen assistant project, and reports that microWakeWord worked well and that training a custom wake word was easy with a few tens of samples.
+**Comments:** Commenters debate whether the aphorism is often misused to demand effort-free understanding, stressing that explaining and understanding are distinct skills requiring audience awareness and shared context. Others argue some topics are irreducible or need substantial background, and several criticize the post as a quote dump that strips Feynman’s qualifiers.
 
-## 13. [Making 8-page foldable zines from a single A4 sheet in the browser](https://news.ycombinator.com/item?id=50559719) (↑199, 💬46)
-**Article:** The author describes fanzines.app, a browser editor for making 8-page foldable zines from one A4 sheet with correct page imposition and rotation. It exports local 300 DPI PDFs and adds real spread pairing, drag-and-drop photos, Fill/Fit/Center controls, a review step, mobile support, and English/Spanish localization.
+## 13. [Winedroid – run Android apps without Android (WASM demo)](https://news.ycombinator.com/item?id=50580536) (↑58, 💬25)
+**Article:** Winedroid is a Rust-written Android-compatible runtime demo that runs real F-Droid APKs in the browser via WebAssembly without running Android itself. The demo’s FAQ says the runtime is about 12 MB, support is limited, and browser performance suffers because its JIT does not work on the web.
 
-**Comments:** Commenters discuss imposition and “signature” terminology and point to prior tools like PocketMod, Bookbinder JS, pdfjam, psnup, and other zine makers. They also raise paper creep/offset issues, request US Letter support, share nostalgia and classroom anecdotes, and the author replies about the repo and planned improvements.
+**Comments:** Commenters report crashes and failed app launches, and ask about use cases versus Waydroid and Android translation layers. Security and sandboxing are questioned—the author acknowledges apps can currently read other apps’ data—while discussion also covers back-navigation and the appeal of a lightweight browser runtime.
 
-## 14. [Pete warden on local AI, open models, voice interfaces, the future of hardware](https://news.ycombinator.com/item?id=50561508) (↑187, 💬168)
-**Article:** Ben Lorica interviews Pete Warden about why AI is moving local, open-weight models, quantization, running LLMs on laptops, low-latency voice interfaces, and hardware trends. Warden argues local AI is more capable than many realize and discusses economics, privacy, browsers, and specialized versus end-to-end models.
+## 14. [And Yet, It Moves](https://news.ycombinator.com/item?id=50581177) (↑28, 💬14)
+**Article:** The post reacts to an apparent claim that Anthropic solved the Riemann Hypothesis, framing it through a Galileo musical and a lament that major mathematical discovery may now come from machines rather than humans. It argues this would mark the closing of humanity’s role in Galileo’s project of discovering truth, ending with “And yet, it moves.”
 
-**Comments:** Commenters debate local versus cloud AI, self-hosting costs, privacy, reliability, and whether mainstream users will adopt local models. Many share hardware setups and performance numbers, criticize Nvidia’s consumer GPU strategy, and argue over whether local AI is best for private/repetitive tasks or remains economically niche.
+**Comments:** Commenters split over whether AI-assisted discoveries count as human achievements, with some arguing the systems are human-built and others distinguishing individual or group achievement from a gestalt of all public knowledge. Some call for stopping AI development or note workplace pressure to adopt it; others discuss trusting abstractions and recognizing cognitive limits.
 
-## 15. [Nintendo takes Picofly firmware down from GitHub [video]](https://news.ycombinator.com/item?id=50547048) (↑232, 💬87)
-**Article:** The video covers Nintendo’s DMCA takedown of Picofly modchip firmware from GitHub under Section 1201, despite the notice claiming no Nintendo code is included. It frames the dispute around hardware ownership, circumvention, and modchip firmware.
+## 15. [Frostbite: A new CPU architecture discovered, designed and verified by AI](https://news.ycombinator.com/item?id=50572503) (↑578, 💬307)
+**Article:** Architect Labs claims Frostbite is a general-purpose CPU architecture discovered, designed, and verified end-to-end by AI, using interaction nets to expose parallelism and eliminate shared mutable state. It reports a 4.59x performance-per-watt gain over a modern in-order superscalar core across 25 workloads, with AI iterating over compiler, ISA, microarchitecture, RTL, verification, and GDS.
 
-**Comments:** Commenters debate whether clean-room unlock firmware is illegal circumvention, how DMCA §512 interacts with §1201, and whether GitHub should review takedowns more carefully. They also discuss right-to-repair and ownership, mirrors and alternative hosting, Nintendo’s long enforcement history, and note that the main Picofly repo reportedly remains online.
+**Comments:** Commenters are skeptical of the in-order baseline, small workloads, and novelty versus prior dataflow architectures, while others find the AI-driven co-design promising or unsettling. Many object to the “by AI” framing because humans chose workloads and tools, and some ask for an emulator/compiler or product; others note overlap with Tendrils and question the funding and claims.
 
-## 16. [How the European Commission rolled out Matrix to more than 40k staff](https://news.ycombinator.com/item?id=50558533) (↑621, 💬300)
-**Article:** This Element public-sector page collects Matrix Conference 2026 talks on the European Commission’s Matrix rollout to more than 40k staff, framed around sovereignty, interoperability, vendor diversity, and control. It also references operational lessons such as disabling live presence for load and fixing federated search, while promoting Element/Matrix for public-sector communications.
+## 16. [Combatting Adversarial Distillation](https://news.ycombinator.com/item?id=50581242) (↑24, 💬25)
+**Article:** OpenAI describes “adversarial distillation” as a safety risk: bad actors could use a frontier model’s outputs, especially protected reasoning traces, to train another model without equivalent safeguards. It outlines layered defenses including adversarial training, classifiers, API controls, and campaign detection, and reports a large drop in reasoning-extraction success for newer models.
 
-**Comments:** Commenters debate whether Matrix is ready for public-sector or national-security use, citing E2EE/MLS gaps, verification friction, reliability, resource growth, and client usability, while others report positive self-hosted deployments and value open, sovereign infrastructure. Several link the rollout to reported official dissatisfaction with Element Pro and question cost, bureaucracy, and federation complexity.
+**Comments:** Commenters are largely hostile, accusing OpenAI of hypocrisy given its own training on scraped human work and arguing the post is mainly about protecting its competitive moat. Several question whether distillation can be detected or prevented, while others debate the technical feasibility and economics of making copying expensive rather than impossible.
 
-## 17. [Ruby2ßhell: Pre-authentication RCE on stock Rails](https://news.ycombinator.com/item?id=50556287) (↑362, 💬153)
-**Article:** Veria Labs describes CVE-2026-132825, a one-byte heap overflow in Ruby’s single-byte-encoding case conversion when “ß” upcases to “SS,” reachable pre-authentication in default Rails/Sinatra and some self-hosted products. It lists fixed Ruby versions and vendor patches, with GitLab, GitHub Enterprise Server, and Chatwoot still vulnerable at publication, and promises a proof of concept later.
+## 17. [Show HN: An API for word timestamps from speech, 75% within 20ms](https://news.ycombinator.com/item?id=50532515) (↑40, 💬5)
+**Article:** Yarn launches Quebec, an API that transcribes English audio or aligns an existing transcript and returns per-word start/end timestamps, priced at $0.32 per audio hour. It claims 75% of word boundaries fall within 20 ms on a held-out corpus, compares favorably with MFA, ElevenLabs Cue, and WhisperX, and offers key creation, credit top-up, transcription, alignment, and balance endpoints.
 
-**Comments:** The thread focuses on how a one-byte overflow can become RCE through heap grooming, how AI may accelerate finding exploit chains, and whether memory-safe stacks are necessary. Commenters also discuss attacker control of encodings, patching urgency for GitLab/Mastodon/etc., and joke about the German ß and “2shell” naming.
+**Comments:** Commenters find the API useful for podcast mixing, auto-gating, lip-sync animation, and pronunciation tools, with one noting phoneme-level accuracy would be valuable. One raises concern that precise word timing could make misleading edits or fake news easier, while others mention WhisperX and ElevenLabs as related options.
 
-## 18. [An Oregon library ditched Dewey Decimal and got people excited about books again](https://news.ycombinator.com/item?id=50536950) (↑165, 💬117)
-**Article:** Article content was unavailable; the title says an Oregon library replaced the Dewey Decimal System with a category-based “Wayfinder” layout and saw renewed interest in its books.
+## 18. [Nvidia accounting under SEC investigation, sources say](https://news.ycombinator.com/item?id=50581438) (↑115, 💬39)
+**Article:** Nvidia shares fell sharply after Reuters reported that the SEC is examining potential accounting issues, extending a massive rout that wiped out hundreds of billions in market value in a day and about $2.7 trillion since October. The article cites questions around delayed 10-Q filing, Singapore revenue, a customer suspected of rerouting chips to China, longer receivables, and an independent board investigation.
 
-**Comments:** Commenters debate whether Dewey or any single taxonomy can avoid arbitrary filing, citing DDS biases, computer classification, and ambiguous books; some favor bookstore-like browsing while others say catalog search solves finding. They also question Wayfinder being proprietary, discuss library funding/community-center shifts, and note the article may conflate reclassification with new-library aesthetics.
+**Comments:** Commenters debate circular financing, Enron comparisons, the CFO’s appointment as interim CEO, and whether the selloff signals broader AI-market contagion. Some treat the dip as a buying opportunity or predict more scrutiny, while others dispute the circular-financing claims and note that Nvidia actually ships products unlike Enron.
 
-## 19. [What's New in PHP 8.6](https://news.ycombinator.com/item?id=50557870) (↑258, 💬124)
-**Article:** The PHP 8.6 release announcement highlights partial function application, a Time\Duration class, an Io\Poll API for scalable I/O multiplexing, clamp(), SortDirection, readonly property defaults, and structured stream errors. It presents examples showing more expressive code, stronger types, and modernized I/O/error handling.
+## 19. [Signal Is Serious About Protecting Your Privacy](https://news.ycombinator.com/item?id=50572348) (↑428, 💬272)
+**Article:** Signal says it is blocking OS-level AI agents on iOS 27 and Android from capturing Signal screen data, similar to its earlier screenshot blocking against Microsoft Recall on Windows. It argues that Apple, Google, and Microsoft’s agentic AI integrations undermine app-level privacy, calls for documented opt-outs and better technical specifications, and admits its screenshot blocking is incomplete.
 
-**Comments:** Commenters urge patching older PHP versions due to recent critical CVEs and discuss whether 8.6 includes fixes; others praise ZTS overhead reductions and stream exceptions. Debate centers on partial function application syntax/readability, clamp examples, and recurring “PHP bad” criticism versus defenses of modern PHP’s request model.
+**Comments:** Many commenters criticize Signal despite the post, citing the phone-number or payment requirement, centralized servers, lack of federation, and desktop/security concerns. Others defend the opt-out screenshot protection and debate user control versus privacy defaults, while some recommend GrapheneOS or self-hosted alternatives and others worry about chat partners’ devices leaking messages.
 
-## 20. [Do not buy RAM, compress](https://news.ycombinator.com/item?id=50557661) (↑210, 💬180)
-**Article:** The post argues that enabling zram memory compression can avoid RAM upgrades for memory-heavy parallel workloads, noting many Linux distros lack it by default and showing a roughly 1:3.35 compression ratio in a Firefox tab stress test. It acknowledges CPU/latency tradeoffs and points readers to Arch Wiki setup guidance.
+## 20. [I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA](https://news.ycombinator.com/item?id=50577613) (↑85, 💬112)
+**Article:** Peter Roberts, an immigration attorney who works with YC and startups, hosts an AMA and invites factual questions while noting he cannot give case-specific legal advice without full facts. He links to previous AMA threads.
 
-**Comments:** Commenters recommend zswap over zram in many cases, compare macOS/Windows compression, and warn that already-compressed data like LLMs/vectors won’t benefit much. Others discuss Kubernetes and swap, browser tab unloading, historical RAM doublers/SoftRAM, and stress-testing compression before relying on it.
+**Comments:** The thread is mostly practical immigration questions about O-1, H-1B, EB-1/NIW, PERM, green-card delays, border detention, startup pathways, and policy changes. Commenters also share gratitude for past help and debate H-1B labor effects and processing backlogs.
 
-## 21. [Unblockable communication with gravity](https://news.ycombinator.com/item?id=50559179) (↑121, 💬38)
-**Article:** The article content was unavailable, so the specific claims and methods cannot be summarized directly. The title and comments indicate it concerns communicating via gravity by moving masses and detecting the resulting gravitational changes.
+## 21. [Show HN: I made an audio-to-MIDI model 60x more efficient](https://news.ycombinator.com/item?id=50526023) (↑208, 💬44)
+**Article:** KobiMusic introduced Dettato, a 20M-parameter open-source audio-to-MIDI model that it says outperforms MuScriptor 1.3B and slightly beats Mirelo’s closed model on published benchmarks. It was trained without copyrighted recordings, allows commercial use of outputs, and produces beat-aligned performance MIDI; the author notes weak instrument splitting and recommends other tools for sheet music.
 
-**Comments:** Commenters debated whether such communication is truly “unblockable,” noting that jamming, noise, shielding with large masses, or counter-emitters could degrade or cancel signals in practice. Others focused on the very low bitrate, impractical threat models, and comparisons to EM communication, encryption, and submarine ELF systems.
+**Comments:** Commenters largely praised the public-domain training and ethical framing, with several users reporting strong results on solo instruments and asking about overlapping instruments, non-12TET tunings, pop/rap, and forcing single-instrument output. The author replied that offset and velocity are provided, instrument separation is imperfect, and outputs are 12TET-based.
 
-## 22. [How to Make the Ink Used to Write Hamlet and the Declaration of Independence](https://news.ycombinator.com/item?id=50561170) (↑58, 💬25)
-**Article:** The article explains how iron gall ink was made from oak galls, ferrous sulfate, gum arabic, and water, and traces its use in historic documents. It also profiles Henry Stephens, whose Stephens Ink Co. mass-produced a durable blue-black “indelible writing fluid” in the 19th century.
+## 22. [Show HN: OpenComputer – an open source alternative to Devin](https://news.ycombinator.com/item?id=50581403) (↑27, 💬10)
+**Article:** OpenComputer is an Apache-2.0 open-source alternative to Devin that lets teams mention @Computer in Slack and runs sessions on isolated VMs and Podman sandboxes, either self-hosted or via cloud. The project claims faster PR creation than Devin and supports Claude Code, Codex, or OpenCode.
 
-**Comments:** Commenters shared enthusiasm for fountain pens, inks, and DIY ink-making, while correcting the article’s transcription of medieval characters and discussing historical recipes. Several warned that homemade iron gall ink is corrosive and unsuitable for fountain pens, and noted that commercial iron gall inks and carbon inks have different archival trade-offs.
+**Comments:** Commenters asked how it is cheaper and faster than Devin, whether the full stack is self-hostable, and whether Discord support exists; the founder described two-layer VM/Podman isolation and a bring-your-own coding-agent setup. Others criticized the name, while one defended it relative to “Devin.”
 
-## 23. [Adding Fortran Support to LLDB (GSoC 2026)](https://news.ycombinator.com/item?id=50521083) (↑17, 💬4)
-**Article:** This GSoC project adds native Fortran support to LLDB, covering primitive types, arrays, pointers, functions, and subroutines through DWARF parsing, a Fortran type system, and a language plugin. It describes the RFC process, testing strategy, upstreaming work, and current implementation status.
+## 23. [A few hours ago Google DeepMind created a math horizon repo](https://news.ycombinator.com/item?id=50582629) (↑3, 💬2)
+**Article:** Google DeepMind created a GitHub repository named math-horizon, but at the time it was empty with no code or description.
 
-**Comments:** Commenters debated why Fortran persists, citing large legacy scientific codebases, proven numerical performance, modern Fortran features, and CUDA support. Some expressed frustration with maintaining old code whose original authors are gone, while others argued that rewriting offers little career benefit and that Fortran remains well suited to these problems.
+**Comments:** The two comments were speculative jokes, guessing the repo might mean the Riemann Hypothesis was solved and then claiming Anthropic and Levent Alpöge had already claimed it first.
 
-## 24. [Distributed, high-performance blob storage on SQLite](https://news.ycombinator.com/item?id=50557537) (↑237, 💬66)
-**Article:** Zerodha describes Blobasaur, a sharded blob-storage server built in Rust on SQLite and speaking the Redis protocol, created to replace SSDB for high-throughput JSON blob reads and writes. It explains the design choices, compression, TTLs, relaxed durability, and why other databases and object stores were rejected.
+## 24. [Running two PSP emulators on one Switch 2 and sharing one via GameShare](https://news.ycombinator.com/item?id=50578233) (↑46, 💬0)
+**Article:** This repository document describes an experimental PPSSPP build that runs a separate guest emulator on a Switch 2 host and streams it to a stock GameShare client. It covers build/deploy steps, symbol isolation, rendering and audio paths, and local PSP multiplayer over loopback, while warning that console operation and two-game performance are not fully qualified.
 
-**Comments:** Commenters were skeptical of SQLite for this use case, raising transaction overhead, missing replication and fault-tolerance details, and the difficulty of building a reliable distributed database. Others suggested alternatives such as filesystem-plus-metadata, RocksDB, ClickHouse, rqlite, or storing diffs, while some noted that the article already addressed compression and raw-filesystem trade-offs.
+**Comments:** No comments were posted.
 
-## 25. [Cooling buildings is overtaking heating them as an energy need, IEA says](https://news.ycombinator.com/item?id=50560955) (↑138, 💬91)
-**Article:** The IEA’s World Energy Outlook 2026 says cooling buildings is overtaking heating as an energy need for the first time, driven by rising incomes and temperatures. It projects large electricity-demand growth for cooling, especially in emerging economies, and notes cooling’s outsized impact on peak grid demand.
+## 25. [Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI](https://news.ycombinator.com/item?id=50577901) (↑211, 💬146)
+**Article:** Mother Jones reports that hundreds of Google workers, via the Alphabet Workers Union, petitioned leadership to retract a policy that would cut schools off from Google Search if they disable Gemini AI tools starting next year. The policy followed protests, and major districts including New York City, Los Angeles, and Chicago are discussing alternative search engines; Google acknowledged the letter but did not respond to specific demands.
 
-**Comments:** Commenters discussed the role of global warming and growing air-conditioner ownership in hot, developing economies, as well as the favorable overlap between cooling demand and solar production. Others debated building design, passive cooling, heat pumps, and whether a graphene HVAC coating claiming 40% efficiency gains is credible, with several commenters strongly skeptical.
+**Comments:** Commenters debated whether schools are asking Google to maintain a separate AI-free product, with many noting Google already offers a “Web” search mode and that hiding AI summaries could be a simple config or CSS change. Others argued schools can switch search engines, defended Google’s product direction, or criticized the union’s effectiveness.
 
-## 26. [Fuck Your AI Safeguards](https://news.ycombinator.com/item?id=50562262) (↑391, 💬155)
-**Article:** The author describes trying to use Claude Code to fix a minor security issue in his own product, only to be blocked by AI safeguards and a burdensome exemption process. He eventually used an EU-hosted open-weight model to identify and verify the fix, arguing that closed-model safeguards mainly hinder legitimate defenders while bad actors use unrestricted models.
+## 26. [Reverse Engineering my cat's litter box](https://news.ycombinator.com/item?id=50581165) (↑11, 💬6)
+**Article:** The author reverse-engineers a cat litter box to integrate it with Home Assistant, first by decompiling the Android app and recreating signed HTTP requests, then by reverse-engineering MQTT binary commands. The project enables dashboards, cleaning controls, and future automations using account/device data and litter-box telemetry.
 
-**Comments:** Most commenters agree that safeguards obstruct legitimate security work and push users toward open-weight or self-hosted models; some report Claude refusing vulnerability research, game binaries, or browser/kernel work. A minority defends vetting or controlled-access programs, while others debate whether safeguards are a protection racket, regulatory moat, or genuine safety measure.
+**Comments:** Commenters mostly joke about elaborate cat-related IoT projects, with one sharing a Tuya litter box setup that tracks cat weight and waste metrics in Home Assistant. Another thread questions the article’s AI-generated imagery and cat photo, prompting a commenter to share a real cat photo.
 
-## 27. [Everything you need to survive and rebuild society](https://news.ycombinator.com/item?id=50560822) (↑311, 💬170)
-**Article:** Lastbook is an open-source, offline desktop app for Mac, Windows, and Linux that bundles survival and rebuilding guides, maps, videos, a local Gemma model, and other reference material for disaster scenarios. It offers small, medium, and large library downloads, with optional local AI and state-specific map data.
+## 27. [LZ-RDO lands in ARM's astc-encoder](https://news.ycombinator.com/item?id=50546676) (↑14, 💬0)
+**Article:** Jon Olick describes LZ-RDO, a rate-distortion optimization technique now merged into ARM’s astc-encoder that makes ASTC textures more compressible by LZ codecs while keeping the same GPU-visible size and quality tradeoff. It works by trying restricted encodings, weighting errors by visual masking, using move-to-front histories, and scoring candidates with a simple LZ cost model.
 
-**Comments:** Commenters criticize the lack of mobile/eInk/PDF support, US-centric setup, large downloads, installer/uninstaller behavior, and reliance on electricity and modern computers in a collapse scenario. Others recommend Kiwix, printed references, related books/projects, and practical preparedness, while questioning whether such apps realistically help rebuild society.
+**Comments:** There are no comments on this story.
 
-## 28. [15M web servers on one VM – smoltcp, DPDK, AF_XDP](https://news.ycombinator.com/item?id=50556533) (↑364, 💬41)
-**Article:** The article humorously explores running 15 million web servers on one VM with 10GB RAM and one CPU core, starting from basic socket syscalls and moving through port limits, AnyIP, and a custom runtime for millions of lightweight guests. It discusses smoltcp, DPDK, AF_XDP, memory constraints, and resource-optimization techniques.
+## 28. [PostgreSQL 19: A hands-on tour with runnable browser examples](https://news.ycombinator.com/item?id=50578117) (↑36, 💬2)
+**Article:** This hands-on PostgreSQL 19 tour uses runnable browser examples to demonstrate features such as native REPACK, autovacuum scoring, planner advice, logical replication, JSONPath, range subtraction, and other SQL additions. It also explains how some examples differ from PostgreSQL 18 workflows.
 
-**Comments:** Commenters largely praise the article’s humor, clarity, and technical depth, with many expressing appreciation for a well-written non-AI post. Some discuss exokernels/eBPF, virtual hosting via Host headers, and performance caveats, while a few criticize the treatment as shallow or question smoltcp’s suitability.
+**Comments:** One commenter reports the page crashes on iOS across multiple browsers, forcing refreshes and then showing a black screen. Another asks whether the security issues were resolved.
 
-## 29. [Show HN: 1.499x speedup and 28.5% dynamic energy drop on A40 via BF16 tiling](https://news.ycombinator.com/item?id=50526244) (↑18, 💬3)
-**Article:** A custom tractor-shop operator describes using multiple AI models as an adversarial “red-team” loop before running GPU benchmarks, reporting a BF16 skewed-tiling CUDA kernel for a 2D Ising lattice on an NVIDIA A40. The post claims 1.499x speedup and 28.5% dynamic energy reduction at L=4608, with correctness checks and receipts, while noting hardware PMC counters were restricted.
+## 29. [The G1 Garbage Collector](https://news.ycombinator.com/item?id=50527444) (↑85, 💬47)
+**Article:** The Dev.java article explains G1’s history, design, heap-region layout, and collection cycle, including its Young-Only and Space-Reclamation phases. It notes that G1 became the default collector in all environments as of JDK 27 and balances throughput against latency.
 
-**Comments:** The author explains the methodology, verification gates, and caveat that DRAM-traffic reduction was inferred rather than directly metered. One commenter asks how a tractor shop ends up optimizing matmul kernels, and the author replies that programming is an auxiliary skill set.
+**Comments:** Much of the thread discusses JVM tuning in Kubernetes, including heap defaults, CPU limits, container awareness, and when SerialGC, ParallelGC, or ZGC may be preferable to G1. Other comments debate whether garbage collection will become obsolete with AI-generated code, correct misconceptions about GC efficiency, and note the `.java` gTLD and historical G1 adoption.
 
-## 30. [Chrome AI features wasting much bandwidth](https://news.ycombinator.com/item?id=50562636) (↑108, 💬39)
-**Article:** The blogger claims Chrome’s AI features, enabled by default, caused bandwidth usage to spike to hundreds of GB per month and that disabling “AI innovations” and on-device settings immediately stopped it. He argues such features should be opt-in and criticizes wasted bandwidth and energy.
+## 30. [Floppy3.5: A portable 3.5-inch floppy WiFi NAS](https://news.ycombinator.com/item?id=50560595) (↑126, 💬55)
+**Article:** Floppy3.5 is an open hardware/software portable WiFi NAS built around a slimline 3.5-inch floppy drive, an RP2354A controller, and an ESP32-S3 bridge. It reads FAT12 1.44 MB disks, displays files/photos on a web page at `floppy.local`, and can copy files to a microSD card.
 
-**Comments:** Many commenters are skeptical because no logs or specific feature/bandwidth evidence are provided, though some report high CPU use from on-device AI or suggest model redownloads as a possible cause. Others recommend disabling AI via policy, switching to Chromium/Firefox, or using ungoogled-chromium, and debate Chrome’s performance and market position.
+**Comments:** Commenters praise the retro design, LCD treatment, and attention to detail, while Mavica and floppy-disk fans share nostalgia and related projects. A large subthread discusses simpler alternatives for portable photo backup, including phones with card readers, travel routers, Raspberry Pi setups, and commercial devices like RAVPower FileHub and StationPC PocketCloud.
 
 ---
-_Generated 2026-11-19 16:06 MDT_
+_Generated 2026-11-20 16:06 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Nov 20](./archives/2026/nov/hn-digest-2026-11-20.md)
 - [Nov 19](./archives/2026/nov/hn-digest-2026-11-19.md)
 - [Nov 18](./archives/2026/nov/hn-digest-2026-11-18.md)
 - [Nov 17](./archives/2026/nov/hn-digest-2026-11-17.md)
 - [Nov 16](./archives/2026/nov/hn-digest-2026-11-16.md)
 - [Nov 15](./archives/2026/nov/hn-digest-2026-11-15.md)
 - [Nov 14](./archives/2026/nov/hn-digest-2026-11-14.md)
-- [Nov 13](./archives/2026/nov/hn-digest-2026-11-13.md)
 
-[Full archive](./archives/) (191 issues)
+[Full archive](./archives/) (192 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
