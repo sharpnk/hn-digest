@@ -1,170 +1,170 @@
-# HN Digest — November 21, 2026
+# HN Digest — November 22, 2026
 
-## 1. [Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'](https://news.ycombinator.com/item?id=50582069) (↑252, 💬74)
-**Article:** A trial of daraxonrasib, a KRAS inhibitor pill, reported that tumors stopped growing in about 90% of patients with advanced pancreatic cancer and became undetectable in roughly 8%; 76.6% were alive after a year versus typical chemotherapy survival of 40–45%. Doctors caution it is not yet a cure and longer studies are needed, but call the results a major breakthrough for one of the deadliest cancers.
+## 1. [The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife](https://news.ycombinator.com/item?id=50602843) (↑195, 💬55)
+**Article:** An Audubon contributor describes tracking all 60 bird species in GTA 6 using in-game binoculars and diverse habitats, while noting species and conservation inaccuracies. The piece mixes a birding field-guide approach with observations about the game’s wildlife detail and South Florida setting.
 
-**Comments:** Commenters debate whether the roughly doubled median survival is a true breakthrough or modest, while noting trials enroll late-stage patients and that quality of life matters. Many see genuine progress from KRAS inhibitors and hope for earlier-stage use, though some argue prior chemo advances were understated and others veer into AI-related speculation.
+**Comments:** Commenters debate whether GTA 6 is story-focused or a deep sandbox, with some saying the campaign dominates and others citing exploration, side content, and future GTA Online. They also discuss speedrunning, Metacritic versus store user scores, RDR2-style wildlife mechanics, and satirical reactions to birdwatching in a crime game.
 
-## 2. [Inkling-2-Mini in 5.4 GB Memory](https://news.ycombinator.com/item?id=50591853) (↑266, 💬55)
-**Article:** A GitHub project called LookAtMyQuant presents a quantization compiler that claims much lower KL divergence than standard quantizations at the same file size, including compressed versions of models like Inkling-2-Mini. It describes trellis codes, Fisher-information-based bit allocation, distillation, Apple Silicon runtimes, and benchmark comparisons against Unsloth GGUF files.
+## 2. [Perplexity and Intelligence](https://news.ycombinator.com/item?id=50601525) (↑395, 💬260)
+**Article:** OpenAI Chief Scientist Jakub Pachocki argues that pretraining perplexity/cross-entropy is a key predictor of AI capability and proposes it as a shared industry metric and safety-pacing tool. He publishes OpenAI’s internal log-perplexity trend from GPT-3.5 onward and ties lower thresholds to emergent reasoning, math, and cybersecurity abilities.
 
-**Comments:** Many commenters are skeptical, calling the README messy and “vibecoded,” noting the headline 12× claim does not apply to Inkling-2-Mini and that some benchmarks are within noise or overstated. Others discuss inference-engine support, Apple Silicon/MX limitations, speed on AMD and laptop GPUs, and the broader gap between frontier and local models.
+**Comments:** Commenters question whether perplexity is comparable across labs and model architectures, whether it reflects post-training/RL gains, and whether the held-out dataset is meaningful or contaminated by AI-generated code. Some praise the transparency and compression-intelligence link, while others challenge emergent-capability claims and the proposed safety limits.
 
-## 3. [Lean verification of the Riemann Hypothesis](https://news.ycombinator.com/item?id=50589618) (↑679, 💬543)
-**Article:** The Lean and Mathlib communities certified Levent Alpöge’s Lean proof of the Riemann Hypothesis, a 17-million-line library that compiles and was checked by multiple independent kernels and proof checkers. They state that the theorem matches Mathlib’s formal statement and that the proof is valid, while noting the mathematical community will need time to explain the new ideas.
+## 3. [Nyx, the Oldest Internet Service Provider](https://news.ycombinator.com/item?id=50603465) (↑40, 💬4)
+**Article:** Nyx’s site describes itself as the world’s oldest ISP and a free public-access nonprofit run by volunteers, offering email, web hosting, Usenet, Linux shell accounts, and Unix tools. It includes historical news, a fund drive, and SSH host-key and algorithm updates.
 
-**Comments:** Commenters discuss how much confidence the verification warrants, raising residual concerns about bugs, AI-generated proofs, and checker independence, while others credit Alpöge and Claude. Threads also debate whether a proof without human understanding counts, what the result means for formalization and future problems, and whether the Riemann Hypothesis will now be called a theorem.
+**Comments:** Commenters compare Nyx’s history with The World (world.std.com), citing Nyx starting around 1988/1989 and arguing it operated a year to 18 months before The World. The thread is brief and focused on dating the “oldest ISP” claim.
 
-## 4. [Detonating a pile of lead azide](https://news.ycombinator.com/item?id=50588982) (↑452, 💬300)
-**Article:** The article content was unavailable; based on the title and comments, the story concerns a large stockpile of lead azide at the Iowa Army Ammunition Plant that officials plan to detonate in place because it has become dangerously unstable.
-
-**Comments:** Commenters are largely critical of military contractors and government oversight, arguing the situation reflects waste, negligence, and lost institutional knowledge. Some debate whether detonation is the least-bad option, propose containment or robotic mitigation, and worry about the lead plume, regulatory accountability, and whether similar stockpiles exist elsewhere.
-
-## 5. [Getting the mind to steer the body to steer you](https://news.ycombinator.com/item?id=50583028) (↑50, 💬20)
-**Article:** The essay argues that people often cannot change behavior through reason or willpower alone and instead need mental “magic words” or tricks to steer the body, citing Allen Carr’s smoking method, Sarno’s back-pain approach, and personal examples involving sugar cravings, sleep, and stress. It frames these techniques as ways to influence mind-body feedback loops rather than directly command the body.
-
-**Comments:** Commenters compare the ideas to Timothy Gallwey’s Inner Game and Zen observation techniques, and some share similar anxiety or chronic-pain experiences. Others discuss gut microbiome effects on cravings, skepticism about mind-body claims, and the question of whether efficacy matters more than how implausible the theory sounds.
-
-## 6. [Brazil's tax authority open-sources its tax calculator on GitHub under MIT](https://news.ycombinator.com/item?id=50532613) (↑637, 💬204)
-**Article:** Brazil’s tax authority has published its first open-source code on GitHub, releasing a tax calculator under the MIT license to improve transparency around tax reform. The release is framed as part of broader efforts to make the new consumption-tax rules more understandable and reusable.
-
-**Comments:** Commenters broadly support open-sourcing taxpayer-funded government software, arguing it should be standard in democratic countries and could reduce reliance on commercial vendors. Discussion also covers licensing and pull requests, U.S. state-tax complexity, the discontinued IRS Direct File project, Brazil’s digital-government advances, and concerns that rapidly changing tax rules may make such code outdated.
-
-## 7. [PostgreSQL Extensions in Go](https://news.ycombinator.com/item?id=50591260) (↑96, 💬11)
-**Article:** gopgext is an experimental project for building PostgreSQL extensions from Go code using TinyGo, with annotations that generate C glue, SQL install scripts, and control files. It supports SQL types, SPI queries, triggers, aggregates, index operator classes, foreign data wrappers, and ports of contrib modules that pass upstream regression tests, but warns against production use.
-
-**Comments:** Commenters praise the mascot and note related projects such as gokm, plgo, pgrx, and plv8. Some question the value of shoehorning Go into PostgreSQL versus using plpgsql or Rust, while others welcome easier extension development and discuss code-snippet visibility and database design baggage.
-
-## 8. [Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers](https://news.ycombinator.com/item?id=50593679) (↑1, 💬0)
-**Article:** Tasklet, a YC P26 company, is hiring product and agent-infrastructure engineers in San Francisco to build “AI employees” that can take on real business work. The posting describes a 14-person team, $42M in funding, in-person roles, a video-based application process, and a $20,000 referral bonus.
-
-**Comments:** No comments were provided.
-
-## 9. [My monitor was cutting my download speed by 75%](https://news.ycombinator.com/item?id=50587875) (↑401, 💬206)
-**Article:** The author traces a drop from a 2.5 Gbps download rate to about 600 Mbps to a USB-C Ethernet adapter connected through a Studio Display XDR hub. The monitor’s added latency combined with the adapter’s small USB burst size caused buffer overflows and dropped packets; a Realtek driver, flow control, and ultimately an RTL8157-based adapter improved or fixed the issue.
-
-**Comments:** Commenters share similar opaque USB/dock/network failures and debate whether the headline unfairly blames the monitor rather than the hub/adapter combination. Others discuss flow-control pause propagation, Apple hardware quality, USB complexity, bufferbloat, diminishing returns above 500 Mbps, and related io_uring behavior in other software.
-
-## 10. [Hurried Announcement: Alessandro Masullo GRH](https://news.ycombinator.com/item?id=50579568) (↑2364, 💬1147)
-**Article:** Ravi Vakil hurriedly announces a proposed proof of the Generalized Riemann Hypothesis by Alessandro Maria Masullo, saying Brian Conrad had reviewed it for months and that the work was human, without AI. An update later says mathematicians reported problems in the draft, identified with help from AI models, and that correctness remains unresolved.
-
-**Comments:** Commenters focus on the AI priority race, speculation about leakage into training data, links to alleged errors or counterexamples, and sympathy for a 12-year effort potentially being overtaken. The thread also debates AI versus human mathematics, priority timestamps and incremental publishing, the significance of GRH, and whether AI-assisted review is now unavoidable.
-
-## 11. [Tropical Rainforests Species may be surprisingly young](https://news.ycombinator.com/item?id=50532417) (↑27, 💬11)
-**Article:** A University of Turku and Aarhus University study used the tropical fern genus Danaea to show that rainforest lineages can be ancient while many current species are geologically young. About half of extant Danaea species arose in the last 6 million years, coinciding with Andean uplift, drainage of western Amazon megawetlands, and new Central American landmasses. The Amazon was the major center of speciation, with mountain-adapted lineages dispersing farther while lowland lineages stayed put.
-
-**Comments:** Commenters debated whether the finding is truly surprising, with some saying recent speciation within 6 million years seems expected and others asking why rates differ across taxa and regions. A side thread discussed pre-Columbian human modification of the Amazon and disputed the “living in harmony with nature” framing as oversimplified. Others questioned whether the pattern would replicate elsewhere and why some groups speciate much more slowly.
-
-## 12. [Upload2Shell · CVE-2026-125396](https://news.ycombinator.com/item?id=50592097) (↑49, 💬12)
-**Article:** pwn.ai disclosed CVE-2026-125396, a Ghostscript Type 1 font-loader use-after-free that escapes the -dSAFER sandbox and can execute attacker-chosen commands in the rendering process. The researchers traced reachable paths through Debian CUPS, Roundcube, WordPress plugins, MediaWiki, Plesk, and other document/image pipelines. The timeline notes upstream Ghostscript 10.08.0 plus Debian, Ubuntu, WordPress, and Roundcube fixes, with product-specific case studies still rolling out.
-
-**Comments:** Commenters said Ghostscript has long been a security problem because PostScript is a programming language and its sandbox is weak, especially when reached indirectly through ImageMagick. Several criticized the disclosure page as hard to read and the name as poor, while others debated whether Ghostscript is truly the only viable implementation. Practical advice included checking distro security trackers and noting that desktop thumbnailers and file indexers may also be exposed.
-
-## 13. [Exponential Behavior in Magic: The Gathering](https://news.ycombinator.com/item?id=50546495) (↑71, 💬55)
-**Article:** Levi Neuwirth’s essay examines exponential behavior in Magic: The Gathering and why faithful software implementations are so hard. It uses Scute Swarm plus token and life-gain doublers to illustrate explosive state growth, then discusses the author’s Arcana engine and the cost of resolving triggers and checking game state. The piece also covers limitations of Arena, MTGO, and Forge and links Magic’s complexity to Turing completeness and stack interactions.
-
-**Comments:** Commenters highlighted an open-source Magic engine renaissance, including Manabrew’s browser-based Forge port and new Rust and Go engines, and discussed collaboration and legal risk. Technical debate focused on compressed state representations, token tracking, data structures, and whether exponential trigger stacks can be handled without simulating every step. Others discussed MTG’s economy, proxies, Turing completeness, and superexponential combos such as Exalted Sunborn with Followed Footsteps.
-
-## 14. [Verification files for the Lean proof of the Riemann Hypothesis](https://news.ycombinator.com/item?id=50590441) (↑70, 💬23)
-**Article:** This page reports verification results for a Lean proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions, announced in November 2026. It says all 175,187 modules compile, the five headline theorems depend only on standard axioms, and independent kernels nanoda, con-leche, and lean4lean accept the export, with some checks still running. It also describes combining the proof with a separate Robin/Lagarias formalization to derive divisor-sum inequalities.
-
-**Comments:** Much of the thread was skeptical of the heavy Claude involvement, raising concerns about a verification monoculture, self-checking, and possible supply-chain tampering. Others argued that independent kernels, formal proofs, and strong incentives for outside mathematicians to find fraud make cheating unlikely or at least detectable. The discussion also debated peer review, trust in Lean’s kernel, and whether hostility toward the result reflects legitimate caution or cope about AI’s impact on mathematics.
-
-## 15. [Show HN: Zero C# – C# without a runtime or GC](https://news.ycombinator.com/item?id=50590279) (↑103, 💬78)
-**Article:** Zero C# is a fork of bflat that compiles C# into small native programs without the .NET runtime or a garbage collector. It keeps C# syntax, type checking, generics, records, lambdas, and other features but replaces runtime memory management with arenas and a small library, targeting Linux, macOS, Windows, WebAssembly, and DOS on a 386. Exceptions, reflection, async, and much of the standard library are absent or limited.
-
-**Comments:** Commenters debated whether the project is useful compared with C, Rust, Zig, or NativeAOT, with skeptics citing the missing ecosystem and standard library. GC defenders argued that garbage collection is a valuable trade-off and that allocation pressure, not GC itself, is often the real problem; supporters liked explicit arena memory for latency-sensitive, gamedev, and demoscene use cases. Others raised concerns about string handling, maintenance, and reflection removal, and suggested alternatives such as Beef or frozen/NoGC modes.
-
-## 16. [Inkling 2 Mini](https://news.ycombinator.com/item?id=50581260) (↑1332, 💬273)
-**Article:** Thinking Machines Lab released Inkling 2 Mini, an open-weights 26.4B-parameter Mixture-of-Experts model with 3.4B active parameters that loops its middle layers three times per token. It claims leading performance among sub-100B open models on coding and agentic benchmarks while running locally in about 20GB, with most weights trained and deployed in NVFP4. The release also includes a variable-loop research model for studying reasoning and chain-of-thought monitorability.
-
-**Comments:** Commenters are impressed by the benchmark results and local-device performance, with several reporting usable token rates on Macs and AMD GPUs, though some encountered runaway loops or weak knowledge-intensive results without tools. Discussion focuses on looped transformers as a likely trend, memory-bandwidth constraints, quantization quality, and whether the model can replace Qwen or other local options. Some criticize the incomplete RCE/security framing—actually no, that's story 3; for story 1, some criticize benchmark skepticism and ask about conversation quality, business model, and practical coding harnesses.
-
-## 17. [I'm quite pleased by the tech architecture of my art website](https://news.ycombinator.com/item?id=50577991) (↑121, 💬29)
-**Article:** The author describes building a personal art website that is static for visitors but dynamic for the sole editor, using server-rendered pages cached by Cloudflare and invalidated whenever content changes. Images are downsampled in the browser at upload time and stored in Cloudflare R2, while metadata lives in a single JSON file used by server-side pages and client-side interactive maps and timelines. The author chose to invalidate all cached pages rather than track fine-grained dependencies, prioritizing correctness and simplicity.
-
-**Comments:** Commenters praise the art, design, and readable technical write-up, and several share alternative approaches such as versioned snapshots, self-hosted Grist, bunny.net, and long-running static-site setups. One notes the site works without JavaScript, while another argues it is really server-side rendering rather than a purely static site. A humorous subthread treats the paintings as AI-generated images, prompting the author to joke about a proprietary image-to-image model trained on their own hardware.
-
-## 18. [RCE in Gnupg](https://news.ycombinator.com/item?id=50587208) (↑208, 💬85)
-**Article:** GnuPG announced GPGME 2.3.1 to fix a critical double-free vulnerability triggered by an OpenPGP key with a crafted very long user ID. The bug can potentially exfiltrate data and may allow remote code execution, so all software using GPGME before 2.3.0 is affected, including many mail clients, Gpg4win, Samba, and package-management-related tools. The advisory provides updated releases and a patch, and notes disclosure was moved earlier because of the Ruby2Shell bug.
-
-**Comments:** Commenters debate the “RCE” label, noting the advisory only says RCE cannot be ruled out and that the bug is fundamentally a double free. Some highlight that Red Hat reportedly patched it years ago via static analysis while upstream missed it, and others discuss practical exposure through package verification, signed commits, and mail clients. There is also broader discussion of C/C++ memory safety, Rust and Sequoia-PGP alternatives, and whether modern exploit automation makes worst-case RCE assumptions reasonable.
-
-## 19. [Context-Generic Programming v0.8.0 – Pluggable trait implementations for Rust](https://news.ycombinator.com/item?id=50548136) (↑7, 💬0)
-**Article:** Context-Generic Programming v0.8.0 introduces cargo-cgp, a tool that translates confusing macro-generated Rust compiler errors into explanations based on the user’s own code, including missing fields and dependency chains. The release also adds expanded documentation, AI-agent support, and namespaces for wiring groups of components together. CGP remains a stable-Rust library that provides pluggable compile-time trait implementations and can be adopted incrementally.
+## 4. [A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth](https://news.ycombinator.com/item?id=50603845) (↑17, 💬0)
+**Article:** The guide explains how to run a local ChatGPT-style model on Windows using Unsloth Desktop, quantized Qwen or Inkling models, and a GPU sized by VRAM. It gives VRAM/model recommendations, quantization tradeoffs, LAN sharing, and notes Macs and unified-memory alternatives.
 
 **Comments:** No comments were posted.
 
-## 20. [Bolt's Scooters Are Becoming Accessibility Sensors](https://news.ycombinator.com/item?id=50533517) (↑9, 💬8)
-**Article:** Bolt ran a Wheels4Wheels pilot in Tallinn using sensors on shared scooters to collect accelerometer, GPS, gyroscope, and camera data on pavement conditions and curb transitions affecting accessibility. The project covered about 550 km, produced 40.5 million accelerometer readings and over 66,000 surface-quality assessments, and contributed results to OpenStreetMap. The article notes limitations around classifying vibrations, uneven scooter coverage, data confidence, and the need for validation by wheelchair and mobility-aid users.
+## 5. [What Happened to Silicon Valley?](https://news.ycombinator.com/item?id=50602947) (↑231, 💬86)
+**Article:** Tim O’Reilly’s lecture argues Silicon Valley has shifted from value creation to value extraction, driven by shareholder-value incentives and mechanism design, and calls for rebuilding rules around human flourishing. It connects this to AI, attention markets, regulation, and corporate governance.
 
-**Comments:** Commenters welcome the data collection but question whether it will lead to action, noting that scooter riders can avoid cracks and potholes that wheelchair users cannot. Several criticize shared scooters as an accessibility nuisance due to chaotic parking and sidewalk riding, and debate whether precise geofencing or enforcement is feasible. One commenter also challenges the article’s claim about where scooters travel, arguing they are often ridden on pavements despite rules.
+**Comments:** Commenters largely agree with the diagnosis but debate causes and remedies, citing ZIRP, antitrust and consumer law, dual-class Google shares, and AI compute concentration. Some criticize the piece for lacking a viable path, while others emphasize that market rules are politically changeable.
 
-## 21. [The Emergence of Inequality in the Czech Corded Ware Culture](https://news.ycombinator.com/item?id=50593637) (↑4, 💬1)
-**Article:** The linked article examines cooperation and competition in the Czech Corded Ware Culture, focusing on changes in wealth, power, and patrilines. The supplied excerpt provides only article metadata, so specific findings are not available.
+## 6. [Toyota, Nissan, and Honda to standardize parts to lower costs](https://news.ycombinator.com/item?id=50596133) (↑1129, 💬655)
+**Article:** Toyota, Nissan, and Honda have agreed to standardize some vehicle parts to lower costs and compete with Chinese automakers. Initial efforts cover steel quality criteria, plastics/resins protocols, and wiring-harness color coding, starting with domestic suppliers and expanding later.
 
-**Comments:** The sole comment summarizes the findings as inequality emerging gradually and appearing linked to increasing male power. No further debate or disagreement is present.
+**Comments:** Commenters compare the plan to past GM-Ford collaboration and cite BYD’s in-house parts integration as competitive pressure. The thread debates whether savings will reach buyers, how workers and repair shops are affected, and whether standardization will make cars more commoditized; some also question the framing and Nissan’s finances.
 
-## 22. [Why there are still no non-WebKit browsers on iOS](https://news.ycombinator.com/item?id=50575644) (↑417, 💬238)
-**Article:** Mozilla argues that despite EU DMA and Japanese rules allowing alternative browser engines on iOS, Apple’s conditions remain unworkable, so no non-WebKit browser has launched. It says developers would have to ship a separate Firefox app and ask users to migrate data manually, creating friction Apple would not accept for its own apps.
+## 7. [A miniature San Francisco with live buses, planes and boats](https://news.ycombinator.com/item?id=50603589) (↑36, 💬12)
+**Article:** “Small SF” is an illustrated live map of San Francisco showing buses, trains, boats, planes, and simulated street traffic with search, layers, and labels. It appears to be a browser-based visualization of real-time and modeled city movement.
 
-**Comments:** Commenters debate whether Apple’s restrictions are mainly about control, Safari’s relevance, search revenue, PWA limitations, or security and JIT constraints. Many call for stronger antitrust enforcement and criticize the rules as performative, while others argue Mozilla could still ship a second app and that consumer demand may be too small to justify the effort.
+**Comments:** Commenters praise the live-data concept but report zoomed-in inaccuracies and missing landmarks. Some criticize it as an empty isometric-map trend or “slop,” while others defend it as a live-data demo and ask about interpolation and feed handling.
 
-## 23. [Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?](https://news.ycombinator.com/item?id=50583761) (↑556, 💬620)
-**Article:** A senior U.S. software engineer with 15 years of experience describes being unemployed for two years after quitting ahead of layoffs, exhausting savings, and now tutoring math while considering a pizzeria manager role. They ask how to address the resume gap and whether to pursue a well-paying alternative to SWE.
+## 8. [Show HN: I built a game where you are an LLM's subagent](https://news.ycombinator.com/item?id=50599762) (↑243, 💬57)
+**Article:** Worker 755 is a browser game where a real LLM manager treats the player as its subagent, assigning tasks under a 90-second clock and reading command transcripts and reports before reviewing work. It supports hosted models, bring-your-own API keys, local OpenAI-compatible servers, sandbox/production modes, and shareable performance reviews.
 
-**Comments:** Commenters overwhelmingly advise against quitting before a layoff and emphasize networking, referrals, staffing agencies, and direct outreach over cold applications. Many suggest reframing the gap through consulting, AI projects, volunteering, or adjacent roles, while some debate whether to stretch the truth; others recommend trades or warn that AI is reshaping hiring and coding work.
+**Comments:** Players found it fun but noted the manager often gave exact commands; the creator added a no-hints option and local LLM support. The thread mixes jokes about Matrix, Jira, and future AI work with debate over realism, game mechanics, and whether the project is bleak or AI slop.
 
-## 24. [How I made a custom game engine for Satelital](https://news.ycombinator.com/item?id=50550015) (↑22, 💬3)
-**Article:** A solo developer describes spending seven years building a custom engine for the game Satelital, including a renderer, editors, UX, art, and music. The engine evolved from SDL2 and OpenGL to Vulkan/MoltenVK, with custom platform and base libraries, shader hot reloading, and a 2D orthographic look using prerendered assets, SDFs, and procedural shaders.
+## 9. [I joined the NTP Pool, but not with my Stratum 1 Pi](https://news.ycombinator.com/item?id=50600622) (↑100, 💬26)
+**Article:** Jeff Geerling describes joining the NTP Pool with a public Stratum 2 VPS fed by his Stratum 1 Raspberry Pi time server using GNSS and hardware timestamping. He covers pool requirements, public-IP and traffic-decay risks, chrony/PTP tuning, and a kernel-upgrade outage that temporarily knocked the server out.
 
-**Comments:** Commenters praise the art style and debate whether to build a custom engine versus using Godot, with one noting that seven years is long but not unusual for polished solo projects. Another argues that writing a game without an existing engine is much simpler than building a general-purpose engine and can suit solo development.
+**Comments:** Commenters debate Raspberry Pi vs FPGA/x86 timing hardware and whether VPSes are suitable for pool servers, with KVM and hardware timestamping discussed. Others compare chrony, ntpd, and ntpd-rs, recommend CenterClick or used enterprise clocks, and ask about bandwidth, monitoring, and clock discrepancies.
 
-## 25. [LLMs can read and write executables byte by byte from a hex dump](https://news.ycombinator.com/item?id=50546587) (↑154, 💬109)
-**Article:** The article reports that GPT-6.1 Sol, and preliminarily DeepSeek V4.1 Flash, can read and edit x86-64 executables from hex dumps without disassemblers, compilers, or other tools. The model identified binaries, found an upstream bug, analyzed malware, patched in new features, and wrote ELF programs from scratch, raising questions about reverse engineering and machine-code programming.
+## 10. [Open Social Web Alliance](https://news.ycombinator.com/item?id=50600511) (↑190, 💬187)
+**Article:** The Open Social Web Alliance proposes a decentralized, interoperable social web built on ActivityPub, AT Protocol, and Matrix, using email as a model. It outlines challenges around infrastructure, governance, funding, appeal, and public mandate, plus a roadmap for government support, public funding, a secretariat, and a 2026 summit.
 
-**Comments:** Commenters question the novelty and practicality, arguing the model is effectively hand-disassembling and that existing deterministic tools like objdump are cheaper and more reliable. Others find the capability impressive, discuss possible LLM-oriented languages, training-data provenance and piracy, prompt injection via executables, and whether LLMs can aid obfuscated or malware analysis cases.
+**Comments:** Critics call the prose fluffy and the plan content-free, doubting it can overcome network effects, advertising incentives, and incumbent platforms. Others worry about a central secretariat or government control, or argue for small communities, while some support ATProto/email-style approaches and cite XMPP, OpenSocial, RSS, and Nostr precedents.
 
-## 26. [We promoted developers into architects without informing them](https://news.ycombinator.com/item?id=50579331) (↑565, 💬304)
-**Article:** A developer describes an AI-generated logging routine that made a welcome screen take 15 seconds to load, arguing that the real fix required an architect's tradeoff judgment rather than prompt execution. The author contends that AI coding tools are sycophantic, over-index on security and backward compatibility, and will never push back on requirements or know your users. His conclusion is that developers have effectively been promoted to architects and should focus on design, constraint-setting, and review.
+## 11. [Was software just always too complex for humans?](https://news.ycombinator.com/item?id=50601823) (↑38, 💬31)
+**Article:** Anil Madhavapeddy reflects on whether software has always been too complex for humans, noting that decades of human-written code are now producing widespread bugs and security pain as AI lowers the barrier for attackers. He proposes two remedies: deriving software from formal specifications (rebuilt from the ground up, with unikernels and libOS approaches easing the task) and deliberately engineering implementation diversity so no single bug affects everyone. He argues better LLM harnesses alone won't fix things, since open source social contracts of trust and review are already straining under AI disclosure issues.
 
-**Comments:** The thread is largely skeptical of the "promotion" framing, with many saying architecture and pushing back on requirements was always part of a developer's job. Several push back on the article's central claim that AI won't challenge requirements, saying models do push back when given context; others focus on labor economics, arguing this is devaluation rather than promotion. Smaller threads discuss performance intuition for juniors, the example's implausibility (I/O should be async), and whether agentic coding habits are just "foible management."
+**Comments:** Commenters largely reject the headline's premise, arguing complexity stems from under-specified legacy interfaces, economic incentives, and business decisions favoring features over fundamentals rather than inherent human limits. Several note that "defensive" code and over-engineering (especially OOP practices) bloat codebases, and debate whether AI can meaningfully improve correctness or just produces verbose slop. A recurring theme is that attackers' new ability to scale via compute breaks the old assumption of a fixed cap on exploitable expertise.
 
-## 27. [Deterministic Simulation Testing Is for Everyone](https://news.ycombinator.com/item?id=50574264) (↑62, 💬8)
-**Article:** The post argues deterministic simulation testing — typically associated with distributed databases — is applicable to all software, since every program has an environment and a machine. It evaluates testing approaches across scope, determinism, and thoroughness, and describes DST as combining a deterministic core with a simulated environment seeded for reproducibility. It ends with examples of applying DST to web applications and distributed systems.
+## 12. [All Delta Flights Through Atlanta Delayed as Automated System Falters](https://news.ycombinator.com/item?id=50603232) (↑50, 💬16)
+**Article:** (Article content unavailable.)
 
-**Comments:** Commenters are broadly enthusiastic, with one saying DST has already found critical bugs in their team's work and another predicting a shift to deterministic *execution* with n-modular redundancy and voting across independent implementations. A recurring theme is that "oracle" and formalized intent become the bottleneck once agents write code. One commenter objects that the framing implies DST is merely a renamed traditional method, noting it's not new.
+**Comments:** Pilots and passengers report Delta flights delayed across multiple hubs (Austin, Denver, Salt Lake City, international routes) while crews performed manual weight and balance calculations. Commenters debate why the system is centralized, with informed replies explaining that weight-and-balance requires aggregating planning data (catering, freight, baggage, fuel, passenger and overhead bag counts) from many sources, and that landing-gear load cells have rarely been adopted and are only advisory. Skeptics question how airlines managed for decades without the systems, and one commenter corrects the assumption that all Delta routes pass through Atlanta.
 
-## 28. [Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis](https://news.ycombinator.com/item?id=50578358) (↑528, 💬234)
-**Article:** Terence Tao summarizes three AI-assisted results: a formalized Lean proof of finite-time blowup for unforced 3D incompressible Euler equations, a similar result for Navier–Stokes, and an enormous Lean-only proof of the Generalized Riemann Hypothesis by Levent Alpöge using an internal model. Tao notes varying levels of "digestion," with the GRH proof the least human-readable and apparently drawing on the Langlands program.
+## 13. [GLP-1 drugs could have a surprisingly large environmental payoff](https://news.ycombinator.com/item?id=50603906) (↑25, 💬15)
+**Article:** A simulation study suggests widespread GLP-1 use among adults with obesity could prevent up to 6.6 million deaths annually by 2050 and free as much as 32 million hectares of farmland (larger than Italy); combining medication with healthier diets could avoid up to 7 million deaths and free around 46 million hectares. Because food systems are globally interconnected, reduced demand could lower prices and encourage more consumption among non-users, offsetting some benefits. The authors argue drugs alone shouldn't be a technological fix and that the food environment must change to make healthy choices easy.
 
-**Comments:** The thread mixes awe and anxiety, with several describing fear about their careers and the pace of change. Recurring questions include how new abstractions get created if humans are no longer doing the tunneling, whether a 15M-line Lean proof can be trusted to verify the right statement, and whether AI math will plateau. Some note that Lean kernel checks and the human authorship provide partial reassurance, while others worry about verification at this scale and the disappearance of human-graspable proofs.
+**Comments:** Commenters debate the root causes of obesity, with some attributing it to insulin resistance and others to overeating, sedentary lifestyles, processed food, and environmental factors. Several welcome GLP-1s for making it acceptable to discuss obesity as a health issue and hope junk-food businesses decline, while others note nuances like exercise mitigating insulin resistance and the role of endocrine-disrupting chemicals. The thread also includes jokes about Italy's size, predictions of angry farmers, and an off-topic aside about a hypothetical meat-allergy bioweapon.
 
-## 29. [Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]](https://news.ycombinator.com/item?id=50574968) (↑2853, 💬2021)
-**Article:** A link post to Levent Alpöge's claimed proof of the Generalized Riemann Hypothesis, with related discussion. The comments supply context: the Lean proof is roughly 1.3GB and ~15M lines, and multiple verification efforts are underway.
+## 14. [A Better Vocabulary for Testing](https://news.ycombinator.com/item?id=50594182) (↑94, 💬24)
+**Article:** Alperen Keles argues that testing vocabulary (unit, integration, E2E, stress, etc.) is vague and vibe-based, proposing a richer taxonomy built around test scope (function/class/module/system, stateful vs. stateless), the purpose or hypothesis being tested (correctness, performance, security, resilience), and the oracle used (including human "tinker testing"). He suggests design-by-contract and better domain modeling can constrain input spaces, and that classification should be actionable enough to upgrade or downgrade tests based on available resources.
 
-**Comments:** Readers grapple with the scale — an unreadable proof verified by machines — and debate whether that constitutes understanding or a shift toward "magic." Many express a mix of awe and dread, calling it a milestone in AI mathematics and speculating about recursive self-improvement, cryptography risk, and pauses on frontier models. Others push back on alarmism, note the human + Claude "centaur" pattern, and celebrate Alpöge's long-stated goal of solving RH, while a few question whether anything here transfers beyond theory.
+**Comments:** Several commenters question whether the five-axis taxonomy beats the classic functional/non-functional plus unit/integration/system model, arguing strong static typing already handles many concerns. Others argue testing is a continuum with fuzzy boundaries where naming specific clumps risks a streetlight effect, while some defend shared vocabulary as valuable for team alignment. A recurring point is that developers write whatever works regardless of theory, alongside debate over what "functional" versus "non-functional" actually means.
 
-## 30. [Show HN: An ASCII cell aquarium for your terminal](https://news.ycombinator.com/item?id=50541047) (↑37, 💬15)
-**Article:** A Show HN for `terminal-cells`, a Python curses app that renders an ASCII "living microscope slide" with immune cells, mitosis, bacteria, and phages. It's inspired by cbonsai and asciiquarium, has no third-party runtime dependencies, and offers interactive tools and multiple scenes. It's distributed under 0BSD.
+## 15. [Inside PyPy: First Contact with RPython](https://news.ycombinator.com/item?id=50562207) (↑47, 💬4)
+**Article:** Max Bernstein walks through a first experiment with RPython, PyPy's restricted Python 2 dialect, writing a simple `double` function, adding a `target` hint, and compiling it to C via the RPython translator. He demonstrates RPython's monomorphic type requirement (a `UnionError` when both a string and integer flow into the same parameter) and the `specialize.argtype` workaround, while noting programs can still run under PyPy for fast iteration. He frames RPython as an intriguing implementation language whose features he'd like to see in general-purpose languages.
 
-**Comments:** Feedback is positive with constructive critique: the ASCII art is described as cluttered, and the author responds by cleaning membranes and adding spacing. Multiple commenters flag a broken cbonsai link, which the author fixes. Suggestions include half-block and Braille rendering, rounded membrane glyphs, and background depth cues, which the author logs as issues; one commenter shares their own background-plus-glyph rendering notes.
+**Comments:** The thread is short, with one commenter recommending Nimony (Nim 3.0) as another language-implementation option and another pushing back on the tendency to recommend whatever was recently seen on HN. A reply notes the recommendation is relevant because Nim 3.0 uses a bespoke IR called NIF, and another commenter identifies as a long-time Nim hobbyist.
+
+## 16. [Agentics: Mushy Software](https://news.ycombinator.com/item?id=50556249) (↑24, 💬0)
+**Article:** The article argues that agents and LLMs can act as flexible “agent grease” between services, making software “mushy” and continuously moldable rather than rigidly coupled. It describes tradeoffs—slower operation, harder reasoning, and less builder control—and cites Claude Artifacts and Nori’s persistent PM-agent-run internal tools as examples.
+
+**Comments:** (no comments)
+
+## 17. [Ask HN: Tips for transitioning from web development to embedded/firmware?](https://news.ycombinator.com/item?id=50555002) (↑94, 💬65)
+**Article:** A developer with 15+ years of experience asks how feasible it is to move from full-stack web work back to C/C++/Rust via embedded or firmware development. The post seeks advice on whether such a late-career transition is realistic.
+
+**Comments:** Many commenters say “just do it” and recommend cheap ESP32/Raspberry Pi projects, portfolios, and networking, while others caution that embedded requires a different mindset around timing, resources, debugging, and hardware. A major debate concerns the job market: some warn of fewer, lower-paid roles and AI disruption, while others say LLMs lower the barrier and embedded work remains far from solved.
+
+## 18. [C++26 is done (again): November 2026 ISO C++ meeting trip report](https://news.ycombinator.com/item?id=50600838) (↑41, 💬9)
+**Article:** Herb Sutter reports that C++26 technical work was reopened after a non-unanimous DIS ballot, mainly over the contracts feature, and has now been recompleted for a second approval ballot. The committee retained contracts, adopted an always-enforced label extension, and approved several other papers also targeted for draft C++29.
+
+**Comments:** Commenters debate whether the committee is prioritizing niche features like contracts over urgent issues such as packaging and memory safety, with some saying contracts still contribute to C++ safety. Others criticize the verbose contract syntax and suggest Ada-style integer types or stronger type-level invariants.
+
+## 19. [The Transvoxel Algorithm](https://news.ycombinator.com/item?id=50559441) (↑48, 💬4)
+**Article:** The page explains Eric Lengyel’s Transvoxel Algorithm for seamlessly stitching voxel terrain meshes generated at different resolutions, enabling LOD without cracks. It uses transition cells, reduces the case space to 512 cases in 73 equivalence classes, and provides lookup tables and implementation references.
+
+**Comments:** Commenters note the site was overloaded and share an archive link, while also pointing to the C4 Engine and related mesh-simplification work used in Nanite. One comment jokes that the algorithm should have been called “Leaping Cubes.”
+
+## 20. [87% of the Anthropic power will come from gas and 11% from coal in 2028](https://news.ycombinator.com/item?id=50597612) (↑797, 💬823)
+**Article:** A case study estimates that in 2028 about 87% of Anthropic’s power will come from gas and 11% from coal, with mid-case emissions around 32 million metric tons of CO2e. It says Anthropic has made no direct U.S. renewable commitments and highlights on-site gas, inefficient turbines, air pollution, and health damages.
+
+**Comments:** Many commenters criticize Anthropic and the AI buildout for externalizing environmental and health costs, calling for regulation or renewable requirements. Others debate grid realities, nuclear and gas tradeoffs, data-center scale and community opposition, while some question the methodology or argue about AI’s economic benefits versus climate costs.
+
+## 21. [Show HN: Deflate X-Ray, See inside a compressed file](https://news.ycombinator.com/item?id=50572389) (↑13, 💬3)
+**Article:** Deflate X-Ray is a browser-based tool that visualizes DEFLATE-compressed files by coloring bytes according to their bit cost and tracing repeated phrases back to their sources. It supports gzip, zlib, PNG, and ZIP inputs, runs entirely locally, and documents limitations such as tracing only the first 150,000 bytes. The author says it was built by an AI agent as part of a nightly project run.
+
+**Comments:** One commenter praised the tool as timely for a compression quiz. Others criticized the site’s accompanying prose as strongly AI-generated and found it ironic that an “AI writing” article was linked, with one saying the author seems aware of the issue but unwilling to fix it.
+
+## 22. [AWS got hit by an outage too. You didn't hear about it](https://news.ycombinator.com/item?id=50603730) (↑16, 💬1)
+**Article:** Corey Quinn argues AWS did experience a significant November 15 outage, but it went largely unnoticed because it occurred pre-dawn on a Sunday, mainly affected internal AWS sign-in services, and was overshadowed by Microsoft and air-traffic outages. He also criticizes AWS’s slow status page and argues Downdetector measures consumer-visible breakage rather than all infrastructure failures.
+
+**Comments:** The sole commenter speculates the incident was limited to one availability zone and says their team learned about it only through a customer ticket.
+
+## 23. [Sandwich Simulator](https://news.ycombinator.com/item?id=50594911) (↑541, 💬190)
+**Article:** Stullen Simulator is a German-language web toy for building sandwiches by spreading toppings, stacking and rotating ingredients, and photographing the result to share via a generated link. It includes detailed interaction behavior such as toppings sliding or falling when unstable and the camera zooming out as stacks grow tall.
+
+**Comments:** Commenters shared custom sandwich links, praised details like butter spreading and camera behavior, and requested features such as a top slice of bread, cutting the sandwich, and missing ingredients. Others raised moderation concerns over public images, reported Firefox Android glitches, and joked about sandwich definitions and food technology history.
+
+## 24. [Testing Terraform with AWS Emulator](https://news.ycombinator.com/item?id=50599309) (↑56, 💬8)
+**Article:** The author tests Terraform against AWS’s new local Emulator, configuring the AWS provider to send service calls to a Docker-hosted endpoint and successfully running plan and apply for a 15-resource stack. The article argues this can catch apply-time issues before real AWS deployment, while noting limitations such as missing request logs.
+
+**Comments:** Commenters debate how much confidence an API emulator can provide, arguing it cannot replicate real service behavior or IAM permissions and that bucket names are globally unique. Others mention using pre-production environments, LocalStack, and the tradeoff that full end-to-end Terraform tests are slow and expensive.
+
+## 25. [Advice for Young Researchers](https://news.ycombinator.com/item?id=50546124) (↑8, 💬1)
+**Article:** Julian Togelius offers advice to young researchers navigating AI agents, arguing that understanding remains essential and warning about “understanding debt” when researchers let agents do work they no longer comprehend. He advises writing first drafts personally, using agents mainly for critique and polish, and valuing exploratory work on less-traveled research paths.
+
+**Comments:** The single comment dismisses the post as “a lot of blather and not much advice.”
+
+## 26. [Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'](https://news.ycombinator.com/item?id=50582069) (↑1317, 💬294)
+**Article:** A trial of daraxonrasib, a KRAS inhibitor pill, reported that cancer became undetectable in one in 12 patients with advanced pancreatic cancer, tumors stopped growing in about 90%, and 76.6% were alive at one year versus roughly 40–45% with chemotherapy alone. Doctors stress it is not yet a cure and longer studies are needed.
+
+**Comments:** Commenters largely welcome the result as a genuine advance for a cancer with few treatment gains, while debating whether “breakthrough” is justified by a median survival improvement of about 13 versus 6–7 months. Some argue median survival understates tail benefits and earlier-stage use could matter more; others raise side effects, cost, resistance, and personal experiences.
+
+## 27. [Inkling-2-Mini in 5.4 GB Memory](https://news.ycombinator.com/item?id=50591853) (↑568, 💬135)
+**Article:** The LookAtMyQuant GitHub repo presents a quantization compiler that allocates codes by measured output damage and claims much lower KL than Q4_K_M at the same size, with example compressed builds for Gemma, Qwen, and Inkling-2-Mini. It reports benchmark and memory-footprint results across several bit rates.
+
+**Comments:** The top comments are skeptical, calling the README messy and AI-generated, noting the headline 12× claim does not apply to Inkling-2-Mini, and warning that KL-divergence and single benchmarks are easy to overfit. Others report trying Inkling-2-Mini and discuss speed, inference-engine support, and whether the results are real or mostly noise.
+
+## 28. [Harvard CS 2881R AI Safety](https://news.ycombinator.com/item?id=50602153) (↑9, 💬1)
+**Article:** Harvard’s CS 2881R AI Safety is a graduate course by Boaz Barak with 13 in-person lectures covering cyber capabilities, LLM training, recursive self-improvement, economics, policy, interpretability, and biosecurity. It requires Homework Zero for admission, encourages extensive AI use, plans recordings where possible, and discloses Barak’s OpenAI affiliation.
+
+**Comments:** The single comment notes that the course included a Sam Altman Q&A, only part of which was recorded, and that Helen Toner spoke the following week.
+
+## 29. [Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator](https://news.ycombinator.com/item?id=50597959) (↑67, 💬10)
+**Article:** Simon Willison links to Muru, Graham Dumpleton’s AI-assisted Rust server for running WSGI and ASGI Python apps in development and production. Dumpleton has published a detailed series on its design, including prefork workers, HTTPS, canaries, Kubernetes, scaling, toolbars, and tracing.
+
+**Comments:** Commenters respect Dumpleton and mod_wsgi but some find the LLM-generated posts tedious and “soulless,” while others discuss the prefork/import-once design and propose per-user forked workers with sandboxing. The thread also debates AI assistance, agency, and whether the rewrite orphans his older codebase.
+
+## 30. [Self-hosted library branch over public web OPDS](https://news.ycombinator.com/item?id=50566495) (↑107, 💬28)
+**Article:** Mayberry is presented as a self-hosted “little library branch” that shares a curated ebook collection over the public web via OPDS, aimed at ereaders that can browse OPDS but cannot use private networks like Tailscale.
+
+**Comments:** Commenters find the idea charming and compare it to Little Free Libraries, with suggestions for public-key library cards and better access controls. Much of the thread debates legality and piracy comparisons to Plex/Jellyfin, while others discuss Calibre Web, Grimmory, and physical-book lending.
 
 ---
-_Generated 2026-11-21 16:05 MDT_
+_Generated 2026-11-22 16:05 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Nov 22](./archives/2026/nov/hn-digest-2026-11-22.md)
 - [Nov 21](./archives/2026/nov/hn-digest-2026-11-21.md)
 - [Nov 20](./archives/2026/nov/hn-digest-2026-11-20.md)
 - [Nov 19](./archives/2026/nov/hn-digest-2026-11-19.md)
 - [Nov 18](./archives/2026/nov/hn-digest-2026-11-18.md)
 - [Nov 17](./archives/2026/nov/hn-digest-2026-11-17.md)
 - [Nov 16](./archives/2026/nov/hn-digest-2026-11-16.md)
-- [Nov 15](./archives/2026/nov/hn-digest-2026-11-15.md)
 
-[Full archive](./archives/) (193 issues)
+[Full archive](./archives/) (194 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
