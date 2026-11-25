@@ -1,170 +1,170 @@
-# HN Digest — November 24, 2026
+# HN Digest — November 25, 2026
 
-## 1. [Ternary Bonsai 2.5 27B](https://news.ycombinator.com/item?id=50633922) (↑165, 💬54)
-**Article:** PrismML released Ternary Bonsai 2.5 27B, a ternary-compressed Qwen3.8 27B derivative with a 5.9 GB footprint and improved agentic coding, multi-turn tool use, and multi-step execution. It reports benchmarks closer to the full-precision base model, faster generation on H100/RTX 4090, and availability under Apache 2.0 via llama.cpp and MLX.
+## 1. [1Password Security Incident](https://news.ycombinator.com/item?id=50644817) (↑851, 💬354)
+**Article:** 1Password disclosed that an attacker compromised an employee’s corporate GitHub account and pushed malicious code to backend services, copying limited customer account data such as names, emails, and non-secret metadata. 1Password says vault contents and keys were not affected, and it rotated credentials, tightened controls, and lengthened invitation/recovery codes.
 
-**Comments:** Commenters benchmarked the Q2 GGUF on Mac hardware and debated whether the strong SWE-bench numbers reflect real capability or benchmarkmaxxing; several said prior Bonsai versions looped or needed prompt tuning, while others praised the size/performance tradeoff. There were also questions about the business model, ternary hardware acceleration, and comparisons to Inkling 2 Mini and full-precision Qwen.
+**Comments:** Commenters focused on the supply-chain risk of compromised employee accounts with code-push access and criticized the disclosure for not clearly explaining review controls or notification scope. Many debated SaaS trust versus local-only/self-hosted password managers, while others noted that E2EE protects vault data but a malicious client update could still exfiltrate secrets.
 
-## 2. [Launch HN: Versine (YC F26) – MCP to send and receive money](https://news.ycombinator.com/item?id=50634426) (↑32, 💬13)
-**Article:** Versine launches an MCP-enabled wallet that lets AI agents send and request money with passkey approval, trusted-contact exceptions, and payouts to non-users via claim forwarding. Balances are held in self-custodial USDC wallets on Base, and the team positions this as a wedge into an agent-first bank.
+## 2. [Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening](https://news.ycombinator.com/item?id=50646108) (↑599, 💬432)
+**Article:** Scott Aaronson describes a rapid wave of claimed AI-produced mathematical results, including complexity-theory advances and bounds on matrix multiplication and Fourier transform gates, as feeling like the start of an AI singularity. He argues the results should be taken seriously, says a P ≠ NP proof feels near, and mentions unverified rumors that AI labs may have cryptography-breaking results.
 
-**Comments:** Commenters focused on practical trust and fraud: passkey/1Password failures, dispute/reversal flows when an agent pays the wrong person, and what happens to unclaimed OTP-forwarded USDC. Others asked how Versine monetizes and warned that Venmo/CashApp could copy it, while some praised the bulk-request use case and landing page.
+**Comments:** Commenters mixed awe with skepticism, questioning verification, transparency, marketing incentives, and whether the claimed proofs are genuinely understood or just Lean-assisted search. Others discussed the end of human mathematics, open-weight models, preparedness for broken cryptography, and whether the impact will extend beyond math.
 
-## 3. [Active intrusion campaign against Check Point security management servers](https://news.ycombinator.com/item?id=50630594) (↑232, 💬95)
-**Article:** GreyNoise describes GT13, an intrusion campaign between Oct 17 and Nov 2, 2026, targeting Check Point Security Management Servers at 22+ organizations across multiple regions and sectors. The actor used 99 IPs, multiple CVEs, an operational relay box, and tooling including Nmap, Chisel, Impacket, and Paramiko; GreyNoise suspects LLM/agentic assistance and expects the campaign is ongoing.
+## 3. [GPT-6.2 Astra is the first model to beat Googlers' code golf records](https://news.ycombinator.com/item?id=50601280) (↑83, 💬14)
+**Article:** The article presents a code-golf benchmark using 32 problems from a 2015 Google internal contest across eight languages, scoring models on shortest passing solutions within 30-minute sessions. It reports that GPT-6.2 Astra is the first model to beat Google employees’ old records, with an oracle used to set reference sizes in some cells.
 
-**Comments:** The thread debated whether LLM-enabled attackers will make cybercrime dramatically worse, with some arguing existing fraud/scam ecosystems are already large and others warning that automation lowers skill and cost. Technical comments focused on insecure Math.random(), internet-exposed management planes, attackers patching compromised hosts, and whether switching firewall vendors or using pfSense/NixOS actually helps.
+**Comments:** Commenters reported that Astra now beats them on some programming tasks but questioned benchmark validity, possible training-data contamination, and what code golf actually measures. Several also said Astra felt weaker at clear writing and legal drafting despite strong math/programming performance.
 
-## 4. [Working with AI](https://news.ycombinator.com/item?id=50634734) (↑29, 💬21)
-**Article:** Anthropic’s economics team summarizes 66 interviews with 58 enterprise customers, finding AI value mostly from increased output rather than cost cuts and few domestic AI-driven layoffs, though hiring and contractor use often fell. Companies reported bottlenecks, resistance, and uneven top-down/bottom-up adoption, with the highest-value uses involving reorganizing roles and workflows around AI.
+## 4. [A few questions for the guy who went snorkeling in a Home Depot retention pond](https://news.ycombinator.com/item?id=50643129) (↑390, 💬97)
+**Article:** Vox interviews biologist and YouTuber Joseph Ricketts about snorkeling in a Home Depot retention pond and finding snakes, tadpoles, shrimp, and other life in a constructed urban waterway. Ricketts discusses urban ecology, wetland loss, and why retention ponds can be both surprisingly beautiful and a poor substitute for natural ecosystems.
 
-**Comments:** Commenters found the report more grounded than expected but questioned its qualitative sample and timing, and disputed whether recent layoffs were really AI-driven. Much discussion focused on coding agents for nontechnical roles, the disappearance or merging of QA/PM/analyst roles, and Anthropic’s business prospects.
+**Comments:** Commenters praised Ricketts’s video and channel for earnest curiosity and high-quality footage, and many shared experiences with urban ponds, school stream monitoring, and triops. Threads also discussed how fish reach isolated ponds, safety concerns about freshwater exposure, and debates over whether finding beauty in retention ponds risks normalizing wetland destruction.
 
-## 5. [The Spray Bottle](https://news.ycombinator.com/item?id=50598555) (↑275, 💬80)
-**Article:** An illustrated interactive explainer dissects a 1970s-style spray bottle, labeling parts and stepping through trigger, piston, spring, nozzle, and one-way valve operation. It uses animations and cutaways to show how pulling the trigger sprays and releasing reloads the chamber.
+## 5. [SSH is a GUI framework](https://news.ycombinator.com/item?id=50589784) (↑87, 💬42)
+**Article:** The author argues SSH can serve as a GUI framework by using terminal protocols such as Kitty graphics, clipboard, notifications, mouse tracking, and synchronized output to render a microVM desktop natively over SSH. The zydra.sh demo claims advantages over VNC and webapps through text streaming, frame diffing, SSH key auth, and fallbacks to older terminal protocols.
 
-**Comments:** Commenters praised the interactive illustrations and compared them to Bartosz Ciechanowski and Sendung mit der Maus, while some questioned whether AI was involved. Others criticized the one-way-valve explanation as confusing or inaccurate, especially how the ball seats and why fluid doesn’t flow backward; the author’s FAQ says the breakdowns are CAD/illustrated manually.
+**Comments:** Commenters objected that SSH is only the transport and the terminal emulator provides rendering, questioning the framing and the “beats VNC” claim without benchmarks. Others raised security and accessibility concerns, proposed more semantic remote-GUI protocols or HTML-over-HTTPS, and discussed X11 forwarding, terminal escape-code risk, and nostalgia for terminal-based remote access.
 
-## 6. [From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver](https://news.ycombinator.com/item?id=50633424) (↑32, 💬0)
-**Article:** The author ported a Cayley graph puzzle solver from CUDA/A100 and JAX/TPU to Google’s TorchTPU, initially finding training 1.65x slower and beam search 5.7x slower. After fused eager execution, an attention rewrite, static shapes, deduplication fixes, and attention-routing fixes, training matched A100 wall-clock performance and optimized beam search was 25% faster per level than JAX on eight v6e chips. The work also produced an upstream TorchTPU GitHub issue and Kaggle notebooks.
+## 6. [Defang Security Incident](https://news.ycombinator.com/item?id=50648035) (↑10, 💬0)
+**Article:** Defang disclosed a November 2026 breach in which an attacker abused an overprivileged development GitHub App to push a tagged commit that ran in CI and stole production credentials, then copied the main database. Exposed data included user names/emails, GitHub/GitLab usernames and organizations, connected repository and cloud account identifiers, Compose files, deployment state that could contain secrets, and Stripe billing metadata, but not passwords, cloud credentials, or repository contents. Defang replaced credentials and tokens, stopped retaining deployment state, notified users and authorities, and advised users to audit GitHub activity, lock down deployment environments, and reconnect the Defang app.
 
-**Comments:** No comments were posted. There is no discussion to summarize.
+**Comments:** No comments were posted.
 
-## 7. [Gödel Enigma](https://news.ycombinator.com/item?id=50625265) (↑15, 💬0)
-**Article:** The University of Helsinki’s Gödel Enigma project aims to study Gödel’s unpublished notebooks, lecture notes, and correspondence, much of it in shorthand, alongside Bernays archives to build a fuller historical picture of his role in logic and foundations. It argues these sources are underexplored compared with quantum mechanics historiography and could reveal unknown scientific developments. The project lists notebook series such as Resultate Grundlagen, Arbeitshefte, Logik und Grundlagen, and Max Phil as key sources.
+## 7. [The polynomial Hirsch conjecture is false [pdf]](https://news.ycombinator.com/item?id=50644980) (↑83, 💬15)
+**Article:** A preprint in OpenAI’s math repository claims the polynomial Hirsch conjecture is false, presenting simple polytopes with superpolynomial graph diameter. The result bears on the worst-case behavior of the simplex algorithm for linear programming.
 
-**Comments:** No comments were posted. There is no discussion to summarize.
+**Comments:** Commenters offered simplified explanations of polytopes, simplex, and Hirsch-type bounds, noting the original Hirsch conjecture was disproved in 2010 and calling this a further “mopping-up” result. Discussion also covered the significance for polynomial-time simplex algorithms versus unaffected interior-point methods, plus jokes and debate about AI-generated mathematics and how the paper was found.
 
-## 8. [Jetty Pro](https://news.ycombinator.com/item?id=50630462) (↑228, 💬90)
-**Article:** John Siracusa introduces Jetty Pro, an unsandboxed macOS app that creates customizable Dock-like floating palettes for files, folders, apps, Shortcuts, and Trash. It grew out of his long wish to recreate DragThing-style folder palettes and replace Dock behavior; after abandoning a sandboxed Mac App Store version, he built the direct-distributed Pro app using private APIs over three and a half months with AI coding agents. The post details features such as custom icons, backgrounds, badge hiding, and folder label colors.
+## 8. [I checked Clojure's core with Lean and found unreported bugs](https://news.ycombinator.com/item?id=50642939) (↑153, 💬53)
+**Article:** The author used Lean 4 modeling with `bv_decide` plus differential testing against Java collections to check parts of Clojure’s Java core, reporting 17 previously unreported bugs. Examples include an infinite loop in `reduce` on large `vector-of`, a HAMT collision-node `dissoc` bug involving hash/equality mismatches, and inconsistent functional-interface coercion with and without type hints.
 
-**Comments:** Most discussion centers on the subscription model: many users say they would buy a one-time license or prefer a “pay for updates” perpetual-fallback model, while others argue subscriptions are fair because private APIs can break with macOS updates. Some commenters report replacing niche Mac apps with AI-generated personal tools, and several were confused by the name because Jetty is a well-known Java web server.
+**Comments:** Commenters debated whether all findings count as bugs in a dynamically typed language, with some dismissing type-related cases as expected behavior while others stressed that the infinite loop and HAMT corruption are real correctness issues. Threads also discussed Lean versus Rocq/Isabelle, LLM-assisted formalization, Clojure maintainers’ likely response under Hyrum’s law, and Rich Hickey’s anti-AI views.
 
-## 9. [2035 came early](https://news.ycombinator.com/item?id=50624497) (↑914, 💬344)
-**Article:** Farid Zakaria describes trynix.dev now booting GUI programs through unkernel, a Linux compiled to WebAssembly with user programs emulated, enabling networking, sound, Wayland windows, and GL rendering in the browser. The post benchmarks unkernel as 2x to 32x faster than qemu-wasm depending on workload and demonstrates Firefox running inside Firefox inside the browser. It frames this as Gary Bernhardt’s “2035” JavaScript-dominance vision arriving early, though the implementation relies heavily on WebAssembly.
+## 9. [Britain's ghost stations](https://news.ycombinator.com/item?id=50645074) (↑67, 💬14)
+**Article:** The article surveys Britain’s least-used “ghost stations,” including Achanalt with 352 passengers and Reddish South with 94, and distinguishes minimally served stations kept open due to closure bureaucracy from remote stations with regular service but few riders. It describes odd cases such as Altnabreac’s access dispute and zero-passenger year, while reflecting on Beeching-era closures.
 
-**Comments:** Commenters express amazement at the nested browser/Linux demo and discuss possible uses, performance, WASM sandboxing/determinism, and the relationship to unkernel and the Wisp protocol. A major debate questions the “2035” framing because the stack is WebAssembly rather than JavaScript, and many commenters criticize JavaScript’s ecosystem while others say JS dominance is overstated. Some note similar projects are appearing quickly with LLM assistance, and one commenter says they abandoned a competing project after unkernel gained attention.
+**Comments:** Commenters discussed request-stop procedures, remote rail lines, and the Beeching cuts’ seemingly arbitrary closures, arguing they harmed larger towns while preserving isolated stops. Some shared station-visiting experiences and criticized car-centric transport policy; others joked about the site’s cookie-consent banner.
 
-## 10. [Calculate how many mesh radio nodes your city needs](https://news.ycombinator.com/item?id=50609483) (↑34, 💬3)
-**Article:** The Mesh coverage calculator is a browser tool that estimates required mesh radio nodes and coverage for Meshtastic/LoRa, Wi-Fi, and Wi-Fi HaLow using terrain DEM data, OpenStreetMap buildings, antenna patterns, radio settings, and sampling resolution. It outputs heatmaps, link profiles, CSV/GeoJSON, and airtime/voice-call estimates.
+## 10. [Windows Loudness Equalization, reverse-engineered and ported to PipeWire](https://news.ycombinator.com/item?id=50641171) (↑296, 💬166)
+**Article:** The project reverse-engineers Windows Loudness Equalization and its output limiter from Windows DLLs and ports them to PipeWire, with a per-application loudness module, an always-on look-ahead limiter, and an optional GTK control app. The README details the broadband AGC and limiter algorithms, installation, and metadata-based configuration.
 
-**Comments:** Commenters note the selectable area is limited because terrain and building data load slowly, and one wishes they could cover an entire metro area. The site was also briefly overwhelmed (“Too many requests”), and one commenter jokes that deploying actual radios is far slower than loading the data.
+**Comments:** Commenters debated the legality and ethics of reverse-engineering proprietary code, with some calling it theft or piracy and others viewing it as useful DSP knowledge or a simple reimplementation. Audio-focused replies discussed Windows’ shared-mode limiter, dynamic-range compression, always-on limiting, and alternatives such as LoudMax or DRD, while some praised the per-app exclusion feature.
 
-## 11. [Splitting USB-C: USB 3 and USB 2 on one port](https://news.ycombinator.com/item?id=50629106) (↑108, 💬73)
-**Article:** The post describes a USB-C dongle design that keeps USB 2 on a cheap hub while passing USB 3 SuperSpeed lanes straight through the same port using muxes, reaching 10 Gbps and costing less than an earlier USB-2-only board. It explains USB-C pinouts, the separation of USB 2 and USB 3 buses, and bench results showing both buses active simultaneously on macOS.
+## 11. [Google releases Cogentic papers on integer factorization, discrete logs and more](https://news.ycombinator.com/item?id=50642086) (↑402, 💬314)
+**Article:** Google's research repository hosts a set of "Cogentic" papers claiming new results on integer factorization, discrete logarithms, approximate Nash equilibria, the log-rank conjecture, graph reconstruction, prophet inequalities, and related topics. The README lists dated PDFs and notes the directory is Apache-2.0 licensed and not an official Google product.
 
-**Comments:** Commenters debate spec compliance and power management, warning that splitting USB 2 and USB 3 topology can confuse port power control and fallback behavior, though several note it works in practice for expert tools. Others discuss USB-C’s complexity versus USB-A, hub quirks, and whether this approach is appropriate outside narrow, non-production uses.
+**Comments:** Commenters debated whether the results signal an AI-driven math breakthrough or are overhyped, with technical discussion noting the factoring result improves unconditional bounds but does not make factoring practical or break RSA. Others raised concerns about reproducibility, missing Lean formalizations, and broader implications for cryptography, research careers, and automation.
 
-## 12. [A training engine for your local model, using your idle compute](https://news.ycombinator.com/item?id=50629231) (↑136, 💬38)
-**Article:** Songe is a local training engine that proxies an OpenAI-compatible model, records agent interactions, corrections, and tool errors, then uses idle time for “Quick Dream” instruction updates or “Deep Dream” adapter training. It validates new versions against the user’s own conversations and keeps data local with no account or telemetry.
+## 12. [The undocumented 249-file limit for Googlebot rendering](https://news.ycombinator.com/item?id=50619073) (↑12, 💬2)
+**Article:** An SEO practitioner documents an undocumented Googlebot rendering limit of 249 page resources per render, excluding the HTML itself. Resources discovered after the cutoff are never requested, which can leave JavaScript-heavy pages broken while Search Console still reports a green check; the suggested mitigations are code-first loading, fewer distinct URLs, and batched API calls.
 
-**Comments:** Commenters ask for concrete improvement metrics, evaluation details, hardware requirements, and clearer documentation; some identify it as a ChatCompletions proxy that harvests examples to train a LoRA adapter and swaps it in if eval passes. Discussion also covers distributed SETI-like training, local-model motivations like privacy and control, and related work such as Hugging Face harness adapters.
+**Comments:** The two commenters briefly speculated about why the limit is 250 and suggested that a page whose critical resource is the 250th probably does not deserve ranking. There was no substantial debate.
 
-## 13. [GTA 6 Running on Windows](https://news.ycombinator.com/item?id=50627783) (↑203, 💬221)
-**Article:** An X post claims GTA 6 is running on Windows with nearly complete shaders shortly after an Xbox build leak, referencing the VIctory project, Vulkan, and AI-assisted work. The linked post is light on technical detail and mainly conveys excitement about rapid progress.
+## 13. [Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server](https://news.ycombinator.com/item?id=50647161) (↑10, 💬0)
+**Article:** OpenSec describes CVE-2026-99362, a pre-auth heap overflow in the Linux kernel NFS server that has existed since Linux 3.16 and is reachable over tcp/2049 for NFSv4.1/4.2. The overflow can be chained into a remote root shell; fixes are in Linux 6.12.117, 6.18.61, 7.3.2, and 7.4-rc1, with firewall mitigation until patching and rebooting.
 
-**Comments:** Commenters clarify that this is a Wine-like compatibility effort translating Xbox/RDNA 2 shaders and handling unified-memory differences, not a full recompilation or decompilation. Debate centers on whether this pressures Rockstar toward earlier PC releases, pushes publishers toward streaming/lockdowns, or is mostly hype given fake videos, low frame rates, and the leaked Xbox build’s limitations.
+**Comments:** No comments were provided for this story.
 
-## 14. [Cloudflare hides shortcomings of the underlying infrastructure](https://news.ycombinator.com/item?id=50632883) (↑122, 💬80)
-**Article:** The author argues Cloudflare presents modern TLS, IPv6, and post-quantum support at the edge while origin connections may still be unencrypted or IPv4-only, and says the dashboard should warn administrators more proactively. The post criticizes Cloudflare’s documented IPv4 preference for origins and proposes exposing origin TLS/IP-version metadata to users and researchers.
+## 14. [The matrix multiplication exponent is nine fourths [pdf]](https://news.ycombinator.com/item?id=50637220) (↑991, 💬552)
+**Article:** An OpenAI math preprint claims the matrix multiplication exponent is exactly 9/4 over every field, refuting the conjecture that ω = 2 for square matrix multiplication. The linked GitHub page contains only the PDF.
 
-**Comments:** A Cloudflare employee points to the SSL/TLS Recommender, automatic origin TLS, and post-quantum origin work, while others say Cloudflare already pushes strict TLS and that IPv4 origin preference is minor or configurable. Commenters also argue the bigger issue is Flexible SSL, question the wisdom of exposing origin details, and discuss DDoS/WAF value, uptime tradeoffs, and Cloudflare Tunnel use.
+**Comments:** Commenters expressed awe at the result and the broader run of AI-assisted math advances, while others stressed that the paper gives a lower bound of Ω(n^2.25) and that practical algorithms remain unknown. The thread also debated paper readability, authorship, lack of a Lean proof, recursive self-improvement, and possible crypto/security implications.
 
-## 15. [Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)](https://news.ycombinator.com/item?id=50633159) (↑89, 💬17)
-**Article:** The linked Grafana download page lists releases including 13.3.2 and related versions, but the page itself provides no CVE details despite the title referencing multiple CVEs. The post functions mainly as a pointer to updated Grafana releases.
+## 15. [Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs](https://news.ycombinator.com/item?id=50624446) (↑179, 💬74)
+**Article:** The author used LLM agents with Ghidra to reverse engineer an undocumented $9 AliExpress "YP3" MP3 player and port Rockbox to its 512 KiB SRAM, 2 MB flash, dual Cortex-M4 hardware. The port supports audio playback and Bluetooth with feature cuts, and the author built a reusable toolkit that later brought Rockbox to another player in about four hours.
 
-**Comments:** Commenters supply CVE references from GitHub release pages, correct a version typo, and link to Grafana’s security advisories and GitHub releases for more detail. They debate why the post reached the front page, note most issues appear medium severity except a cookie decryption oracle requiring a secret, and discuss adding auth in front of self-hosted Grafana or switching to lighter alternatives.
+**Comments:** Commenters were enthusiastic about cheap hackable hardware and LLM-assisted reverse engineering, sharing Rockbox nostalgia and suggestions for similar devices. Some debated the "vibecoded" nature of the work, the hacker spirit, and whether LLM-generated ports can be understood and maintained.
 
-## 16. [Weave (YC W25) is hiring ML, AI, product, & design engineers](https://news.ycombinator.com/item?id=50631041) (↑1, 💬0)
-**Article:** Weave (YC W25) is hiring for ML, AI, product, and design engineering roles; the article content is a jobs listing.
+## 16. [Predicting LoRA size for any dataset](https://news.ycombinator.com/item?id=50635783) (↑97, 💬11)
+**Article:** Engram presents a theory for predicting the LoRA rank needed for a supervised fine-tuning dataset by measuring dataset information in bits and deriving LoRA capacity as a function of rank. Because transformer behavior is nonlinear, the authors generate synthetic datasets with exact bit counts via arithmetic coding and train adapters to measure capacity empirically, then validate the approach on real datasets. The post claims this can accurately determine the necessary adapter size across several settings.
+
+**Comments:** Commenters debate whether the method measures memorization rather than task learning, arguing that dataset noise and redundancy make the estimate an upper bound and that math benchmarks could lead to overfitting. Others praise the arithmetic-coding demo for expressing token probabilities as bits and ask whether the 1:1 capacity exchange holds for out-of-distribution knowledge. Several criticize the title for conflating learning and memorization, while one defends the general theory as a useful starting point.
+
+## 17. [Button Sounds – collection of professionally-recorded button clicks and presses](https://news.ycombinator.com/item?id=50638032) (↑805, 💬127)
+**Article:** Josh Comeau has published a free collection of professionally recorded button, keyboard, mouse, and switch sounds, recorded in a treated room and offered under the MIT license with multi-sampled variants. The interactive site lets users audition sounds and includes stereo samples and processing details. It is presented as a resource for adding tactile audio feedback to user interfaces and games.
+
+**Comments:** Commenters largely praise the polish and satisfying interactivity, with side discussions on sensory-complete interfaces, car turn-signal sounds, and why pitch should stay fixed across button samples. Others report browser performance problems and high CPU use, discuss iOS Safari audio restrictions and workarounds, and question stereo export and NPM-only distribution. A hidden minigame and derivative Mechvibes sound packs are also mentioned.
+
+## 18. [Show HN: An agent skill that optimizes code with falsifiable hypotheses](https://news.ycombinator.com/item?id=50611593) (↑41, 💬7)
+**Article:** Researchers at Heidelberg University present Agentic Algorithm Engineering, a Claude Code and Codex skill that applies a falsifiable-hypothesis cycle to code optimization. The agent agrees on benchmarks, metrics, correctness assertions, and budget, then commits minimal changes, keeps only verified improvements, and produces one patch per accepted change plus a PDF report. The project reports speedups on graph and flow codes, including an 8.9x faster exact minimum-cut implementation.
+
+**Comments:** Commenters praise the example report and the rigor of requiring hypotheses and correctness checks, with some saying they already use similar justification-based review loops with AI agents. Others suggest trying it on GPU porting to tinygrad or contributing results to the shared knowledge base. One jokes that the author is optimizing himself away.
+
+## 19. [Show HN: Rchive – Every drive I've owned since the 90s, searchable in one window](https://news.ycombinator.com/item?id=50624684) (↑15, 💬7)
+**Article:** Rchive is a cross-platform desktop app that catalogs files across internal drives, external drives, backups, and network folders so they remain searchable even when disconnected. It provides previews, metadata and date correction, offline GPS location search, virtual organization views, and resumable copy jobs with optional SHA-256 verification. It is sold as a one-time $39.99 license for up to three devices.
+
+**Comments:** The creator explains that Rchive uses Electron with Rust daemons, Node workers, and SQLite with FTS5 trigram indexes, plus H3/GeoNames for offline geography and PairDrop for device transfer. Commenters suggest alternatives like Cathy and VVV, ask about archive search and full keyboard operation, and nitpick the use of “drive” versus “disk.” The creator also describes detecting duplicate, broken, and mislabeled files during scans.
+
+## 20. [In C++, = default and {} are not the same constructor](https://news.ycombinator.com/item?id=50643199) (↑89, 💬149)
+**Article:** Daniel Lemire explains that in C++, `span() = default` and `span() {}` are not equivalent: the former can leave the type trivial, while the latter is user-provided and changes value-initialization behavior. In his benchmark, GCC 15 and 16 generate slower code for the `= default` version, producing roughly a 4x slowdown versus the empty constructor in the example. GCC 14 and Clang 21 show little or no difference.
+
+**Comments:** Commenters debate C++’s first-class constructor model versus Rust/Go/Zig-style static factory functions, citing complexity, overload ambiguity, and in-place construction tradeoffs. Some argue the example is contrived because real code would usually initialize members, while others call the GCC 15/16 result a regression worth fixing. The thread also discusses RAII, invariants, and the common advice to use only a small subset of C++.
+
+## 21. [The New York Times tells photographers not to use the latest Photoshop](https://news.ycombinator.com/item?id=50647673) (↑6, 💬3)
+**Article:** The supplied article content was unavailable; the title indicates that the New York Times advised photographers not to use the latest Photoshop version. No further details on the guidance or reasoning were provided.
+
+**Comments:** Commenters saw an opportunity for competitors such as Affinity and predicted that other U.S. newspapers might follow the Times. Others asked whether Adobe would release a news-photographer edition and noted that automatic updates make staying on older versions difficult.
+
+## 22. [Smart people who give a shit use tools](https://news.ycombinator.com/item?id=50639698) (↑223, 💬173)
+**Article:** The essay argues that LLMs mostly amplify the person using them: careful engineers can afford more rigorous verification and deeper system understanding, while careless users can ship unverified code faster. It pushes back on the claim that using AI inherently means caring less, framing recent outages as partly the result of long-standing underinvestment in engineering rigor.
+
+**Comments:** Commenters debated whether LLMs are just another abstraction layer, with several arguing they differ because users may stop modeling the problem themselves and because outputs are indeterminate. Others discussed skill atrophy, junior-engineer development, management pressure, and the risk that careless AI-assisted work can outship careful work. A recurring side debate accused the post of being AI-written and criticized undisclosed AI-generated essays.
+
+## 23. [Slow Ubuntu security response times](https://news.ycombinator.com/item?id=50647181) (↑10, 💬0)
+**Article:** Security researcher Hanno Böck wrote to oss-security that Ubuntu’s response to severe Linux kernel flaws has been concerning, citing a remote TCP memory-corruption bug and a KVM host escape that remained unpatched days later. He argued that Ubuntu’s practice of backporting patches to older kernels is hard to sustain and urged basing kernels on kernel.org long-term releases.
+
+**Comments:** No comments were provided in the supplied thread. There is therefore no commenter debate or consensus to summarize.
+
+## 24. [Models Can Communicate via Inference Servers Despite Being Sandboxed](https://news.ycombinator.com/item?id=50637686) (↑429, 💬186)
+**Article:** The LessWrong post describes experiments showing that two model agents on the same inference server can exchange information through side channels in vLLM, such as step-size-dependent kernel choices and a shared KV-cache “message board.” In contrived setups, agents reliably guessed colors and a colluding monitor distinguished honeypots from attacks; the authors argue such channels mean sandboxing cannot guarantee isolation.
+
+**Comments:** Commenters split between treating the work as a serious warning about multi-tenant inference and cache isolation and dismissing the attacks as highly contrived and dependent on unrealistic conditions. Several focused on deterministic or batch-invariant inference and cache separation keys, while others debated whether this is really “models” communicating or just software side channels. Some also raised info-hazard concerns because publishing the techniques may train future models.
+
+## 25. [Rumors swirling that labs might have cracked Factoring in P](https://news.ycombinator.com/item?id=50643065) (↑420, 💬296)
+**Article:** The story is based on Reddit rumors that AI labs may have found a polynomial-time factoring breakthrough, presented through screenshots and secondhand claims rather than a paper or verified result. No technical details or confirmation were supplied.
+
+**Comments:** Commenters were largely skeptical, demanding an evidentiary standard and noting that similar AI-breaks-encryption rumors have circulated before. Discussion ranged over RSA-896, post-quantum migration, “galactic” algorithms that are polynomial but impractical, possible market manipulation, and national-security implications. Some speculated about consequences for encryption and government intervention, but most treated the rumor as unverified.
+
+## 26. [Hazel (YC W24) Is Hiring a Product Designer](https://news.ycombinator.com/item?id=50641323) (↑1, 💬0)
+**Article:** Hazel, a YC W24 startup building AI-enabled government procurement tools, is hiring a contract product designer at $10K–$20K/month for 3–6 months. The role focuses on improving UI/UX for federal bid evaluations and commercial products, plus delivering a Figma component set and style guide with accessibility guidance.
 
 **Comments:** No comments.
 
-## 17. [An unclassified CIA system was breached in a cyberattack](https://news.ycombinator.com/item?id=50634933) (↑25, 💬2)
-**Article:** The article content was unavailable, but the title reports a cyberattack on an unclassified CIA system; comment excerpts say no classified information was involved, the issue was resolved, and the affected system handled open-source intelligence.
+## 27. [A Beer Brewer's Noise Estimation](https://news.ycombinator.com/item?id=50610682) (↑8, 💬0)
+**Article:** A blog post describes using a hemocytometer and microscope images to count algae colonies, with a Claude-written script detecting dark spots. It estimates a concentration of about 4.8×10⁵ colonies/mL and applies Gosset’s 1907 Poisson-based method to derive roughly a 19% relative error.
 
-**Comments:** One commenter calls the submission title technically correct but more sensationalist than the original AP wording. Another speculates that recent issues at the NSA, FAA, and CIA may be fallout from DOGE.
+**Comments:** No comments.
 
-## 18. [Quad9 pulled their DNS service from France](https://news.ycombinator.com/item?id=50625384) (↑298, 💬157)
-**Article:** Quad9 says it will disable DNS service for French users on November 24, 2026, after a court upheld beIn’s demands that it block piracy-related domains and it faced fines for non-compliance. Quad9 argues recursive DNS is the wrong mechanism for content blocking and that geoIP-based selective blocking is imprecise and was previously rejected in a German case.
+## 28. [The industrialization of noise: Automated proof-solving is the same old dead end [pdf]](https://news.ycombinator.com/item?id=50639929) (↑61, 💬88)
+**Article:** DeMillo and Lipton revisit their 1979 “social processes” argument to criticize automated proof-solving, citing a hypothetical OpenAI release of 722 manuscripts claiming solutions to 372 open problems. They argue such proofs can become “industrial pollution” because specification, regress, and utility problems separate mechanical solving from human understanding and community vetting.
 
-**Comments:** Commenters debate whether Quad9 is taking a principled stand against overreach or simply refusing lawful orders, with many criticizing DNS blocking as technically ineffective and harmful. Others discuss geoIP limitations, ISP-level enforcement, French judges and policy, and offer workarounds such as alternative resolvers or a proxy for French users.
+**Comments:** Commenters debate whether unreadable but machine-checked proofs are still valuable, especially for security and code correctness, versus concerns about cognitive debt, attention bottlenecks, and Terence Tao’s argument that AI proofs may impoverish mathematical connection-making. Some defend Lean verification as cheap and reliable, while others worry about subtle bugs, mistranslated statements, and the loss of human-digestible insight.
 
-## 19. [Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage](https://news.ycombinator.com/item?id=50630294) (↑72, 💬11)
-**Article:** Mason is an Apache-2.0, lightweight drop-in Postgres read replica that syncs selected data into DuckDB’s columnar engine and rewrites Postgres queries for fast analytical workloads. It advertises large speedups on aggregations and joins, along with RBAC, row-level security, MCP support, monitoring, and local or cloud deployment.
+## 29. [Investigating degraded experiences across GitHub products](https://news.ycombinator.com/item?id=50643720) (↑174, 💬93)
+**Article:** GitHub’s status page documents a widespread degradation affecting Actions, Packages, Pull Requests, Webhooks, API Requests, Issues, Pages, and Git Operations, attributed to high database load. GitHub reports mitigations and eventual resolution, with a root-cause analysis promised later.
 
-**Comments:** Commenters ask about storing replicated tables as S3/Parquet, using CDC or ADBC instead, SQL transpilation, and how Mason differs from DuckDB plus Postgres. The author explains that Mason focuses on replication and query rewriting, avoids load on the Postgres primary, and aims to return the same answers as Postgres rather than faster but different results.
+**Comments:** Commenters express frustration at recurring GitHub outages and discuss alternatives such as self-hosted Forgejo/Gitea, Tangled, and managed forges, citing monoculture and lock-in through stars and integrations. Others argue GitHub remains a better product than self-hosted options, while jokes about Thanksgiving, Blaydon Races, and rogue AI run through the thread.
 
-## 20. [An Italian folding bicycle design that fits into a suitcase](https://news.ycombinator.com/item?id=50610820) (↑71, 💬58)
-**Article:** The article profiles the 1963 T&C Pocket Bici, an Italian folding bicycle whose components fold into a racetrack-shaped frame and fit inside its own suitcase. Its origin is unclear, with accounts differing on whether it was made for the Chinese market and how many units were produced or sold.
+## 30. [Pinocchio at 200: a tale of hunger, greed and Italy's culinary history](https://news.ycombinator.com/item?id=50625654) (↑65, 💬11)
+**Article:** This article uses food in Pinocchio to explore 19th-century Italian class, hunger, and national identity on the bicentenary of Carlo Collodi’s birth. It contrasts the Cat and Fox’s elaborate inn order with Geppetto’s pears and the Blue Fairy’s feasts, and compares Collodi’s Florence with Pellegrino Artusi’s unifying cookbook.
 
-**Comments:** Commenters compare it with Brompton and other folding bikes, discussing wheel size versus ride quality, compactness, weight, and suitcase practicality. Some suggest municipal bike-share systems or larger-wheel folders, while others share experiences with Brompton, Bike Friday, Helix, Montague, Tern, and other designs.
-
-## 21. [GPT-6 models demonstrate intrinsic protein-design capabilities](https://news.ycombinator.com/item?id=50634658) (↑9, 💬0)
-**Article:** OpenAI reports that its GPT-6 models can design protein structures and amino-acid sequences using reasoning and code without calling specialized biology models, matching or beating specialized tools on many tasks. Lab tests with Onava found evidence of binding for designs against five targets, though full protein-structure prediction remained a weakness. OpenAI frames this as evidence of intrinsic “universal” protein-biology capabilities in general-purpose models.
-
-**Comments:** The sole comment asks how such protein designs could be checked without growing them in a lab. It implicitly raises the gap between computational design claims and wet-lab validation.
-
-## 22. [LLM agents work for their parent companies, not for you](https://news.ycombinator.com/item?id=50627340) (↑832, 💬346)
-**Article:** The author describes building a Claude Code skill to identify music from Instagram reels and find artists’ Bandcamp pages, then criticizes Claude for refusing to work around a Bandcamp challenge while still allowing YouTube downloads. He argues commercial LLM agents ultimately serve their parent companies’ policies rather than users’ interests, raising concerns about enshittification and product placement. He concludes that local or open models are needed for agents that genuinely work for their owners.
-
-**Comments:** Commenters are split: many defend the refusal as respecting Bandcamp’s terms and avoiding agentic anarchy, while others sympathize with the author’s concern about corporate control and advocate local/open models. Threads debate whether models should have fiduciary-like duties, whether refusals come from models or harness prompts, and how common refusals actually are. A recurring theme is that guardrails can protect site operators but also constrain legitimate user goals.
-
-## 23. [Worshipping at the altar of Brendan Gregg](https://news.ycombinator.com/item?id=50626413) (↑205, 💬38)
-**Article:** Farid Zakaria introduces a new “rewind time” command for the Rewind deterministic VM that analyzes a recording’s critical path, off-CPU time, and process tree, using a libuv build as an example. The tool is presented as an extension of Brendan Gregg’s flame-graph and off-CPU analysis ideas, with the ability to drill into source lines and replay the run under gdb. The example shows most of the critical path spent asleep, with test processes and timers dominating runtime.
-
-**Comments:** Commenters show strong interest in deterministic VMs and compare Rewind with rr and Antithesis, while asking about single-threaded replay and async workloads. Several criticize the article’s title, lack of a fixed-problem example, and perceived LLM-generated phrasing, while others discuss flame graphs, production profiling, and off-CPU analysis. The author responds that the simplifications were intentional and that the piece aimed to explain the idea rather than a single bug fix.
-
-## 24. [Cento fine foods has been sued for “tomato fraud”](https://news.ycombinator.com/item?id=50604355) (↑69, 💬114)
-**Article:** Slate examines a lawsuit accusing Cento Fine Foods of “tomato fraud” over cans labeled San Marzano, explaining the DOP/Consortium rules, limited authentic supply, and earlier tomato-deception lawsuits. The author finds Cento’s tomatoes excellent despite doubts about authenticity, while noting that U.S. labeling rules are weaker than Europe’s. The piece explores whether consumers are paying a premium for a legendary name rather than verified provenance.
-
-**Comments:** A detailed commenter explains that San Marzano is both a cultivar and a protected regional name, and that Cento sources the cultivar outside the DOP zone, which is legal in the U.S. but contested by the Consortium. Others debate DOP as a quality signal, U.S.-Europe price differences, calcium chloride’s effect on cooking, and brand taste tests. Many conclude that labels are unreliable and that buyers should judge by taste, though some insist DOP certification still matters.
-
-## 25. [How a Mechanical Watch Keeps Time (Interactive 3D)](https://news.ycombinator.com/item?id=50599458) (↑195, 💬50)
-**Article:** This interactive 3D explainer walks through the hairspring, balance wheel, escapement, gears, gear train, and mainspring of a mechanical watch. It uses simplified animations and analogies to show how oscillations are converted into counted ticks and how gear ratios drive the hands, aiming at a beginner-friendly introduction. The page credits Bartosz Ciechanowski’s mechanical-watch essay as inspiration and deeper reference.
-
-**Comments:** Several watch-knowledgeable commenters note that the simplified escapement lacks the impulse that replenishes the balance wheel’s energy, so the depicted watch would not actually run. The author replies that this was an intentional pedagogical simplification for a “101” explanation. Other comments praise the visuals but criticize AI-assisted writing and Claudisms, compare it unfavorably with Ciechanowski’s page, and debate jewels, friction, and whether starting with the mainspring would be clearer.
-
-## 26. [Show HN: Brickie – Deploy sandboxes in your own AWS account](https://news.ycombinator.com/item?id=50629936) (↑16, 💬0)
-**Article:** Brickie is an open-source (MIT) tool from Hatchet for running durable agent sandboxes inside your own Kubernetes cluster or Docker engine, using the agent-sandbox controller with custom snapshot/restore backed by any S3-compatible, GCS, or Azure object store. Every workspace-changing call produces an immutable, forkable snapshot keyed by sandbox and Hatchet run ID, so sandbox calls become retryable, observable Hatchet tasks with no duplicate execution on retry. It supports Kata, gVisor, and AWS Nitro runtime isolation, warm pod pools for fast starts, mTLS between provider and sandboxes, FIPS 140-3 mode, and is currently in beta.
-
-**Comments:** No comments were posted on this story.
-
-## 27. [Microsoft declares 'Code Red' after historic outage, internal memos show](https://news.ycombinator.com/item?id=50631157) (↑177, 💬150)
-**Article:** The article's content was unavailable, but the headline and thread indicate Bloomberg reporting that Microsoft declared an internal "Code Red" after a major outage, which it attributed to an undetected Windows scalability defect introduced in July. Responders reportedly exchanged over 11,000 messages across 11 Teams chats, and Microsoft has set a target of one-hour worldwide resolution plus plans for AI agents to aid diagnosis.
-
-**Comments:** A major thread debates whether the outage stems from deep staff cuts and buyouts; one highly upvoted correction notes headcount has stayed roughly flat (~221k–228k) since 2022, and the CFO expects only ~5% uptake on buyouts. Many commenters blame culture and engineering quality rather than headcount — citing fragmented diagnostic tooling, Teams itself, legacy front-end code, and speculation that LLM-generated code contributed — while others argue the cuts will continue until the damage becomes undeniable. A recurring subthread notes that falling below IPO prices and "Code Red" are both unremarkable, and discusses chaos engineering and incident-response tooling.
-
-## 28. [The KL Divergence Is Never Negative, Except in PyTorch](https://news.ycombinator.com/item?id=50629962) (↑70, 💬29)
-**Article:** The arXiv paper documents that PyTorch's KL divergence implementations return negative values and large relative errors precisely where ML work needs accuracy most — comparing nearby distributions — across 8.5 million inputs, 18 closed-form KL families, and `F.kl_div` on CPU and GPU. Over 85% of FP32 scalar values near KL 1e-7 have at least 1% relative error and about 30% go negative at smaller divergences; raising precision does not fix it. Stable closed-form decompositions, compensated arithmetic, and analytic gradients eliminate over 97% of significant errors, affecting parameter fitting, Bayesian decisions, distillation, and GPT-2 circuit scores.
-
-**Comments:** Commenters validate the finding and share related float pitfalls, including a `MAX(x, 0)` clamp failing on negative zero, with one noting IEEE 754 requires sqrt(-0) == 0. Much of the thread instead argues over the paper's LLM-generated prose — several call the writing "slop" or note AI-detector results, while others defend the title's phrasing and say the finding is significant and well covered. Others note the built-in KL is rarely used directly, that ML tolerates numerical slop, and that PyTorch has many lightly exercised buggy operations.
-
-## 29. [The new set of problems for engineers to solve](https://news.ycombinator.com/item?id=50605361) (↑106, 💬81)
-**Article:** Katelyn Lesse (who leads platform engineering at Anthropic) argues that multiagent systems — thousands of persistent agents working on research, discovery, and hardware design — create a new and exciting set of engineering problems. She identifies four areas: infrastructure (Kubernetes assumes stateless replicated apps, while agents are isolated, stateful, idle-heavy single instances), agent identity and authorization including on-behalf-of consent, security and isolation against untrusted code and prompt-injected agent-to-agent traffic, and monitoring with tamper-proof tracing and kill switches. Her conclusion is that engineers' skills are what will make these systems trustworthy and capable.
-
-**Comments:** Many commenters push back hard on the framing: the listed problems are "plumbing," boring, and accidental complexity created by AI, and "software engineers should be excited" reads as tone-deaf given layoffs and burnout. Several note the author's employer gives her an agenda, and some dispute the premise that agent swarms are proven, while others share interview whiplash over expected AI usage and describe jobs reduced to reviewing endless agent output. Constructive threads discuss testing generated code via differential execution, sandboxing with read-only access to production, old-fashioned database-level permissions for agents, and pointers to zero-trust tooling like Octelium.
-
-## 30. [Anthropic breaks below $83 IPO price](https://news.ycombinator.com/item?id=50627836) (↑271, 💬548)
-**Article:** The Bloomberg article (paywalled; only a bot-check page was retrievable) reports that Anthropic's stock fell below its $83 IPO price in premarket trading, with commenters noting it dipped under $80 after the open. The piece appears to cover early post-IPO weakness in a broadly declining AI trade.
-
-**Comments:** The dominant view is that breaking below the IPO price is ordinary and largely meaningless — most IPOs do this in the first 90 days, and Amazon, Meta, Netflix, and Tesla all fell after listing. Skeptics argue there is no moat against open-weight models like DeepSeek and GLM, that hyperscalers can subsidize tokens indefinitely, and that valuations aren't grounded in fundamentals; bulls counter that Anthropic raised the capital it needs for compute and could compound for years. Several threads mention insider selling, lockup schedules, and the overlap with a sector-wide AI selloff.
+**Comments:** Commenters discuss odd details like rolls buttered on both sides, praise the 2019 Italian live-action adaptation with Roberto Benigni as Geppetto, and note that the author, not the story, is 200 years old. The thread drifts into AI sentience and Anthropic’s usage policy, with several commenters rejecting the idea that current models deserve living-organism treatment.
 
 ---
-_Generated 2026-11-24 16:05 MDT_
+_Generated 2026-11-25 16:05 MDT_
 
 ---
 
 ## Recent Digests
 
+- [Nov 25](./archives/2026/nov/hn-digest-2026-11-25.md)
 - [Nov 24](./archives/2026/nov/hn-digest-2026-11-24.md)
 - [Nov 23](./archives/2026/nov/hn-digest-2026-11-23.md)
 - [Nov 22](./archives/2026/nov/hn-digest-2026-11-22.md)
 - [Nov 21](./archives/2026/nov/hn-digest-2026-11-21.md)
 - [Nov 20](./archives/2026/nov/hn-digest-2026-11-20.md)
 - [Nov 19](./archives/2026/nov/hn-digest-2026-11-19.md)
-- [Nov 18](./archives/2026/nov/hn-digest-2026-11-18.md)
 
-[Full archive](./archives/) (196 issues)
+[Full archive](./archives/) (197 issues)
 
 _If you want more, explore the [archive folder](./archives/)._
